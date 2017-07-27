@@ -6,28 +6,29 @@ In this course we will get into the real meat and potatoes of web development. W
 
 ## Competencies & Objectives
 
-1. Employ Client-Side JavaScript - DOM & Data Manipulation
+1. Use JavaScript to do advanced DOM & data manipulation
 1. Implement authentication using JWT tokens and sessions
-1. Pair Programming
+1. Master the subtle and powerful art of pair programming
 
 ## Lessons
 
-1. Review RESTful & Resourceful MVC Development - Lodash Vanilla JS Data - Start Reddit Tutorial
-1. Bootstrap & CSS Frameworks
-1. Client-Side JS -  Chrome Console, DOM, Vanilla JS, jQuery
-1. Client-side JS - Other Chrome Web Tool Tabs - Vanilla JS & jQuery AJAX
+1. Node.js Under the Hood - Start Reddit Tutorial with pairs
+1. JS - Vanilla JS Data - Lodash
+1. JS - Vanilla JS DOM - jQuery
+1. JS - jQuery AJAX - https://www.youtube.com/watch?v=My0MDTl0Zv4
 1. Reference & Embedded Documents - Posts have many comments, `populate`
-1. Nested Routes - Subreddits have many posts
+1. Nested Routes & Resource - Subreddits have many posts
 1. Polymorphism - Comments have many comments
 1. Persistence Levels - Authentication Sessions
+  https://www.youtube.com/watch?v=64veb6tKTm0
 1. Authorization Sessions
 1. Authentication JWT
 1. Authorization JWT
-1. Testing Authentication & Authorization
-1. Deploy to AWS
-1. Project Work & Code Review
-1. Project Work & Code Review
-1. Project Work & Code Review
+1. Testing Authentication & Authorization - Sinon, Supertest, & Request Agent
+1. Project Work & Code Reviews
+1. Project Work & Code Reviews
+1. Project Work & Code Reviews
+1. Presentations
 
 ## Projects
 
@@ -36,6 +37,9 @@ In this course we will get into the real meat and potatoes of web development. W
 
 ## Vocabulary & Conventions
 
+1. Pair Programming
+1. Promises
+1. Callbacks
 1. Entity-Relationship Model
 1. Polymorphism
 1. Authentication
