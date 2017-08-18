@@ -15,20 +15,19 @@ In this course we will get into the real meat and potatoes of web development. W
 1. Node.js Under the Hood - Start Reddit Tutorial with pairs
 1. JS - Vanilla JS Data - Lodash
 1. JS - Vanilla JS DOM - jQuery
-1. JS - jQuery AJAX - https://www.youtube.com/watch?v=My0MDTl0Zv4
+1. JS - jQuery DOM & AJAX
 1. Reference & Embedded Documents - Posts have many comments, `populate`
 1. Nested Routes & Resource - Subreddits have many posts
-1. Polymorphism - Comments have many comments
-1. Persistence Levels - Authentication Sessions
-  https://www.youtube.com/watch?v=64veb6tKTm0
-1. Authorization Sessions
-1. Authentication JWT
-1. Authorization JWT
+1. Persistence Levels
+1. Authentication - Sessions
+1. Authentication - JWT
+1. Authorization
 1. Testing Authentication & Authorization - Sinon, Supertest, & Request Agent
 1. Project Work & Code Reviews
 1. Project Work & Code Reviews
 1. Project Work & Code Reviews
 1. Presentations
+1. EXTRA CHALLENGE - Deploying to AWS Elastic Beanstalk
 
 ## Projects
 
@@ -50,9 +49,9 @@ In this course we will get into the real meat and potatoes of web development. W
 ## Best Practices
 
 1. Technical planning
-1. DRY Code
 1. Skinny Controllers - Fat Models
 1. Mobile First Design/Development
+1. DRY Code
 1. Writing Tests
 
 ## Evaluation

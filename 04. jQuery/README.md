@@ -52,7 +52,6 @@ $('#article-form').submit(function (e) {
 
 1. [10 Most Common jQuery Functions](https://gist.github.com/azat-co/5898111)
 1. [Code School: Try jQuery](https://www.codeschool.com/courses/try-jquery)
+1. [Code School AJAX Tutorial (6 min Video)](https://www.youtube.com/watch?v=My0MDTl0Zv4)
 
 ## Baseline Challenges
-
-1.
