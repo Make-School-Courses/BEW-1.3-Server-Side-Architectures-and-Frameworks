@@ -26,15 +26,13 @@ Optional:
 
 ## Baseline Challenges
 
-1. Watch or read all the required videos and resources and take notes. (2x speed will make things go faster!)
+1. Pick five question from [this article](https://medium.freecodecamp.com/before-you-bury-yourself-in-packages-learn-the-node-js-runtime-itself-f9031fbd8b69) and discuss each one with a partner. Look up answers if you don't know between each other. 
 1. Complete [nodeschool.io](https://nodeschool.io/)'s preliminary node lesson. (1 hour)
-
     ```bash
     $ npm install -g learnyounode
     $ learnyounode
     ```
-
-1. Pick five question from [this article](https://medium.freecodecamp.com/before-you-bury-yourself-in-packages-learn-the-node-js-runtime-itself-f9031fbd8b69) and discuss each one with a partner. Look up answers if you don't know between each other.
+1. Watch or read all the required videos and resources and take notes. (2x speed will make things go faster!)
 
 ## Stretch Challenges
 
