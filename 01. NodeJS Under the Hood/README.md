@@ -2,7 +2,7 @@
 
 ## Intro
 
-If we are just using node and node modules, we might never need to really understand what's happening under the hood of node itself. But as soon as we want to modify the modules we are using or if we want to write our own modules of if we want to solve exotic problems, we're going to need to know what is going on. We might also just be curious!
+If we are just using node and node modules, we might never need to really understand what's happening under the hood of node itself. But as soon as we want to modify the modules we are using or if we want to write our own modules or if we want to solve exotic problems, we're going to need to know what is going on. We might also just be curious!
 
 ## Competencies & Objectives
 
