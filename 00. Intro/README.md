@@ -65,11 +65,16 @@ Note what was said about ad hoc pairing.
 ## Solving the Assessments
 
 The goal is to fill in gaps in your knowledge by solving the assessments. To solve the assessments 
-you are *allowed* to use Stackoverflow and any internet resources. 
+you are **allowed** to use Stackoverflow and any internet resources. Feel free to ask your fellow 
+classmates to help you. 
 
 Use ad hoc pairing to solve the questions. Ask the instructor questions if you like but, if
 always try and solve the questions on your own first. When you feel blocked reach out to 
 another student, and the instructor. 
+
+- [HTML Assessment](https://docs.google.com/document/d/18fp5MXLKvP9HzDu07JnY2yZLQvQQJAj_ghRG5Klykjw/edit?usp=sharing)
+- [CSS Assessment](https://docs.google.com/document/d/1ixq7ptQl2qBGz3q65MHWF8gQtwBvKwB-G6Bmtrs88To/edit?usp=sharing) 
+- [JS Assessment](https://docs.google.com/document/d/1_I1cIiSlVFQzudHV9pggRLjRuqDG4u0uRDFw4kWorK4/edit) 
 
 ### More Pair programming
 
