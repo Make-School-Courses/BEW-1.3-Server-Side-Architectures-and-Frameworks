@@ -32,8 +32,8 @@ Optional:
     $ npm install -g learnyounode
     $ learnyounode
     ```
-1. Watch or read all the required videos and resources and take notes. (2x speed will make things go faster!)
+    Watch or read all the required videos and resources and take notes. (2x speed will make things go faster!)
 
 ## Stretch Challenges
 
-1. Use node's native `http` module to query the Giphy API.
+1. Use node's native `http` module to query the Giphy API. You can follow this [tutorial](https://www.makeschool.com/online-courses/tutorials/giphy-search-app-with-node-js/your-node-environment) 
