@@ -24,6 +24,17 @@ Optional:
 * [The Basics of Node.js Streams](https://www.sitepoint.com/basics-node-js-streams/)
 * [Why Does Node.js use Streams? (Quora Question)](https://www.quora.com/Why-do-servers-like-Node-js-Express-use-streams-to-represent-the-request-and-response-objects)
 
+## Challenges
+
+Complete the challenges below. Be sure to pair up with another student when you feel blocked. Review your work 
+with an instructor when you have completed everything. 
+
+- Watch the video listed above. You skip ahead and watch at 2x speed to save time. 
+- Complete the learnYouNode tutorial below. 
+- Pair with another student if you are blocked, or if some else is having trouble. 
+- Review your work with an instructor. 
+- Check off the work as you complete it [here](https://docs.google.com/a/makegameswith.us/spreadsheets/d/1HFFYZl772kgCleL0AEzVYxoudbA_7WafcomyrSwTTc8/edit?usp=sharing).
+
 ## Baseline Challenges
 
 1. Pick five question from [this article](https://medium.freecodecamp.com/before-you-bury-yourself-in-packages-learn-the-node-js-runtime-itself-f9031fbd8b69) and discuss each one with a partner. Look up answers if you don't know between each other. 
@@ -37,3 +48,5 @@ Optional:
 ## Stretch Challenges
 
 1. Use node's native `http` module to query the Giphy API. You can follow this [tutorial](https://www.makeschool.com/online-courses/tutorials/giphy-search-app-with-node-js/your-node-environment) 
+
+
