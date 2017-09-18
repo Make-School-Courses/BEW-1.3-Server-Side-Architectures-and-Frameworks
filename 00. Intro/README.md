@@ -68,7 +68,10 @@ The goal is to fill in gaps in your knowledge by solving the assessments. To sol
 you are **allowed** to use Stackoverflow and any internet resources. Feel free to ask your fellow 
 classmates to help you. 
 
-Use ad hoc pairing to solve the questions. Ask the instructor questions if you like but, if
+Pair program with people when appropriate. Pair programming works especially well when one of the 
+pair is stronger but not too much stronger than the other. 
+
+Use ad hoc pairing to solve the questions. Ask the instructor questions if you like but,
 always try and solve the questions on your own first. When you feel blocked reach out to 
 another student, and the instructor. 
 
