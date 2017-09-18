@@ -22,7 +22,7 @@ Then we'll learn the "vanilla" JS ways of doing common jQuery functions.
 1. [Guide to Vanilla Ajax Without jQuery](https://www.sitepoint.com/guide-vanilla-ajax-without-jquery/)
 ## Baseline challenges
 
-1. Read the "Do You Really Need jQuery" post above. Split into groups of 4 and decide if as a team you would use jQuery or not and in what cases?
+1. Read the "Do You Really Need jQuery" post above. Split into groups of 4 and decide as a team when you would use jQuery or not and in what cases?
 1. Open the file `index.js` from this repo and write the vanilla implementations of the contained jQuery functions.
 1. What is an analogy for how event-driven DOM changes works? - Share your best analogy on the #full-stack-js slack channel.
 
