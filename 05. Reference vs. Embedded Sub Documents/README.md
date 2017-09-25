@@ -8,7 +8,7 @@ Traversing across many collections of documents in MongoDB is slow, so in order 
 
 80% of the time you will use references, not embedded associations. So we will focus most of our attention on reference data. Careful what you embed and what you reference. Here is a [SO question](http://stackoverflow.com/questions/21302279/embedded-document-vs-reference-in-mongoose-design-model) that explains it well.
 
-*Embedd* information you always want whenever the parent document is returned, maybe like family members. *Reference* data you have to "populate" on demand in only some cases.
+*Embed* information you always want whenever the parent document is returned, maybe like family members. *Reference* data you have to "populate" on demand in only some cases.
 
   ```js
   // EMBEDDED
