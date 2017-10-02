@@ -119,6 +119,100 @@ Writing tests for code before you have the code to test is a great mental exerci
 You may find that you will have to write code differently using this perspective. 
 You may find that you write better quality code. 
 
+### Testing with Mocha
+
+Import the Mocha.js library as a dev dependancy. 
+
+`$ npm install --save-dev mocha`
+
+This will include this library when you run dev scripts but not when you build for 
+production. 
+
+Import your assertion library as a dev dependancy. For these examples I 
+chose chai.js. 
+
+`$ npm install --save-dev chai`
+
+### Defining test with it()
+
+Define a test case with the `it()` function:
+
+```
+it('Should do something', () => {
+  // Run tests here.
+});
+```
+
+A test fails when the 'it' block throws an error. The test above would pass. 
+The test below would fail:
+
+```
+it('Should calculate area', () => {
+  throw new Error('This test failed');
+});
+```
+
+The idea is to write code that throws an error if the results are not what you 
+expect them to be.
+
+```
+it('Should be 4', () => {
+  const four = 2 + 2;
+  if (four != 4) {
+    throw new Error(four + ' should be equal to 2 + 2');
+  }
+});
+```
+
+While this works the clever JavaScript elves have invented myriad libraries to 
+make our job easier and more BDD oriented to write. 
+
+Assertion libraries abstract this functionality. Write an assertion like this: 
+
+```
+const chai = require('chai');
+const expect = chai.expect;
+
+it('Should add up to 4', () => {
+  const four = 2 + 2;
+  expect(four).to.equal(4);
+});
+```
+
+Assertion libraries can check for just about any value or type. Understanding their
+syntax requires reading the docs. 
+
+For more info on chai check out the [docs](http://chaijs.com)
+
+### Running tests
+
+Set a test script in package.json. 
+
+```
+"scripts": {
+  "test": "mocha **/*.test.js"
+}
+```
+
+This runs mocha looking at all files in all directories (`**/`) with file
+names ending in '.test.js'. Run this in the terminal with: 
+
+`npm test`
+
+You can also run this with nodemon. This might be a good option for small 
+projects and learning. With larger projects you will want to choose when 
+a test is run and launch tests purposefully. 
+
+`"test-watch": "nodemon --exec 'npm test'"`
+
+_Don't miss the single quotes!_
+
+You can add Nyan Cat as a test reporter with `--reporter=nyan`: 
+
+`"test": "mocha **/*.test.js --reporter=nyan"`
+
+Learn more about reporters [here](https://mochajs.org/#reporters).
+
 ## Challenges
 
 Your goal is to write code that meets the following test cases. 
@@ -160,3 +254,4 @@ it('Should return the total cost of all items in the cart');
   not revise your code and test again.
 - Solving one test case may break a previously working case. In this case 
   refactor and test again. 
+  
