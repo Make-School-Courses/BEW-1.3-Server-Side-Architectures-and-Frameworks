@@ -9,9 +9,10 @@ of something, especially before it is taken into widespread use.
 2. verb - take measures to check the quality, performance, or reliability of 
 (something), especially before putting it into widespread use or practice.
 
-## TDD, BDD, TL;DR
+## TDD and BDD
 
-Test Driven Development is popular trend in software development.
+Test Driven Development is popular trend in software development. That 
+uses software tests as a basis for development. 
 
 > Test-driven development (TDD) is a software development process that 
 > relies on the repetition of a very short development cycle: Requirements 
@@ -213,6 +214,34 @@ You can add Nyan Cat as a test reporter with `--reporter=nyan`:
 
 Learn more about reporters [here](https://mochajs.org/#reporters).
 
+## Class Challenges 
+
+**Setup**
+
+Set up a new Node JS project. 
+
+1. Create a folder
+2. npm init
+3. Add dependancies
+  - mocha
+  - chai
+4. define a test script
+5. Add a file to hold your code
+6. Add a test file
+
+**Test cases**
+
+Imagine you just got a job with a MeasureIt.com. They want to create an app that 
+measures everything. You'll need some methods that can return measurements. 
+
+- Area should return the area of a rectangle
+- Perimeter should return the perimeter of a rectangle
+- Users should return an array of users
+- Should take a user name and return that user
+
+You'll start by writing failing tests for these methods. Then write functions that 
+make the tests pass. 
+
 ## Challenges
 
 Your goal is to write code that meets the following test cases. 
@@ -233,7 +262,7 @@ In terms of **BDD** the test descriptions are written to describe what the produ
 should be capable of doing. 
 
 ```
-it('Should create a new item with name and price');
+it('Should create a new item with name and price'); // 1
 it('Should add a new item to the shopping cart');
 it('Should return the number of items in the cart');
 it('Should return an array containing all items in cart');
@@ -254,4 +283,20 @@ it('Should return the total cost of all items in the cart');
   not revise your code and test again.
 - Solving one test case may break a previously working case. In this case 
   refactor and test again. 
-  
+
+
+Class Schedule 
+
+|time  |     |Activity   |Description      |
+|------|-----|-----------|-----------------|
+| 5mins|5min |Talk       |Intro            |
+| 5mins|10min|Talk       |What is TDD?     |
+| 5mins|15min|share      |Dicuss pros/cons |
+| 5mins|20min|Pair       |Brainstorm Tests What would you test and how?|
+|10mins|30min|share      |Share Test ideas |
+|10mins|40min|We Do      |Set up Node, Mocha, Chai |
+|30mins|70min|I Do We Do |Mocha it() challenges |
+
+
+
+
