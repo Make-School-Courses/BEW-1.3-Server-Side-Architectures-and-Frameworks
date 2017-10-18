@@ -187,6 +187,12 @@ For more info on chai check out the [docs](http://chaijs.com)
 
 ### Running tests
 
+Run tests by calling with the name of hte file to test. 
+
+`mocha tests/post.test.js`
+
+You can add a test script to package.json to simplify testing. 
+
 Set a test script in package.json. 
 
 ```
@@ -207,6 +213,10 @@ a test is run and launch tests purposefully.
 `"test-watch": "nodemon --exec 'npm test'"`
 
 _Don't miss the single quotes!_
+
+Call this script with:
+
+`npm run test-watch`
 
 You can add Nyan Cat as a test reporter with `--reporter=nyan`: 
 
