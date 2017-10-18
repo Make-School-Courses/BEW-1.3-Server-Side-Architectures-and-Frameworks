@@ -121,6 +121,10 @@ The code above would create a new post **before** tests. Then
 remove that post after tests were completed. 
 
 
+## Connectng to Mongoose
+
+You'll want to connect to mongoose before running your tests!
+
 ## Challenges 
 
 Solve this series of challenges using tests organized in describe blocks. 
