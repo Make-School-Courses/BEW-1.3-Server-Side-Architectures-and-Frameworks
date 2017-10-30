@@ -98,5 +98,5 @@ solve these problems, or ask the instructor for more problems to solve.
 | 5  |  5 min  | Talk       | Solving the Assessments intro        |
 | 6  |  5 min  | Talk       | Pair programming                     |
 | 7  | 20 min  | Work       | Solving the assessments              |
-| =  | 110 min | Total Time | -                                    |
+| =  |110 min  | Total Time | -                                    |
 
