@@ -286,7 +286,7 @@ What if you add another apple?
 |-------|-------|-----|------|
 | apple | 0.99  |  2  | 1.98 |
 | banana| 1.29  |  1  | 1.29 |
-| total |       |  2  | 3.27 |
+| total |       |  3  | 3.27 |
 
 **Overview**
 
