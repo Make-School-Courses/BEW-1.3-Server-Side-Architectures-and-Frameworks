@@ -11,7 +11,7 @@ of something, especially before it is taken into widespread use.
 
 ## TDD and BDD
 
-Test Driven Development is popular trend in software development. That 
+Test Driven Development is popular trend in software development, that 
 uses software tests as a basis for development. 
 
 > Test-driven development (TDD) is a software development process that 
@@ -22,14 +22,14 @@ uses software tests as a basis for development.
 
 In short TDD follows this cycle: 
 
-1. Add a Test - New features are added by first writting a test that fail. 
-2. Run all tests - This validates that the test is working as it should not pass. 
-3. Write code - Write code that will causes the test to pass. 
-4. Run tests - If all tests pass you can be confident your code meets the 
+1. **Add a Test** - New features are added by first writting a test that fail. 
+2. **Run all tests** - This validates that the test is working as it should not pass. 
+3. **Write code** - Write code that will causes the test to pass. 
+4. **Run tests** - If all tests pass you can be confident your code meets the 
 requirements of the tests cases. If tests fail fix them. 
-5. Refactor code - As the code base grows it must be cleaned up and improved. 
+5. **Refactor code** - As the code base grows it must be cleaned up and improved. 
 Tests will hopefully find problems or errors introduced in this step. 
-6. Repeat - With each cycle the functionality of the product should increase. 
+6. **Repeat** - With each cycle the functionality of the product should increase. 
 
 TDD provides many advantages. It can increase productivity and avoid writing 
 unnecessary code. It also avoids errors and defects, and lengthy debugging 
@@ -95,7 +95,7 @@ Assertion libraries:
 
 ### What should you test?
 
-- Everything
+- Everything (that can be tested)
 
 Okay there are things that are difficult to test, which doesn't necessarily mean 
 that you should not test them. That said use you common sense when defining 
@@ -106,10 +106,10 @@ takes input and provides output can and should be tested!
 
 ### What is a good test?  
 
-A test should focus on **one** thing. That is a any single test should a single 
+A test should focus on **one** thing. That is, any single test should a single 
 feature.
 
-Unique, tests should all test a unique feature and not be repeated. 
+Tests should test a **unique** feature and not be repeated. 
 
 Tests should be short. If you find you are writing a long test case step back and
 ask if this test case should really be broken down into several smaller tests. 
@@ -126,25 +126,25 @@ Import the Mocha.js library as a dev dependancy.
 
 `$ npm install --save-dev mocha`
 
-This will include this library when you run dev scripts but not when you build for 
+This will include this library when you run dev scripts but **not** when you build for 
 production. 
 
 Import your assertion library as a dev dependancy. For these examples I 
-chose chai.js. 
+chose `chai.js`. 
 
 `$ npm install --save-dev chai`
 
-### Defining test with it()
+### Defining test
 
 Define a test case with the `it()` function:
 
 ```
-it('Should do something', () => {
+it('Should do return the sum of two numbers', () => {
   // Run tests here.
 });
 ```
 
-A test fails when the 'it' block throws an error. The test above would pass. 
+A test fails when the `it` block throws an error. The test above would pass. 
 The test below would fail:
 
 ```
@@ -157,16 +157,16 @@ The idea is to write code that throws an error if the results are not what you
 expect them to be.
 
 ```
-it('Should be 4', () => {
+it('should be 4', () => {
   const four = 2 + 2;
-  if (four != 4) {
+  if (four !== 4) {
     throw new Error(four + ' should be equal to 2 + 2');
   }
 });
 ```
 
 While this works the clever JavaScript elves have invented myriad libraries to 
-make our job easier and more BDD oriented to write. 
+make our job easier. 
 
 Assertion libraries abstract this functionality. Write an assertion like this: 
 
@@ -174,20 +174,20 @@ Assertion libraries abstract this functionality. Write an assertion like this:
 const chai = require('chai');
 const expect = chai.expect;
 
-it('Should add up to 4', () => {
+it('should be 4', () => {
   const four = 2 + 2;
   expect(four).to.equal(4);
 });
 ```
 
-Assertion libraries can check for just about any value or type. Understanding their
-syntax requires reading the docs. 
+Assertion libraries can check for just about **any** value or type. Understanding their
+syntax requires reading the docs! 
 
 For more info on chai check out the [docs](http://chaijs.com)
 
 ### Running tests
 
-Run tests by calling with the name of hte file to test. 
+Run tests by calling mocha with the name of the file to test. 
 
 `mocha tests/post.test.js`
 
@@ -246,8 +246,7 @@ measures everything. You'll need some methods that can return measurements.
 
 - Area should return the area of a rectangle
 - Perimeter should return the perimeter of a rectangle
-- Users should return an array of users
-- Should take a user name and return that user
+- Should return the area of a circle with radius
 
 You'll start by writing failing tests for these methods. Then write functions that 
 make the tests pass. 
@@ -259,11 +258,11 @@ Your goal is to write code that meets the following test cases.
 **Overview**
 
 The product is a shopping cart. The cart will track products added to a cart. 
-It needs to add new products, remove products, and provide the total count, 
-and price of all products in the cart. 
+The cart needs to add new products, remove products, and provide the total count, 
+and price of all products in the cart.
 
-Start with these test cases and write code to answer test case. Note that all of 
-the test cases were created to fail at the start. 
+Start with these test cases and write code to answer test case. Note there is no 
+code yet that does any of the things the tests ask for. 
 
 From a TDD perspective you would start with failing tests and build an application 
 to meet the requirements of the tests. 
@@ -272,18 +271,27 @@ In terms of **BDD** the test descriptions are written to describe what the produ
 should be capable of doing. 
 
 ```
-it('Should create a new item with name and price'); // 1
+it('Should create a new item with name and price');
+it('Should return an array containing all items in cart');
 it('Should add a new item to the shopping cart');
 it('Should return the number of items in the cart');
-it('Should return an array containing all items in cart');
 it('Should remove items from cart');
 // Stretch challenges
 it('Should update the count of items in the cart');
-it('Should remove an item when it's count is 0');
+it('Should remove an item when its count is 0');
 it('Should return the total cost of all items in the cart');
 ```
 
-**Hints** 
+**Hints**
+
+The test cases all involve making a shopping cart system. While you 
+won't be making the entire functional shopping cart you will have 
+to create some of the system. Think about how shopping carts work.
+Ask yourself how the cart will keep track of items and what exactly 
+an item is. 
+
+"Items" in the cart will be JavaScript Objects, and the "cart"
+system will hold them in an array. 
 
 - Set up your tests run your code. All tests should be pending. 
 - Solve each test case one at a time by following the TDD pattern. 
@@ -293,7 +301,6 @@ it('Should return the total cost of all items in the cart');
   not revise your code and test again.
 - Solving one test case may break a previously working case. In this case 
   refactor and test again. 
-
 
 Class Schedule 
 
@@ -305,7 +312,7 @@ Class Schedule
 | 5mins|20min|Pair       |Brainstorm Tests What would you test and how?|
 |10mins|30min|share      |Share Test ideas |
 |10mins|40min|We Do      |Set up Node, Mocha, Chai |
-|30mins|70min|I Do We Do |Mocha it() challenges |
+|30mins|70min|I Do We Do |Mocha challenges |
 
 
 
