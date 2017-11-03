@@ -255,6 +255,39 @@ make the tests pass.
 
 Your goal is to write code that meets the following test cases. 
 
+To help visualize the how the cart behaves you can picture the cart 
+as a table. Imagine the tables below were drawn up by the design 
+team to describe how the cart would work. 
+
+Imagine your shopping cart ie empty:
+
+| name | price | qty | cost |
+|------|-------|-----|------|
+|      |       |     |      |
+
+Imagine you add an apple to the cart
+
+| name | price | qty | cost |
+|------|-------|-----|------|
+| apple| 0.99  |  1  | 0.99 |
+| total|       |  1  | 0.99 |
+
+What if you add a banana.
+
+| name  | price | qty | cost |
+|-------|-------|-----|------|
+| apple | 0.99  |  1  | 0.99 |
+| banana| 1.29  |  1  | 1.29 |
+| total |       |  2  | 2.28 |
+
+What if you add another apple?
+
+| name  | price | qty | cost |
+|-------|-------|-----|------|
+| apple | 0.99  |  2  | 1.98 |
+| banana| 1.29  |  1  | 1.29 |
+| total |       |  2  | 3.27 |
+
 **Overview**
 
 The product is a shopping cart. The cart will track products added to a cart. 
