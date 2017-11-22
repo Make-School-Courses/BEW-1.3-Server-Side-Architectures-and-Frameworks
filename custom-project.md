@@ -27,6 +27,48 @@ are expected to demonstrate significantly better code craftsmanship.
 1. You may add another resource if you like and look ahead to how to do reference 
 and embedded documents.
 
+## Preparation 
+
+The first step to create your project is to decide on the project. Choose a
+subject, something simple that you know you can complete. It's better to 
+create simple project that you can build on in the future than to try and 
+create an overly ambitious project that you may not finish by the end of the 
+term. 
+
+### Define your resources
+
+Define your resources. You should have three. 
+
+A resource can be anything your web site manages. Here are a couple examples. 
+
+1. User
+2. Post
+3. Comment
+
+1. User
+2. Photo
+3. Comment
+
+1. Trip
+2. User
+4. Event
+
+1. User
+2. Game 
+3. Group
+
+### Define your routes 
+
+Define the routes you will use to create your project. Fill out the table 
+with the routes you will use to serve the resources you defined above. 
+
+| # |Action|HTTP verb|Path|Returns|
+|---|------|---------|----|-------|
+| 1 |      |         |    |       |
+| 2 |      |         |    |       |
+| 3 |      |         |    |       |
+
 ## Submission
 
 1. Send two links (github and heroku) to your instructor before the final day of class. 
+
