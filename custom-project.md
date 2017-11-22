@@ -41,17 +41,21 @@ Define your resources. You should have three.
 
 A resource can be anything your web site manages. Here are a couple examples. 
 
+
 1. User
 2. Post
 3. Comment
+
 
 1. User
 2. Photo
 3. Comment
 
+
 1. Trip
 2. User
 4. Event
+
 
 1. User
 2. Game 
