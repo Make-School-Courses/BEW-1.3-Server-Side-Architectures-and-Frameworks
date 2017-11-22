@@ -42,16 +42,25 @@ Define your resources. You should have three.
 A resource can be anything your web site manages. Here are a couple examples. 
 
 
+Reddit 
+
 1. User 2. Post 3. Comment
 
+
+Photos app like instagram
 
 1. User 2. Photo 3. Comment
 
 
+Trip planner
+
 1. Trip 2. User 4. Event
 
 
-1. User 2. Game 3. Group
+Multiplayer game
+
+1. User 2. Game  3. Group
+
 
 ### Define your routes 
 
