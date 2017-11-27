@@ -11,9 +11,17 @@ and copy and paste chunks of other code, but do not duplicate an entire other pr
 1. Useful RESTful routing.
 1. Your site serves at least three resources. 
 1. The project must be shipped live on heroku.
-1. A full test suite of controller tests for your routes.
-1. A fully responsive, conventionally styled, front end using Bootstrap 3.
-1. Had at least one code review from the instructor before the end of the course.
+1. Stretch Goals
+  1. A full test suite of controller tests for your routes.
+  1. A fully responsive, conventionally styled, front end using Bootstrap 3.
+
+## Code Review
+
+You must have your site code reviewed by the instructor. This means you'll need
+to get your project finished before the last day of class! 
+
+Turn your work in as early as possible to get a code review. This will give time 
+to act on that advice. 
 
 ## Options
 
@@ -35,27 +43,30 @@ create simple project that you can build on in the future than to try and
 create an overly ambitious project that you may not finish by the end of the 
 term. 
 
+Follow these steps
+
+1. Define the project and limit the scope. 
+1. Define the resources the project will work with. 
+1. Define your routes using RESTful principals. 
+1. Build your project. 
+
 ### Define your resources
 
 Define your resources. You should have three. 
 
 A resource can be anything your web site manages. Here are a couple examples. 
 
-
 Reddit 
 
 1. User 2. Post 3. Comment
-
 
 Photos app like instagram
 
 1. User 2. Photo 3. Comment
 
-
 Trip planner
 
 1. Trip 2. User 4. Event
-
 
 Multiplayer game
 

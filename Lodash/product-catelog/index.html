@@ -1,0 +1,73 @@
+
+<div id="products"></div>
+
+<script src="https://cdn.jsdelivr.net/npm/lodash@4.17.4/lodash.min.js"></script>
+<script>
+  /*
+
+Use this document as a starter project to solve the problems below. 
+    
+Concept: make a page that displays a list of products
+  To solve the problems below use the *Lodash* library.
+  
+Lodash is a library of help functions and utilities for JavaScript. 
+
+To solve the problems below you'll use MOCK_DATA.json
+
+The MOCK_DATA.json contains 1000 fake product descriptions. 
+Your job is to load this data, sort and filter it in various 
+ways. 
+
+The MOCK_DATA is an array of objects that look like this: 
+
+{
+  "id":1,
+  "name":"Duobam",
+  "description":"Implemented even-keeled info-mediaries",
+  "price":"$7.77",
+  "category":"Outdoors"
+}
+
+- Filter and Sort the data with Lodash
+
+You need to sort filter and arrange the data to make it more 
+managable.
+
+1) Import json data.
+  - Use fetch() to import the file MOCK_DATA.json
+  - This should give you an array of Objects. 
+2) Remove duplicates.
+  - Many of the entries have duplicate names. Your goal is to remove 
+  all of the duplicates by keeping the first instance of a name and 
+  dropping any that come after. Lodash has a method for this: uniqBy()
+3) Sort the results on category. 
+  - Again Lodash has a method for this: sortBy()
+4) You might want to paginate in the future. 
+  - To do this break the results into groups of 10
+  - [ [1-10],[11-20],[21-30], ... ]
+  - Lodash to the rescue: chunk()
+5) Reorganize the data into an Object
+  - All items in one object 
+  - Category as key
+  - Value for each key an array of products
+  
+Stretch challenges:
+
+1) Write a test for each of the challenges above.
+2) Use reduce to transform your data array into an HTML string.  
+3) Make an array of all the categories. 
+4) Use the category list to show only products in that category.
+5) Show a detailed view of a selected product as a modal.
+6) Build a shopping cart the cart should
+  - add items
+  - remove items 
+  - display the current contents of the cart
+  - show the total cost of all items in cart
+    
+  */
+  
+  // Your solution here: 
+  
+  
+  
+</script>
