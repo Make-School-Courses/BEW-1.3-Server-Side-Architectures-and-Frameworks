@@ -2,14 +2,19 @@
 
 ## Competencies & Objectives
 
-1. Identify and discuss the pros and cons of using higher abstract and lower abstract frameworks and libraries.
-1. Translate between higher order JavaScript operations and "vanilla" JavaScript that uses no extra libraries to manipulate the DOM.
+1. Identify and discuss the pros and cons of using higher abstract and lower 
+abstract frameworks and libraries.
+1. Translate between higher order JavaScript operations and "vanilla" JavaScript 
+that uses no extra libraries to manipulate the DOM.
     * Articulate what the DOM is.
     * Design a custom transformation of the DOM.
 
 ## Intro
 
-Do you really need jQuery to manipulate the DOM, make AJAX requests, and manipulate data? Maybe maybe not. The decision to use higher-level abstract libraries and syntactic "sugar" is a big debate among engineers. In this class we will read and discuss this argument and explore the pro's and con's of this argument.
+Do you really need jQuery to manipulate the DOM, make AJAX requests, and manipulate 
+data? Maybe maybe not. The decision to use higher-level abstract libraries and 
+syntactic "sugar" is a big debate among engineers. In this class we will read and 
+discuss this argument and explore the pro's and con's of this argument.
 
 Then we'll learn the "vanilla" JS ways of doing common jQuery functions.
 
