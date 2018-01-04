@@ -33,7 +33,7 @@ with an instructor when you have completed everything.
 - [ ] Complete the learnYouNode tutorial below. 
 - [ ] Pair with another student if you are blocked, or if some else is having trouble. 
 - [ ] Review your work with an instructor. 
-- [ ] Check off the work as you complete it [here](https://docs.google.com/a/makegameswith.us/spreadsheets/d/1HFFYZl772kgCleL0AEzVYxoudbA_7WafcomyrSwTTc8/edit?usp=sharing).
+- [ ] Check off the work as you complete it [here](https://docs.google.com/spreadsheets/d/1E2Irm4hz0eNr70zPv2wYiTmMhPw2x6jULj4xn2wR7gI/edit#gid=0).
 
 ## Baseline Challenges
 
