@@ -1,0 +1,104 @@
+<script>
+  
+  (function() {
+    console.log(">>>>" + 1);
+    setTimeout(function() {
+      console.log(">>>>" + 2)
+    }, 1000);
+    setTimeout(function() {
+      console.log(">>>>" + 3)
+    }, 0);
+    console.log(">>>>" + 4);
+  })();
+
+  // --------------------------------------------------------
+
+  
+  
+  
+  
+  (function() {
+    var x = 99;
+    foo()
+
+    function foo() {
+      var x = 0;
+      console.log("--- 1")
+      for (let x = 0; x < 3; x++) {
+        console.log(x)
+      }
+      // x ? --> 
+      console.log("--- 2")
+      console.log(x)
+    }
+    // x ? -->
+    console.log("--- 3")
+    console.log(x)
+  })();
+  
+  
+  
+  
+  
+  
+
+  // x ? -->
+  console.log("--- 4")
+  // console.log(x) // Throws an undefined error
+
+  // ------------------------------------------------------
+
+  
+  var a = {
+    name: 'foo'
+  };
+  var b = [a];
+  var c = b[0];
+  c.name = 'bar';
+
+  console.log(a.name); // --> ? foo
+
+  console.log(window)
+  
+  // Important terms 
+  // Scope, context
+  // 
+  
+  
+  
+  
+  
+  
+  
+  function aaa() {
+    
+  }
+  
+  aaa.bbb = 111
+  console.log(aaa)
+  console.log(aaa.bbb)
+  
+  function Person(name, age) {
+    this.name = name
+    this.age = age
+  }
+  
+  Person.defaultName = "default"
+  
+  new Person("Howard", 33)
+ 
+  {name: "Howard", age: 33}
+  
+  function personFactory(name, age) {
+    return { name, age }
+  }
+  
+</script>
+
+
+
+
+
+
+
+

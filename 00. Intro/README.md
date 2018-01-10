@@ -88,15 +88,3 @@ solve these problems, or ask the instructor for more problems to solve.
 
 - https://gist.github.com/adambray/186149f7d03293a67fae
 
-|    | Time    | Type       | Description                          |
-|----|---------|------------|--------------------------------------|
-| 1  |  5 min  | Intro      | Class introduction                   |
-| 2  | 30 min  | Work       | HTML Assessment                      |
-| -  | 10 min  | Break      | Walk around the block                |
-| 3  |  5 min  | Talk       | CSS Assessment Intro                 |
-| 4  | 30 min  | Work       | CSS Assessment                       |
-| 5  |  5 min  | Talk       | Solving the Assessments intro        |
-| 6  |  5 min  | Talk       | Pair programming                     |
-| 7  | 20 min  | Work       | Solving the assessments              |
-| =  |110 min  | Total Time | -                                    |
-

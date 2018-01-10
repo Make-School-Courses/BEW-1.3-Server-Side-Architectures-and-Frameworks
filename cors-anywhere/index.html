@@ -1,0 +1,15 @@
+<script>
+const darkSky = 'https://api.darksky.net/forecast/768e23ad0120d9dc9708dadcd7506083/37.8267,-122.4233'
+// My install of cors-anywhere on heroku that is not working. 
+// const url = 'https://aaa-bbb.herokuapp.com/' + darkSky 
+const url = 'https://cors-anywhere.herokuapp.com/' + darkSky
+
+
+fetch(url).then((res) => {
+  return res.json()
+}).then((json) => {
+  console.log(json)
+}).catch((err) => {
+  console.log(err.message);
+})
+</script>

@@ -100,7 +100,7 @@ your templates would not be named:
 
 `main.hbs` or `posts.hbs` etc. 
 
-```
+```JavaScript
 // Set up Handlebars with express
 app.engine('.hbs', exphbs({
   extname: '.hbs',                  // Set the file extension
@@ -112,7 +112,7 @@ app.engine('.hbs', exphbs({
 
 Initialize mongoose with the code below. 
 
-```
+```JavaScript
 mongoose.Promise = global.Promise
 mongoose.connect('mongodb://localhost/redditclone', { useMongoClient: true })
 mongoose.connection.on('error', console.error.bind(console, 'MongoDB connection Error:'))
