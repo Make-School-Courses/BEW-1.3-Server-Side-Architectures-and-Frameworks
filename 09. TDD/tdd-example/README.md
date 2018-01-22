@@ -5,9 +5,9 @@ The concepts here cover the idea of TDD.
 
 To run tests first intall `mocha` and `chai`.
 
-`$ npm install --save mocha`
+`$ npm install --save-dev mocha`
 
-`$ npm install --save chai`
+`$ npm install --save-dev chai`
 
 ## Testing
 

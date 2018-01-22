@@ -4,10 +4,11 @@ This class will provide an introduction to unit testing with JavaScript.
 
 **Test**
 
-1. noun - a procedure intended to establish the quality, performance, or reliability 
+1. **noun** - a procedure intended to establish the quality, performance, or 
+reliability 
 of something, especially before it is taken into widespread use.
-2. verb - take measures to check the quality, performance, or reliability of 
-(something), especially before putting it into widespread use or practice.
+2. **verb** - take measures to check the quality, performance, or reliability 
+of (something), especially before putting it into widespread use or practice.
 
 ## TDD and BDD
 
@@ -23,23 +24,26 @@ uses software tests as a basis for development.
 In short TDD follows this cycle: 
 
 1. **Add a Test** - New features are added by first writting a test that fail. 
-2. **Run all tests** - This validates that the test is working as it should not pass. 
+2. **Run all tests** - This validates that the test is working as it should 
+not pass. 
 3. **Write code** - Write code that will causes the test to pass. 
 4. **Run tests** - If all tests pass you can be confident your code meets the 
 requirements of the tests cases. If tests fail fix them. 
-5. **Refactor code** - As the code base grows it must be cleaned up and improved. 
-Tests will hopefully find problems or errors introduced in this step. 
-6. **Repeat** - With each cycle the functionality of the product should increase. 
+5. **Refactor code** - As the code base grows it must be cleaned up and 
+improved. Tests will hopefully find problems or errors introduced in this 
+step. 
+6. **Repeat** - With each cycle the functionality of the product should 
+increase. 
 
-TDD provides many advantages. It can increase productivity and avoid writing 
+TDD offers some advantages. It can increase productivity and avoid writing 
 unnecessary code. It also avoids errors and defects, and lengthy debugging 
 sessions.
 
 - https://en.wikipedia.org/wiki/Test-driven_development
 
 TDD does NOT solve all of the your problems for you. Some things are 
-difficult to test, UI interactions for example. Some tests are difficult 
-write and evaluate. Using TDD you might feel you are spending large amounts 
+difficult to test, UI interactions for example. **Some tests are difficult 
+write and evaluate**. Using TDD you might feel you are spending large amounts 
 of time writing tests, code which doesn't go directly into your finished 
 product. 
 
@@ -51,9 +55,11 @@ writing tests after implementation.**
 
 **BDD** (Behavior Driven Development) is an extension of TDD that focusses 
 on commuincation and collaboration. Imagine putting your tests into words. 
-BDD suggests that unit test names be whole sentences starting with a 
-conditional verb "should" for example. Taken further these sentences 
-to add value to the product. For example:
+BDD suggests that names assigned to unit test be whole sentences starting 
+with a conditional verb "should" for example. Taken further, these sentences 
+should describe adding value to the product. For example:
+
+"it displays the a notifcation when a new post is created"
 
 Some software libraries incorporate BDD into their interfaces. For example:
 
@@ -67,7 +73,7 @@ These make assertions in code around BDD syntax like:
 
 `should.have.properties()` and `expect().to.be()` or similar. 
 
-## Testing, Mocha
+## Testing with Mocha
 
 The goal of testing is to define software features that the app will have to
 meet, and test those features to confirm the code works as expected. 
@@ -76,13 +82,14 @@ Mocha.js is a testing framework that works with Node.js. Mocha runs tests
 and displays the results. 
 
 Mocha **doesn't** handle assertions. Instead it allows you to define your 
-own assertions or use your favorite library
+own assertions or use your favorite library.
 
 ## What's an Assertion?
 
-**Assertion**
-1. a confident and forceful statement of fact or belief.
-2. the action of stating something or exercising authority confidently and forcefully.
+- **Assertion**
+  1. a confident and forceful statement of fact or belief.
+  2. the action of stating something or exercising authority confidently and 
+  forcefully.
 
 In software tests an assertion states what you expect and fails when the 
 results are not correct. 
@@ -97,9 +104,9 @@ Assertion libraries:
 
 - Everything (that can be tested)
 
-Okay there are things that are difficult to test, which doesn't necessarily mean 
-that you should not test them. That said use you common sense when defining 
-tests. 
+Okay there are things that are difficult to test, which doesn't necessarily 
+mean that you should not test them. That said use you common sense when 
+defining tests. 
 
 If you think of a feature think of a test for that feature. Any function that 
 takes input and provides output can and should be tested!
@@ -111,14 +118,15 @@ feature.
 
 Tests should test a **unique** feature and not be repeated. 
 
-Tests should be short. If you find you are writing a long test case step back and
-ask if this test case should really be broken down into several smaller tests. 
+Tests should be short. If you find you are writing a long test case step back 
+and ask if this test case should really be broken down into several smaller 
+tests. 
 
 ### Final thoughts before the challenges 
 
-Writing tests for code before you have the code to test is a great mental exercise. 
-You may find that you will have to write code differently using this perspective. 
-You may find that you write better quality code. 
+Writing tests for code before you have the code to test is a great mental 
+exercise. You may find that you will have to write code differently using 
+this perspective. You may find that you write better quality code. 
 
 ### Testing with Mocha
 
@@ -126,8 +134,8 @@ Import the Mocha.js library as a dev dependancy.
 
 `$ npm install --save-dev mocha`
 
-This will include this library when you run dev scripts but **not** when you build for 
-production. 
+This will include this library when you run dev scripts but **not** when you 
+build for production. 
 
 Import your assertion library as a dev dependancy. For these examples I 
 chose `chai.js`. 
@@ -337,15 +345,14 @@ system will hold them in an array.
 
 Class Schedule 
 
-|time  |     |Activity   |Description      |
-|------|-----|-----------|-----------------|
-| 5mins|5min |Talk       |Intro            |
-| 5mins|10min|Talk       |What is TDD?     |
-| 5mins|15min|share      |Dicuss pros/cons |
-| 5mins|20min|Pair       |Brainstorm Tests What would you test and how?|
-|10mins|30min|share      |Share Test ideas |
-|10mins|40min|We Do      |Set up Node, Mocha, Chai |
-|30mins|70min|I Do We Do |Mocha challenges |
+| time   |       | Activity   | Description          |
+|--------|-------|------------|----------------------|
+|  5mins |  5min | Talk       | Intro Mocha and Chai |
+| 15mins | 20min | Pair       | Setup a project with Mocha and Chai |
+| 30mins | 50min | I Do We Do | Dicuss pros/cons |
+| 40mins | 90min | Pair       | Challenges |
+| 20mins |110min | Talk       | Debrief and discuss TDD and BDD |
+
 
 
 
