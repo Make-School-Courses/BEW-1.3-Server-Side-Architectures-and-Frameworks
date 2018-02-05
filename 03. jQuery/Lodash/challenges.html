@@ -1,7 +1,7 @@
 
 <div id="products"></div>
 
-<script src="https://cdn.jsdelivr.net/npm/lodash@4.17.4/lodash.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.5/lodash.core.min.js"></script>
 <script>
   /*
 
@@ -36,21 +36,46 @@ managable.
 1) Import json data.
   - Use fetch() to import the file MOCK_DATA.json
   - This should give you an array of Objects. 
+ */
   
+  // Import MOCK_DATA here:
+  
+  
+  
+/*
+
 2) Remove duplicates.
   - Many of the entries have duplicate names. Your goal is to remove 
   all of the duplicates by keeping the first instance of a name and 
   dropping any producst with name that come after. Lodash has a method 
   for this: _.uniqBy()
+*/
   
+  // remove the duplicates with Lodash: 
+  
+  
+  
+  
+/*
+
 3) Sort the results on category. 
   - Again Lodash has a method for this: _.sortBy()
+*/
+  // Sort on category: 
   
+  
+  
+/*
 4) You might want to paginate in the future. 
   - To do this break the results into groups of 10
   - Turn your array [...] into [ [...1-10],[...11-20],[...21-30], ... ]
   - Lodash to the rescue: _.chunk()
+*/
   
+  // Chunk the array:
+  
+  
+/*  
 Stretch challenges:
 
 1) Write a test for each of the challenges above.
@@ -63,10 +88,8 @@ Stretch challenges:
   - remove items 
   - display the current contents of the cart
   - show the total cost of all items in cart
-    
-  */
+*/
   
-  // Your solution here: 
   
   
   
