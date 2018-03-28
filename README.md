@@ -64,3 +64,12 @@ In order to pass this course, you must
 1. Complete the assigned tutorials.
 1. Complete an original project and ship it.
 1. Receive at least 1 code review from the instructor.
+
+## Resources 
+
+### Reading 
+
+- [You Don't Know JS - Up and Going](https://github.com/getify/You-Dont-Know-JS/blob/master/up%20&%20going/README.md#you-dont-know-js-up--going)
+- [You Don't Know JS - Scope and Closures](https://github.com/getify/You-Dont-Know-JS/blob/master/scope%20&%20closures/README.md#you-dont-know-js-scope--closures)
+- [Mastering Node JS](http://visionmedia.github.io/masteringnode/book.html)
+- [Node Express ](https://anotheruiguy.gitbooks.io/nodeexpreslibsass_from-scratch/content/)
