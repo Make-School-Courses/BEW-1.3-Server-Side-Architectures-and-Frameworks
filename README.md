@@ -1,21 +1,27 @@
-# Full-Stack-JS-2
+# Title 
 
-## Course Overview
+## Course Description
 
 In this course we will get into the real meat and potatoes of web development. We will build directly upon the Resourceful and RESTful patterns we learned last class and multiply them by building a clone of Reddit. As we multiply and associate our resources we will learn how to manage and cope with greater and greater complexity in our code while consistently keeping the user's experience in mind. Finally we will look at two ways to authenticate users and learn how to implement both.
 
-## Competencies & Objectives
+## Prerequisites
 
-1. Use JavaScript to do advanced DOM & data manipulation
+1. e.g. FEW 1.1
+
+## Learning Objectives or Competencies (5-8)
+
+Students by the end of the course will be able to ...
+
+1. Use JavaScript to do DOM & data manipulation
 1. Implement authentication using JWT tokens and sessions
-1. Master the subtle and powerful art of pair programming
+1. Diagram and implement resource associations using a document-based database
 
 ## Lessons
 
-1. Node.js Under the Hood - Start Reddit Tutorial with pairs
+1. Node.js Under the Hood 
 1. JS - Vanilla JS Data - Lodash
-1. JS - Vanilla JS DOM - jQuery
-1. JS - jQuery DOM & AJAX
+1. JS - Vanilla JS DOM
+1. JS - DOM Manipulation & AJAX with Axios
 1. Reference & Embedded Documents - Posts have many comments, `populate`
 1. Nested Routes & Resource - Subreddits have many posts
 1. Persistence Levels
@@ -23,49 +29,34 @@ In this course we will get into the real meat and potatoes of web development. W
 1. Authentication - JWT
 1. Authorization
 1. Testing Authentication & Authorization - Sinon, Supertest, & Request Agent
-1. Project Work & Code Reviews
-1. Project Work & Code Reviews
-1. Project Work & Code Reviews
-1. Presentations
-1. EXTRA CHALLENGE - Deploying to AWS Elastic Beanstalk
+1. Discussion & Final Assessment
+1. Deploying to AWS Elastic Beanstalk
 
-## Projects
+### Projects and Readings
 
-1. The Reddit Tutorial.
-1. An original web project.
-
-## Vocabulary & Conventions
-
-1. Pair Programming
-1. Promises
-1. Callbacks
-1. Entity-Relationship Model
-1. Polymorphism
-1. Authentication
-1. Authorization
-1. Server Session
-1. JWT
-
-## Best Practices
-
-1. Technical planning
-1. Skinny Controllers - Fat Models
-1. Mobile First Design/Development
-1. DRY Code
-1. Writing Tests
+- The Reddit Tutorial.
+- An Original Web Project.
+- 
 
 ## Evaluation
 
-In order to pass this course, you must
+To pass this course you must meet the following requirements:
 
-1. Have fewer than 2 unexcused absences.
-1. Complete 80% of basic challenges from each lesson.
-1. Be able to recall the meaning of all vocabulary and conventions.
-1. Complete the assigned tutorials.
-1. Complete an original project and ship it.
-1. Receive at least 1 code review from the instructor.
+- No more than two no call no shows
+- No more than four excused absences
+- Make up all classwork from all absences
+- Finish all required tutorials and projects
+- Pass the final exam (summative assessment) >=80%
 
-## Resources 
+## Make School Course Policies
+
+[Academic Honesty](https://github.com/Product-College-Courses/Common-Syllabus-Sections/blob/master/Academic-Honesty-and-Plagiarism.md)
+[Accomodation Policy](https://github.com/Product-College-Courses/Common-Syllabus-Sections/blob/master/Accommodation-Policy.md)
+[Diversity Statement](https://github.com/Product-College-Courses/Common-Syllabus-Sections/blob/master/Diversity-Statement.md)
+[Evaluation Methods](https://github.com/Product-College-Courses/Common-Syllabus-Sections/blob/master/Evaluation-Methods.md)
+[Title IX Disclaimer](https://github.com/Product-College-Courses/Common-Syllabus-Sections/blob/master/Evaluations-Title-X-Disclaimer.md)
+[Program Learning Outcomes](https://github.com/Product-College-Courses/Common-Syllabus-Sections/blob/master/Program-Learning-Outcomes.md)
+
 
 ### Reading 
 
