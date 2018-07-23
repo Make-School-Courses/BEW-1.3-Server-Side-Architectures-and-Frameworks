@@ -4,9 +4,19 @@
 
 In this course we will get into the real meat and potatoes of web development. We will build directly upon the Resourceful and RESTful patterns we learned last class and multiply them by building a clone of Reddit. As we multiply and associate our resources we will learn how to manage and cope with greater and greater complexity in our code while consistently keeping the user's experience in mind. Finally we will look at two ways to authenticate users and learn how to implement both.
 
+## Course Specifics
+
+Weeks to Completion:  7 <br>
+Total Seat Hours:  37.5 hours <br>
+Total Out-of-Class Hours: 75 hours <br>
+Total Hours: 112.5 hours <br>
+Units:  3 units <br>
+Delivery Method:  Residential <br>
+Class Sessions:  14 classes, 7 labs 
+
 ## Prerequisites
 
-1. e.g. FEW 1.1
+1. BEW 1.1
 
 ## Learning Objectives or Competencies (5-8)
 
@@ -16,27 +26,10 @@ Students by the end of the course will be able to ...
 1. Implement authentication using JWT tokens and sessions
 1. Diagram and implement resource associations using a document-based database
 
-## Lessons
-
-1. Node.js Under the Hood 
-1. JS - Vanilla JS Data - Lodash
-1. JS - Vanilla JS DOM
-1. JS - DOM Manipulation & AJAX with Axios
-1. Reference & Embedded Documents - Posts have many comments, `populate`
-1. Nested Routes & Resource - Subreddits have many posts
-1. Persistence Levels
-1. Authentication - Sessions
-1. Authentication - JWT
-1. Authorization
-1. Testing Authentication & Authorization - Sinon, Supertest, & Request Agent
-1. Discussion & Final Assessment
-1. Deploying to AWS Elastic Beanstalk
-
-### Projects and Readings
+## Tutorials & Projects
 
 - The Reddit Tutorial.
-- An Original Web Project.
-- 
+- A Contractor or Original Web Project
 
 ## Evaluation
 
@@ -47,6 +40,63 @@ To pass this course you must meet the following requirements:
 - Make up all classwork from all absences
 - Finish all required tutorials and projects
 - Pass the final exam (summative assessment) >=80%
+
+## Lessons
+
+1. Node.js Under the Hood - `module.exports` & `require()`
+1. JS - Vanilla JS Data - Lodash
+1. JS - Vanilla JS DOM
+1. JS - DOM Manipulation & AJAX with Axios
+1. Reference & Embedded Documents - Posts have many comments, `populate`
+1. Nested Routes & Resource - Subreddits have many posts
+1. Persistence Levels - LocalStorage, Cookies, Session, Memory, Database
+1. Authentication - Sessions
+1. Authentication - JWT
+1. Authorization
+1. Testing Authentication & Authorization - Sinon, Supertest, & Request Agent
+1. Discussion & Final Assessment
+1. Deploying to AWS Elastic Beanstalk
+
+1. Lesson Title & Topic
+    - **Before Class**
+    - **In Class Activities**
+    - **After Class**
+1. Lesson Title & Topic
+    - **In Class Activities**
+    - **After Class**
+1. Lesson Title & Topic
+    - **In Class Activities**
+    - **After Class**
+1. Lesson Title & Topic
+    - **In Class Activities**
+    - **After Class**
+1. Lesson Title & Topic
+    - **In Class Activities**
+    - **After Class**
+1. Lesson Title & Topic
+    - **In Class Activities**
+    - **After Class**
+1. Lesson Title & Topic
+    - **In Class Activities**
+    - **After Class**
+1. Lesson Title & Topic
+    - **In Class Activities**
+    - **After Class**
+1. Lesson Title & Topic
+    - **In Class Activities**
+    - **After Class**
+1. Lesson Title & Topic
+    - **In Class Activities**
+    - **After Class**
+1. Lesson Title & Topic
+    - **In Class Activities**
+    - **After Class**
+1. Lesson Title & Topic
+    - **In Class Activities**
+    - **After Class**
+1. Lesson Title & Topic
+    - **In Class Activities**
+    - **After Class**
 
 ## Make School Course Policies
 
@@ -69,3 +119,4 @@ To pass this course you must meet the following requirements:
 - [Mastering Node JS](http://visionmedia.github.io/masteringnode/book.html)
 - [Node Express ](https://anotheruiguy.gitbooks.io/nodeexpreslibsass_from-scratch/content/)
 - [The Node.js Way - How `require()` Actually Works](http://fredkschott.com/post/2014/06/require-and-the-module-system/)
+- Modules section - https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/Introduction
