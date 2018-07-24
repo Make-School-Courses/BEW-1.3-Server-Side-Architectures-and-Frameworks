@@ -1,4 +1,4 @@
-# Title 
+# BEW 1.2 - Authentication and Associations
 
 ## Course Description
 
@@ -61,39 +61,51 @@ To pass this course you must meet the following requirements:
     - **Before Class**
     - **In Class Activities**
     - **After Class**
+        - Begin Reddit Tutorial
 1. Lesson Title & Topic
     - **In Class Activities**
     - **After Class**
+        - Reddit Tutorial
 1. Lesson Title & Topic
     - **In Class Activities**
     - **After Class**
+        - Reddit Tutorial
 1. Lesson Title & Topic
     - **In Class Activities**
     - **After Class**
+        - Reddit Tutorial
 1. Lesson Title & Topic
     - **In Class Activities**
     - **After Class**
+        - Reddit Tutorial
 1. Lesson Title & Topic
     - **In Class Activities**
     - **After Class**
+        - Reddit Tutorial
 1. Lesson Title & Topic
     - **In Class Activities**
     - **After Class**
+        - Reddit Tutorial
 1. Lesson Title & Topic
     - **In Class Activities**
     - **After Class**
+        - Contractor or Custom Project
 1. Lesson Title & Topic
     - **In Class Activities**
     - **After Class**
+        - Contractor or Custom Project
 1. Lesson Title & Topic
     - **In Class Activities**
     - **After Class**
+        - Contractor or Custom Project
 1. Lesson Title & Topic
     - **In Class Activities**
     - **After Class**
+        - Contractor or Custom Project
 1. Lesson Title & Topic
     - **In Class Activities**
     - **After Class**
+        - Contractor or Custom Project
 1. Lesson Title & Topic
     - **In Class Activities**
     - **After Class**
