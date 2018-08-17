@@ -11,7 +11,7 @@ Class is like a job; think of this as a work environment rather than a tradition
 
 As team members you are **not in competition**; instead, your goal is to **support each other** both in class and in completing your project.
 
-### Work
+## Work
 
 **It is your job to schedule time and complete the work assigned to you.**
 
@@ -27,7 +27,9 @@ _TODO_
 
 ## Pair Programming
 
-Pair programming offers many advantages and is a great way to learn.Read this article:
+Pair programming offers many advantages and is a great way to learn both inside and outside the classroom.
+
+Read this article, and note what was said about **ad hoc pairing**:
 - [Stop Wasting Time: Pair Programming Rocks](https://medium.com/javascript-scene/stop-wasting-time-pair-programming-rocks-4a99604cb09d)
 
-Note what was said about **ad hoc pairing**.
+
