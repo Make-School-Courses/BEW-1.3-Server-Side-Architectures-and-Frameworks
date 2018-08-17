@@ -1,7 +1,7 @@
 # BEW 1.2 - Authentication and Associations Intro
 
 This class is all about making web sites with Node JS. Looking deeper,
-you'll to learn how the web works from client to sever, and develop a stronger understanding aof JavaScript, HTML and CSS.
+you'll to learn how the web works from client to sever, and develop a stronger understanding of server-side JavaScript.
 
 ## Welcome
 
