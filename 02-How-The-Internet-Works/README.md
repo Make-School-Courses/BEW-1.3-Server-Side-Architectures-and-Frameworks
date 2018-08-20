@@ -7,7 +7,7 @@
 
 ## Group Research (30 minutes)
 
-4 groups (4-5 students each), each research the topics listed below and prepare a 5-6 minute lesson for the class
+4 groups (4-5 students each), each research the topics listed below and prepare a 5-6 minute lesson for the class.
 
 1. **Packets and Protocols**
     * What’s a packet? What’s in it?
