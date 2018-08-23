@@ -26,10 +26,10 @@ _TODO_
 1. Spend 15 minutes discussing unaddressed questions as a class.
 1. Write them down as a shared classroom asset and point back to them during class as each point appears in lesson plans.
 
-## Wrap Up
+## Wrap Up (5 Minutes)
 
-- Announce that we'll be tracking our knowledge regarding the challenges discussed during the first in-class activity.
-- Introduce topics for tomorrow.
+* Announce that we'll be tracking our knowledge regarding the challenges discussed during the first in-class activity.
+* Introduce topics for tomorrow.
 
 ## After Class
 
