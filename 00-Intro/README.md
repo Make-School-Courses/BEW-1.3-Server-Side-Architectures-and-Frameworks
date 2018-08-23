@@ -30,6 +30,4 @@ _TODO_
 Pair programming offers many advantages and is a great way to learn both inside and outside the classroom.
 
 Read this article, and note what was said about **ad hoc pairing**:
-- [Stop Wasting Time: Pair Programming Rocks](https://medium.com/javascript-scene/stop-wasting-time-pair-programming-rocks-4a99604cb09d)
-
-
+- [Stop Wasting Time: Pair Programming Rocks](https://medium.com/javascript-scene/stop-wasting-time-pair-programming-rocks-4a99604cb09d).

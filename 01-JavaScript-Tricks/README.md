@@ -40,4 +40,3 @@ _TODO_
 * [https://codeburst.io/cool-javascript-shortcuts-and-tips-for-everyday-use-66cd174ab216](Cool JS Shortcuts)
 * [https://www.jstips.co](A New JS Tip Every Day)
 * [https://github.com/loverajoel/jstips](JS Tips Repo)
-
