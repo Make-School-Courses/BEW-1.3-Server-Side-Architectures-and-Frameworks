@@ -31,7 +31,7 @@ Students by the end of the course will be able to ...
 ## Tutorials & Projects
 
 - The Reddit Tutorial
-- A Custom Authenticated API Project (days 12 through 14)
+- A Custom Authenticated API Project
 - A Contractor or Original Web Project
 
 ## Evaluation
