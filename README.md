@@ -78,31 +78,31 @@ To pass this course you must meet the following requirements:
 1. [Authentication with Sessions and Cookies](08-Authenticaton-with-Sessions-and-Cookies/README.md)
     - **In Class Activities**
     - **After Class**
-        - Custom API Project
+        - Custom API Project: Proposal
 1. [TDD](09-TDD/README.md)
     - **In Class Activities**
     - **After Class**
-        - Custom API Project
+        - Custom API Project: Write Tests
 1. [Authorization](10-Authorization/README.md)
     - **In Class Activities**
     - **After Class**
-        - Custom API Project
+        - Custom API Project: Write Tests
 1. [Testing Authentication and Authorization](11-Testing-Authentication-and-Authorization/README.md)
     - **In Class Activities**
     - **After Class**
-        - Custom API Project
+        - Custom API Project: Write Authentication and Authorization Tests
 1. [Custom Authenticated APIs](12-Custom-Authenticated-APIs/README.md)
     - **In Class Activities**
     - **After Class**
-        - Custom API Project
+        - Custom API Project: Implementation
 1. [Custom Authenticated APIs](13-Custom-Authenticated-APIs/README.md)
     - **In Class Activities**
     - **After Class**
-        - Custom API Project
+        - Custom API Project: Implementation
 1. [Deployment](14-Deployment/README.md)
     - **In Class Activities**
     - **After Class**
-        - Custom API Project
+        - Custom API Project: Deployment
 
 ## Readings and Resources
 
