@@ -5,12 +5,10 @@ Or better yet follow the tutorial from GitHub [here](https://github.com/MakeScho
 
 ## Pair Programming
 
-Pair programming is a good way to work and is especially useful when you
+Pair programming is a great way to work; it's especially useful when you
 are stuck with a problem. You should find someone to pair with when you
-have a problem you can't seem to solve or when you are not sure how to
-approach a step.
-
-**You should be pairing at least once a week!**
+have an issue you can't seem to solve, or when you're not sure how to
+approach a step. **You should be pairing at least once a week!**
 
 ## Reddit Tutorial
 
