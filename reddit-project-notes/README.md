@@ -1,33 +1,30 @@
-# Reddit - Notes
+# Reddit Tutorial
 
-You're job is to create a clone of Reddit following the tutorial.
-[here](https://www.makeschool.com/online-courses/tutorials/reddit-clone-in-node-js/technical-planning).
+Your job is to create a clone of Reddit following the tutorial [here](https://www.makeschool.com/online-courses/tutorials/reddit-clone-in-node-js/technical-planning).
+Or better yet follow the tutorial from GitHub [here](https://github.com/MakeSchool-Tutorials/Node-Reddit-Clone).
 
-Or better yet follow the tutorial from GitHub 
-[here](https://github.com/MakeSchool-Tutorials/Node-Reddit-Clone).
+## Pair Programming
 
-## Pair programming
-
-Pair programming is a good way to work and is especially useful when you 
-are stuck with a problem. You should find someone to pair with when you 
-have a problem you can't seem to solve or when you are not sure how to 
-approach a step. 
+Pair programming is a good way to work and is especially useful when you
+are stuck with a problem. You should find someone to pair with when you
+have a problem you can't seem to solve or when you are not sure how to
+approach a step.
 
 **You should be pairing at least once a week!**
 
-## Reddit Tutorial 
+## Reddit Tutorial
 
 The tutorial doesn't provide detailed instructions each step
 it relies that you have completed the previous tutorials and will draw
-on that information. 
+on that information.
 
-The tutorial starts with a list of features that you need to implement. 
+The tutorial starts with a list of features that you need to implement.
 
-**You should try and implement as many of these features as you can on 
-your own.** 
+**You should try and implement as many of these features as you can on
+your own.**
 
-Here is a list of all steps needed to complete the Reddit project. 
-These also appear in the tutorial.  
+Here is a list of all steps needed to complete the Reddit project.
+These also appear in the tutorial.
 
 - Create a post
   - Make a posts#new route (`/posts/new`) and template (`posts-new.handlebars`)
@@ -84,7 +81,7 @@ These also appear in the tutorial.
 
 ### Libraries
 
-You will need these libraries to get started: 
+You will need these libraries to get started:
 
 - express
 - express-handlebars
@@ -93,12 +90,12 @@ You will need these libraries to get started:
 
 #### express-handlebars
 
-Setting up express handlebars with shorter extension (.hbs rather than 
-.handlebars) name is convenient and requires less typing. The code 
-below initializes express handlebars with the extension `.hbs`. All of 
+Setting up express handlebars with shorter extension (.hbs rather than
+.handlebars) name is convenient and requires less typing. The code
+below initializes express handlebars with the extension `.hbs`. All of
 your templates would not be named:
 
-`main.hbs` or `posts.hbs` etc. 
+`main.hbs` or `posts.hbs` etc.
 
 ```JavaScript
 // Set up Handlebars with express
@@ -108,9 +105,9 @@ app.engine('.hbs', exphbs({
 }))
 ```
 
-#### mongoose 
+#### mongoose
 
-Initialize mongoose with the code below. 
+Initialize mongoose with the code below.
 
 ```JavaScript
 mongoose.Promise = global.Promise
@@ -119,8 +116,8 @@ mongoose.connection.on('error', console.error.bind(console, 'MongoDB connection 
 mongoose.set('debug', true)
 ```
 
-Note the `redditclone` is the name of the data base. This can be 
-any name you like. 
+Note the `redditclone` is the name of the data base. This can be
+any name you like.
 
 The last line turns on mongoose debugging. Use this good for testing.
 
