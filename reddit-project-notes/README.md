@@ -1,4 +1,4 @@
-# Reddit Tutorial
+# Reddit Project
 
 Your job is to create a clone of Reddit following the tutorial [here](https://www.makeschool.com/online-courses/tutorials/reddit-clone-in-node-js/technical-planning).
 Or better yet follow the tutorial from GitHub [here](https://github.com/MakeSchool-Tutorials/Node-Reddit-Clone).
@@ -14,9 +14,8 @@ approach a step.
 
 ## Reddit Tutorial
 
-The tutorial doesn't provide detailed instructions each step
-it relies that you have completed the previous tutorials and will draw
-on that information.
+The tutorial doesn't provide detailed instructions each step ---
+it relies on the notion that you've completed the previous tutorials and will draw on that information.
 
 The tutorial starts with a list of features that you need to implement.
 
@@ -116,24 +115,6 @@ mongoose.connection.on('error', console.error.bind(console, 'MongoDB connection 
 mongoose.set('debug', true)
 ```
 
-Note the `redditclone` is the name of the data base. This can be
-any name you like.
+Note the `redditclone` is the name of the database. This can be any name you like.
 
-The last line turns on mongoose debugging. Use this good for testing.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+The last line turns on mongoose debugging. Use this for testing.
