@@ -21,10 +21,6 @@ First, you'll work on a tutorial project: a clone of Reddit built in Node and Ex
 
 Once you've completed the tutorial, you'll define and complete a custom project for yourself. This custom project will be your own idea built from the material, ideas, and inspiration experienced in class and on campus at Make School.
 
-## Assessment
-
-_TODO_
-
 ## Pair Programming
 
 Pair programming offers many advantages and is a great way to learn both inside and outside the classroom.
