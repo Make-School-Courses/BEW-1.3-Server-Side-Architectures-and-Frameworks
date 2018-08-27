@@ -42,3 +42,7 @@
 ## Recap (5 minutes)
 
 * Read How the Internet Works (part 2) at make.sc/internet
+
+## After Class
+
+Continue work on the Reddit Tutorial.

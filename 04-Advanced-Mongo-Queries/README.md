@@ -14,4 +14,6 @@
 
 ## After Class
 
+Continue work on the Reddit Tutorial.
+
 ## Additional Resources

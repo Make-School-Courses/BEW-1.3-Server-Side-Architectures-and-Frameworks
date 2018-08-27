@@ -6,11 +6,11 @@
 
 ## Background
 
-Typically legacy web technologies use the Cookie-Session method of authentication; 
+Typically legacy web technologies use the Cookie-Session method of authentication;
 however, there is a better way to do communicate authentication. This new way will
-work better with advanced **Single Page Application** technology like **React** 
-and **Angular 1/2** as well as with authentication in **Mobile Apps**. We're going 
-to use an encrypted chunk of JSON called a **JSON Web Token** or JWT 
+work better with advanced **Single Page Application** technology like **React**
+and **Angular 1/2** as well as with authentication in **Mobile Apps**. We're going
+to use an encrypted chunk of JSON called a **JSON Web Token** or JWT
 (pronounced ''*jot*'') to communicate authentication between client and server.
 
 ![cookie-token-auth](cookie-token-auth.png)
@@ -184,7 +184,7 @@ eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzY290Y2guaW8iLCJleHAiOjEzMDA4MTk
         } else if (req.cookies && req.cookies.token) {
           return req.cookies.token;
         }
-        return null;  
+        return null;
       }
     }).unless({path: ['/', '/login', '/sign-up']}));
   ```
@@ -195,32 +195,32 @@ eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzY290Y2guaW8iLCJleHAiOjEzMDA4MTk
 
 
 
-## Notes 
+## Notes
 
-JSON Web Token (JWT) is a method of representing claims between two parties. Think of it like a 
+JSON Web Token (JWT) is a method of representing claims between two parties. Think of it like a
 receipt that is recognized by the issuer.
 
-In short JWT a is a format made of three parts. 
+In short JWT a is a format made of three parts.
 
 - algorithm
 - payload
 - secret key
 
-The token is hashed/encrypted as a string of characters that can only be decryted by a 
-computer that has access to the secret key.  
+The token is hashed/encrypted as a string of characters that can only be decryted by a
+computer that has access to the secret key.
 
 ### Authentication Process
 
-1. A client sends a request for authentication including credentials. 
-  - A typical scenario is logging in. The crednetials supplied are username and password. 
-2. The sever receives credentials. Verifying the credentials the server issues a token 
-to the client. 
+1. A client sends a request for authentication including credentials.
+  - A typical scenario is logging in. The crednetials supplied are username and password.
+2. The sever receives credentials. Verifying the credentials the server issues a token
+to the client.
   - The token is a hash. It also contains a secret string or key. The secret key can only
-  be unencrypted by the server. 
-3. The client includes the token whenever requesting restricted resources. 
-4. The server verifies the token with each request. 
+  be unencrypted by the server.
+3. The client includes the token whenever requesting restricted resources.
+4. The server verifies the token with each request.
 
 
+## After Class
 
-
-
+Continue work on the Reddit Tutorial.

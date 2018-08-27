@@ -48,4 +48,6 @@ jQuery lets you easily select elements from the DOM and make changes to them, in
 5. **A Partial Solution** - For a partial solution to the above challenges, please look at this repository: [express-jwt-jquery](https://github.com/ajbraus/express-jwt-jquery). What are some things this implementation of express does differently than yours? Can you clone it and run it?
 
 
-## Onwards!
+## After Class
+
+Continue to practice TDD by completing test cases for your custom API project.

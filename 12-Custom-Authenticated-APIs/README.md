@@ -14,4 +14,6 @@
 
 ## After Class
 
+Work on implementing your custom API project.
+
 ## Additional Resources

@@ -33,7 +33,7 @@ _TODO_
 
 ## After Class
 
-_TODO_
+Begin work on the Reddit Tutorial.
 
 ## Additional Resources
 

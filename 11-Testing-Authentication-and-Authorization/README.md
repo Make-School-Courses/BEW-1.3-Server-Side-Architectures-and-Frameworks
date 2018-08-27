@@ -11,4 +11,6 @@ Sinon, Supertest, & Request Agent
 ## Challenges
 
 
-## Onwards!
+## After Class
+
+Practice TDD by implementing authentication and authorization test cases for your custom API project.

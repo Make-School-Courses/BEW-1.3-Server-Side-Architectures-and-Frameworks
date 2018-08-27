@@ -94,3 +94,7 @@ https://www.theregister.co.uk/2017/02/23/google_first_sha1_collision/
 
 1. Add Facebook authentication
 1. Add Github authentication
+
+## After Class
+
+Complete work on the Reddit Tutorial if you haven't already!

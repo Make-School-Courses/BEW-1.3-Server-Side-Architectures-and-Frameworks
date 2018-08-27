@@ -14,4 +14,6 @@
 
 ## After Class
 
+Deploy your custom API project utilizing what we learned in class today.
+
 ## Additional Resources

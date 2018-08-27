@@ -35,3 +35,7 @@ If you are a web developer, where can you store data? At first you probably just
 1. Read the following articles on Redis to learn more about how this powerful and flexible service helps make websites more scalable through caching and messaging.
     1. [How to take advantage of Redis just adding it to your stack](http://oldblog.antirez.com/post/take-advantage-of-redis-adding-it-to-your-stack.html)
     1. [11 Common Web Use Cases Solved In Redis](http://highscalability.com/blog/2011/7/6/11-common-web-use-cases-solved-in-redis.html)
+
+## After Class
+
+Continue work on the Reddit Tutorial.
