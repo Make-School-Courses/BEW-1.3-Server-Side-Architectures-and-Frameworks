@@ -30,7 +30,7 @@ Students by the end of the course will be able to ...
 
 ## Tutorials & Projects
 
-- The Reddit Tutorial
+- [The Reddit Tutorial](https://www.makeschool.com/academy/track/reddit-clone-in-node-js)
 - A Custom Authenticated API Project
 - A Contractor or Original Web Project
 
