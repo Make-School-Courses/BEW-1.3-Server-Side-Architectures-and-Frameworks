@@ -66,7 +66,7 @@ The remainder of this class period will be all about using what we've just learn
         * *PUT* modifies an object in the array.
         * *DELETE* removes the object from the array.
     ```
-* After a few minutes, ask if there are any questions and start the activity.
+* After a few minutes, ask if there are any questions and dismiss for break.
 
 ## BREAK (10 Minutes)
 
