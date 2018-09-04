@@ -74,7 +74,7 @@ These also appear in the tutorial.
   - Let people 'undo' their vote
 - Sort posts by # of votes
 
-## Techincal notes
+## Techincal Notes
 
 ### Libraries
 
