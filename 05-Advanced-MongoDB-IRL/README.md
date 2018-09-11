@@ -53,6 +53,29 @@ We'll expand upon our collective knowledge by implementing an **entire Theater R
 
 ## In Class Activity - Part 2: Integrating MongoDB (60 Minutes)
 
+1. `npm install mongodb`
+1. Paste the following code into your `app.js` file to facilitate the connection to your local MongoDB database.
+    * (Optional) **Stretch Challenge**: Complete tutorial, but convert the provided tutorial solutions to leverage an ODM: for example, Mongoose.
+    ```JavaScript
+    const MongoClient = require('mongodb').MongoClient;
+    const assert = require('assert');
+
+    // Connection URL
+    const url = 'mongodb://localhost:27017';
+
+    // Database Name
+    const dbName = 'myproject';
+
+    // Use connect method to connect to the server
+    MongoClient.connect(url, function(err, client) {
+      assert.equal(null, err);
+      console.log("Connected successfully to server");
+
+      const db = client.db(dbName);
+
+      client.close();
+    });
+    ```
 1. Complete **each step** of the [Learn MongoDB the Hard Way: Theater Reservations](http://learnmongodbthehardway.com/schema/theater/) tutorial.
 1. **Fill in the empty routes** created in Part 1 with the **relevant code** from **each step of the tutorial**.
 1. **Test each your routes** and ensure they work as expected --- in other words, is the data persistant? Is the API working in the same way the tutorial describes?
