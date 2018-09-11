@@ -46,7 +46,7 @@ We'll expand upon our collective knowledge by implementing an **entire Theater R
     module.exports = router;
     ```
 
-1. **Test all your routes** and ensure they work as expected. After break, you'll be plugging in the required code to ensure your API can persist data!
+1. **Test all your routes** and ensure they work as expected. Use an application like [Postman](https://www.getpostman.com/apps) to test `GET`, `POST`', `PUT`, `DELETE`, and other RESTful routes that you implemented in Step 5. _NOTE: after break, you'll be plugging in the required code to ensure your API can persist data!_
 1. **Add, commit, and push your code to GitHub** before break.
 
 ## BREAK (10 Minutes)
