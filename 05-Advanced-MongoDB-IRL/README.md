@@ -8,8 +8,8 @@
 | 0:05        | 0:05     | Overview                  |
 | 0:10        | 0:40     | Activity: Write API       |
 | 0:50        | 0:10     | BREAK                     |
-| 0:60        | 0:60     | Activity: Integrate Mongo |
-| TOTAL       | 2:00     |                           |
+| 0:60        | 0:50     | Activity: Integrate Mongo |
+| TOTAL       | 1:50     |                           |
 
 ## Learning Objectives/Competencies (5 Minutes)
 
@@ -38,7 +38,7 @@ We'll expand upon our collective knowledge by implementing an **entire Theater R
     var router = express.Router();
 
     // Example stub:
-    router.get('/theater/name-of-route', function (req, res) {
+    router.get('/theater/name-of-route', function(req, res) {
       res.json({'stub': `[${req.originalUrl}] Endpoint works! Replace me in Step 2.`});
     });
 
@@ -50,7 +50,7 @@ We'll expand upon our collective knowledge by implementing an **entire Theater R
 
 ## BREAK (10 Minutes)
 
-## In Class Activity - Part 2: Integrating MongoDB (60 Minutes)
+## In Class Activity - Part 2: Integrating MongoDB (50 Minutes)
 
 1. Complete **each step** of the [Learn MongoDB the Hard Way: Theater Reservations](http://learnmongodbthehardway.com/schema/theater/) tutorial.
 1. **Fill in the empty routes** created in Part 1 with the **relevant code** from **each step of the tutorial**.
