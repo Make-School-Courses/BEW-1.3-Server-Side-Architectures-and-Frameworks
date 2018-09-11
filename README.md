@@ -1,4 +1,4 @@
-# BEW 1.2 - Authentication, Associations, and Advanced Queries
+# BEW1.2 - Authentication, Associations, & Advanced Queries
 
 ## Course Description
 
@@ -50,6 +50,8 @@ To pass this course you must meet the following requirements:
     - **Before Class**
         - Prework
     - **In Class Activities**
+        - JS/Node Challenges
+        - Introduce Tutorial 
     - **After Class**
         - Begin Reddit Tutorial
 1. [How the Internet Works: Part 2](02-How-The-Internet-Works/README.md)
@@ -59,6 +61,8 @@ To pass this course you must meet the following requirements:
         - Reddit Tutorial
 1. [Nested Routes and Resources](03-Nested-Routes-and-Resources/README.md)
     - **In Class Activities**
+        - API Stories
+        - Telling the Story in Code
     - **After Class**
         - Reddit Tutorial
 1. [Persistence Levels](04-Persistence-Levels/README.md)
@@ -80,6 +84,7 @@ To pass this course you must meet the following requirements:
         - Reddit Tutorial
 1. [Authentication Sessions vs. JWT](07-Authentication-Sessions-vs-JWT/README.md)
     - **In Class Activities**
+        - [Challenges](https://github.com/Product-College-Courses/BEW-1.2-Authentication-and-Associations/tree/master/07-Authentication-Sessions-vs-JWT#challenges)
     - **After Class**
         - Reddit Tutorial
 1. [Authentication with Sessions and Cookies](08-Authenticaton-with-Sessions-and-Cookies/README.md)
