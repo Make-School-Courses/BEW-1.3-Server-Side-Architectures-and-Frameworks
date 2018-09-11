@@ -30,19 +30,21 @@ We'll expand upon our collective knowledge by implementing an **entire Theater R
 1. **Pseudocode the routes** based on your notes.
 1. **Compare routes** with the students around you.
 1. Begin **stubbing out** your API in a file called `server.js`. You can **use the following code as an example**:
-  ```JavaScript
-  // server.js - Theater Reservation API
 
-  var express = require('express');
-  var router = express.Router();
+    ```JavaScript
+    // server.js - Theater Reservation API
 
-  // Example stub:
-  router.get('/theater/name-of-route', function (req, res) {
-    res.json({'stub': `[${req.originalUrl}] Endpoint works! Replace me in Step 2.`});
-  });
+    var express = require('express');
+    var router = express.Router();
 
-  module.exports = router;
-  ```
+    // Example stub:
+    router.get('/theater/name-of-route', function (req, res) {
+      res.json({'stub': `[${req.originalUrl}] Endpoint works! Replace me in Step 2.`});
+    });
+
+    module.exports = router;
+    ```
+
 1. **Test all your routes** and ensure they work as expected. After break, you'll be plugging in the required code to ensure your API can persist data!
 1. **Add, commit, and push your code to GitHub** before break.
 
@@ -88,5 +90,5 @@ Continue progress on the Reddit Tutorial if not yet complete.
 
 ## Additional Resources
 
-1. [Learn MongoDB the Hard Way: Schema Basics](http://learnmongodbthehardway.com/schema/schemabasics/)
+1. [MDN: Express Tutorial - Routes and Controllers (Review)](https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/routes)
 1. [Learn MongoDB the Hard Way: Theater Reservations](http://learnmongodbthehardway.com/schema/theater/)
