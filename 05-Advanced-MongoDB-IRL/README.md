@@ -78,7 +78,7 @@ We'll expand upon our collective knowledge by implementing an **entire Theater R
     ```
 1. Complete **each step** of the [Learn MongoDB the Hard Way: Theater Reservations](http://learnmongodbthehardway.com/schema/theater/) tutorial.
 1. **Fill in the empty routes** created in Part 1 with the **relevant code** from **each step of the tutorial**.
-1. **Test each your routes** and ensure they work as expected --- in other words, is the data persistant? Is the API working in the same way the tutorial describes?
+1. **Test each your routes** with an application like Postman and ensure they work as expected --- in other words, is the data persistant? Is the API working in the same way the tutorial describes?
 1. **Add, commit, and push your code to GitHub** to complete the coding portion of the activity.
 1. If you finish early, complete the API using the instructions below.
 
@@ -117,4 +117,5 @@ Continue progress on the Reddit Tutorial if not yet complete.
 1. [MDN: Express Tutorial - Routes and Controllers (Review)](https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/routes)
 1. [NPM: MongoDB Driver](https://www.npmjs.com/package/mongodb)
 1. [Express.js - Production Best Practices: Performance and Reliability](https://expressjs.com/en/advanced/best-practice-performance.html)
-1. [Learn MongoDB the Hard Way: Theater Reservations](http://learnmongodbthehardway.com/schema/theater/)
+1. [How To: Test `GET` Requests Using Postman](https://support.brightcove.com/use-postman-api-requests#getRequest)
+1. [How To: Test `POST` Requests Using Postman](https://support.brightcove.com/use-postman-api-requests#getRequest)
