@@ -116,6 +116,7 @@ Continue progress on the Reddit Tutorial if not yet complete.
 
 1. [MDN: Express Tutorial - Routes and Controllers (Review)](https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/routes)
 1. [NPM: MongoDB Driver](https://www.npmjs.com/package/mongodb)
+1. [Express.js - Database Integration (MongoDB)](https://expressjs.com/en/guide/database-integration.html#mongodb)
 1. [Express.js - Production Best Practices: Performance and Reliability](https://expressjs.com/en/advanced/best-practice-performance.html)
 1. [How To: Test `GET` Requests Using Postman](https://support.brightcove.com/use-postman-api-requests#getRequest)
 1. [How To: Test `POST` Requests Using Postman](https://support.brightcove.com/use-postman-api-requests#getRequest)
