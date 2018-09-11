@@ -36,14 +36,14 @@ We'll expand upon our collective knowledge by implementing an **entire Theater R
     // server.js - Theater Reservation API
 
     var express = require('express');
-    var router = express.Router();
+    var app = express();
 
     // Example stub:
-    router.get('/theater/name-of-route', function(req, res) {
+    app.get('/theater/name-of-route', function(req, res) {
       res.json({'stub': `[${req.originalUrl}] Endpoint works! Replace me in Step 2.`});
     });
 
-    module.exports = router;
+    app.listen(3000, () => console.log('Example app listening on port 3000!'));
     ```
 
 1. **Test all your routes** and ensure they work as expected. Use an application like [Postman](https://www.getpostman.com/apps) to test `GET`, `POST`', `PUT`, `DELETE`, and other RESTful routes that you implemented in Step 5. _NOTE: after break, you'll be plugging in the required code to ensure your API can persist data!_
