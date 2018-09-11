@@ -54,7 +54,7 @@ We'll expand upon our collective knowledge by implementing an **entire Theater R
 ## In Class Activity - Part 2: Integrating MongoDB (50 Minutes)
 
 1. `npm install mongodb`
-1. Paste the following code into your `app.js` file to facilitate the connection to your local MongoDB database.
+1. Paste the following code into your `server.js` file to facilitate the connection to your local MongoDB database.
     * (Optional) **Stretch Challenge**: Complete tutorial, but convert the provided tutorial solutions to leverage an ODM: for example, Mongoose.
     ```JavaScript
     const MongoClient = require('mongodb').MongoClient;
