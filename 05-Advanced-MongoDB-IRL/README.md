@@ -40,7 +40,7 @@ We'll expand upon our collective knowledge by implementing an **entire Theater R
 
     // Example stub:
     app.get('/theater/name-of-route', function(req, res) {
-      res.json({'stub': `[${req.originalUrl}] Endpoint works! Replace me in Step 2.`});
+      res.json({'stub': `[${req.originalUrl}] Endpoint works! Replace me in Part 2.`});
     });
 
     app.listen(3000, () => console.log('Example app listening on port 3000!'));
