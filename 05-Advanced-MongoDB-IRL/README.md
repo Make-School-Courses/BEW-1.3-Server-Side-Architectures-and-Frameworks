@@ -91,4 +91,5 @@ Continue progress on the Reddit Tutorial if not yet complete.
 ## Additional Resources
 
 1. [MDN: Express Tutorial - Routes and Controllers (Review)](https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/routes)
+1. [Express.js - Production Best Practices: Performance and Reliability](https://expressjs.com/en/advanced/best-practice-performance.html)
 1. [Learn MongoDB the Hard Way: Theater Reservations](http://learnmongodbthehardway.com/schema/theater/)
