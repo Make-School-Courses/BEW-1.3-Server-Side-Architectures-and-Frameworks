@@ -48,26 +48,33 @@ To pass this course you must meet the following requirements:
 
 1. [JavaScript Tips and Tricks](01-JavaScript-Tricks/README.md)
     - **Before Class**
+        - Prework
     - **In Class Activities**
     - **After Class**
         - Begin Reddit Tutorial
 1. [How the Internet Works: Part 2](02-How-The-Internet-Works/README.md)
     - **In Class Activities**
+        - Group Presentations
     - **After Class**
         - Reddit Tutorial
 1. [Nested Routes and Resources](03-Nested-Routes-and-Resources/README.md)
     - **In Class Activities**
     - **After Class**
         - Reddit Tutorial
-1. [Advanced Mongo Queries](04-Advanced-Mongo-Queries/README.md)
+1. [Persistence Levels](04-Persistence-Levels/README.md)
     - **In Class Activities**
+        - Blog Post: Persistence Levels
     - **After Class**
+        - Complete Blog Post
         - Reddit Tutorial
-1. [Optimizing Mongo Queries](05-Optimizing-Mongo-Queries/README.md)
+1. [Advanced Mongo Associations and Queries IRL](05-Advanced-MongoDB-IRL/README.md)
     - **In Class Activities**
+        * Part 1 - Theater Reservations API Design
+        * Part 2 - Integrate MongoDB
     - **After Class**
+        - Complete Reservations API
         - Reddit Tutorial
-1. [Persistence Levels](06-Persistence-Levels/README.md)
+1. [Optimizing Mongo Queries](06-Optimizing-Mongo-Queries/README.md)
     - **In Class Activities**
     - **After Class**
         - Reddit Tutorial

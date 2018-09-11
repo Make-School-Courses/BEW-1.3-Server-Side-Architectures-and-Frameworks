@@ -58,7 +58,7 @@ The remainder of this class period will be all about using what we've just learn
     ```markdown
     **Nested Routes: Mini-Project Requirements**:
 
-    Create a VERY SIMPLE API in Node and Express that manipulates an array of in-memory objects. If you'd like, you can use [this file](assets/api-starter.js) as a starting point.
+    Create a VERY SIMPLE API in Node and Express that manipulates an array of in-memory objects.
 
     * HINT: Recall from BEW1.1 that the HTTP methods we use help tell a great story!
         * *GET* fetches an object or a list of objects.
