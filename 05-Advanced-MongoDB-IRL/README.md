@@ -29,7 +29,23 @@ We'll expand upon our collective knowledge by implementing an **entire Theater R
 1. Read through [Learn MongoDB the Hard Way: Theater Reservations](http://learnmongodbthehardway.com/schema/theater/). As you're reading, **make notes about what routes will be required in order to create your RESTful and resourceful Theater Reservations API**.
 1. **Pseudocode the routes** based on your notes.
 1. **Compare routes** with the students around you.
-1. Begin **stubbing out** your API.
+1. Begin **stubbing out** your API in a file called `server.js`.
+  You can **use the following code as an example**:
+
+  ```JavaScript
+  // server.js - Theater Reservation API
+
+  var express = require('express');
+  var router = express.Router();
+
+  // Example stub:
+  router.get('/theater/name-of-route', function (req, res) {
+    res.json({'stub': `[${req.originalUrl}] Endpoint works! Replace me in Step 2.`});
+  });
+
+  module.exports = router;
+  ```
+
 1. **Test all your routes** and ensure they work as expected. After break, you'll be plugging in the required code to ensure your API can persist data!
 1. **Add, commit, and push your code to GitHub** before break.
 
