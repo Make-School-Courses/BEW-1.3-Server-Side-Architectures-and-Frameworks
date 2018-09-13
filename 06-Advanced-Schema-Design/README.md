@@ -65,8 +65,8 @@ Display the following table on the projector. Ask students to **fill in the blan
 
 | **URL**             | **CRUD** | **HTTP**    | **SQL**  | **MongoDB**                  | **Mongoose**                  |
 | ------------------- | -------- | ----------- |--------- | ---------------------------- | ----------------------------- |
-| `/theater/:id`      |          |             | `SELECT` |                              |                               |
-| `/theater/new`      | `POST`   | `INSERT`    |          |                              |                               |
+| `/theater/:id`      |          |             | `SELECT` |                              | `Theater.find({})`            |
+| `/theater/new`      | `POST`   | `INSERT`    |          | `db.theaters.insert()`       |                               |
 | `/theater/:id/edit` |          | `PUT`       | `UPDATE` |                              |                               |
 | `/theater/:id`      | `DELETE` |             | `DELETE` |                              |                               |
 

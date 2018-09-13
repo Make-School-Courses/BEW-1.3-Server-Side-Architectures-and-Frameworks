@@ -51,7 +51,7 @@ To pass this course you must meet the following requirements:
         - Prework
     - **In Class Activities**
         - JS/Node Challenges
-        - Introduce Tutorial 
+        - Introduce Tutorial
     - **After Class**
         - Begin Reddit Tutorial
 1. [How the Internet Works: Part 2](02-How-The-Internet-Works/README.md)
@@ -109,7 +109,7 @@ To pass this course you must meet the following requirements:
     - **In Class Activities**
     - **After Class**
         - Custom API Project: Implementation
-1. [Custom Authenticated APIs](13-Custom-Authenticated-APIs/README.md)
+1. [Documentation: Sharing the Love](13-Docsify/README.md)
     - **In Class Activities**
     - **After Class**
         - Custom API Project: Implementation
