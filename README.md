@@ -73,7 +73,7 @@ To pass this course you must meet the following requirements:
         - Reddit Tutorial
 1. [Advanced Mongo Associations and Queries IRL](05-Advanced-MongoDB-IRL/README.md)
     - **In Class Activities**
-        * Part 1 - Theater Reservations API Design _(Due: Day 7 @ 11:59pm)_
+        * Part 1 - Theater Reservations API Design
         * Part 2 - Integrate MongoDB
     - **After Class**
         - Work on Reservations API _(Due: Day 7 @ 11:59pm)_
