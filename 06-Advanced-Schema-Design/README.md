@@ -49,7 +49,7 @@ Bring the class back together and ask a few leading follow up questions:
 
 #### Instructor Do: Slides (20 Minutes)
 
-Present this [slide deck](https://www.slideshare.net/mongodb/jakes-schema-design-houston-mug-20150311) to the class as an overview.
+Present this [slide deck](https://www.slideshare.net/mongodb/database-trends-for-modern-applications-why-the-database-you-choose-matters) to the class as an overview.
 
 ### Topic 2: Schema Design Considerations
 
@@ -117,7 +117,6 @@ Continue work on both the Reddit Tutorial and the Theater Reservations API proje
 
 ## Additional Resources
 
-1. [Database Trends for Modern Applications: Why the Database You Choose Matters](https://www.slideshare.net/mongodb/database-trends-for-modern-applications-why-the-database-you-choose-matters)
 1. [Learn MongoDB the Hard Way: Schema Design](http://learnmongodbthehardway.com/schema/schemadesign/)
 1. [MongoDB CRUD Operations](https://docs.mongodb.com/manual/crud/)
 1. [MongoDB Shell Methods: Collection Methods](https://docs.mongodb.com/manual/reference/method/js-collection/)
