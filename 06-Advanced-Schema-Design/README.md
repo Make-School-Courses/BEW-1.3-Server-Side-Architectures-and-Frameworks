@@ -6,16 +6,15 @@
 | ----------- | -------- | ---------------------------|
 | 0:00        | 0:05     | Objectives                 |
 | 0:05        | 0:20     | Initial Exercise           |
-| 0:25        | 0:35     | Overview / TT / Challenges |
-| 0:55        | 0:10     | BREAK                      |
-| 1:05        | 0:40     | Activity: Continue API HW  |
+| 0:25        | 0:40     | TT: Slides / 2 Challenges  |
+| 1:05        | 0:10     | BREAK                      |
+| 1:15        | 0:30     | Activity: Continue API HW  |
 | 1:45        | 0:15     | Wrap Up                    |
 | TOTAL       | 2:00     |                            |
 
 ## Learning Objectives/Competencies (5 Minutes)
 
 1. Review MongoDB schema basics at a high-level by generating examples of popular relationships.
-1.
 1.
 
 ## Initial Exercise - Draw That DB Schema! (15 Minutes)
