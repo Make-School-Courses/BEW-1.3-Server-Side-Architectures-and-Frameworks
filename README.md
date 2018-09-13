@@ -80,6 +80,11 @@ To pass this course you must meet the following requirements:
         - Reddit Tutorial
 1. [Advanced Schema Design for Fun and Profit](06-Advanced-Schema-Design/README.md)
     - **In Class Activities**
+        - Draw That Schema!
+        - MongoDB Schema Design Considerations
+        - Acronym Glue
+        - Reservations API HW
+        - Collect Class Feedback
     - **After Class**
         - Work on Reservatons API
         - Reddit Tutorial
