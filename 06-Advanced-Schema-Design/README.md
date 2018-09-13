@@ -19,7 +19,7 @@
 
 ## Initial Exercise - Draw That DB Schema! (15 Minutes)
 
-### Students Do: Activity
+### Students Do: Activity (8 Minutes)
 
 Before class, prepare the large whiteboard with a few hand-drawn schema diagrams for reference purposes. Additionally, randomly split students into three groups. Write them on the whiteboard.
 
@@ -31,7 +31,7 @@ Distribute mini-whiteboards, and instruct each group to discuss and draw one of 
 
 Allow **7 minutes** for students to discuss and draw their assigned models.
 
-### Everyone Do: Group Discussion
+### Everyone Do: Group Discussion (7 Minutes)
 
 Once complete, **instruct students to hold up their whiteboards** in order to contrast and compare their examples with one another.
 
