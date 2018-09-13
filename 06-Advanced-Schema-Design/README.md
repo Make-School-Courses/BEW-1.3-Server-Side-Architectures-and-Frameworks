@@ -12,10 +12,12 @@
 | 1:45        | 0:15     | Wrap Up                    |
 | TOTAL       | 2:00     |                            |
 
-## Learning Objectives/Competencies (5 Minutes)
+## Learning Objectives/Competencies (2 Minutes)
 
-1. Review MongoDB schema basics at a high-level by generating examples of popular relationships.
-1.
+1. Review MongoDB schema basics at a high-level by generating examples of popular relationships as a group.
+1. Gain the ability to articulate the most common relational database patterns at an introductory level.
+1. Dive deeper into the common design considerations present when evaluating the effacacy of document based database schemas.
+1. Understand the use of MongoDB and Mongoose techniques within RESTful APIs.
 
 ## Initial Exercise - Draw That DB Schema! (15 Minutes)
 
