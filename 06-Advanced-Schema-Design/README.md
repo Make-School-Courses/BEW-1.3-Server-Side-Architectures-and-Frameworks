@@ -12,9 +12,9 @@ Before class, prepare the large whiteboard with a few hand-drawn schema diagrams
 
 Distribute mini-whiteboards, and instruct each group to discuss and draw one of each of the following...
 
-1. (Group 1) An example of a **One-to-One _(1:1)_** relationship.
-1. (Group 2) An example of a **One-To-Many _(1:N)_** relationship.
-1. (Group 3) An example of a **Many-to-Many _(N:N)_** relationship.
+1. (Group 1) As many examples of **One-to-One _(1:1)_** relationships as you can.
+1. (Group 2) As many examples of **One-To-Many _(1:N)_** relationship as you can.
+1. (Group 3) As many examples of **Many-to-Many _(N:N)_** relationship as you can.
 
 Allow **7 minutes** for students to discuss and draw their assigned models.
 
@@ -42,11 +42,22 @@ Be sure to offer students a mini code review.
 
 ## Wrap Up (15 Minutes)
 
-### Poll Everywhere (8 Minutes)
+### Instructor Do: Setup (0-3 Minutes)
+
+**NOTE**: Try to complete this during activity time to ensure a smooth transition.
+
+* Before wrapping up class, set up Poll Everywhere.
+* Ensure students can submit anonymous feedback.
+* Make the poll live.
+* Write the poll's URL on the whiteboard: make.sc/dani-poll
+* Project the live results of poll submission.
+
+### Students Do: Poll Everywhere (8 Minutes)
 
 You've been delegated a new task at work. Your mission? Teach the latest group of incoming junior programmers the advanced MongoDB concepts required on the job. You have four hours to accomplish this task. How would you approach the mission?
 
 ### Discuss Results as a Class (7 Minutes)
+
 After 8 minutes have passed, project the anonymous results on the screen. Utilize the remainder of the class period to candidly and openly discuss each feedback item as they fade in. 
 
 ## After Class
