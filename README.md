@@ -125,12 +125,7 @@ To pass this course you must meet the following requirements:
 
 ## Readings and Resources
 
-- [You Don't Know JS - Up and Going](https://github.com/getify/You-Dont-Know-JS/blob/master/up%20&%20going/README.md#you-dont-know-js-up--going)
-- [You Don't Know JS - Scope and Closures](https://github.com/getify/You-Dont-Know-JS/blob/master/scope%20&%20closures/README.md#you-dont-know-js-scope--closures)
-- [Mastering Node JS](http://visionmedia.github.io/masteringnode/book.html)
-- [Node Express ](https://anotheruiguy.gitbooks.io/nodeexpreslibsass_from-scratch/content/)
-- [The Node.js Way - How `require()` Actually Works](http://fredkschott.com/post/2014/06/require-and-the-module-system/)
-- [MDN: Modules](https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/Introduction)
+- See the **Additional Resources** section at the bottom of each day's lesson plan for the most up-to-date, helpful resources for that class period!
 
 ## Make School Course Policies
 
