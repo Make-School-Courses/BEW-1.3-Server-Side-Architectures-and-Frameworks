@@ -16,7 +16,7 @@ Class Sessions:  14 classes, 7 labs
 
 ## Prerequisites
 
-1. BEW 1.1
+1. [BEW 1.1](http://make.sc/bew1-1)
 
 ## Learning Objectives or Competencies (5-8)
 
@@ -69,23 +69,25 @@ To pass this course you must meet the following requirements:
     - **In Class Activities**
         - Blog Post: Persistence Levels
     - **After Class**
-        - Complete Blog Post
+        - Complete Blog Post _(Due: Day 4 @ 11:59pm)_
         - Reddit Tutorial
 1. [Advanced Mongo Associations and Queries IRL](05-Advanced-MongoDB-IRL/README.md)
     - **In Class Activities**
-        * Part 1 - Theater Reservations API Design
+        * Part 1 - Theater Reservations API Design _(Due: Day 7 @ 11:59pm)_
         * Part 2 - Integrate MongoDB
     - **After Class**
-        - Complete Reservations API
+        - Work on Reservations API _(Due: Day 7 @ 11:59pm)_
         - Reddit Tutorial
-1. [Optimizing Mongo Queries](06-Optimizing-Mongo-Queries/README.md)
+1. [Advanced Schema Design for Fun and Profit](06-Advanced-Schema-Design/README.md)
     - **In Class Activities**
     - **After Class**
+        - Work on Reservatons API
         - Reddit Tutorial
 1. [Authentication Sessions vs. JWT](07-Authentication-Sessions-vs-JWT/README.md)
     - **In Class Activities**
         - [Challenges](https://github.com/Product-College-Courses/BEW-1.2-Authentication-and-Associations/tree/master/07-Authentication-Sessions-vs-JWT#challenges)
     - **After Class**
+        - Custom API Project: Brainstorm Ideas
         - Reddit Tutorial
 1. [Authentication with Sessions and Cookies](08-Authenticaton-with-Sessions-and-Cookies/README.md)
     - **In Class Activities**
