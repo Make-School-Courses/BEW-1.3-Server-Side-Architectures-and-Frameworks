@@ -15,7 +15,7 @@
 ## Learning Objectives/Competencies (5 Minutes)
 
 1. Review MongoDB schema basics at a high-level by generating examples of popular relationships.
-2. 
+2.
 
 ## Initial Exercise - Draw That DB Schema! (15 Minutes)
 
@@ -31,7 +31,7 @@ Distribute mini-whiteboards, and instruct each group to discuss and draw one of 
 
 Allow **7 minutes** for students to discuss and draw their assigned models.
 
-### Everyone Do: Group Discussion 
+### Everyone Do: Group Discussion
 
 Once complete, **instruct students to hold up their whiteboards in order to contrast and compare their examples with one another.
 
@@ -63,20 +63,20 @@ Bring the class back together and ask a few leading follow up questions:
 
 Display the following table on the projector. Ask students to **fill in the blanks** below for each row.
 
-| **CRUD** | **HTTP** | **SQL** |-**MongoDB**------------------|-**Mongoose**------------------|
-| ---------| -------- | --------|------------------------------|-------------------------------|
-| CREATE   | POST     | INSERT  |                              |                               |
-| READ     |          | SELECT  |                              |                               |
-|          | PUT      | UPDATE  |                              |                               |
-|          | DELETE   |         |                              |                               |
+| **URL**             | **CRUD** | **HTTP**    | **SQL**  | **MongoDB**                  | **Mongoose**                  |
+| ------------------- | -------- | ----------- |--------- | ---------------------------- | ----------------------------- |
+| `/theater/:id`      |          |             | `SELECT` |                              |                               |
+| `/theater/new`      | `POST`   | `INSERT`    |          |                              |                               |
+| `/theater/:id/edit` |          | `PUT`       | `UPDATE` |                              |                               |
+| `/theater/:id`      | `DELETE` |             | `DELETE` |                              |                               |
 
 ## BREAK (10 Minutes)
 
 ## In Class Activity I: Theater Reservations API Continued (40 Minutes)
 
-Continue working on the Theater Reservations API that was assigned last class period. 
+Continue working on the Theater Reservations API that was assigned last class period.
 
-Remind students that this time is ideal for consulting with peers or asking in depth questions of the instructor. 
+Remind students that this time is ideal for consulting with peers or asking in depth questions of the instructor.
 
 Be sure to offer students a mini code review.
 
@@ -98,7 +98,7 @@ You've been delegated a new task at work. Your mission? Teach the latest group o
 
 ### Everyone Do: Discuss Results as a Class (7 Minutes)
 
-After 8 minutes have passed, project the anonymous results on the screen. Utilize the remainder of the class period to candidly and openly discuss each feedback item as they fade in. 
+After 8 minutes have passed, project the anonymous results on the screen. Utilize the remainder of the class period to candidly and openly discuss each feedback item as they fade in.
 
 ## After Class
 
