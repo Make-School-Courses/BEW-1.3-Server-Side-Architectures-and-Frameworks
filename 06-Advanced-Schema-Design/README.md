@@ -33,7 +33,7 @@ Allow **7 minutes** for students to discuss and draw their assigned models.
 
 ### Everyone Do: Group Discussion
 
-Once complete, **instruct students to hold up their whiteboards in order to contrast and compare their examples with one another.
+Once complete, **instruct students to hold up their whiteboards** in order to contrast and compare their examples with one another.
 
 Bring the class back together and ask a few leading follow up questions:
 
