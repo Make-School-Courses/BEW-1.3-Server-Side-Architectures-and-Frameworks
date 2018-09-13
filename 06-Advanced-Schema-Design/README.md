@@ -1,12 +1,25 @@
 # Day 6: Advanced Schema Design for Fun and Profit
 
-## Learning Objectives/Competencies
+## Minute-by-Minute
 
-1. Review MongoDB schema basics at a high-level.
+| **Elapsed** | **Time** | **Activity**               |
+| ----------- | -------- | ---------------------------|
+| 0:00        | 0:05     | Objectives                 |
+| 0:05        | 0:20     | Initial Exercise           |
+| 0:25        | 0:30     | Overview / TT / Challenges |
+| 0:55        | 0:10     | BREAK                      |
+| 1:05        | 0:40     | Activity: Continue API HW  |
+| 1:45        | 0:15     | Wrap Up                    |
+| TOTAL       | 2:00     |                            |
+
+## Learning Objectives/Competencies (5 Minutes)
+
+1. Review MongoDB schema basics at a high-level by generating examples of popular relationships.
+2. 
 
 ## Initial Exercise - Draw That DB Schema! (15 Minutes)
 
-### Activity
+### Students Do: Activity
 
 Before class, prepare the large whiteboard with a few hand-drawn schema diagrams for reference purposes. Additionally, randomly split students into three groups. Write them on the whiteboard.
 
@@ -18,7 +31,7 @@ Distribute mini-whiteboards, and instruct each group to discuss and draw one of 
 
 Allow **7 minutes** for students to discuss and draw their assigned models.
 
-### Group Discussion 
+### Everyone Do: Group Discussion 
 
 Once complete, **instruct students to hold up their whiteboards in order to contrast and compare their examples with one another.
 
@@ -32,21 +45,30 @@ Bring the class back together and ask a few leading follow up questions:
 
 ### Topic 1
 
-#### Slides 1-5 (5 Minutes)
+#### Instructor Do: Slides 1-5 (5 Minutes)
 
-#### Mini Challenge I (5 Minutes)
+#### Students Do: Mini Challenge I (5 Minutes)
 
 ### Topic 2
 
-#### Slides 5-10 (5 Minutes)
+#### Instructor Do: Slides 5-10 (5 Minutes)
 
-#### Mini Challenge II (5 Minutes)
+#### Students Do: Mini Challenge II (5 Minutes)
 
-### Topic 3 
+### Topic 3: CRUD? REST? DBs? TLDR PLZ!
 
-#### Slides 10-15 (5 Minutes)
+#### Instructor Do: Slides 10-15 (5 Minutes)
 
-#### Mini Challenge III (5 Minutes)
+#### Students Do: Mini Challenge III: Acroynm Glue (5 Minutes)
+
+Display the following table on the projector. Ask students to **fill in the blanks** below for each row.
+
+| **CRUD** | **HTTP** | **SQL** |-**MongoDB**------------------|-**Mongoose**------------------|
+| ---------| -------- | --------|------------------------------|-------------------------------|
+| CREATE   | POST     | INSERT  |                              |                               |
+| READ     |          | SELECT  |                              |                               |
+|          | PUT      | UPDATE  |                              |                               |
+|          | DELETE   |         |                              |                               |
 
 ## BREAK (10 Minutes)
 
@@ -74,7 +96,7 @@ Be sure to offer students a mini code review.
 
 You've been delegated a new task at work. Your mission? Teach the latest group of incoming junior programmers the advanced MongoDB concepts required on the job. You have four hours to accomplish this task. How would you approach the mission?
 
-### Discuss Results as a Class (7 Minutes)
+### Everyone Do: Discuss Results as a Class (7 Minutes)
 
 After 8 minutes have passed, project the anonymous results on the screen. Utilize the remainder of the class period to candidly and openly discuss each feedback item as they fade in. 
 
