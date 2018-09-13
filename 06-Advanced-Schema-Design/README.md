@@ -6,7 +6,7 @@
 | ----------- | -------- | ---------------------------|
 | 0:00        | 0:05     | Objectives                 |
 | 0:05        | 0:20     | Initial Exercise           |
-| 0:25        | 0:30     | Overview / TT / Challenges |
+| 0:25        | 0:35     | Overview / TT / Challenges |
 | 0:55        | 0:10     | BREAK                      |
 | 1:05        | 0:40     | Activity: Continue API HW  |
 | 1:45        | 0:15     | Wrap Up                    |
@@ -15,7 +15,8 @@
 ## Learning Objectives/Competencies (5 Minutes)
 
 1. Review MongoDB schema basics at a high-level by generating examples of popular relationships.
-2.
+1.
+1.
 
 ## Initial Exercise - Draw That DB Schema! (15 Minutes)
 
@@ -43,17 +44,15 @@ Bring the class back together and ask a few leading follow up questions:
 
 ## Overview / TT: Schema Slides & Mini Challenges (30 Minutes)
 
-### Topic 1
+### Topic 1: Data Modeling and Schema Design for Document DBs
 
-#### Instructor Do: Slides 1-5 (5 Minutes)
+#### Instructor Do: Slides (20 Minutes)
 
-#### Students Do: Mini Challenge I (5 Minutes)
+Present this [slide deck](https://www.slideshare.net/mongodb/jakes-schema-design-houston-mug-20150311) to the class as an overview.
 
 ### Topic 2: Schema Design Considerations
 
-#### Instructor Do: Slides 5-10 (5 Minutes)
-
-#### Students Do: Mini Challenge II (5 Minutes)
+#### Students Do: Mini Challenge II (10 Minutes)
 
 * Ask students to pair up.
 * Instruct students to take a moment and individually read the following assigned paragraph(s):
@@ -66,8 +65,7 @@ Bring the class back together and ask a few leading follow up questions:
     * [Custom _id Field](http://learnmongodbthehardway.com/schema/schemadesign/#custom-id-field)
 
 * After reading, discuss with your partner.
-* **Challenge**: Can you simplify the concept in your own words? Strive for two to three sentences that enhance understanding of the concept. Slack out your responses in the `#bew1-2` channel when complete.
-
+* **Challenge**: Can you simplify the concept in your own words? Strive for two to three sentences that enhance understanding of what we should look out for when implementing a MongoDB database. Slack out your responses in the `#bew1-2` channel when complete.
 
 ### Topic 3: CRUD? REST? DBs? TLDR PLZ!
 
@@ -84,7 +82,7 @@ Display the following table on the projector. Ask students to **fill in the blan
 
 ## BREAK (10 Minutes)
 
-## In Class Activity I: Theater Reservations API Continued (40 Minutes)
+## In Class Activity I: Theater Reservations API Continued (30 Minutes)
 
 Continue working on the Theater Reservations API that was assigned last class period.
 
@@ -114,12 +112,12 @@ After 8 minutes have passed, project the anonymous results on the screen. Utiliz
 
 ## After Class
 
-Continue work on the Reddit Tutorial. It's due next class!
+Continue work on both the Reddit Tutorial and the Theater Reservations API project. **Both are due the next day we meet at 11:59pm!**
 
 ## Additional Resources
 
 1. [Learn MongoDB the Hard Way: Schema Design](http://learnmongodbthehardway.com/schema/schemadesign/)
-1. [Learn MongoDB the Hard Way: MMAP Storage Engine](http://learnmongodbthehardway.com/schema/mmap.mmark/)
-1. [Learn MongoDB the Hard Way: WiredTiger Storage Engine](http://learnmongodbthehardway.com/schema/wiredtiger/)
+1. [MongoDB CRUD Operations](https://docs.mongodb.com/manual/crud/)
 1. [MongoDB Shell Methods: Collection Methods](https://docs.mongodb.com/manual/reference/method/js-collection/)
 1. [Mongoose: Models](https://mongoosejs.com/docs/models.html)
+1. [The MongoDB Engineering Journal](https://engineering.mongodb.com)
