@@ -5,14 +5,14 @@
 | **Elapsed** | **Time** | **Activity**               |
 | ----------- | -------- | ---------------------------|
 | 0:00        | 0:05     | Objectives                 |
-| 0:05        | 0:20     | Initial Exercise           |
-| 0:25        | 0:40     | TT: Slides / 2 Challenges  |
-| 1:05        | 0:10     | BREAK                      |
-| 1:15        | 0:30     | Activity: Continue API HW  |
-| 1:45        | 0:15     | Wrap Up                    |
-| TOTAL       | 2:00     |                            |
+| 0:05        | 0:15     | Initial Exercise           |
+| 0:20        | 0:40     | TT: Slides / 2 Challenges  |
+| 1:00        | 0:10     | BREAK                      |
+| 1:10        | 0:30     | Activity: Continue API HW  |
+| 1:40        | 0:15     | Wrap Up                    |
+| TOTAL       | 1:55     |                            |
 
-## Learning Objectives/Competencies (2 Minutes)
+## Learning Objectives/Competencies (5 Minutes)
 
 1. Review MongoDB schema basics at a high-level by generating examples of popular relationships as a group.
 1. Gain the ability to articulate the most common relational database patterns at an introductory level.
