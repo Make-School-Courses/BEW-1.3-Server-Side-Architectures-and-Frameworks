@@ -49,17 +49,29 @@ Bring the class back together and ask a few leading follow up questions:
 
 #### Students Do: Mini Challenge I (5 Minutes)
 
-### Topic 2
+### Topic 2: Schema Design Considerations
 
 #### Instructor Do: Slides 5-10 (5 Minutes)
 
 #### Students Do: Mini Challenge II (5 Minutes)
 
+* Ask students to pair up.
+* Instruct students to take a moment and individually read the following assigned paragraph(s):
+    * [Read Ratio to Write Ratio](http://learnmongodbthehardway.com/schema/schemadesign/#read-ratio-to-write-ratio)
+    * [Avoid Application Joins](http://learnmongodbthehardway.com/schema/schemadesign/#avoid-application-joins)
+    * [Pre-aggregate Data](http://learnmongodbthehardway.com/schema/schemadesign/#preaggregate-data) and [Pre-allocated Documents (MMAP)](http://learnmongodbthehardway.com/schema/schemadesign/#preallocated-documents-mmap)
+    * [Avoid Growing Documents (MMAP)](http://learnmongodbthehardway.com/schema/schemadesign/#avoid-growing-documents-mmap) and [Avoid Updating Whole Documents (MMAP)](http://learnmongodbthehardway.com/schema/schemadesign/#avoid-updating-whole-documents-mmap)
+    * [Field Names Take up Space (MMAP)](http://learnmongodbthehardway.com/schema/schemadesign/#field-names-take-up-space-mmap)
+    * [Over Eager Indexing](http://learnmongodbthehardway.com/schema/schemadesign/#over-eager-indexing) and [Covered Indexes](http://learnmongodbthehardway.com/schema/schemadesign/#covered-indexes)
+    * [Custom _id Field](http://learnmongodbthehardway.com/schema/schemadesign/#custom-id-field)
+
+* After reading, discuss with your partner.
+* **Challenge**: Can you simplify the concept in your own words? Strive for two to three sentences that enhance understanding of the concept. Slack out your responses in the `#bew1-2` channel when complete.
+
+
 ### Topic 3: CRUD? REST? DBs? TLDR PLZ!
 
-#### Instructor Do: Slides 10-15 (5 Minutes)
-
-#### Students Do: Mini Challenge III: Acroynm Glue (5 Minutes)
+#### Students Do: Mini Challenge III: Acroynm Glue (10 Minutes)
 
 Display the following table on the projector. Ask students to **fill in the blanks** below for each row.
 
@@ -109,3 +121,5 @@ Continue work on the Reddit Tutorial. It's due next class!
 1. [Learn MongoDB the Hard Way: Schema Design](http://learnmongodbthehardway.com/schema/schemadesign/)
 1. [Learn MongoDB the Hard Way: MMAP Storage Engine](http://learnmongodbthehardway.com/schema/mmap.mmark/)
 1. [Learn MongoDB the Hard Way: WiredTiger Storage Engine](http://learnmongodbthehardway.com/schema/wiredtiger/)
+1. [MongoDB Shell Methods: Collection Methods](https://docs.mongodb.com/manual/reference/method/js-collection/)
+1. [Mongoose: Models](https://mongoosejs.com/docs/models.html)
