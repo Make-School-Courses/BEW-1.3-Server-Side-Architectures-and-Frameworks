@@ -1,4 +1,4 @@
-# Day X: Advanced Schema Design
+# Day 6: Advanced Schema Design for Fun and Profit
 
 ## Learning Objectives/Competencies
 
@@ -28,7 +28,25 @@ Bring the class back together and ask a few leading follow up questions:
 1. _Which schema do you think would be the most difficult to implement in the real world?_
 1. _How would you decide which schema to choose?_
 
-## Overview / TT (20 Minutes)
+## Overview / TT: Schema Slides & Mini Challenges (30 Minutes)
+
+### Topic 1
+
+#### Slides 1-5 (5 Minutes)
+
+#### Mini Challenge I (5 Minutes)
+
+### Topic 2
+
+#### Slides 5-10 (5 Minutes)
+
+#### Mini Challenge II (5 Minutes)
+
+### Topic 3 
+
+#### Slides 10-15 (5 Minutes)
+
+#### Mini Challenge III (5 Minutes)
 
 ## BREAK (10 Minutes)
 
