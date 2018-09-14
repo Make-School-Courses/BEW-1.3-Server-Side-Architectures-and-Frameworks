@@ -43,7 +43,9 @@ We'll expand upon our collective knowledge by implementing an **entire Theater R
       res.json({'stub': `[${req.originalUrl}] Endpoint works! Replace me in Part 2.`});
     });
 
-    app.listen(3000, () => console.log('Example app listening on port 3000!'));
+    app.listen(3000, () => {
+      console.log('Example app listening on port 3000!'));
+    }
     ```
 
 1. **Test all of your routes** and ensure they work as expected. Use an application like [Postman](https://www.getpostman.com/apps) to test `GET`, `POST`', `PUT`, `DELETE`, and other RESTful routes that you implemented in Step 5. _NOTE: after break, you'll be plugging in the required code to ensure your API can persist data!_
@@ -57,23 +59,21 @@ We'll expand upon our collective knowledge by implementing an **entire Theater R
 1. Paste the following code into your `server.js` file to facilitate the connection to your local MongoDB database.
     * (Optional) **Stretch Challenge**: Complete tutorial, but convert the provided tutorial solutions to leverage an ODM: for example, Mongoose.
     ```JavaScript
+    // Paste this at the top of `server.js`
     const MongoClient = require('mongodb').MongoClient;
     const assert = require('assert');
-
-    // Connection URL
+  
     const url = 'mongodb://localhost:27017';
-
-    // Database Name
     const dbName = 'myproject';
+    let db;
 
-    // Use connect method to connect to the server
+    // Use connect method to connect to the server.
+    // Paste this inside `app.listen` callback!
     MongoClient.connect(url, function(err, client) {
       assert.equal(null, err);
       console.log("Connected successfully to server");
 
-      const db = client.db(dbName);
-
-      client.close();
+      db = client.db(dbName);
     });
     ```
 1. Complete **each step** of the [Learn MongoDB the Hard Way: Theater Reservations](http://learnmongodbthehardway.com/schema/theater/) tutorial.
@@ -89,7 +89,7 @@ Remind students that the completed Reddit Tutorial is due in one week!
 
 ### Complete Reservations API (Due: Next Tuesday at 11:59PM)
 
-1. Add a `README` to the repo. The `README` should have **at least three headers populated with details about the repository**. Please use the following template to get started:
+1. Add a `README` to the repo. The `README` should have **at least three headers populated with details about the repository**. This is **your chance** to **explain the reasoning behind your implementation**! Please use the following template to get started:
 
     ```markdown
     # Dani's Theater API: Persisting Reservations via Express/MongoDB
