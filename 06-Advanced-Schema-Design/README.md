@@ -43,7 +43,7 @@ Bring the class back together and ask a few leading follow up questions:
 1. _Which schema do you think would be the most complex to implement in the real world?_
 1. _How would you decide which schema to choose?_
 
-## Overview / TT: Schema Slides & Mini Challenges (30 Minutes)
+## Overview / TT: Schema Slides & Mini Challenges (50 Minutes)
 
 ### Topic 1: Data Modeling and Schema Design for Document DBs
 
@@ -53,7 +53,7 @@ Present this [slide deck](https://www.slideshare.net/mongodb/database-trends-for
 
 ### Topic 2: Schema Design Considerations
 
-#### Students Do: Mini Challenge II (10 Minutes)
+#### Students Do: Mini Challenge II (15 Minutes)
 
 * Ask students to pair up.
 * Instruct students to take a moment and individually read the following assigned paragraph(s):
@@ -70,7 +70,7 @@ Present this [slide deck](https://www.slideshare.net/mongodb/database-trends-for
 
 ### Topic 3: CRUD? REST? DBs? TLDR PLZ!
 
-#### Students Do: Mini Challenge III: Acroynm Glue (10 Minutes)
+#### Students Do: Mini Challenge III: Acroynm Glue (15 Minutes)
 
 Display the following table on the projector. Ask students to **fill in the blanks** below for each row.
 
@@ -83,7 +83,7 @@ Display the following table on the projector. Ask students to **fill in the blan
 
 ## BREAK (10 Minutes)
 
-## In Class Activity I: Theater Reservations API Continued (30 Minutes)
+## In Class Activity I: Theater Reservations API Continued (20 Minutes)
 
 Continue working on the Theater Reservations API that was assigned last class period.
 
