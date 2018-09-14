@@ -115,6 +115,8 @@ To pass this course you must meet the following requirements:
         - Custom API Project: Write Authentication and Authorization Tests
 1. [Custom Authenticated APIs](12-Custom-Authenticated-APIs/README.md)
     - **In Class Activities**
+        - Checking In/Q&A: Your API Project Status
+        - Everyone Do: API Project Implementation Time
     - **After Class**
         - Custom API Project: Implementation
 1. [Documentation: Sharing the Love](13-Docsify/README.md)
