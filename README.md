@@ -96,6 +96,7 @@ To pass this course you must meet the following requirements:
         - Reddit Tutorial
 1. [Authentication with Sessions and Cookies](08-Authenticaton-with-Sessions-and-Cookies/README.md)
     - **In Class Activities**
+        - [Challenges](08-Authentication-with-Sessions-and-Cookies#challenges)
     - **After Class**
         - Custom API Project: Proposal
 1. [TDD](09-TDD/README.md)
