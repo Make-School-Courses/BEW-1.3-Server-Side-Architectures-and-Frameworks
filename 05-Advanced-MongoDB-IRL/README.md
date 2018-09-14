@@ -78,7 +78,7 @@ We'll expand upon our collective knowledge by implementing an **entire Theater R
     ```
 1. Complete **each step** of the [Learn MongoDB the Hard Way: Theater Reservations](http://learnmongodbthehardway.com/schema/theater/) tutorial.
 1. **Fill in the empty routes** created in Part 1 with the **relevant code** from **each step of the tutorial**.
-    * (Optional) **Stretch Challenge**: Sharding and Performance sections are intended as **bonus points**! They exist to understand the ramifications of the current implementation.
+    * (Optional) **Stretch Challenge**: Sharding and Performance sections are intended as **bonus points**! They exist to understand the ramifications of the current implementation. We'll learn more about real world database schemas and performance next class period!
 1. **Test each your routes** with an application like Postman and ensure they work as expected --- in other words, is the data persistant? Is the API working in the same way the tutorial describes?
 1. **Add, commit, and push your code to GitHub** to complete the coding portion of the activity.
 1. If you finish early, complete the API using the instructions below.
