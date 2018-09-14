@@ -116,6 +116,7 @@ To pass this course you must meet the following requirements:
         - Custom API Project: Implementation
 1. [Documentation: Sharing the Love](13-Docsify/README.md)
     - **In Class Activities**
+        - Everyone Do: Make a Documentation Site Together - Step by Step
     - **After Class**
         - Custom API Project: Implementation
 1. [Deployment](14-Deployment/README.md)
