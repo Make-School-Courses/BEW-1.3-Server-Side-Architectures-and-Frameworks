@@ -6,11 +6,11 @@
 | ----------- | -------- | ---------------------------|
 | 0:00        | 0:05     | Objectives                 |
 | 0:05        | 0:15     | Initial Exercise           |
-| 0:20        | 0:40     | TT: Slides / 2 Challenges  |
-| 1:00        | 0:10     | BREAK                      |
-| 1:10        | 0:30     | Activity: Continue API HW  |
-| 1:40        | 0:15     | Wrap Up                    |
-| TOTAL       | 1:55     |                            |
+| 0:20        | 0:50     | TT: Slides / 2 Challenges  |
+| 1:10        | 0:10     | BREAK                      |
+| 1:20        | 0:20     | Activity: Continue API HW  |
+| 2:00        | 0:15     | Wrap Up                    |
+| TOTAL       | 2:00     |                            |
 
 ## Learning Objectives/Competencies (5 Minutes)
 
@@ -35,12 +35,12 @@ Allow **7 minutes** for students to discuss and draw their assigned models.
 
 ### Everyone Do: Group Discussion (7 Minutes)
 
-Once complete, **instruct students to hold up their whiteboards** in order to contrast and compare their examples with one another.
+Once complete, **instruct students to hold up their whiteboards** in order to contrast and compare their examples with one another. Call on each group and write down student examples underneath the ones you drew before class to add context to each relationship and their diagram.
 
 Bring the class back together and ask a few leading follow up questions:
 
 1. _Which examples did you find most relatable?_
-1. _Which schema do you think would be the most difficult to implement in the real world?_
+1. _Which schema do you think would be the most complex to implement in the real world?_
 1. _How would you decide which schema to choose?_
 
 ## Overview / TT: Schema Slides & Mini Challenges (30 Minutes)
