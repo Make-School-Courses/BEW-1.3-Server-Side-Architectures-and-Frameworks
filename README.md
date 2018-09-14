@@ -100,14 +100,17 @@ To pass this course you must meet the following requirements:
         - Custom API Project: Proposal
 1. [TDD](09-TDD/README.md)
     - **In Class Activities**
+        - [Challenges](09-TDD/README.md#challenges)
     - **After Class**
         - Custom API Project: Write Tests
 1. [Authorization](10-Authorization/README.md)
     - **In Class Activities**
+        - [Challenges](10-Authorization#challenges)
     - **After Class**
         - Custom API Project: Write Tests
 1. [Testing Authentication and Authorization](11-Testing-Authentication-and-Authorization/README.md)
     - **In Class Activities**
+        - [Challenges](11-Testing-Authentication-and-Authorization/README.md#challenges)
     - **After Class**
         - Custom API Project: Write Authentication and Authorization Tests
 1. [Custom Authenticated APIs](12-Custom-Authenticated-APIs/README.md)
