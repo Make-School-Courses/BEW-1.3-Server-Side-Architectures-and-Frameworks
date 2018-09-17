@@ -1,4 +1,4 @@
-# Web 2 Class 9 - Testing Intro
+# Day 9: Testing
 
 This class will provide an introduction to unit testing with JavaScript.
 
