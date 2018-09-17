@@ -1,5 +1,16 @@
 # Day 1: JavaScript Tips and Tricks
 
+## Minute-by-Minute
+
+| **Elapsed** | **Time**  | **Activity**              |
+| ----------- | --------- | ------------------------- |
+| 0:00        | 0:05      | Objectives                |
+| 0:05        | 0:15      | Overview                  |
+| 0:20        | 0:45      | In Class Activity I       |
+| 1:05        | 0:10      | BREAK                     |
+| 1:15        | 0:45      | In Class Activity II      |
+| TOTAL       | 2:00      |                           |
+
 ## Learning Objectives/Competencies (5 Minutes)
 
 1. Introduce course structure and purpose.
@@ -11,7 +22,7 @@
 1. Present [instructor intro](../00-Intro/README.md) and overview to class.
 1. Open class up for questions or concerns after discussing course introduction.
 
-## In Class Activity I
+## In Class Activity I (45 Minutes)
 
 ### Think, Pair, Share: JS/Node Challenges (30 Minutes)
 
@@ -23,7 +34,7 @@
 1. Spend 15 minutes discussing unaddressed questions as a class.
 1. Write them down as a shared classroom asset and point back to them during class as each point appears in lesson plans.
 
-## In Class Activity II
+## In Class Activity II (45 Minutes)
 
 ### TT (10 Minutes)
 
@@ -34,7 +45,7 @@
 
 Students will begin working on the Reddit tutorial in-class. Instructor will be available to address student questions, concerns, or feedback.
 
-## Wrap Up (5 Minutes)
+## Wrap Up
 
 * Announce that we'll be tracking our knowledge regarding the challenges discussed during the first in-class activity.
 * Introduce topics for tomorrow: How the Internet Works, Part 2.
