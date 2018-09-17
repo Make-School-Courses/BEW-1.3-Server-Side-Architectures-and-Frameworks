@@ -23,8 +23,8 @@ Class Sessions:  14 classes, 7 labs
 Students by the end of the course will be able to ...
 
 1. Diagram and implement resource associations using a document-based database.
-1. Write advanced MongoDB queries with a focus on optimium performance and efficiency.
-1. Discern between differing levels of persistance and the use cases that best fit each.
+1. Write advanced MongoDB queries with a focus on optimum performance and efficiency.
+1. Discern between differing levels of persistence and the use cases that best fit each.
 1. Implement authentication using JWT tokens and sessions.
 1. Invent, create, test, deploy, and deliver a custom, fully secured API!
 
