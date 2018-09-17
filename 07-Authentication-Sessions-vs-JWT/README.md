@@ -11,10 +11,9 @@
 | 1:55        | 0:05      | Intro HW: API Project     |
 | TOTAL       | 2:00      |                           |
 
-
 ## Objectives (5 Minutes)
 
-1. Compare and contrast a cookie-session and JSON Web Token (JWT) authentication.
+1. Compare and contrast a cookie based session and JSON Web Token (JWT) authentication.
 1. Use `express-jwt` to add JWT authentication to an express server.
 
 ## Overview (25 Minutes)
@@ -29,38 +28,39 @@ Typically legacy web technologies use the Cookie-Session method of authenticatio
 
 ![jwt-diagram.png](jwt-diagram.png)
 
-### Why Use JWT?
+### Why Use JWT
 
 Aren't you tired of worrying about keeping track of all these things?
 
-1. Sessions - JWT doesn't require sessions
-1. Cookies - JWT you just save the token to the client
-1. CSRF - Send the JWT instead of a CSRF token
-1. CORS - Forget about it, if your JWT is valid, the data is on its way
+1. Sessions - JWT doesn't require sessions.
+1. Cookies - JWT you just save the token to the client.
+1. CSRF - Send the JWT instead of a CSRF token.
+1. CORS - Forget about it, if your JWT is valid, the data is on its way.
 
 Also these benefits:
 
-1. Speed - you don't have to look up the session
-1. Storage - you don't have to store the session
-1. Mobile Ready - Apps don't let you set cookies but they can save auth tokens
+1. Speed - you don't have to look up the session.
+1. Storage - you don't have to store the session.
+1. Mobile Ready - Apps don't let you set cookies but they can save auth tokens.
 1. Testing - you don't have to make logging in a special case in your tests, just send the token.
 
 ### Authentication Process
 
 1. A client sends a request for authentication including credentials.
-  - A typical scenario is logging in. The crednetials supplied are username and password.
-2. The sever receives credentials. Verifying the credentials the server issues a token
-to the client.
-  - The token is a hash. It also contains a secret string or key. The secret key can only
-  be unencrypted by the server.
+    - A typical scenario is logging in.
+    - The credentials supplied are username and password.
+2. The sever receives credentials. Verifying the credentials the server issues a token to the client.
+    - The token is a hash.
+    - It also contains a secret string or key.
+    - The secret key can only be unencrypted by the server.
 3. The client includes the token whenever requesting restricted resources.
 4. The server verifies the token with each request.
 
 ### JWT FTW
 
-A JWT is pretty easy to identify. It is three strings separated by .
+A JWT is pretty easy to identify. It is **three strings separated by `.`**:
 
-```
+```js
   aaaaaaaaaa.bbbbbbbbbbb.cccccccccccc
 ```
 
@@ -68,7 +68,7 @@ Each part has a different significance:
 
 ![jwt](jwt.png)
 
-### Example:
+### Example
 
 #### Header
 
@@ -101,7 +101,8 @@ HMACSHA256(encodedString, 'secret');
 > **REMEMBER** The 'secret' acts as an encryption string known only by the two parties communicating via JWT. Protect your secrets!
 
 #### JSON Web Token
-```
+
+```js
 eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzY290Y2guaW8iLCJleHAiOjEzMDA4MTkzODAsIm5hbWUiOiJDaHJpcyBTZXZpbGxlamEiLCJhZG1pbiI6dHJ1ZX0.03f329983b86f7d9a9f5fef85305880101d5e302afafa20154d094b229f75773
 ```
 
@@ -116,8 +117,7 @@ In short JWT a is a format made of three parts.
 - payload
 - secret key
 
-The token is hashed/encrypted as a string of characters that can only be decryted by a
-computer that has access to the secret key.
+The token is hashed/encrypted as a string of characters that can only be decrypted by a computer that has access to the secret key.
 
 ## Challenges (75 Minutes)
 
@@ -161,7 +161,6 @@ computer that has access to the secret key.
         });
       });
     });
-
 
     UserSchema.methods.comparePassword = function(password, done) {
       bcrypt.compare(password, this.password, function(err, isMatch) {
@@ -221,8 +220,8 @@ computer that has access to the secret key.
     ```
 
 1. **Test a Secure a Route** - Make a new route called `/bananas`, and have it send back the text "I love bananas". Now navigate to it without being logged in.
-1. Repeat the above process for the `/login` route.
-1. Can you create a link/button that when you click it the client logs out?
+1. **Repeat the above process** for the **`/login` route**.
+1. Can you **create a link/button** that, _when clicked_, **logs the user out**?
 
 ## After Class
 

@@ -73,8 +73,8 @@ To pass this course you must meet the following requirements:
         - Reddit Tutorial
 1. [Advanced Mongo Associations and Queries IRL](05-Advanced-MongoDB-IRL/README.md)
     - **In Class Activities**
-        * Part 1 - Theater Reservations API Design
-        * Part 2 - Integrate MongoDB
+        - Part 1 - Theater Reservations API Design
+        - Part 2 - Integrate MongoDB
     - **After Class**
         - Work on Reservations API _(Due: Day 7 @ 11:59pm)_
         - Reddit Tutorial
@@ -86,7 +86,7 @@ To pass this course you must meet the following requirements:
         - Reservations API HW
         - Collect Class Feedback
     - **After Class**
-        - Work on Reservatons API
+        - Work on Reservations API
         - Reddit Tutorial
 1. [Authentication Sessions vs. JWT](07-Authentication-Sessions-vs-JWT/README.md)
     - **In Class Activities**
@@ -137,7 +137,7 @@ To pass this course you must meet the following requirements:
 ## Make School Course Policies
 
 [Academic Honesty](https://github.com/Product-College-Courses/Common-Syllabus-Sections/blob/master/Academic-Honesty-and-Plagiarism.md)<br>
-[Accomodation Policy](https://github.com/Product-College-Courses/Common-Syllabus-Sections/blob/master/Accommodation-Policy.md)<br>
+[Accommodation Policy](https://github.com/Product-College-Courses/Common-Syllabus-Sections/blob/master/Accommodation-Policy.md)<br>
 [Diversity Statement](https://github.com/Product-College-Courses/Common-Syllabus-Sections/blob/master/Diversity-Statement.md)<br>
 [Evaluation Methods](https://github.com/Product-College-Courses/Common-Syllabus-Sections/blob/master/Evaluation-Methods.md)<br>
 [Title IX Disclaimer](https://github.com/Product-College-Courses/Common-Syllabus-Sections/blob/master/Evaluations-Title-X-Disclaimer.md)<br>

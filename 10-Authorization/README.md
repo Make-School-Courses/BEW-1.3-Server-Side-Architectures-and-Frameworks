@@ -18,7 +18,7 @@
 
 ## Overview (20 Minutes)
 
-We are using securely signed Json Web Tokens (JWT) to authenticate our users access to our APIs. We can have webhooks that are only accessible by people who are logged in and can prove it with verifiable, signed JWT's.
+We are using securely signed JSON Web Tokens (JWT) to authenticate our users access to our APIs. We can have webhooks that are only accessible by people who are logged in and can prove it with verifiable, signed JWT's.
 
 However, what about making your site look different if a user is logged in or logged out? Or what if you have different types of users that should see things a little differently?
 
@@ -44,7 +44,7 @@ jQuery lets you easily select elements from the DOM and make changes to them, in
 
 ## Challenges (60 Minutes)
 
-1. **Hiding Login/Signup Links** - Here is a psuedocode plan in plain English for how to hide your login and signup links when a user is logged in. Try to implement it with jQuery.
+1. **Hiding Login/Signup Links** - Here is a pseudocode plan in plain English for how to hide your login and signup links when a user is logged in. Try to implement it with jQuery.
     ```bash
     If login/signup is successful, hide all HTML elements with the class `.unauthenticated` and show all HTML elements with the class `.authenticated`.
     ```

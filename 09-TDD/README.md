@@ -1,7 +1,5 @@
 # Day 9: Testing
 
-This class will provide an introduction to unit testing with JavaScript.
-
 ## Minute-by-Minute
 
 | **Elapsed** | **Time**  | **Activity**              |
@@ -44,7 +42,7 @@ In short, TDD follows this cycle:
 
 TDD offers some advantages. It can increase productivity and help avoid the writing of unnecessary code. It also avoids errors and defects, and lengthy debugging sessions.
 
-- [Wikipedia: Test-Driven Development](https://en.wikipedia.org/wiki/Test-driven_development)
+* [Wikipedia: Test-Driven Development](https://en.wikipedia.org/wiki/Test-driven_development)
 
 TDD does NOT solve all of the your problems for you. Some things are difficult to test, UI interactions for example. **Some tests are difficult to write and evaluate**. Using TDD you might feel you are spending large amounts of time writing tests, code which doesn't go  directly into your finished product.
 
@@ -68,7 +66,7 @@ You can see this is code but it also is clearly read in english describing impor
 
 The goal of testing is to define software features that the app will have to meet, and test those features to confirm the code works as expected. `Mocha.js` is a testing framework that works with `Node.js`. Mocha **runs tests and displays the results**. Mocha **doesn't** handle assertions. Instead, it **allows you** to **define your own assertions** or **use your favorite library**.
 
-### What's an Assertion?
+### Defining an Assertion
 
 > **Assertion**
 > 1. a confident and forceful statement of fact or belief.
@@ -78,19 +76,19 @@ In software testing, an `assertion` states what the programmer _expects_, failin
 
 ### Assertion Libraries
 
-- `should.js`
-- `expect.js`
-- `chai.js`
+* `should.js`
+* `expect.js`
+* `chai.js`
 
-### What Should You Test?
+### What Should Be Tested
 
-- Everything (that can be tested)
+**_Everything!_** (that _can_ be tested)
 
-Okay there are things that are difficult to test, which doesn't necessarily mean that you should not test them. That said use common sense when defining tests.
+Okay --- there are things that are difficult to test, which doesn't necessarily mean that you shouldn't test them! Use common sense when defining tests.
 
-If you think of a feature think of a test for that feature. **Any function that takes input and provides output can and should be tested!**
+If you think of a feature, begin thinking of a test for that feature. **Any function that takes input and provides output can and should be tested!**
 
-### What is a Good Test?
+### Good vs. Bad Tests
 
 A test should focus on **one** thing. That is, 1 test = 1 feature or code path.
 
@@ -217,15 +215,13 @@ Learn more about reporters [here](https://mochajs.org/#reporters).
 
 ### Challenges
 
-#### Setup
-
-Set up a new Node JS project.
+#### Setup a New Node Project
 
 1. Create a folder.
 1. `npm init`
 1. Add dependencies.
-  - mocha
-  - chai
+    * `mocha`
+    * `chai`
 1. Define a test script.
 1. Add a file to hold your code.
 1. Add a test file.
@@ -234,9 +230,9 @@ Set up a new Node JS project.
 
 Imagine you just got a job with a MeasureIt.com. They want to create an app that measures everything. You'll need some methods that can return measurements.
 
-- Area should return the area of a rectangle.
-- Perimeter should return the perimeter of a rectangle.
-- Should return the area of a circle with radius.
+* Area should return the area of a rectangle.
+* Perimeter should return the perimeter of a rectangle.
+* Should return the area of a circle with radius.
 
 You'll start by writing failing tests for these methods. Then write functions that make the tests pass.
 
@@ -309,10 +305,9 @@ an item is.
 
 * Set up your tests run your code. All tests should be pending.
 * Solve each test case one at a time by following the TDD pattern.
-    * Write functions that handle the test case. The functions should return a value the test case can evaluate.
-    * Run your tests. If the first case passes move on to the next, if not revise your code and test again.
-* Solving one test case may break a previously working case. In this case
-  refactor and test again.
+  * Write functions that handle the test case. The functions should return a value the test case can evaluate.
+  * Run your tests. If the first case passes move on to the next, if not revise your code and test again.
+* Solving one test case may break a previously working case. In this case refactor and test again.
 
 ## After Class
 

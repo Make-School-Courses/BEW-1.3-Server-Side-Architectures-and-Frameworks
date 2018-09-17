@@ -72,5 +72,3 @@ It's time to get creative and write the authenticated API of your dreams!
 ### Heroku Deployment
 
 * Make sure the `Access-Control-Allow-Origin` header is set to `*` so that requests to your API can be made from any domain!
-
-
