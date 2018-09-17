@@ -27,6 +27,6 @@
 
 ## After Class
 
-Add documentation to your Custom API project based on what we learned in class today.
+Add documentation to your [Custom API Project](../Projects/02-Custom-API-Project.md) based on what we learned in class today.
 
 ## Additional Resources

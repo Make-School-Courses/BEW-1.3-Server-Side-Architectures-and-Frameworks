@@ -57,7 +57,7 @@ jQuery lets you easily select elements from the DOM and make changes to them, in
 
 ## API Project (25 Minutes)
 
-Allow students to work on their API projects for the remainder of the period.
+Allow students to work on their [Custom API Project](../Projects/02-Custom-API-Project.md) for the remainder of the period.
 
 ## After Class
 

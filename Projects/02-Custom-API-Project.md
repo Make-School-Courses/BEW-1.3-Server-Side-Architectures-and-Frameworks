@@ -22,8 +22,8 @@ It's time to get creative and write the authenticated API of your dreams!
 
 1. The API must be hosted in a **public GitHub repository**.
 1. The project repository **should not expose any secrets**!
-1. The API must have a discernable theme or **serve a distinct purpose**. See the [Examples](#Examples) for well-themed and purposed APIs.
-1. The final project must be **deployed and fully accessible** via the internet.
+1. The API must have a discernible theme or **serve a distinct purpose**. See the [Examples](#Examples) for well-themed and purposed APIs.
+1. The final project must be **deployed and fully accessible** via the internet and **callable via any consumer**.
 1. The final project must be **fully documented**.
 1. The final project must contain a **single page brochure site** that explains what the API does and a link to the API's documentation.
 1. Must **develop the API using a TDD approach** as discussed in class on [Day 9](../09-TDD/README.md). A **sample daily outline** is provided to assist you in planning your sprint:
@@ -35,6 +35,10 @@ It's time to get creative and write the authenticated API of your dreams!
     * **Day 12**: Implement API.
     * **Day 13**: Implement API.
     * **Day 14**: Documentation and deployment.
+
+### Stretch Challenges
+
+1. Deploy API and brochure site over HTTPS.
 
 ## Phases and Deadlines
 
@@ -59,12 +63,14 @@ It's time to get creative and write the authenticated API of your dreams!
 * [Adorable Avatars](http://avatars.adorable.io) - Beautiful brochure site, easy to use and direct API. Great docs and FAQ!
 * [JSONPlaceholder](http://jsonplaceholder.typicode.com) - Clean and minimalist one page site and documentation for a very simple API. Love the 'Try It!' buttons!
 
-## Deployment Notes
+## Implementation Notes
 
-### Heroku
+### `dotenv` - Keeping Secrets Safe
 
-Make sure the `Access-Control-Allow-Origin` header is set to `*` so that requests to your API can be made from any domain!
+* Look into the [dotenv](https://www.npmjs.com/package/dotenv) package on NPM. This package will allow you to store secrets in a `.env` file that you deliberately add to the project's `.gitignore` file. Be sure to **read the documentation** fully!
 
-## Stretch Challenges
+### Heroku Deployment
 
-1. Deploy API and brochure site over HTTPS.
+* Make sure the `Access-Control-Allow-Origin` header is set to `*` so that requests to your API can be made from any domain!
+
+

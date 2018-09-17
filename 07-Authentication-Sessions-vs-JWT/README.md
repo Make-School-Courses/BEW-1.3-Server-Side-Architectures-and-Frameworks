@@ -226,7 +226,7 @@ computer that has access to the secret key.
 
 ## After Class
 
-Read through the requirements, and begin brainstorming ideas for your  [Custom Authenticated API Project](../Projects/02-Custom-API-Project.md).
+Read through the requirements, and begin brainstorming ideas for your  [Custom API Project](../Projects/02-Custom-API-Project.md).
 
 ## Additional Resources
 

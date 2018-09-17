@@ -316,6 +316,6 @@ an item is.
 
 ## After Class
 
-Practice TDD by implementing test cases for your custom API project.
+Practice TDD by implementing test cases for your [Custom API Project](../Projects/02-Custom-API-Project.md).
 
 ## Additional Resources

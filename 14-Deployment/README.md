@@ -1,4 +1,4 @@
-# Day 14: API Deployment
+# Day 14: Going Live, Living the Dream
 
 ## Minute-by-Minute
 
@@ -27,6 +27,6 @@
 
 ## After Class
 
-Deploy your custom API project utilizing what we learned in class today.
+Deploy your [Custom API Project](../Projects/02-Custom-API-Project.md)  utilizing what we learned in class today.
 
 ## Additional Resources

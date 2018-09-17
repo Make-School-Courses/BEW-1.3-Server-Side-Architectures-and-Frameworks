@@ -15,13 +15,13 @@
 
 ## In Class Activity I (60 Minutes)
 
-Students will continue working on their API project.
+Students will continue working on their [Custom API Project](../Projects/02-Custom-API-Project.md).
 
 ## BREAK (10 Minutes)
 
 ## In Class Activity II (50 Minutes)
 
-Students will continue working on their API project.
+Students will continue working on their [Custom API Project](../Projects/02-Custom-API-Project.md).
 
 ## After Class
 
