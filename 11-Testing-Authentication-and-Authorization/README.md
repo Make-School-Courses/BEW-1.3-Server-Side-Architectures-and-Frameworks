@@ -7,11 +7,11 @@
 | 0:00        | 0:05      | Objectives                |
 | 0:05        | 0:20      | Initial Exercise          |
 | 0:25        | 0:20      | Overview                  |
-| 0:00        | 0:20      | In Class Activity I       |
+| 0:00        | 0:25      | In Class Activity I       |
 | 0:00        | 0:10      | BREAK                     |
 | 0:00        | 0:00      | In Class Activity II      |
 | 0:00        | 0:00      | Wrap Up                   |
-| TOTAL       | 0:75      |                           |
+| TOTAL       | 0:80      |                           |
 
 ## Learning Objectives/Competencies (5 Minutes)
 
@@ -33,9 +33,77 @@ If you **finish the reflection early**, further **discuss, compare, and contrast
 
 ## Overview / TT (20 Minutes)
 
-## In Class Activity I (20 Minutes)
+### Walkthrough: Integration Testing
 
-### Sinon + Mocha + Chai Setup
+#### Syntax
+
+##### `describe`
+
+##### `it`
+
+##### `beforeEach`
+
+##### `afterEach`
+
+#### Test Fixtures
+
+## In Class Activity I (25 Minutes)
+
+### Sinon Setup / Challenges
+
+1. Create a new Node project:
+
+    ```bash
+    mkdir new-project && cd new-project
+    npm init
+    ```
+
+1. Install Mocha, Chai, and Sinon dependencies:
+
+    ```bash
+    npm install --save-dev mocha
+    npm install --save-dev chai
+    npm install --save-dev sinon
+    ```
+
+1. Create a new `test` folder inside your Node project, with a `test.sample.js` file inside:
+
+    ```bash
+    mkdir test && touch test.sample.js
+    ```
+
+1. Add the following code to `sample.test.js`:
+
+    ```js
+    // FILE: sample.test.js
+
+    // TODO: Add required imports here.
+
+    function greaterThanFive(num) {
+        if (num > 5) return true;
+        return false;
+    }
+
+    describe('Example Sinon Stub', () => {
+        it('should pass', (done) => {
+            const greaterThanFive = sinon.stub().returns('something');
+            greaterThanFive(0).should.eql('something');
+            greaterThanFive(0).should.not.eql(false);
+            done();
+        });
+    });
+    ```
+1. Run the tests to ensure they pass.
+
+    ```bash
+    $ npm test
+
+    Example Sinon Stub
+    ✓ should pass
+    ```
+
+1. **Challenge**: Can you import the external libraries required to make the above test case run?
+1. **Challenge**: Can you create a more sophisticated function, then write the corresponding test(s)?
 
 ## BREAK (10 Minutes)
 
@@ -56,3 +124,5 @@ Continue to practice Test Driven Development by **implementing authentication an
 * [GitHub: JS Mocking Demo Repo](https://github.com/harrymt/js-mocking-demo) - **Example repository** containing **working code** that **integrates `Mocha`, `Chai`, and `SinonJS`**.
 * [GitHub: Mocha, Chai and SinonJS Example Repo](https://github.com/joykare/testing-node-apps) - The **commits** on this repo are **very descriptive**. You can **use them to see different testing scenarios** in action.
 * [GitHub: `chai-as-promised` Library](https://github.com/domenic/chai-as-promised) - **Chai as Promised** extends Chai with a fluent language for **asserting facts about promises**.
+* [Stubbing HTTP Requests with Sinon](https://mherman.org/blog/stubbing-http-requests-with-sinon/)
+* [Stubbing Node Authentication Middleware with Sinon](https://mherman.org/blog/stubbing-node-authentication-middleware-with-sinon/)
