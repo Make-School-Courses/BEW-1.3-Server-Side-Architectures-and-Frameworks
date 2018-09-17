@@ -13,8 +13,6 @@
 
 1. Students will use this class period to work on their API projects with their peers.
 
-## Overview / TT (XX Minutes)
-
 ## In Class Activity I (60 Minutes)
 
 Students will continue working on their API project.
@@ -28,5 +26,3 @@ Students will continue working on their API project.
 ## After Class
 
 Continue implementation!
-
-## Additional Resources
