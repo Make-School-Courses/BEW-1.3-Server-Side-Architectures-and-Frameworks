@@ -1,10 +1,12 @@
-# Authentication with JWT (JSON Web Tokens) in Node
+# Day 7: Authentication with JWT (JSON Web Tokens) in Node
 
-### Objectives
+## Objectives
 * Compare and contrast a cookie-session and JSON webtoken (JWT) authentication
 * Use `express-jwt` to add JWT authentication to your express server
 
-## Background
+## Overview (XX Minutes)
+
+### Background
 
 Typically legacy web technologies use the Cookie-Session method of authentication;
 however, there is a better way to do communicate authentication. This new way will
@@ -18,7 +20,7 @@ to use an encrypted chunk of JSON called a **JSON Web Token** or JWT
 
 ![jwt-diagram.png](jwt-diagram.png)
 
-## Why Use JWT?
+### Why Use JWT?
 
 Aren't you tired of worrying about keeping track of all these things?
 
@@ -34,7 +36,18 @@ Also these benefits:
 1. Mobile Ready - Apps don't let you set cookies but they can save auth tokens
 1. Testing - you don't have to make logging in a special case in your tests, just send the token.
 
-## JWT FTW
+### Authentication Process
+
+1. A client sends a request for authentication including credentials.
+  - A typical scenario is logging in. The crednetials supplied are username and password.
+2. The sever receives credentials. Verifying the credentials the server issues a token
+to the client.
+  - The token is a hash. It also contains a secret string or key. The secret key can only
+  be unencrypted by the server.
+3. The client includes the token whenever requesting restricted resources.
+4. The server verifies the token with each request.
+
+### JWT FTW
 
 A JWT is pretty easy to identify. It is three strings separated by .
 
@@ -46,7 +59,7 @@ Each part has a different significance:
 
 ![jwt](jwt.png)
 
-### Here is a JWT Example:
+### Example:
 
 #### Header
 
@@ -83,12 +96,19 @@ HMACSHA256(encodedString, 'secret');
 eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzY290Y2guaW8iLCJleHAiOjEzMDA4MTkzODAsIm5hbWUiOiJDaHJpcyBTZXZpbGxlamEiLCJhZG1pbiI6dHJ1ZX0.03f329983b86f7d9a9f5fef85305880101d5e302afafa20154d094b229f75773
 ```
 
-## Further Reading
+#### Notes
 
-- [jwt.io](http://jwt.io/)
-- [Atlassian JWT docs](https://developer.atlassian.com/static/connect/docs/latest/concepts/understanding-jwt.html)
-- [scotch.io tutorial](https://scotch.io/tutorials/the-anatomy-of-a-json-web-token)
-- [JWT Express Node Mongoose](http://blog.matoski.com/articles/jwt-express-node-mongoose/)
+JSON Web Token (JWT) is a method of representing claims between two parties. Think of it like a
+receipt that is recognized by the issuer.
+
+In short JWT a is a format made of three parts.
+
+- algorithm
+- payload
+- secret key
+
+The token is hashed/encrypted as a string of characters that can only be decryted by a
+computer that has access to the secret key.
 
 ## Challenges
 
@@ -190,37 +210,16 @@ eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzY290Y2guaW8iLCJleHAiOjEzMDA4MTk
   ```
 1. **Test a Secure a Route** - Make a new route called `/bananas`, and have it send back the text "I love bananas". Now navigate to it without being logged in.
 
-1. Ok now do all the above again but for `/login`.
+1. Repeat the above process for the `/login` route.
 1. Can you create a link/button that when you click it the client logs out?
-
-
-
-## Notes
-
-JSON Web Token (JWT) is a method of representing claims between two parties. Think of it like a
-receipt that is recognized by the issuer.
-
-In short JWT a is a format made of three parts.
-
-- algorithm
-- payload
-- secret key
-
-The token is hashed/encrypted as a string of characters that can only be decryted by a
-computer that has access to the secret key.
-
-### Authentication Process
-
-1. A client sends a request for authentication including credentials.
-  - A typical scenario is logging in. The crednetials supplied are username and password.
-2. The sever receives credentials. Verifying the credentials the server issues a token
-to the client.
-  - The token is a hash. It also contains a secret string or key. The secret key can only
-  be unencrypted by the server.
-3. The client includes the token whenever requesting restricted resources.
-4. The server verifies the token with each request.
-
 
 ## After Class
 
 Continue work on the Reddit Tutorial.
+
+## Additional Resources
+
+- [jwt.io](http://jwt.io/)
+- [Atlassian JWT docs](https://developer.atlassian.com/static/connect/docs/latest/concepts/understanding-jwt.html)
+- [scotch.io tutorial](https://scotch.io/tutorials/the-anatomy-of-a-json-web-token)
+- [JWT Express Node Mongoose](http://blog.matoski.com/articles/jwt-express-node-mongoose/)

@@ -6,11 +6,11 @@
 | ----------- | -------- | ---------------------------|
 | 0:00        | 0:05     | Objectives                 |
 | 0:05        | 0:15     | Initial Exercise           |
-| 0:20        | 0:40     | TT: Slides / 2 Challenges  |
-| 1:00        | 0:10     | BREAK                      |
-| 1:10        | 0:30     | Activity: Continue API HW  |
-| 1:40        | 0:15     | Wrap Up                    |
-| TOTAL       | 1:55     |                            |
+| 0:20        | 0:50     | TT: Slides / 2 Challenges  |
+| 1:10        | 0:10     | BREAK                      |
+| 1:20        | 0:20     | Activity: Continue API HW  |
+| 2:00        | 0:15     | Wrap Up                    |
+| TOTAL       | 2:00     |                            |
 
 ## Learning Objectives/Competencies (5 Minutes)
 
@@ -35,25 +35,25 @@ Allow **7 minutes** for students to discuss and draw their assigned models.
 
 ### Everyone Do: Group Discussion (7 Minutes)
 
-Once complete, **instruct students to hold up their whiteboards** in order to contrast and compare their examples with one another.
+Once complete, **instruct students to hold up their whiteboards** in order to contrast and compare their examples with one another. Call on each group and write down student examples underneath the ones you drew before class to add context to each relationship and their diagram.
 
 Bring the class back together and ask a few leading follow up questions:
 
 1. _Which examples did you find most relatable?_
-1. _Which schema do you think would be the most difficult to implement in the real world?_
+1. _Which schema do you think would be the most complex to implement in the real world?_
 1. _How would you decide which schema to choose?_
 
-## Overview / TT: Schema Slides & Mini Challenges (30 Minutes)
+## Overview / TT: Schema Slides & Mini Challenges (50 Minutes)
 
 ### Topic 1: Data Modeling and Schema Design for Document DBs
 
 #### Instructor Do: Slides (20 Minutes)
 
-Present this [slide deck](https://www.slideshare.net/mongodb/jakes-schema-design-houston-mug-20150311) to the class as an overview.
+Present this [slide deck](https://www.slideshare.net/mongodb/database-trends-for-modern-applications-why-the-database-you-choose-matters) to the class as an overview.
 
 ### Topic 2: Schema Design Considerations
 
-#### Students Do: Mini Challenge II (10 Minutes)
+#### Students Do: Mini Challenge II (15 Minutes)
 
 * Ask students to pair up.
 * Instruct students to take a moment and individually read the following assigned paragraph(s):
@@ -70,20 +70,20 @@ Present this [slide deck](https://www.slideshare.net/mongodb/jakes-schema-design
 
 ### Topic 3: CRUD? REST? DBs? TLDR PLZ!
 
-#### Students Do: Mini Challenge III: Acroynm Glue (10 Minutes)
+#### Students Do: Mini Challenge III: Acroynm Glue (15 Minutes)
 
 Display the following table on the projector. Ask students to **fill in the blanks** below for each row.
 
 | **URL**             | **CRUD** | **HTTP**    | **SQL**  | **MongoDB**                  | **Mongoose**                  |
 | ------------------- | -------- | ----------- |--------- | ---------------------------- | ----------------------------- |
 | `/theater/:id`      |          |             | `SELECT` |                              | `Theater.find({})`            |
-| `/theater/new`      | `POST`   | `INSERT`    |          | `db.theaters.insert()`       |                               |
+| `/theater/new`      |          | `POST`      |          | `db.theaters.insert()`       |                               |
 | `/theater/:id/edit` |          | `PUT`       | `UPDATE` |                              |                               |
 | `/theater/:id`      | `DELETE` |             | `DELETE` |                              |                               |
 
 ## BREAK (10 Minutes)
 
-## In Class Activity I: Theater Reservations API Continued (30 Minutes)
+## In Class Activity I: Theater Reservations API Continued (20 Minutes)
 
 Continue working on the Theater Reservations API that was assigned last class period.
 

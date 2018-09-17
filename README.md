@@ -96,26 +96,33 @@ To pass this course you must meet the following requirements:
         - Reddit Tutorial
 1. [Authentication with Sessions and Cookies](08-Authenticaton-with-Sessions-and-Cookies/README.md)
     - **In Class Activities**
+        - [Challenges](08-Authentication-with-Sessions-and-Cookies#challenges)
     - **After Class**
         - Custom API Project: Proposal
 1. [TDD](09-TDD/README.md)
     - **In Class Activities**
+        - [Challenges](09-TDD/README.md#challenges)
     - **After Class**
         - Custom API Project: Write Tests
 1. [Authorization](10-Authorization/README.md)
     - **In Class Activities**
+        - [Challenges](10-Authorization#challenges)
     - **After Class**
         - Custom API Project: Write Tests
 1. [Testing Authentication and Authorization](11-Testing-Authentication-and-Authorization/README.md)
     - **In Class Activities**
+        - [Challenges](11-Testing-Authentication-and-Authorization/README.md#challenges)
     - **After Class**
         - Custom API Project: Write Authentication and Authorization Tests
 1. [Custom Authenticated APIs](12-Custom-Authenticated-APIs/README.md)
     - **In Class Activities**
+        - Checking In/Q&A: Your API Project Status
+        - Everyone Do: API Project Implementation Time
     - **After Class**
         - Custom API Project: Implementation
 1. [Documentation: Sharing the Love](13-Docsify/README.md)
     - **In Class Activities**
+        - Everyone Do: Make a Documentation Site Together - Step by Step
     - **After Class**
         - Custom API Project: Implementation
 1. [Deployment](14-Deployment/README.md)
