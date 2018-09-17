@@ -15,6 +15,10 @@ This class will provide an introduction to unit testing with JavaScript.
 
 ## Learning Objectives/Competencies (5 Minutes)
 
+1. Provide an introduction to unit testing with JavaScript.
+1. Experience Test Driven Development and Behavior Driven Development first-hand through the use of Mocha and Chai.
+1. Practice TDD and BDD concepts via in-class pair challenges.
+
 ## Overview / TT (20 Minutes)
 
 ### Definitions
