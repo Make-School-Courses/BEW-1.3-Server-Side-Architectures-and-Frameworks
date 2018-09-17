@@ -354,7 +354,6 @@ Class Schedule
 | 20mins |110min | Talk       | Debrief and discuss TDD and BDD |
 
 
-
 ## After Class
 
 Practice TDD by implementing test cases for your custom API project.

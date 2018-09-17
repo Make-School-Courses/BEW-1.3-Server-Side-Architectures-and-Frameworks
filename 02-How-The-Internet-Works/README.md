@@ -1,11 +1,23 @@
-# How the Internet Works, Part 2
+# Day 2: How the Internet Works, Part 2
 
-## Kickoff (5 minutes)
+## Minute-by-Minute
+
+| **Elapsed** | **Time**  | **Activity**              |
+| ----------- | --------- | ------------------------- |
+| 0:00        | 0:35      | In Class Activity I       |
+| 0:35        | 0:10      | BREAK                     |
+| 0:45        | 0:45      | In Class Activity II      |
+| 1:30        | 0:20      | Wrap Up                   |
+| TOTAL       | 1:50      |                           |
+
+## In Class Activity I (35 Minutes)
+
+### Kickoff (5 Minutes)
 
 * Recap HTTP request/response cycle (Part 1).
 * Share interesting topics from Part 1 reading.
 
-## Group Research (30 minutes)
+### Group Research (30 Minutes)
 
 4 groups (4-5 students each), each research the topics listed below and prepare a 5-6 minute lesson for the class.
 
@@ -32,17 +44,23 @@
     * How does HTTPS/SSL/TLS work?
     * What is SQL injection? (if time)
 
-## Group Presentations (40 minutes)
+## BREAK (10 Minutes)
+
+## In Class Activity II (45 Minutes)
+
+### Group Presentations
 
 4 groups each present their lesson on topics above:
 
 * 5-6 minutes to present
 * 2-3 minutes Q&A
 
-## Recap (5 minutes)
+## Wrap Up (20 Minutes)
 
-* Read How the Internet Works (part 2) at make.sc/internet
+* [Read How the Internet Works (Part 2)](http://make.sc/internet).
 
 ## After Class
 
 Continue work on the Reddit Tutorial.
+
+## Additional Resources
