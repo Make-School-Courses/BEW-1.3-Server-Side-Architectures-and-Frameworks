@@ -13,15 +13,19 @@ It's time to get creative and write the authenticated API of your dreams!
 ### Functional Requirements
 
 1. At least one **nested route or resource** as covered on [Day 3](../03-Nested-Routes-and-Resources/README.md) of class.
+1. The ability to **CREATE**, **READ**, **UPDATE**, and **DELETE** the object(s) in your API.
 1. At least **one of each** endpoint: `GET`, `POST`, `PUT`, and `DELETE`.
-1. A database persistence layer (e.g. MongoDB.)
-1. The ability to **securely provision an API user** using the authorization and authentication techniques learned on Days [7](../07-Authentication-Sessions-vs-JWT/README.md), [8](../08-Authentication-with-Sessions-and-Cookies/README.md), [10](../10-Authorization/README.md), and [11](11-Testing-Authentication-and-Authorization/README.md) of class.
+1. A **database persistence layer** (e.g. MongoDB)
+1. The ability to **securely provision an API user** using the authorization and authentication techniques learned on Days [7](../07-Authentication-Sessions-vs-JWT/README.md), [8](../08-Authentication-with-Sessions-and-Cookies/README.md), [10](../10-Authorization/README.md), and [11](11-Testing-Authentication-and-Authorization/README.md) of class. **Unauthenticated users should not be able to use the API!**
 
 ### Non-Functional Requirements
 
 1. The API must be hosted in a **public GitHub repository**.
-1. The API must have a discernable theme or serve a distinct purpose. See the [Examples](#Examples) for well-themed and purposed APIs.
-1. Must develop the API using a TDD approach as discussed on [Day 9](../09-TDD/README.md). A sample daily outline is provided to assist you in planning your sprint:
+1. The API must have a discernable theme or **serve a distinct purpose**. See the [Examples](#Examples) for well-themed and purposed APIs.
+1. The final project must be **deployed and fully accessible** via the internet.
+1. The final project must be **fully documented**.
+1. The final project must contain a **single page brochure site** that explains what the API does and a link to the API's documentation.
+1. Must **develop the API using a TDD approach** as discussed in class on [Day 9](../09-TDD/README.md). A **sample daily outline** is provided to assist you in planning your sprint:
     * **Day 07**: Brainstorm ideas for your API.
     * **Day 08**: Write API proposal.
     * **Day 09**: Write API tests.
@@ -30,9 +34,6 @@ It's time to get creative and write the authenticated API of your dreams!
     * **Day 12**: Implement API.
     * **Day 13**: Implement API.
     * **Day 14**: Documentation and deployment.
-1. The final project must be **deployed and fully accessible** via the internet.
-1. The final project must be **fully documented**.
-1. The final project must contain a **single page brochure site** that explains what the API does and a link to the API's documentation.
 
 ## Phases and Deadlines
 
