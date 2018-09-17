@@ -30,9 +30,9 @@ Students by the end of the course will be able to ...
 
 ## Tutorials & Projects
 
-- [The Reddit Tutorial](https://www.makeschool.com/academy/track/reddit-clone-in-node-js)
-- A Custom Authenticated API Project
-- A Contractor or Original Web Project
+- [The Reddit Tutorial](Projects/01-Reddit-Project.md)
+- [A Custom Authenticated API Project](Projects/02-Custom-API-Project.md)
+- [A Contractor or Original Web Project](Projects/00-Custom-Project.md)
 
 ## Evaluation
 
@@ -121,7 +121,7 @@ To pass this course you must meet the following requirements:
 1. [Deployment](14-Deployment/README.md)
     - **In Class Activities**
     - **After Class**
-        - Custom API Project: Deployment
+        - Custom API Project: Documentation & Deployment
 
 ## Readings and Resources
 

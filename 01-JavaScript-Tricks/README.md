@@ -27,7 +27,7 @@
 
 ### TT (10 Minutes)
 
-1. Instruct students to spend this time reviewing the requirements and notes for the [reddit tutorial](reddit-project-notes/README.md).
+1. Instruct students to spend this time reviewing the requirements and notes for the [reddit tutorial](../Projects/01-Reddit-Project.md).
 1. Remind students that this is a good time to ask for clarification, etc on the project from peers or the instructor.
 
 ### Begin Tutorial (35 Minutes)
