@@ -66,10 +66,10 @@ If you **finish the reflection early**, further **discuss, compare, and contrast
     npm install --save-dev sinon
     ```
 
-1. Create a new `test` folder inside your Node project, with a `test.sample.js` file inside:
+1. Create a new `test` folder inside your Node project, with a `sample.test.js` file inside:
 
     ```bash
-    mkdir test && touch test.sample.js
+    mkdir test && touch sample.test.js
     ```
 
 1. Add the following code to `sample.test.js`:
