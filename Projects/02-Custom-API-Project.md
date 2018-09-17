@@ -21,6 +21,7 @@ It's time to get creative and write the authenticated API of your dreams!
 ### Non-Functional Requirements
 
 1. The API must be hosted in a **public GitHub repository**.
+1. The project repository **should not expose any secrets**!
 1. The API must have a discernable theme or **serve a distinct purpose**. See the [Examples](#Examples) for well-themed and purposed APIs.
 1. The final project must be **deployed and fully accessible** via the internet.
 1. The final project must be **fully documented**.
