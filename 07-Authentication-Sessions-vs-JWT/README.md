@@ -1,10 +1,23 @@
 # Day 7: Authentication with JWT (JSON Web Tokens) in Node
 
-## Objectives
-* Compare and contrast a cookie-session and JSON webtoken (JWT) authentication
-* Use `express-jwt` to add JWT authentication to your express server
+## Minute-by-Minute
 
-## Overview (XX Minutes)
+| **Elapsed** | **Time**  | **Activity**              |
+| ----------  | --------- | ------------------------- |
+| 0:00        | 0:05      | Objectives                |
+| 0:05        | 0:25      | TT/Overview               |
+| 0:30        | 0:10      | BREAK                     |
+| 0:40        | 0:75      | Challenges                |
+| 1:55        | 0:05      | Intro HW: API Project     |
+| TOTAL       | 2:00      |                           |
+
+
+## Objectives (5 Minutes)
+
+1. Compare and contrast a cookie-session and JSON Web Token (JWT) authentication.
+1. Use `express-jwt` to add JWT authentication to an express server.
+
+## Overview (25 Minutes)
 
 ### Background
 
@@ -96,7 +109,7 @@ HMACSHA256(encodedString, 'secret');
 eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzY290Y2guaW8iLCJleHAiOjEzMDA4MTkzODAsIm5hbWUiOiJDaHJpcyBTZXZpbGxlamEiLCJhZG1pbiI6dHJ1ZX0.03f329983b86f7d9a9f5fef85305880101d5e302afafa20154d094b229f75773
 ```
 
-#### Notes
+### Recap
 
 JSON Web Token (JWT) is a method of representing claims between two parties. Think of it like a
 receipt that is recognized by the issuer.
@@ -110,14 +123,13 @@ In short JWT a is a format made of three parts.
 The token is hashed/encrypted as a string of characters that can only be decryted by a
 computer that has access to the secret key.
 
-## Challenges
+## Challenges (75 Minutes)
 
 1. **Make a Controller** Create a new controller file called `auth.js` and require it in your main server file.
 1. **GET route** - In that new file, create a GET route to `/sign-up`. In your `/scripts.js` file use a `$.post()` or `$.ajax()` jQuery function to submit the serialized form data to `/sign-up`.
 1. **POST route** - Now, create a POST route to `/sign-up` and console log if you are receiving the form data in `req.body`.
 1. **Create User Model** - Once you are receiving the form data, create a `User` model in `models/user.js` and require it at the top of your `auth.js` file. Here is boilerplate code for the model (REMINDER: do not just copy and paste this code into your project. Read each line and figure out what each line does before using it.). (HINT: You will need to install the [bcryptjs](https://www.npmjs.com/package/bcryptjs) package to your project for bcrypt to work.)
-
-  ```js
+    ```js
     var mongoose = require('mongoose'),
         bcrypt = require("bcryptjs"),
         Schema = mongoose.Schema;
@@ -162,60 +174,63 @@ computer that has access to the secret key.
     };
 
     module.exports = mongoose.model('User', UserSchema);
-  ```
+    ```
+
 1. **Create the user** - Now use the `User` model to create a new user in your `/sign-up` POST route. e.g.
 
-  ```js
+    ```js
     var small = new Tank(req.body);
     small.save(function (err) {
-      if (err) return handleError(err);
-      // saved!
+    if (err) return handleError(err);
+    // saved!
     });
-  ```
+    ```
 
 1. **Create and Sign the JWT** - Now add the package [jsonwebtoken](https://github.com/auth0/node-jsonwebtoken) to your project and require it at the top of `auth.js`. Now, if the user saves successfully, use `jsonwebtoken` to create and sign a JWT and send it back to the client. Console log your token on the client.
 
-  ```js
+    ```js
     var jwt = require('jsonwebtoken');
 
     ...
     var token = jwt.sign({ _id: user._id }, 'shhhhhhared-secret');
     ...
-  ```
+    ```
+
 1. **Save the token as a cookie** - Use bower to install [js-cookie](https://github.com/js-cookie/js-cookie) to your client and reference it in your `<head>` with a `<script>` tag. Now you can use the `Cookie` object anywhere in your front end scripts. Use it to save a cookie called `token` of the data returned.
 
-  ```js
+    ```js
     Cookies.set('token', data.token);
     // IF YOU'D LIKE TO REDIRECT NOW, ADD THIS:
     window.location.href = "/";
-  ```
+    ```
+
 1. **Tell server look at cookies for JWT** - Add the [express-jwt](https://github.com/auth0/express-jwt) and the [cookie-parser](https://www.npmjs.com/package/cookie-parser) libraries to your server and include them in your main server file. Use this code to use this middleware and tell it to look at the cookie for a token. Once you save the cookie saved, can you see your cookie in "Application" tab of the Chrome web tools?
 
-  ```js
+    ```js
     var cookieParser = require('cookie-parser');
     ...
 
     app.use(cookieParser());
     app.use(jwt({
-      secret: 'shhhhhhared-secret',
-      getToken: function fromHeaderOrCookie (req) { //fromHeaderOrQuerystring
+        secret: 'shhhhhhared-secret',
+        getToken: function fromHeaderOrCookie (req) { //fromHeaderOrQuerystring
         if (req.headers.authorization && req.headers.authorization.split(' ')[0] === 'Bearer') {
-          return req.headers.authorization.split(' ')[1];
+            return req.headers.authorization.split(' ')[1];
         } else if (req.cookies && req.cookies.token) {
-          return req.cookies.token;
+            return req.cookies.token;
         }
         return null;
-      }
+        }
     }).unless({path: ['/', '/login', '/sign-up']}));
-  ```
-1. **Test a Secure a Route** - Make a new route called `/bananas`, and have it send back the text "I love bananas". Now navigate to it without being logged in.
+    ```
 
+1. **Test a Secure a Route** - Make a new route called `/bananas`, and have it send back the text "I love bananas". Now navigate to it without being logged in.
 1. Repeat the above process for the `/login` route.
 1. Can you create a link/button that when you click it the client logs out?
 
 ## After Class
 
-Continue work on the Reddit Tutorial.
+Read through the requirements, and begin brainstorming ideas for your  [Custom Authenticated API Project](../Projects/02-Custom-API-Project.md).
 
 ## Additional Resources
 
