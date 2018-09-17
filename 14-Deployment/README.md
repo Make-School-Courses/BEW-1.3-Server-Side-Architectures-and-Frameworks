@@ -1,14 +1,27 @@
-# Day X: Title
+# Day 14: API Deployment
 
-## Learning Objectives/Competencies
+## Minute-by-Minute
 
-## Initial Exercise (XX Minutes)
+| **Elapsed** | **Time**  | **Activity**              |
+| ----------- | --------- | ------------------------- |
+| 0:00        | 0:00      |                           |
+| 0:00        | 0:00      |                           |
+| 0:00        | 0:00      |                           |
+| 0:00        | 0:00      |                           |
+| 0:00        | 0:00      |                           |
+| 0:00        | 0:00      |                           |
+| 0:00        | 0:00      |                           |
+| 0:00        | 0:00      |                           |
+
+## Learning Objectives/Competencies (XX Minutes)
 
 ## Overview / TT (XX Minutes)
 
-## In Class Activity I
+## In Class Activity I (XX Minutes)
 
-## TT (XX Minutes)
+## BREAK (10 Minutes)
+
+## In Class Activity II (XX Minutes)
 
 ## Wrap Up (XX Minutes)
 

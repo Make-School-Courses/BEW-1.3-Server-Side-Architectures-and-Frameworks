@@ -1,17 +1,17 @@
-# Day XX: Class Title
+# Day 13: Documentation via Docsify
 
 ## Minute-by-Minute
 
 | **Elapsed** | **Time**  | **Activity**              |
 | ----------- | --------- | ------------------------- |
-| 0: 00       | 0: 00     |                           |
-| 0: 00       | 0: 00     |                           |
-| 0: 00       | 0: 00     |                           |
-| 0: 00       | 0: 00     |                           |
-| 0: 00       | 0: 00     |                           |
-| 0: 00       | 0: 00     |                           |
-| 0: 00       | 0: 00     |                           |
-| 0: 00       | 0: 00     |                           |
+| 0:00        | 0:00      |                           |
+| 0:00        | 0:00      |                           |
+| 0:00        | 0:00      |                           |
+| 0:00        | 0:00      |                           |
+| 0:00        | 0:00      |                           |
+| 0:00        | 0:00      |                           |
+| 0:00        | 0:00      |                           |
+| 0:00        | 0:00      |                           |
 
 ## Learning Objectives/Competencies (XX Minutes)
 
@@ -26,5 +26,7 @@
 ## Wrap Up (XX Minutes)
 
 ## After Class
+
+Add documentation to your Custom API project based on what we learned in class today.
 
 ## Additional Resources
