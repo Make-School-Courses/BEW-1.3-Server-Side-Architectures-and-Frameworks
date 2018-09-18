@@ -9,8 +9,8 @@
 | 0:25        | 0:20      | Overview                  |
 | 0:00        | 0:25      | In Class Activity I       |
 | 0:00        | 0:10      | BREAK                     |
-| 0:00        | 0:00      | In Class Activity II      |
-| 0:00        | 0:00      | Wrap Up                   |
+| 0:00        | 0:40      | In Class Activity II      |
+| 0:00        | 0:00      |                           |
 | TOTAL       | 0:80      |                           |
 
 ## Learning Objectives/Competencies (5 Minutes)
@@ -33,51 +33,55 @@ If you **finish the reflection early**, further **discuss, compare, and contrast
 
 ## Overview / TT (20 Minutes)
 
-### Walkthrough: Integration Testing
+### Integration Testing
 
-#### Syntax
+#### Setup and Syntax
 
-##### `describe`
+Picking up where we left off on [Day 9](../09-TDD/README.md), Mocha will remain our test runner of choice. Remember, by default, Mocha will run all tests present in the `test` directory of your project. If no `test` directory exists, you should manually create one, placing the `*.js` files containing your tests within that directory.
 
-##### `it`
 
-##### `beforeEach`
 
-##### `afterEach`
+#### Fixtures
 
-#### Test Fixtures
+#### Promises
 
 ## In Class Activity I (25 Minutes)
 
 ### Sinon Setup / Challenges
 
-1. Create a new Node project:
+1. Create a **new Node project**:
 
     ```bash
     mkdir new-project && cd new-project
     npm init
     ```
 
-1. Install Mocha, Chai, and Sinon dependencies:
+1. **Install Mocha, Chai, and Sinon** dependencies:
 
     ```bash
-    npm install --save-dev mocha
-    npm install --save-dev chai
-    npm install --save-dev sinon
+    npm install --save-dev mocha chai chai-http
     ```
 
-1. Create a new `test` folder inside your Node project, with a `sample.test.js` file inside:
+1. Open `package.json` and **add the following line** to the `scripts` configuration to ensure `mocha` is used when executing the `npm test` command:
+
+    ```json
+    "scripts": {
+        "test": "mocha"
+    }
+    ```
+
+1. **Create a new `test` folder** inside your Node project, and **create a file** named `sample.test.js` inside:
 
     ```bash
     mkdir test && touch sample.test.js
     ```
 
-1. Add the following code to `sample.test.js`:
+1. **Paste the following code** into the blank `sample.test.js` file:
 
     ```js
     // FILE: sample.test.js
 
-    // TODO: Add required imports here.
+    // TODO: Challenge - add the 2 required imports here.
 
     function greaterThanFive(num) {
         if (num > 5) return true;
@@ -93,7 +97,10 @@ If you **finish the reflection early**, further **discuss, compare, and contrast
         });
     });
     ```
-1. Run the tests to ensure they pass.
+
+1. **Challenge**: Can you **add the code required** at the top of `sample.test.js` to **import the referenced external libraries**, making the above test case run properly?
+
+1. **Run the tests** to ensure they pass.
 
     ```bash
     $ npm test
@@ -102,16 +109,77 @@ If you **finish the reflection early**, further **discuss, compare, and contrast
     ✓ should pass
     ```
 
-1. **Challenge**: Can you import the external libraries required to make the above test case run?
-1. **Challenge**: Can you create a more sophisticated function, then write the corresponding test(s)?
+1. **Challenge**: Using the provided code as a guide, can you **create a more sophisticated function**, then **write the corresponding test(s)**?
+    1. Create a **new file** in the `test` directory to contain your function and test(s): `challenge.test.js`.
+    1. Write a **custom function** to test.
+    1. Write a **Sinon stub** to **encapsulate your test cases**.
+    1. Write at **least two test cases** that ascertain that your new custom function works!
 
 ## BREAK (10 Minutes)
 
-## In Class Activity II (XX Minutes)
+## In Class Activity II (40 Minutes)
+
+### Example: Testing Controllers
+
+1. `app.js`
+
+    ```js
+    const express = require('express');
+    const app = express();
+    const PORT = env.process.PORT || 8080;
+
+    app.get('/', (req, res) => {
+        res.send({
+            message: 'Hello, world!'
+        });
+    });
+
+    app.listen(port, () => {
+        console.log(`Listening on localhost:${port}`);
+    })
+
+    module.exports = app;
+    ```
+
+1. `app.tests.js`
+    ```js
+    const chai = require('chai');
+    const expect = chai.expect;
+    const chaiHttp = require('chai-http');
+    const app = require('../app.js');
+
+    chai.use(chaiHttp);
+
+    // Describe is like a container for our tests.
+    describe('Hello World Route Test', () => {
+
+        // Test Case 1
+        it('Returns a 200 Response', (done) => {
+            chai.request(app)
+                .get('/')
+                .end((error, response) => {
+                    if (error) done(error);
+                    expect(response).to.have.status(200);
+                    done();
+                });
+        });
+
+        // Test Case 2
+        it('Returns a "Hello World" message', (done) => {
+            chai.request(app)
+                .get('/')
+                .end((error, response) => {
+                    if (error) done(error);
+                    expect(response.body).to.be.deep.equal({
+                        message: 'Hello, world!'
+                    });
+                    done();
+                });
+        });
+    });
+    ```
 
 ### Challenges
-
-## Wrap Up (XX Minutes)
 
 ## After Class
 
@@ -126,3 +194,4 @@ Continue to practice Test Driven Development by **implementing authentication an
 * [GitHub: `chai-as-promised` Library](https://github.com/domenic/chai-as-promised) - **Chai as Promised** extends Chai with a fluent language for **asserting facts about promises**.
 * [Stubbing HTTP Requests with Sinon](https://mherman.org/blog/stubbing-http-requests-with-sinon/)
 * [Stubbing Node Authentication Middleware with Sinon](https://mherman.org/blog/stubbing-node-authentication-middleware-with-sinon/)
+* [VSCode Extension: Mocha Sidebar](https://marketplace.visualstudio.com/items?itemName=maty.vscode-mocha-sidebar)
