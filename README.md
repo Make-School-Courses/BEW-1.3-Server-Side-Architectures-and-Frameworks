@@ -94,9 +94,9 @@ To pass this course you must meet the following requirements:
     - **After Class**
         - Custom API Project: Brainstorm Ideas
         - Reddit Tutorial
-1. [Authentication with Sessions and Cookies](08-Authenticaton-with-Sessions-and-Cookies/README.md)
+1. [Authentication with Sessions and Cookies](https://github.com/Product-College-Courses/BEW-1.2-Authentication-and-Associations/tree/master/08-Authentication-with-Sessions-and-Cookies/README.md)
     - **In Class Activities**
-        - [Challenges](08-Authentication-with-Sessions-and-Cookies#challenges)
+        - [Challenges](https://github.com/Product-College-Courses/BEW-1.2-Authentication-and-Associations/tree/master/08-Authentication-with-Sessions-and-Cookies/README.md#challenges)
     - **After Class**
         - Custom API Project: Proposal
 1. [TDD](09-TDD/README.md)
