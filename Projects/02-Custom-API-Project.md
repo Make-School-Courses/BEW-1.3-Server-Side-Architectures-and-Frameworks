@@ -4,9 +4,9 @@ It's time to get creative and write the authenticated API of your dreams!
 
 ## Objectives
 
-1. Practice the software development life cycle by completing a project from proposal to deployment with a focus on Test Driven Development practices.
-1. Utilize all the techniques learned in class in a single cohesive project.
-1. Produce a portfolio-worthy authenticated API to show off to the world!
+1. Practice the SDLC by **completing a project from proposal to deployment** with a **focus on Test Driven Development** practices.
+1. **Utilize all the techniques learned** in class **in a single cohesive project**.
+1. Produce a **portfolio-worthy authenticated API** to show off to the world!
 
 ## Requirements
 
@@ -17,6 +17,7 @@ It's time to get creative and write the authenticated API of your dreams!
 1. At least **one of each** endpoint: `GET`, `POST`, `PUT`, and `DELETE`.
 1. A **database persistence layer** (e.g. MongoDB)
 1. The ability to **securely provision an API user** using the authorization and authentication techniques learned on Days [7](../07-Authentication-Sessions-vs-JWT/README.md), [8](../08-Authentication-with-Sessions-and-Cookies/README.md), [10](../10-Authorization/README.md), and [11](11-Testing-Authentication-and-Authorization/README.md) of class. **Unauthenticated users should not be able to use the API!**
+1. Project contains a **simple, static single page brochure site** that explains what the API does and a link to the API's documentation.
 
 ### Non-Functional Requirements
 
@@ -27,14 +28,16 @@ It's time to get creative and write the authenticated API of your dreams!
 1. The API must have a discernible theme or **serve a distinct purpose**. See the [Examples](#Examples) for well-themed and purposed APIs.
 1. The final project must be **deployed and fully accessible** via the internet and **callable via any consumer**.
 1. The final project must be **fully documented**.
-1. The final project must contain a **single page brochure site** that explains what the API does and a link to the API's documentation.
+1. The final project must
 1. Must **develop the API using a TDD approach** as discussed in class on [Day 9](../09-TDD/README.md).
 
-### Stretch Challenges
+### Level Up - API + Skills (_Optional_)
 
-1. **Code Level Up**: Love integrations? Find a clever way to **utilize a third-party API _within_ your API**!
-1. **DevOps Level Up**: Deploy API and brochure site over **HTTPS**.
-1. **Networking Level Up**: Write and **post a short blog** on Medium, Hacker News, or dev.to debuting and promoting your life-changing new API! Sign up now!
+**NOTE**: `++` indicates the ability to level up the preceding skill through the following stretch challenges:
+
+1. **`Code++`**: Love integrations? Find a clever way to **utilize a third-party API _within_ your API**!
+1. **`DevOps++`**: Deploy API and brochure site over **HTTPS**.
+1. **`Networking++`**: Write and **post a short blog** on Medium, Hacker News, or dev.to debuting and promoting your life-changing new API! Sign up now!
 
 ## Example APIs
 
