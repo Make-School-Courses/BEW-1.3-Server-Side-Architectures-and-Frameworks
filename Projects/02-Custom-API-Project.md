@@ -84,3 +84,7 @@ A **sample daily outline** is provided to assist you in planning your sprint:
     * **Deliverables**:
         * Link to deployed API brochure site.
     * **Code Review 2**: Students receive after class.
+
+## Getting Started
+
+Fork the provided [**auth-api-starterpack**](https://github.com/droxey/auth-api-starterpack) repository and examine the contents to reveal the next steps!
