@@ -20,27 +20,34 @@ It's time to get creative and write the authenticated API of your dreams!
 
 ### Non-Functional Requirements
 
+1. The API must be written using the **appropriate application of RESTful techniques**.
+1. The API implementation must **follow the MVC pattern**.
 1. The API must be hosted in a **public GitHub repository**.
 1. The project repository **should not expose any secrets**!
 1. The API must have a discernible theme or **serve a distinct purpose**. See the [Examples](#Examples) for well-themed and purposed APIs.
 1. The final project must be **deployed and fully accessible** via the internet and **callable via any consumer**.
 1. The final project must be **fully documented**.
 1. The final project must contain a **single page brochure site** that explains what the API does and a link to the API's documentation.
-1. Must **develop the API using a TDD approach** as discussed in class on [Day 9](../09-TDD/README.md). A **sample daily outline** is provided to assist you in planning your sprint:
-    * **Day 07**: Brainstorm ideas for your API.
-    * **Day 08**: Write API proposal.
-    * **Day 09**: Write API tests.
-    * **Day 10**: Continue writing API tests.
-    * **Day 11**: Write Authentication and Authorization tests.
-    * **Day 12**: Implement API.
-    * **Day 13**: Implement API.
-    * **Day 14**: Documentation and deployment.
+1. Must **develop the API using a TDD approach** as discussed in class on [Day 9](../09-TDD/README.md).
 
 ### Stretch Challenges
 
 1. Deploy API and brochure site over HTTPS.
 
-## Phases and Deadlines
+## Schedule
+
+A **sample daily outline** is provided to assist you in planning your sprint:
+
+* **Day 07**: Brainstorm ideas for your API.
+* **Day 08**: Write API proposal.
+* **Day 09**: Write API tests.
+* **Day 10**: Continue writing API tests.
+* **Day 11**: Write Authentication and Authorization tests.
+* **Day 12**: Implement API.
+* **Day 13**: Implement API.
+* **Day 14**: Documentation and deployment.
+
+### Phases and Deadlines
 
 1. **Phase 1**: Proposal - **Due Day 8 @ 11:59pm**.
     * **Deliverables**:
@@ -56,7 +63,7 @@ It's time to get creative and write the authenticated API of your dreams!
         * Link to deployed API brochure site.
     * **Code Review 2**: Students receive after class.
 
-## Examples
+## Example APIs
 
 * [List of Public APIs](https://github.com/toddmotto/public-apis) - Giant list of public APIs to inspire you!
 * [The Rick and Morty API](https://rickandmortyapi.com) - Excellent single page brochure site with easy to find About and Documentation links. Very clear documentation.
