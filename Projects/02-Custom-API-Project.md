@@ -32,7 +32,26 @@ It's time to get creative and write the authenticated API of your dreams!
 
 ### Stretch Challenges
 
-1. Deploy API and brochure site over HTTPS.
+1. **Code Level Up**: Love integrations? Find a clever way to **utilize a third-party API _within_ your API**!
+1. **DevOps Level Up**: Deploy API and brochure site over **HTTPS**.
+1. **Networking Level Up**: Write and **post a short blog** on Medium, Hacker News, or dev.to debuting and promoting your life-changing new API! Sign up now!
+
+## Example APIs
+
+* [List of Public APIs](https://github.com/toddmotto/public-apis) - Giant list of public APIs to inspire you!
+* [The Rick and Morty API](https://rickandmortyapi.com) - Excellent single page brochure site with easy to find About and Documentation links. Very clear documentation.
+* [Adorable Avatars](http://avatars.adorable.io) - Beautiful brochure site, easy to use and direct API. Great docs and FAQ!
+* [JSONPlaceholder](http://jsonplaceholder.typicode.com) - Clean and minimalist one page site and documentation for a very simple API. Love the 'Try It!' buttons!
+
+## Implementation Notes
+
+### `dotenv` - Keeping Secrets Safe
+
+* Look into the [dotenv](https://www.npmjs.com/package/dotenv) package on NPM. This package will allow you to store secrets in a `.env` file that you deliberately add to the project's `.gitignore` file. Be sure to **read the documentation** fully!
+
+### Heroku Deployment
+
+* Make sure the `Access-Control-Allow-Origin` header is set to `*` so that requests to your API can be made from any domain!
 
 ## Schedule
 
@@ -62,20 +81,3 @@ A **sample daily outline** is provided to assist you in planning your sprint:
     * **Deliverables**:
         * Link to deployed API brochure site.
     * **Code Review 2**: Students receive after class.
-
-## Example APIs
-
-* [List of Public APIs](https://github.com/toddmotto/public-apis) - Giant list of public APIs to inspire you!
-* [The Rick and Morty API](https://rickandmortyapi.com) - Excellent single page brochure site with easy to find About and Documentation links. Very clear documentation.
-* [Adorable Avatars](http://avatars.adorable.io) - Beautiful brochure site, easy to use and direct API. Great docs and FAQ!
-* [JSONPlaceholder](http://jsonplaceholder.typicode.com) - Clean and minimalist one page site and documentation for a very simple API. Love the 'Try It!' buttons!
-
-## Implementation Notes
-
-### `dotenv` - Keeping Secrets Safe
-
-* Look into the [dotenv](https://www.npmjs.com/package/dotenv) package on NPM. This package will allow you to store secrets in a `.env` file that you deliberately add to the project's `.gitignore` file. Be sure to **read the documentation** fully!
-
-### Heroku Deployment
-
-* Make sure the `Access-Control-Allow-Origin` header is set to `*` so that requests to your API can be made from any domain!
