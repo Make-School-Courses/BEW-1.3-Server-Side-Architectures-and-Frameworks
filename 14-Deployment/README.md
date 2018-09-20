@@ -5,11 +5,12 @@
 | **Elapsed** | **Time**  | **Activity**              |
 | ----------- | --------- | ------------------------- |
 | 0:00        | 0:05      | Objectives                |
-| 0:15        | 0:30      | Student Deployment Q&A    |
-| 0:45        | 0:10      | BREAK                     |
-| 0:55        | 0:45      | In Class Activity I       |
-| 0:55        | 0:30      | In Class Activity II      |
-| TOTAL       | 2:00      |                           |
+| 0:05        | 0:30      | Student Deployment Q&A    |
+| 0:35        | 0:10      | BREAK                     |
+| 0:45        | 0:40      | In Class Activity I       |
+| 1:25        | 0:15      | In Class Activity II      |
+| 1:40        | 0:05      | Wrap Up                   |
+| TOTAL       | 1:45      |                           |
 
 ## Learning Objectives/Competencies (5 Minutes)
 
