@@ -81,7 +81,7 @@ A **sample daily outline** is provided to assist you in planning your sprint:
 1. **Phase 2**: Test First Approach - **Due Day 11 @ 11:59pm**.
     * **Deliverables**:
         * `/tests/` folder in repo containing TDD code and strategy.
-    * **Code Review 1**: Instructor will review TDD strategy and make notes in each student repo. This will be complete by the **start of class on Day 12**,
+    * **Code Review 1**: Instructor will review TDD strategy and make notes in each student repo. This will be complete by the **start of class on Day 12**.
 1. **Phase 3**: Final Deliverable - **Due Day 14 @ 11:59pm**.
     * **Deliverables**:
         * Link to deployed API brochure site.
