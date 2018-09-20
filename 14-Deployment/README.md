@@ -48,4 +48,4 @@ Remind students that they need to turn in their [Custom API Project](../Projects
 
 ## After Class
 
-Deploy your [Custom API Project](../Projects/02-Custom-API-Project.md) utilizing what we learned in class today.
+Deploy your [Custom API Project](../Projects/02-Custom-API-Project.md) utilizing what we learned in class today. Make sure to add your GitHub Repo link and deployed project URL to the course tracker tab titled `Custom API Project` so the instructor can review it!
