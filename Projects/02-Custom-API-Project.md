@@ -17,7 +17,9 @@ It's time to get creative and write the authenticated API of your dreams!
 1. At least **one of each** endpoint: `GET`, `POST`, `PUT`, and `DELETE`.
 1. A **database persistence layer** (e.g. MongoDB)
 1. The ability to **securely provision an API user** using the authorization and authentication techniques learned on Days [7](../07-Authentication-Sessions-vs-JWT/README.md), [8](../08-Authentication-with-Sessions-and-Cookies/README.md), [10](../10-Authorization/README.md), and [11](11-Testing-Authentication-and-Authorization/README.md) of class. **Unauthenticated users should not be able to use the API!**
+1. Project **contains documentation** explaining how to use your API.
 1. Project contains a **simple, static single page brochure site** that explains what the API does and a link to the API's documentation.
+
 
 ### Non-Functional Requirements
 
