@@ -32,6 +32,7 @@ Students by the end of the course will be able to ...
 
 - [The Reddit Tutorial](Projects/01-Reddit-Project.md)
 - [A Custom Authenticated API Project](Projects/02-Custom-API-Project.md)
+    - [Rubric](Projects/Rubrics/02-Custom-API-Project.m)
 - [A Contractor or Original Web Project](Projects/00-Custom-Project.md)
 
 ## Evaluation
@@ -49,84 +50,49 @@ To pass this course you must meet the following requirements:
 1. [JavaScript Tips and Tricks](01-JavaScript-Tricks/README.md)
     - **Before Class**
         - Prework
-    - **In Class Activities**
-        - JS/Node Challenges
-        - Introduce Tutorial
     - **After Class**
         - Begin Reddit Tutorial
 1. [How the Internet Works: Part 2](02-How-The-Internet-Works/README.md)
-    - **In Class Activities**
-        - Group Presentations
     - **After Class**
         - Reddit Tutorial
 1. [Nested Routes and Resources](03-Nested-Routes-and-Resources/README.md)
-    - **In Class Activities**
-        - API Stories
-        - Telling the Story in Code
     - **After Class**
         - Reddit Tutorial
 1. [Persistence Levels](04-Persistence-Levels/README.md)
-    - **In Class Activities**
-        - Blog Post: Persistence Levels
     - **After Class**
         - Complete Blog Post _(Due: Day 4 @ 11:59pm)_
         - Reddit Tutorial
 1. [Advanced Mongo Associations and Queries IRL](05-Advanced-MongoDB-IRL/README.md)
-    - **In Class Activities**
-        - Part 1 - Theater Reservations API Design
-        - Part 2 - Integrate MongoDB
     - **After Class**
         - Work on Reservations API _(Due: Day 7 @ 11:59pm)_
         - Reddit Tutorial
 1. [Advanced Schema Design for Fun and Profit](06-Advanced-Schema-Design/README.md)
-    - **In Class Activities**
-        - Draw That Schema!
-        - MongoDB Schema Design Considerations
-        - Acronym Glue
-        - Reservations API HW
-        - Collect Class Feedback
     - **After Class**
         - Work on Reservations API
         - Reddit Tutorial
 1. [Authentication Sessions vs. JWT](07-Authentication-Sessions-vs-JWT/README.md)
-    - **In Class Activities**
-        - [Challenges](https://github.com/Product-College-Courses/BEW-1.2-Authentication-and-Associations/tree/master/07-Authentication-Sessions-vs-JWT#challenges)
     - **After Class**
         - Custom API Project: Brainstorm Ideas
         - Reddit Tutorial
 1. [Authentication with Sessions and Cookies](https://github.com/Product-College-Courses/BEW-1.2-Authentication-and-Associations/tree/master/08-Authentication-with-Sessions-and-Cookies/README.md)
-    - **In Class Activities**
-        - [Challenges](https://github.com/Product-College-Courses/BEW-1.2-Authentication-and-Associations/tree/master/08-Authentication-with-Sessions-and-Cookies/README.md#challenges)
     - **After Class**
         - Custom API Project: Proposal
 1. [TDD](09-TDD/README.md)
-    - **In Class Activities**
-        - [Challenges](09-TDD/README.md#challenges)
     - **After Class**
         - Custom API Project: Write Tests
 1. [Authorization](10-Authorization/README.md)
-    - **In Class Activities**
-        - [Challenges](10-Authorization#challenges)
     - **After Class**
         - Custom API Project: Write Tests
 1. [Testing Authentication and Authorization](11-Testing-Authentication-and-Authorization/README.md)
-    - **In Class Activities**
-        - [Challenges](11-Testing-Authentication-and-Authorization/README.md#challenges)
     - **After Class**
         - Custom API Project: Write Authentication and Authorization Tests
 1. [Custom Authenticated APIs](12-Custom-Authenticated-APIs/README.md)
-    - **In Class Activities**
-        - Checking In/Q&A: Your API Project Status
-        - Everyone Do: API Project Implementation Time
     - **After Class**
         - Custom API Project: Implementation
 1. [Documentation: Sharing the Love](13-Docsify/README.md)
-    - **In Class Activities**
-        - Everyone Do: Make a Documentation Site Together - Step by Step
     - **After Class**
         - Custom API Project: Implementation
 1. [Deployment](14-Deployment/README.md)
-    - **In Class Activities**
     - **After Class**
         - Custom API Project: Documentation & Deployment
 

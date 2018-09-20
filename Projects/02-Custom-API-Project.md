@@ -28,8 +28,8 @@ It's time to get creative and write the authenticated API of your dreams!
 1. The API must have a discernible theme or **serve a distinct purpose**. See the [Examples](#Examples) for well-themed and purposed APIs.
 1. The final project must be **deployed and fully accessible** via the internet and **callable via any consumer**.
 1. The final project must be **fully documented**.
-1. The final project must
 1. Must **develop the API using a TDD approach** as discussed in class on [Day 9](../09-TDD/README.md).
+1. The syntax in the final project deliverable will **adhere to [Airbnb JavaScript Style Guide](https://github.com/airbnb/javascript)**.
 
 ### Level Up - API + Skills (_Optional_)
 
@@ -88,3 +88,6 @@ A **sample daily outline** is provided to assist you in planning your sprint:
 ## Getting Started
 
 Fork the provided [**auth-api-starterpack**](https://github.com/droxey/auth-api-starterpack) repository and examine the contents to reveal the next steps!
+
+## Additional Resources
+
