@@ -93,3 +93,4 @@ Fork the provided [**auth-api-starterpack**](https://github.com/droxey/auth-api-
 
 ## Additional Resources
 
+* [Grading Rubric](Rubrics/02-Custom-API-Project.md)
