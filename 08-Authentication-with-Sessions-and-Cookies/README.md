@@ -23,14 +23,14 @@ Web security with cookies, tokens, JWT, and `passport`.
 ## Review Theater Reservations API Project (20 Minutes)
 
 * Review Theater Reservations API project.
-
 * Demonstrate examples of how to solve common issues live.
-
 * Open the floor for Q&A time.
 
 ## BREAK (10 Minutes)
 
-## Challenges (60 Minutes)
+## In Class Activity I (60 Minutes)
+
+### Challenges
 
 1. Create a new node application that has secure signup, login, and encrypted password storage using `passport`.
     * You can use the [express-generator](https://expressjs.com/en/starter/generator.html) to generate a new express app rapidly.
@@ -40,16 +40,22 @@ Web security with cookies, tokens, JWT, and `passport`.
 1. Use the [GIPHY Capture Mac App](https://itunes.apple.com/us/app/giphy-capture-the-gif-maker/id668208984?mt=12) to capture a video of a successful signup and login on your local machine.
 1. Challenge is complete when you have Slacked the `#bew1-2` channel your `.gif` demonstrating your working `passport` implementation!
 
-## Stretch Challenges
+### Stretch Challenges
 
 1. Add Facebook authentication.
     * Slack a `.gif` of it working to the `#bew1-2` channel.
 1. Add Github authentication.
     * Slack a `.gif` of it working to the `#bew1-2` channel.
 
+## In Class Activity II (25 Minutes)
+
+### Begin Proposal
+
+Start your proposal for the [Custom API Project](../Projects/02-Custom-API-Project.md).
+
 ## After Class
 
-Work on your proposal for the [Custom API Project](../Projects/02-Custom-API-Project.md).
+Keep working on your proposal for the [Custom API Project](../Projects/02-Custom-API-Project.md).
 
 ## Additional Resources
 
