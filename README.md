@@ -32,7 +32,7 @@ Students by the end of the course will be able to ...
 
 - [The Reddit Tutorial](Projects/01-Reddit-Project.md)
 - [A Custom Authenticated API Project](Projects/02-Custom-API-Project.md)
-    - [Rubric](Projects/Rubrics/02-Custom-API-Project.m)
+    - [Rubric](Projects/Rubrics/02-Custom-API-Project.md)
 - [A Contractor or Original Web Project](Projects/00-Custom-Project.md)
 
 ## Evaluation
