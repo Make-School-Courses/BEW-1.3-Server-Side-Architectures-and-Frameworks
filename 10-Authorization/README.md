@@ -5,7 +5,8 @@
 | **Elapsed** | **Time**  | **Activity**              |
 | ----------  | --------- | ------------------------- |
 | 0:00        | 0:05      | Objectives                |
-| 0:05        | 0:20      | TT/Overview               |
+| 0:05        | 0:10      | Warm Up
+| 0:15        | 0:10      | TT/Overview               |
 | 0:25        | 0:10      | BREAK                     |
 | 0:35        | 0:60      | Challenges                |
 | 1:35        | 0:25      | API Project: TDD          |
@@ -16,7 +17,13 @@
 1. Explain the differences between authentication and authorization.
 1. Use jQuery to manage authorization in your app.
 
-## Overview (20 Minutes)
+## Warm Up Activity (10 Minutes)
+
+Read [this article](http://www.differencebetween.net/technology/difference-between-authentication-and-authorization/) that dives deep regarding the difference between **authentication** and **authorization**. 
+
+When you're done, **Slack a two sentence summary, in your own words, of the differences between the two** to the `#bew1-2` channel. With any remaining time, verbally discuss your summary with your peers, and compare and contrast your responses.
+
+## Overview (10 Minutes)
 
 We are using securely signed JSON Web Tokens (JWT) to authenticate our users access to our APIs. We can have webhooks that are only accessible by people who are logged in and can prove it with verifiable, signed JWT's.
 
@@ -24,7 +31,7 @@ However, what about making your site look different if a user is logged in or lo
 
 jQuery to the rescue!!!
 
-### jQuery DOM Manipulation
+### jQuery/Vanilla JS DOM Manipulation
 
 jQuery is a library that extends vanilla JavaScript. For example, the following two blocks of code do the same thing:
 
@@ -45,9 +52,9 @@ function changeBackground(color) {
 window.onload = changeBackground("red");
 ```
 
-For more information regarding the `window.onload` event, please see the [MDN Documentation: GlobalEventHandlers.onload](https://developer.mozilla.org/en-US/docs/Web/API/GlobalEventHandlers/onload).
-
 jQuery lets you easily select elements from the DOM and make changes to them, including showing or hiding them. jQuery also lets you easily make AJAX requests to your server posting or receiving data.
+
+For further details regarding the `window.onload` event, please see the [MDN Documentation: GlobalEventHandlers.onload](https://developer.mozilla.org/en-US/docs/Web/API/GlobalEventHandlers/onload).
 
 ## Challenges (60 Minutes)
 
