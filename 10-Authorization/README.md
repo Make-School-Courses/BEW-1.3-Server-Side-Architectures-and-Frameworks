@@ -26,19 +26,26 @@ jQuery to the rescue!!!
 
 ### jQuery DOM Manipulation
 
-jQuery is a library that extends vanilla JavaScript. For example, the following two lines of code do the same thing:
+jQuery is a library that extends vanilla JavaScript. For example, the following two blocks of code do the same thing:
 
 ```js
-// jQuery
-$ (‘body’) .css (‘background’, ‘#ccc’);
+// jQuery Example - Change the body background color when the DOM is finished loading.
+$(document).ready(function() {
+  // Runs when the DOM is finished loading.
+  $("body").css("background", "#ccc");
+});
+```
 
-// VANILLA JS
-Function changeBachground(color) {
-  Document.body.style.background = color;
+```js
+// Vanilla JS Example - Change the body background color when the DOM is finished loading.
+function changeBackground(color) {
+  document.body.style.background = color;
 }
 
-Onload=”changeBackground (‘red’);”
+window.onload = changeBackground("red");
 ```
+
+For more information regarding the `window.onload` event, please see the [MDN Documentation: GlobalEventHandlers.onload](https://developer.mozilla.org/en-US/docs/Web/API/GlobalEventHandlers/onload).
 
 jQuery lets you easily select elements from the DOM and make changes to them, including showing or hiding them. jQuery also lets you easily make AJAX requests to your server posting or receiving data.
 
