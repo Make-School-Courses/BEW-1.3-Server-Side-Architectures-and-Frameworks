@@ -28,7 +28,7 @@
     * What is each protocol used for?
 
 2. **Networks and Routers**
-    * How many IP addresses are there?
+    * How many IP addresses are there (IPv4)?
     * How does DHCP assign IP addresses?
     * What does NAT do for a LAN?
     * How are are packets routed?
