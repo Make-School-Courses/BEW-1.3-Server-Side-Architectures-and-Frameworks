@@ -80,15 +80,15 @@ The remainder of this class period will be all about using what we've just learn
 
 ### Part II: Swap and Integrate (20 Minutes)
 
-**Challenge**: Ask groups to "swap" code with one another by sending one another the repository URL over Slack. Each group now has a new role --- as **integration engineers**! The goal? Integrate both APIs as nested endpoints! Once complete, commit and push your code.
+**Challenge**: Ask groups to "swap" code with one another by sending one another the repository URL over Slack. Each group now has a new role --- as **integration engineers**! The goal? Fork the group's repo, then integrate a new nested endpoint, working with the code that the prior group provided! Once complete, commit and push your code.
 
 ### Part III: Peer Review (10 Minutes)
 
-**Challenge**: Ask students to commit and slack the repositories they used to implement today's activities. It's time to play the role of **code reviewer**! Select an API you didn't work on, and review the code as a group. Seek out at least one thing that could improve/seemed confusing. Leave a GitHub issue detailing your request!
+**Challenge**: Ask students to commit and slack the repositories they used to implement today's activities. It's time to play the role of **code reviewer**! Go to the original repo that you forked, and together as a group, leave a single GitHub Issue that reviews the code. What did the implementers do well? How was your experience working with their code? Seek out at least one thing that could improve/seemed confusing.
 
 ## Wrap Up (2 Minutes)
 
-* Slack your completed code repository and filed GitHub issue to the `#bew1-2` Slack channel.
+* Slack your group's filed GitHub issue to the `#bew1-2` Slack channel.
 * Remind students to continue the Reddit tutorial as homework.
 
 ## After Class
