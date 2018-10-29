@@ -88,7 +88,7 @@ The remainder of this class period will be all about using what we've just learn
 
 ## Wrap Up (2 Minutes)
 
-* Slack your completed code repository and filed GitHub issue to the `#bew-dani` Slack channel.
+* Slack your completed code repository and filed GitHub issue to the `#bew1-2` Slack channel.
 * Remind students to continue the Reddit tutorial as homework.
 
 ## After Class
