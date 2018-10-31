@@ -41,7 +41,7 @@ If you are a web developer, where can you store data? At first you probably just
     1. A remote services (e.g. AWS S3, RabbitMQ, PubNub)
 1. (_Optional_) Feel free to take a **10 MINUTE BREAK** after completing this step.
 1. Pick one form of persistence and write a ~750 word technical blog post about its history and how it is currently used.
-1. Post this blog post on [r/programming](https://www.reddit.com/r/programming/), [Hacker News](https://news.ycombinator.com), or [dev.to](https://dev.to).
+1. Post this blog post on [Medium](https://medium.com), [r/programming](https://www.reddit.com/r/programming/), [Hacker News](https://news.ycombinator.com), or [dev.to](https://dev.to).
 
 ### Stretch Challenges
 
