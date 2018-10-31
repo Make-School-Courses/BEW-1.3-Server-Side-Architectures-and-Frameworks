@@ -40,7 +40,7 @@ If you are a web developer, where can you store data? At first you probably just
     1. A remote cache (e.g. Redis)
     1. A remote services (e.g. AWS S3, RabbitMQ, PubNub)
 1. (_Optional_) Feel free to take a **10 MINUTE BREAK** after completing this step.
-1. Pick one form of persistence and write a ~1000 word technical blog post about its history and how it is currently used.
+1. Pick one form of persistence and write a ~750 word technical blog post about its history and how it is currently used.
 1. Post this blog post on [r/programming](https://www.reddit.com/r/programming/), [Hacker News](https://news.ycombinator.com), or [dev.to](https://dev.to).
 
 ### Stretch Challenges
@@ -51,5 +51,5 @@ If you are a web developer, where can you store data? At first you probably just
 
 ## After Class
 
-* Remind students that their **blog posts are due tonight at 11:59pm**.
+* Remind students that their **blog posts are due next class period at the start of class**.
 * Encourage students to continue work on the Reddit tutorial.
