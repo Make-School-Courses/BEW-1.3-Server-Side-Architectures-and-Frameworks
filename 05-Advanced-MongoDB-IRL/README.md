@@ -87,7 +87,7 @@ We'll expand upon our collective knowledge by implementing an **entire Theater R
 
 Remind students that the completed Reddit Tutorial is due in one week!
 
-### Complete Reservations API (Due: Next Tuesday at 11:59PM)
+### Complete Reservations API
 
 1. Add a `README` to the repo. The `README` should have **at least three headers populated with details about the repository**. This is **your chance** to **explain the reasoning behind your implementation**! Please use the following template to get started:
 
