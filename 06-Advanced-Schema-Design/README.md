@@ -32,7 +32,7 @@ Display the following table on the projector. Ask students to **fill in the blan
 | `/theater/:id/edit` |          | `PUT`       | `UPDATE` |                              |                               |
 | `/theater/:id`      | `DELETE` |             | `DELETE` |                              |                               |
 
-# Overview / TT (30 Minutes)
+## Overview / TT (30 Minutes)
 
 Live code a potential solution for the Theatre Reservations API. 
 
