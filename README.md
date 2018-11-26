@@ -37,7 +37,7 @@ Students by the end of the course will be able to ...
   * **Section B**: Monday and Wednesday at 3:30–5:20pm (13 class sessions)
 
 | Class |          Date          |                 Topics                  | Graded Deliverable | Due On... |
-|:-----:|:----------------------:|:---------------------------------------:|:-------------------|-----------|
+|:-----:|:----------------------:|:---------------------------------------:|:------------------------------:|-----------|
 |   1   |  Monday, October 22    | [JavaScript Tips and Tricks](01-JavaScript-Tricks/README.md) | Presentation | `Day 2` |
 |   2   | Wednesday, October 24  | [How the Internet Works: Part 2](02-How-The-Internet-Works/README.md) |||
 |   3   |  Monday, October 29    | [Nested Routes and Resources](03-Nested-Routes-and-Resources/README.md) | Reddit.js | `Day 14` |
