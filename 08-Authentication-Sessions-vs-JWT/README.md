@@ -75,7 +75,7 @@ Each part has a different significance:
 The header typically consists of two parts: **the type of the token**, which is JWT, and the **hashing algorithm being used**, such as HMAC SHA256 or RSA.
 
 ```js
-var header = {
+const header = {
   "typ": "JWT",
   "alg": "HS256"
 }
@@ -88,7 +88,7 @@ This JSON is `Base64Url` encoded to form the first part of the JWT.
 The second part of the token is the **payload**, which **contains the claims**. Claims are statements about an entity (typically, the user) and additional data. There are **three types of claims**: **registered, public, and private claims**.
 
 ```js
-var payload = {
+const payload = {
   "exp": 1300819380,
   "name": "Chris Sevilleja",
   "_id": "3sfas687a789dadf998"
@@ -103,7 +103,7 @@ To create the signature, you have to **take the encoded header, the encoded payl
 If you want to use the HMAC SHA256 algorithm, the signature will be created in the following way:
 
 ```js
-var encodedString = HMACSHA256(base64UrlEncode(header) + "." + base64UrlEncode(payload), 'aSuperSecretSecretString');
+const encodedString = HMACSHA256(base64UrlEncode(header) + "." + base64UrlEncode(payload), 'aSuperSecretSecretString');
 ```
 
 > **REMEMBER** The 'secret' acts as an encryption string known only by the two parties communicating via JWT. Protect your secrets!
@@ -161,11 +161,11 @@ The token is hashed/encrypted as a string of characters that can only be decrypt
 1. **POST route** - Now, create a POST route to `/sign-up` and console log if you are receiving the form data in `req.body`.
 1. **Create User Model** - Once you are receiving the form data, create a `User` model in `models/user.js` and require it at the top of your `auth.js` file. Here is boilerplate code for the model (REMINDER: do not just copy and paste this code into your project. Read each line and figure out what each line does before using it.). (HINT: You will need to install the [bcryptjs](https://www.npmjs.com/package/bcryptjs) package to your project for bcrypt to work.)
     ```js
-    var mongoose = require('mongoose'),
+    const mongoose = require('mongoose'),
         bcrypt = require("bcryptjs"),
         Schema = mongoose.Schema;
 
-    var UserSchema = new Schema({
+    const UserSchema = new Schema({
         createdAt       : { type: Date }
       , updatedAt       : { type: Date }
 
@@ -209,7 +209,7 @@ The token is hashed/encrypted as a string of characters that can only be decrypt
 1. **Create the user** - Now use the `User` model to create a new user in your `/sign-up` POST route. e.g.
 
     ```js
-    var small = new Tank(req.body);
+    const small = new Tank(req.body);
     small.save(function (err) {
     if (err) return handleError(err);
     // saved!
@@ -219,10 +219,10 @@ The token is hashed/encrypted as a string of characters that can only be decrypt
 1. **Create and Sign the JWT** - Now add the package [jsonwebtoken](https://github.com/auth0/node-jsonwebtoken) to your project and require it at the top of `auth.js`. Now, if the user saves successfully, use `jsonwebtoken` to create and sign a JWT and send it back to the client. Console log your token on the client.
 
     ```js
-    var jwt = require('jsonwebtoken');
+    const jwt = require('jsonwebtoken');
 
     ...
-    var token = jwt.sign({ _id: user._id }, 'shhhhhhared-secret');
+    const token = jwt.sign({ _id: user._id }, 'shhhhhhared-secret');
     ...
     ```
 
@@ -237,7 +237,7 @@ The token is hashed/encrypted as a string of characters that can only be decrypt
 1. **Tell server look at cookies for JWT** - Add the [express-jwt](https://github.com/auth0/express-jwt) and the [cookie-parser](https://www.npmjs.com/package/cookie-parser) libraries to your server and include them in your main server file. Use this code to use this middleware and tell it to look at the cookie for a token. Once you save the cookie saved, can you see your cookie in "Application" tab of the Chrome web tools?
 
     ```js
-    var cookieParser = require('cookie-parser');
+    const cookieParser = require('cookie-parser');
     ...
 
     app.use(cookieParser());
