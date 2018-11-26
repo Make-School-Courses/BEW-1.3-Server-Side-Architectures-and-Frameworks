@@ -258,8 +258,8 @@ The token is hashed/encrypted as a string of characters that can only be decrypt
     );
     ```
 
-1. **Test a Secure a Route** - Make a new route called `/bananas`, and have it send back the text "I love bananas". Now navigate to it without being logged in.
-1. **Repeat the above process** for the **`/login` route**.
+1. **Test a Secure a Route** - Make a new route called `/bananas`, and have it send back the text "I love bananas". Now navigate to it without being logged in. **What happens when you navigate to `/bananas` in your browser?**
+1. **Repeat the above process** for the **`/login` route**. 
 1. **Stretch Challenge**: Can you **create a link/button** that, _when clicked_, **logs the user out**?
 
 ## After Class
