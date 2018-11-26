@@ -134,7 +134,9 @@ The token is hashed/encrypted as a string of characters that can only be decrypt
 
 1. **Make a Controller** Create a new controller file called `auth.js` and require it in your main server file.
 1. **GET route** - In that new file, create a GET route to `/sign-up`.
-1. Wire up the front end. Create the form, and use vanilla JS and `fetch` to execute an AJAX call when the form is submitted. Need more info? Click [here to learn more about `fetch`](https://scotch.io/tutorials/how-to-use-the-javascript-fetch-api-to-get-data).
+1. **Wire up the front end** in your templating language of choice --- for example, Handlebars. 
+    
+    Create the form, and use vanilla JS and `fetch` to execute an AJAX call when the form is submitted. Need more info? Click [here to learn more about `fetch`](https://scotch.io/tutorials/how-to-use-the-javascript-fetch-api-to-get-data).
 
     Example code provided below:
 
