@@ -13,7 +13,7 @@
 
 ## Objectives (5 Minutes)
 
-1. Compare and contrast a cookie based session and JSON Web Token (JWT) authentication.
+1. Compare and contrast session based authentication and JSON Web Token (JWT) authentication.
 1. Use `express-jwt` to add JWT authentication to an express server.
 
 ## Overview (25 Minutes)
@@ -32,33 +32,33 @@ Typically legacy web technologies use the Cookie-Session method of authenticatio
 
 Aren't you tired of worrying about keeping track of all these things?
 
-1. Sessions - JWT doesn't require sessions.
-1. Cookies - JWT you just save the token to the client.
-1. CSRF - Send the JWT instead of a CSRF token.
-1. CORS - Forget about it, if your JWT is valid, the data is on its way.
+1. **Sessions** - JWT **doesn't require sessions.**
+1. **Cookies** - JWT allows you to simply **save the token to the client**.
+1. **CSRF** - Send the **JWT instead of a CSRF token**.
+1. **CORS** - Forget about it! **If the JWT is valid, the data is on its way**.
 
-Also these benefits:
+Additional benefits:
 
-1. Speed - you don't have to look up the session.
-1. Storage - you don't have to store the session.
-1. Mobile Ready - Apps don't let you set cookies but they can save auth tokens.
-1. Testing - you don't have to make logging in a special case in your tests, just send the token.
+1. **Speed** - you don't have to look up the session.
+1. **Storage** - you don't have to store the session.
+1. **Mobile Ready** - Apps don't let you set cookies but they can save auth tokens.
+1. **Testing** - Logging in is no longer a special case in your tests --- just send the token!
 
 ### Authentication Process
 
-1. A client sends a request for authentication including credentials.
-    - A typical scenario is logging in.
-    - The credentials supplied are username and password.
-2. The sever receives credentials. Verifying the credentials the server issues a token to the client.
-    - The token is a hash.
-    - It also contains a secret string or key.
-    - The secret key can only be unencrypted by the server.
-3. The client includes the token whenever requesting restricted resources.
-4. The server verifies the token with each request.
+1. A client **sends a request for authentication**, including credentials.
+    - Typical scenario: logging in.
+    - The credentials supplied are **username and password**.
+2. The **server receives credentials**:
+    - The token is a **hash**.
+    - It also contains a **secret string or key**.
+    - The **secret key can only be unencrypted by the server**.
+3. The **client includes the token whenever requesting restricted resources**.
+4. The **server verifies the token with each request**.
 
 ### JWT FTW
 
-A JWT is pretty easy to identify. It is **three strings separated by `.`**:
+A **JWT is pretty easy to identify**. It is **three strings separated by `.`**:
 
 ```js
   aaaaaaaaaa.bbbbbbbbbbb.cccccccccccc
@@ -72,6 +72,8 @@ Each part has a different significance:
 
 #### Header
 
+The header typically consists of two parts: **the type of the token**, which is JWT, and the **hashing algorithm being used**, such as HMAC SHA256 or RSA.
+
 ```js
 var header = {
   "typ": "JWT",
@@ -79,7 +81,11 @@ var header = {
 }
 ```
 
+This JSON is `Base64Url` encoded to form the first part of the JWT.
+
 #### Payload
+
+The second part of the token is the **payload**, which **contains the claims**. Claims are statements about an entity (typically, the user) and additional data. There are **three types of claims**: **registered, public, and private claims**.
 
 ```js
 var payload = {
@@ -92,15 +98,21 @@ var payload = {
 
 #### Signature
 
-```js
-var encodedString = base64UrlEncode(header) + "." + base64UrlEncode(payload);
+To create the signature, you have to **take the encoded header, the encoded payload, a secret, the algorithm specified in the header**, and **sign that**.
 
-HMACSHA256(encodedString, 'secret');
+If you want to use the HMAC SHA256 algorithm, the signature will be created in the following way:
+
+```js
+var encodedString = HMACSHA256(base64UrlEncode(header) + "." + base64UrlEncode(payload), 'aSuperSecretSecretString');
 ```
 
 > **REMEMBER** The 'secret' acts as an encryption string known only by the two parties communicating via JWT. Protect your secrets!
 
 #### JSON Web Token
+
+The **output is three Base64-URL strings separated by dots** that can be easily passed in HTML and HTTP environments, while being more compact when compared to XML-based standards such as SAML.
+
+The **following shows a JWT that has the previous header and payload encoded**, and it is **signed with a secret**.
 
 ```js
 eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzY290Y2guaW8iLCJleHAiOjEzMDA4MTkzODAsIm5hbWUiOiJDaHJpcyBTZXZpbGxlamEiLCJhZG1pbiI6dHJ1ZX0.03f329983b86f7d9a9f5fef85305880101d5e302afafa20154d094b229f75773
@@ -108,10 +120,9 @@ eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzY290Y2guaW8iLCJleHAiOjEzMDA4MTk
 
 ### Recap
 
-JSON Web Token (JWT) is a method of representing claims between two parties. Think of it like a
-receipt that is recognized by the issuer.
+JSON Web Token (JWT) is a method of representing claims between two parties. Think of it like a receipt that is recognized by the issuer.
 
-In short JWT a is a format made of three parts.
+In short, JWT a is a format made of three parts:
 
 - algorithm
 - payload
@@ -122,7 +133,29 @@ The token is hashed/encrypted as a string of characters that can only be decrypt
 ## Challenges (75 Minutes)
 
 1. **Make a Controller** Create a new controller file called `auth.js` and require it in your main server file.
-1. **GET route** - In that new file, create a GET route to `/sign-up`. In your `/scripts.js` file use a `$.post()` or `$.ajax()` jQuery function to submit the serialized form data to `/sign-up`.
+1. **GET route** - In that new file, create a GET route to `/sign-up`.
+1. Wire up the front end. Create the form, and use vanilla JS and `fetch` to execute an AJAX call when the form is submitted. Example code provided below:
+
+    ```html
+    <form action="/sign-up" method="POST" onsubmit="return false;">
+      <input type="text" size="30" value="" placeholder="username" required>
+      <input type="password" size="30" value="" placeholder="password" required>
+      <input type="submit" value="Sign In" onclick="signupWithAjax()">
+    </form>
+    ```
+
+    ```js
+      function signupWithAjax() {
+        fetch("/sign-up")
+          .then(function(data) {
+            // Here you get the data to modify as you please
+            })
+          })
+          .catch(function(error) {
+            // If there is any error you will catch them here
+          });
+      }
+    ```
 1. **POST route** - Now, create a POST route to `/sign-up` and console log if you are receiving the form data in `req.body`.
 1. **Create User Model** - Once you are receiving the form data, create a `User` model in `models/user.js` and require it at the top of your `auth.js` file. Here is boilerplate code for the model (REMINDER: do not just copy and paste this code into your project. Read each line and figure out what each line does before using it.). (HINT: You will need to install the [bcryptjs](https://www.npmjs.com/package/bcryptjs) package to your project for bcrypt to work.)
     ```js
@@ -221,7 +254,7 @@ The token is hashed/encrypted as a string of characters that can only be decrypt
 
 1. **Test a Secure a Route** - Make a new route called `/bananas`, and have it send back the text "I love bananas". Now navigate to it without being logged in.
 1. **Repeat the above process** for the **`/login` route**.
-1. Can you **create a link/button** that, _when clicked_, **logs the user out**?
+1. **Stretch Challenge**: Can you **create a link/button** that, _when clicked_, **logs the user out**?
 
 ## After Class
 
