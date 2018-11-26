@@ -134,27 +134,29 @@ The token is hashed/encrypted as a string of characters that can only be decrypt
 
 1. **Make a Controller** Create a new controller file called `auth.js` and require it in your main server file.
 1. **GET route** - In that new file, create a GET route to `/sign-up`.
-1. Wire up the front end. Create the form, and use vanilla JS and `fetch` to execute an AJAX call when the form is submitted. Example code provided below:
+1. Wire up the front end. Create the form, and use vanilla JS and `fetch` to execute an AJAX call when the form is submitted. Need more info? Click [here to learn more about `fetch`](https://scotch.io/tutorials/how-to-use-the-javascript-fetch-api-to-get-data).
+
+    Example code provided below:
 
     ```html
     <form action="/sign-up" method="POST" onsubmit="return false;">
       <input type="text" size="30" value="" placeholder="username" required>
       <input type="password" size="30" value="" placeholder="password" required>
-      <input type="submit" value="Sign In" onclick="signupWithAjax()">
+      <input type="submit" value="Sign In" onclick="signupViaAjax()">
     </form>
     ```
 
     ```js
-      function signupWithAjax() {
-        fetch("/sign-up")
-          .then(function(data) {
-            // Here you get the data to modify as you please
-            })
+    function signupViaAjax() {
+      fetch("/sign-up")
+        .then(function(data) {
+          // Here you get the data to modify as you please
           })
-          .catch(function(error) {
-            // If there is any error you will catch them here
-          });
-      }
+        })
+        .catch(function(error) {
+          // If there is any error you will catch them here
+        });
+    }
     ```
 1. **POST route** - Now, create a POST route to `/sign-up` and console log if you are receiving the form data in `req.body`.
 1. **Create User Model** - Once you are receiving the form data, create a `User` model in `models/user.js` and require it at the top of your `auth.js` file. Here is boilerplate code for the model (REMINDER: do not just copy and paste this code into your project. Read each line and figure out what each line does before using it.). (HINT: You will need to install the [bcryptjs](https://www.npmjs.com/package/bcryptjs) package to your project for bcrypt to work.)
