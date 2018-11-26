@@ -1,4 +1,4 @@
-# BEW1.2 - Authentication, Associations, & Advanced Queries
+# BEW1.2 * Authentication, Associations, & Advanced Queries
 
 ## Course Description
 
@@ -36,8 +36,8 @@ Students by the end of the course will be able to ...
   * **Section A**: Monday and Wednesday at 1:30–3:20pm (13 class sessions)
   * **Section B**: Monday and Wednesday at 3:30–5:20pm (13 class sessions)
 
-| Class |          Date          |                 Topics                  | Graded Deliverable | Due On... |
-|:-----:|:----------------------:|:---------------------------------------:|:------------------------------:|-----------|
+| Class |          Date          |                 Topics                  |       Graded Deliverable     | Due On... |
+|:-----:|:----------------------:|:---------------------------------------:|:----------------------------:|-----------|
 |   1   |  Monday, October 22    | [JavaScript Tips and Tricks](01-JavaScript-Tricks/README.md) | Presentation | `Day 2` |
 |   2   | Wednesday, October 24  | [How the Internet Works: Part 2](02-How-The-Internet-Works/README.md) |||
 |   3   |  Monday, October 29    | [Nested Routes and Resources](03-Nested-Routes-and-Resources/README.md) | Reddit.js | `Day 14` |
@@ -57,31 +57,33 @@ Students by the end of the course will be able to ...
 
 ## Tutorials & Projects
 
-- [Reddit.js](https://www.makeschool.com/academy/track/reddit-clone-in-node-js)
-- [A Custom Authenticated API Project](Projects/02-Custom-API-Project.md)
-    - [Rubric](Projects/Rubrics/02-Custom-API-Project.md)
+* [Reddit.js](https://www.makeschool.com/academy/track/reddit-clone-in-node-js)
+* [A Custom Authenticated API Project](Projects/02-Custom-API-Project.md)
+  * [Rubric](Projects/Rubrics/02-Custom-API-Project.md)
 
 ## Additional Resources
 
-- [jwt.io](https://jwt.io) - JSON Web Tokens are an open, industry standard RFC 7519 method for representing claims securely between two parties. JWT.IO allows you to **decode, verify and generate JWT**.
-- See the **Additional Resources** section at the bottom of each day's lesson plan for the most up-to-date, helpful resources for that class period!
+* [jwt.io](https://jwt.io)
+  * JSON Web Tokens are an open, industry standard RFC 7519 method for representing claims securely between two parties. JWT.IO allows you to **decode, verify and generate JWT**.
+* See the **Additional Resources** section at the bottom of each day's lesson plan for the most up-to-date, helpful resources for that class period!
 
 ## Evaluation
 
 To pass this course you must meet the following requirements:
 
-- Pass all required tutorials and projects (see associated rubrics)
-- Pass the final summative assessment >= 70%
-- Actively participate in class and abide by the attendance policy
-- Make up all classwork from all absences
+* Pass all required tutorials and projects (see associated rubrics)
+* Pass the final summative assessment >= 70%
+* Actively participate in class and abide by the attendance policy
+* Make up all classwork from all absences
 
 ## Attendance
 
  Just like any job, attendance at Make School is required and a key component of your success. Attendance is being onsite from 9:30 to 5:30 each day, attending all scheduled sessions: classes, huddles, etc. and working in the study labs when not in a scheduled session. Working onsite allows you to learn with your peers, have access to support from TAs, instructors and others, and is vital to your learning.
 
 Attendance requirements for scheduled sessions are:
-- No more than two no call no shows per term in any scheduled session.
-- No more than four excused absences per term in any scheduled session.
+
+* No more than two no call no shows per term in any scheduled session.
+* No more than four excused absences per term in any scheduled session.
 
 Failure to meet these requirements will result in a PIP (Participation Improvement Plan).  Failure to improve after the PIP will result in not being invited back next term.
 

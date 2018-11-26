@@ -1,4 +1,4 @@
-# Day 5: Advanced Mongo Associations and Queries IRL
+# Day 6: Advanced Mongo Associations and Queries IRL
 
 ## Minute-by-Minute
 
@@ -26,7 +26,7 @@ We'll expand upon our collective knowledge by implementing an **entire Theater R
 ## In Class Activity - Part 1: API Design (40 Minutes)
 
 1. Create a **NEW public GitHub repo** to host your API.
-1. Read through [Learn MongoDB the Hard Way: Theater Reservations](http://learnmongodbthehardway.com/schema/theater/). As you're reading, **make notes about what routes will be required in order to create your RESTful and resourceful Theater Reservations API**. 
+1. Read through [Learn MongoDB the Hard Way: Theater Reservations](http://learnmongodbthehardway.com/schema/theater/). As you're reading, **make notes about what routes will be required in order to create your RESTful and resourceful Theater Reservations API**.
     * (Optional) Stretch Challenge: Handling Expired Cards
 1. **Pseudocode the routes** based on your notes.
 1. **Compare routes** with the students around you.
@@ -62,7 +62,7 @@ We'll expand upon our collective knowledge by implementing an **entire Theater R
     // Paste this at the top of `server.js`
     const MongoClient = require('mongodb').MongoClient;
     const assert = require('assert');
-  
+
     const url = 'mongodb://localhost:27017';
     const dbName = 'myproject';
     let db;

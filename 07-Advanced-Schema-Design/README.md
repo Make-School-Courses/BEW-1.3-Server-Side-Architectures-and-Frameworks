@@ -1,4 +1,4 @@
-# Day 6: Advanced Schema Design for Fun and Profit
+# Day 7: Advanced Schema Design for Fun and Profit
 
 ## Minute-by-Minute
 
@@ -34,7 +34,7 @@ Display the following table on the projector. Ask students to **fill in the blan
 
 ## Overview / TT (30 Minutes)
 
-Live code a potential solution for the Theatre Reservations API. 
+Live code a potential solution for the Theatre Reservations API.
 
 ## BREAK (10 Minutes)
 

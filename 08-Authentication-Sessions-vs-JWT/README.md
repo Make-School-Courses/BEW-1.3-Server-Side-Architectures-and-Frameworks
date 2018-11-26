@@ -1,4 +1,4 @@
-# Day 7: Authentication with JWT (JSON Web Tokens) in Node
+# Day 8: Authentication with JWT (JSON Web Tokens) in Node
 
 ## Minute-by-Minute
 
