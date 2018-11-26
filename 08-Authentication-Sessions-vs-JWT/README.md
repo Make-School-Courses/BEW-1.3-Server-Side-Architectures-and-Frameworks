@@ -209,9 +209,9 @@ The token is hashed/encrypted as a string of characters that can only be decrypt
 1. **Create the user** - Now use the `User` model to create a new user in your `/sign-up` POST route. e.g.
 
     ```js
-    const small = new Tank(req.body);
+    const newUser = new User(req.body);
     
-    small.save(function (err) {
+    newUser.save(function (err) {
         if (err) console.log(err);
         // saved!
     });
