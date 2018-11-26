@@ -36,24 +36,24 @@ Students by the end of the course will be able to ...
   * **Section A**: Monday and Wednesday at 1:30–3:20pm (13 class sessions)
   * **Section B**: Monday and Wednesday at 3:30–5:20pm (13 class sessions)
 
-| Class |          Date          |                 Topics                  |
-|:-----:|:----------------------:|:---------------------------------------:|
-|   1   |  Monday, October 22    | [JavaScript Tips and Tricks](01-JavaScript-Tricks/README.md) |
-|   2   | Wednesday, October 24  | [How the Internet Works: Part 2](02-How-The-Internet-Works/README.md) |
-|   3   |  Monday, October 29    | [Nested Routes and Resources](03-Nested-Routes-and-Resources/README.md) |
-|   4   | Wednesday, October 31  | [Persistence Levels](04-Persistence-Levels/README.md) |
-|   5   |  Monday, November 5    | **Lab Day** |
-|   6   | Wednesday, November 7  | [Documentation: Sharing the Love](05-Docsify/README.md) |
-|   7   |  Monday, November 12 |  [Advanced Mongo Associations and Queries IRL](06-Advanced-MongoDB-IRL/README.md) |
-|   8   | Wednesday, November 14 | [Advanced Schema Design for Fun and Profit](07-Advanced-Schema-Design/README.md) |
-|       |  Tuesday, November 20 | **Don Rags** |
-|       | Wednesday, November 21 | **Fall Break** |
-|  9    |  Monday, November 26    | [Authentication Sessions vs. JWT](08-Authentication-Sessions-vs-JWT/README.md) |
-|  10   | Wednesday, November 28    | [TDD](09-TDD/README.md) |
-|  11   |  Monday, December 3    | [Authorization](10-Authorization/README.md) |
-|  12   | Wednesday, December 5   | [Testing Authentication and Authorization](11-Testing-Authentication-and-Authorization/README.md) |
-|  13   | Monday, December 10   | [Custom Authenticated APIs](12-Custom-Authenticated-APIs/README.md) |
-|  14   | Wednesday, December 12 | **Final Exams** |
+| Class |          Date          |                 Topics                  | Graded Deliverable | Due On... |
+|:-----:|:----------------------:|:---------------------------------------:|:-------------------|-----------|
+|   1   |  Monday, October 22    | [JavaScript Tips and Tricks](01-JavaScript-Tricks/README.md) | Presentation | `Day 2` |
+|   2   | Wednesday, October 24  | [How the Internet Works: Part 2](02-How-The-Internet-Works/README.md) |||
+|   3   |  Monday, October 29    | [Nested Routes and Resources](03-Nested-Routes-and-Resources/README.md) | Reddit.js | `Day 14` |
+|   4   | Wednesday, October 31  | [Persistence Levels](04-Persistence-Levels/README.md) | Blog Post | `Day 7` |
+|   5   |  Monday, November 5    | **Lab Day** |||
+|   6   | Wednesday, November 7  | [Documentation: Sharing the Love](05-Docsify/README.md) |||
+|   7   |  Monday, November 12 |  [Advanced Mongo Associations and Queries IRL](06-Advanced-MongoDB-IRL/README.md)|||
+|   8   | Wednesday, November 14 | [Advanced Schema Design for Fun and Profit](07-Advanced-Schema-Design/README.md) |||
+|       |  Tuesday, November 20 | **Don Rags** |||
+|       | Wednesday, November 21 | **Fall Break** |||
+|  9    |  Monday, November 26    | [Authentication Sessions vs. JWT](08-Authentication-Sessions-vs-JWT/README.md) | Custom API | `Day 14` |
+|  10   | Wednesday, November 28    | [TDD](09-TDD/README.md) |||
+|  11   |  Monday, December 3    | [Authorization](10-Authorization/README.md) |||
+|  12   | Wednesday, December 5   | [Testing Authentication and Authorization](11-Testing-Authentication-and-Authorization/README.md) |||
+|  13   | Monday, December 10   | [Custom Authenticated APIs](12-Custom-Authenticated-APIs/README.md) |||
+|  14   | Wednesday, December 12 | **Final Exams** | **_Final Exam_,<br>_Reddit.js_, <br>& _Custom API_ due today!**| `NO EXTENSIONS` & <br>`NO EXCEPTIONS` |
 
 ## Tutorials & Projects
 
