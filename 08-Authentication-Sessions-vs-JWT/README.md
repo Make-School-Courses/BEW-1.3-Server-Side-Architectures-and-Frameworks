@@ -151,7 +151,6 @@ The token is hashed/encrypted as a string of characters that can only be decrypt
       fetch("/sign-up")
         .then(function(data) {
           // Here you get the data to modify as you please
-          })
         })
         .catch(function(error) {
           // If there is any error you will catch them here
