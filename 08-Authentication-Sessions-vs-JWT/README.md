@@ -211,7 +211,7 @@ The token is hashed/encrypted as a string of characters that can only be decrypt
     const small = new Tank(req.body);
     
     small.save(function (err) {
-        if (err) return handleError(err);
+        if (err) console.log(err);
         // saved!
     });
     ```
