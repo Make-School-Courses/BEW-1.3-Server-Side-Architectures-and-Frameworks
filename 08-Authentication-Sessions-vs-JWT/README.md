@@ -161,34 +161,32 @@ The token is hashed/encrypted as a string of characters that can only be decrypt
 1. **POST route** - Now, create a POST route to `/sign-up` and console log if you are receiving the form data in `req.body`.
 1. **Create User Model** - Once you are receiving the form data, create a `User` model in `models/user.js` and require it at the top of your `auth.js` file. Here is boilerplate code for the model (REMINDER: do not just copy and paste this code into your project. Read each line and figure out what each line does before using it.). (HINT: You will need to install the [bcryptjs](https://www.npmjs.com/package/bcryptjs) package to your project for bcrypt to work.)
     ```js
-    const mongoose = require('mongoose'),
-        bcrypt = require("bcryptjs"),
-        Schema = mongoose.Schema;
+    const mongoose = require("mongoose"),
+      bcrypt = require("bcryptjs"),
+      Schema = mongoose.Schema;
 
     const UserSchema = new Schema({
-        createdAt       : { type: Date }
-      , updatedAt       : { type: Date }
-
-      , email           : { type: String, unique: true, required: true }
-      , password        : { type: String, required: true }
-      , first           : { type: String, required: true }
-      , last            : { type: String, required: true }
-
+      createdAt: { type: Date },
+      updatedAt: { type: Date },
+      email: { type: String, unique: true, required: true },
+      password: { type: String, required: true },
+      first: { type: String, required: true },
+      last: { type: String, required: true }
     });
 
-    UserSchema.pre('save', function(next){
+    UserSchema.pre("save", function(next) {
       // SET createdAt AND updatedAt
       var now = new Date();
       this.updatedAt = now;
-      if ( !this.createdAt ) {
+      if (!this.createdAt) {
         this.createdAt = now;
-      };
+      }
 
       // ENCRYPT PASSWORD
       var user = this;
-      if (!user.isModified('password')) {
+      if (!user.isModified("password")) {
         return next();
-      };
+      }
       bcrypt.genSalt(10, function(err, salt) {
         bcrypt.hash(user.password, salt, function(err, hash) {
           user.password = hash;
@@ -203,7 +201,8 @@ The token is hashed/encrypted as a string of characters that can only be decrypt
       });
     };
 
-    module.exports = mongoose.model('User', UserSchema);
+    module.exports = mongoose.model("User", UserSchema);
+
     ```
 
 1. **Create the user** - Now use the `User` model to create a new user in your `/sign-up` POST route. e.g.
@@ -230,6 +229,7 @@ The token is hashed/encrypted as a string of characters that can only be decrypt
 
     ```js
     Cookies.set('token', data.token);
+    
     // IF YOU'D LIKE TO REDIRECT NOW, ADD THIS:
     window.location.href = "/";
     ```
@@ -239,19 +239,22 @@ The token is hashed/encrypted as a string of characters that can only be decrypt
     ```js
     const cookieParser = require('cookie-parser');
     ...
-
+    
     app.use(cookieParser());
-    app.use(jwt({
-        secret: 'shhhhhhared-secret',
-        getToken: function fromHeaderOrCookie (req) { //fromHeaderOrQuerystring
-        if (req.headers.authorization && req.headers.authorization.split(' ')[0] === 'Bearer') {
-            return req.headers.authorization.split(' ')[1];
-        } else if (req.cookies && req.cookies.token) {
+    app.use(
+      jwt({
+        secret: "shhhhhhared-secret",
+        getToken: function fromHeaderOrCookie(req) {
+          //fromHeaderOrQuerystring
+          if (req.headers.authorization && req.headers.authorization.split(" ")[0] === "Bearer") {
+            return req.headers.authorization.split(" ")[1];
+          } else if (req.cookies && req.cookies.token) {
             return req.cookies.token;
+          }
+          return null;
         }
-        return null;
-        }
-    }).unless({path: ['/', '/login', '/sign-up']}));
+      }).unless({ path: ["/", "/login", "/sign-up"] })
+    );
     ```
 
 1. **Test a Secure a Route** - Make a new route called `/bananas`, and have it send back the text "I love bananas". Now navigate to it without being logged in.
