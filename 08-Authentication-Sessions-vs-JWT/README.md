@@ -270,7 +270,6 @@ Read through the requirements, and begin brainstorming ideas for your  [Custom A
 ## Additional Resources
 
 - [jwt.io](http://jwt.io/)
-- [Atlassian JWT docs](https://developer.atlassian.com/static/connect/docs/latest/concepts/understanding-jwt.html)
 - [scotch.io tutorial](https://scotch.io/tutorials/the-anatomy-of-a-json-web-token)
 - [JWT Express Node Mongoose](http://blog.matoski.com/articles/jwt-express-node-mongoose/)
 - [Can JWT be used for sessions?](https://medium.com/@yuliaoletskaya/can-jwt-be-used-for-sessions-4164d124fe23)
