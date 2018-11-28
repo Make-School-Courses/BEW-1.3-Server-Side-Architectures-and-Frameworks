@@ -1,34 +1,37 @@
-# Test Driven Development - intro
+# TDD Quick Start
 
-This project contains some simple tests that are run by Mocha and Chai.
-The concepts here cover the idea of TDD.
+This project contains some simple tests that are run by Mocha and Chai. The concepts here cover the idea of TDD.
 
-To run tests first intall `mocha` and `chai`.
+## Step 1: Install Dependencies
 
-`$ npm install --save-dev mocha`
+To run tests, first install `mocha` and `chai` as `devDependencies`.
 
-`$ npm install --save-dev chai`
-
-## Testing
-
-Run a test with:
-
-`mocha **/*.test.js`
-
-This runs tests on all files in all folders named `*.test.js`.
-
-Tests are run from commands in `package.json`:
-
+```bash
+$ npm install --save-dev mocha
+$ npm install --save-dev chai
 ```
+
+## Step 2: Update `scripts` in `package.json`
+
+The following two scripts run tests on all files in all folders named `*.test.js`. Tests are run from commands in `package.json`.
+
+Edit the `scripts` section of your project's `package.json` file:
+
+```json
 "test": "mocha **/*.test.js",
 "test-watch": "nodemon --exec 'npm test'"
 ```
 
-With the following added to `package.json` you can run Tests
-with:
+## Step 3: Run Tests
 
-`npm test`
+With the above added to `package.json`, you can run tests by executing the following command:
 
-or monitor those tests with nodemon by running:
+```bash
+$ npm test
+```
 
-`npm run test-watch`
+Or, simply monitor those tests with `nodemon` by running:
+
+```bash
+$ npm run test-watch
+```
