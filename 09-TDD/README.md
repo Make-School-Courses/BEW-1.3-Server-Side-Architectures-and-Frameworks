@@ -73,11 +73,20 @@ The goal of testing is to define software features that the app will have to mee
 
 In software testing, an `assertion` states what the programmer _expects_, failing when the results do not match the programmed expectation.
 
-### Assertion Libraries
+### Types of Assertions
 
-* `should.js`
-* `expect.js`
-* `chai.js`
+#### Should vs Expect
+
+```js
+var chai = require('chai')
+  , expect = chai.expect
+  , should = chai.should();
+```
+
+Notice that the `expect` require is just a reference to the `expect` function, whereas with the `should` require, the function is being executed.
+
+* The `expect` interface provides a function as a starting point for chaining your language assertions.
+* The `should` interface extends Object.prototype to provide a single getter as the starting point for your language assertions.
 
 ### What Should Be Tested
 
