@@ -1,21 +1,17 @@
-
 const sayHello = () => {
-  return "Hello"
-}
+  return "Hello";
+};
 
 const area = (w, h) => {
-  return w * h
-}
+  return w * h;
+};
 
 const perimeter = (w, h) => {
-  return w + w + h + h
-}
+  return w + w + h + h;
+};
 
-const circleArea = (r) => {
-  return Math.PI * r * r
-}
+const circleArea = r => {
+  return Math.PI * r * r;
+};
 
-module.exports = { sayHello, area, perimeter, circleArea }
-
-// module.exports.sayHello = sayHello
-// module.exports.area = area
+module.exports = { sayHello, area, perimeter, circleArea };
