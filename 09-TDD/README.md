@@ -5,10 +5,9 @@
 | **Elapsed** | **Time**  | **Activity**              |
 | ----------- | --------- | ------------------------- |
 | 0:00        | 0:05      | Objectives                |
-| 0:05        | 0:20      | Overview / TT             |
-| 0:25        | 0:20      | In Class Activity I       |
-| 0:45        | 0:10      | BREAK                     |
-| 0:55        | 0:65      | In Class Activity II      |
+| 0:05        | 0:35      | Overview / TT             |
+| 0:40        | 0:10      | BREAK                     |
+| 0:50        | 0:70      | In Class Activity II      |
 | TOTAL       | 2:00      |                           |
 
 ## Learning Objectives/Competencies (5 Minutes)
@@ -17,7 +16,7 @@
 1. Experience Test Driven Development and Behavior Driven Development first-hand through the use of Mocha and Chai.
 1. Practice TDD and BDD concepts via in-class pair challenges.
 
-## Overview / TT (20 Minutes)
+## Overview / TT (35 Minutes)
 
 ### Definitions
 
@@ -90,143 +89,27 @@ If you think of a feature, begin thinking of a test for that feature. **Any func
 
 ### Good vs. Bad Tests
 
-A test should focus on **one** thing. That is, 1 test = 1 feature or code path.
+A test should focus on **one** thing. 1 test = 1 feature / code path.
 
-Tests should test a **unique** feature and not be repeated.
+Tests should validate a **unique** feature and not be repeated.
 
-Tests should be short. If you find you are writing a long test case step back and ask if this test case should really be broken down into several smaller tests.
+Tests should be short. If you find you are writing a long test case, step back and ask if this case should really be broken down into several smaller tests.
 
 ### Final Thoughts Before the Challenges
 
-Writing tests for code before you have the code to test is a great mental exercise. You may find that you will have to write code differently using this perspective. You may find that you write better quality code.
-
-## In Class Activity I: Pair - Setup a Node.js Project with Mocha (20 Minutes)
-
-### Installing Mocha
-
-Import the `Mocha.js` library as a dev dependancy.
-
-```bash
-$ npm install --save-dev mocha
-```
-
-This will include this library when you run dev scripts but **not** when you build for production.
-
-Import your assertion library as a dev dependancy. For these examples I chose `chai.js`.
-
-```bash
-$ npm install --save-dev chai
-```
-
-### Defining a Test Case
-
-Define a test case with the `it()` function:
-
-```javascript
-it('Should do return the sum of two numbers', () => {
-  // Run tests here.
-});
-```
-
-A test fails when the `it` block throws an error. The test above would pass. The test below would fail:
-
-```javascript
-it('Should calculate area', () => {
-  throw new Error('This test failed');
-});
-```
-
-The idea is to write code that throws an error if the results are not what you expect them to be.
-
-```javascript
-it('should be 4', () => {
-  const four = 2 + 2;
-  if (four !== 4) {
-    throw new Error(four + ' should be equal to 2 + 2');
-  }
-});
-```
-
-While this works the clever JavaScript elves have invented myriad libraries to make our job easier.
-
-Assertion libraries abstract this functionality. Write an assertion like this:
-
-```javascript
-const chai = require('chai');
-const expect = chai.expect;
-
-it('should be 4', () => {
-  const four = 2 + 2;
-  expect(four).to.equal(4);
-});
-```
-
-Assertion libraries can check for just about **any** value or type. Understanding their syntax requires reading the docs!
-
-For more info on Chai check out the [docs](http://chaijs.com)
-
-### Running Tests
-
-Run tests by calling mocha with the name of the file to test.
-
-`mocha tests/post.test.js`
-
-You can add a test script to `package.json` to simplify testing.
-
-Set a test script in `package.json`.
-
-```json
-"scripts": {
-  "test": "mocha **/*.test.js"
-}
-```
-
-This runs mocha looking at all files in all directories (`**/`) with file names ending in `.test.js`. Run this in the terminal with:
-
-```bash
-$ npm test
-```
-
-You can also run this with `nodemon`. This might be a good option for small projects and learning. With larger projects you will want to choose when a test is run and launch tests purposefully.
-
-```json
-"test-watch": "nodemon --exec 'npm test'"
-```
-
-_Don't miss the single quotes!_
-
-Call this script with:
-
-```bash
-$ npm run test-watch
-```
-
-You can add Nyan Cat as a test reporter with `--reporter=nyan`:
-
-```json
-"test": "mocha **/*.test.js --reporter=nyan"
-```
-
-Learn more about reporters [here](https://mochajs.org/#reporters).
+Writing tests for code _before_ you have the code to test is a great mental exercise. You may find that you will have to write code differently using this perspective. You may find that you write better quality code.
 
 ## BREAK (10 Minutes)
 
-## In Class Activity II - TDD Practice (65 Minutes)
+## In Class Activity II - TDD Practice (70 Minutes)
 
-### Challenges
+Use the [in-class-tdd](in-class-tdd/README.md) project in this repo as a starting point. Feel free to work with a partner.
 
-#### Setup a New Node Project
+The goal is to make each test pass!
 
-1. Create a folder.
-1. `npm init`
-1. Add dependencies.
-    * `mocha`
-    * `chai`
-1. Define a test script.
-1. Add a file to hold your code.
-1. Add a test file.
+### Level 1 Challenges
 
-#### Test Cases
+#### Overview
 
 Imagine you just got a job with a MeasureIt.com. They want to create an app that measures everything. You'll need some methods that can return measurements.
 
@@ -234,13 +117,36 @@ Imagine you just got a job with a MeasureIt.com. They want to create an app that
 * Perimeter should return the perimeter of a rectangle.
 * Should return the area of a circle with radius.
 
-You'll start by writing failing tests for these methods. Then write functions that make the tests pass.
+You'll start by writing pending tests for these methods. Then write functions that make the tests pass.
 
-#### Goal
+### Level 2 Challenges
 
-Your goal is to write code that meets the following test cases.
+#### Overview
 
-To help visualize the how the cart behaves you can picture the cart
+The product is a shopping cart. The cart will track products added to a cart. The cart needs to add new products, remove products, and provide the total count, and price of all products in the cart.
+
+Start with these test cases and write code to answer test case. Note: there is no code yet that does any of the things the tests ask for.
+
+From a TDD perspective, you start with failing tests and build the  application to meet the requirements of the tests.
+
+In terms of **BDD**, the test descriptions are written to describe what the product should be capable of doing.
+
+```javascript
+it('Should create a new item with name and price');
+it('Should return an array containing all items in cart');
+it('Should add a new item to the shopping cart');
+it('Should return the number of items in the cart');
+it('Should remove items from cart');
+
+// Stretch challenges
+it('Should update the count of items in the cart');
+it('Should remove an item when its count is 0');
+it('Should return the total cost of all items in the cart');
+```
+
+Your goal is to write code that meets the above test cases.
+
+To help visualize the how the cart behaves, you can picture the cart
 as a table. Imagine the tables below were drawn up by the design
 team to describe how the cart would work.
 
@@ -273,33 +179,9 @@ What if you add another apple?
 | banana| 1.29  |  1  | 1.29 |
 | total |       |  3  | 3.27 |
 
-#### Overview
-
-The product is a shopping cart. The cart will track products added to a cart. The cart needs to add new products, remove products, and provide the total count, and price of all products in the cart.
-
-Start with these test cases and write code to answer test case. Note: there is no code yet that does any of the things the tests ask for.
-
-From a TDD perspective you would start with failing tests and build an application to meet the requirements of the tests.
-
-In terms of **BDD** the test descriptions are written to describe what the product should be capable of doing.
-
-```javascript
-it('Should create a new item with name and price');
-it('Should return an array containing all items in cart');
-it('Should add a new item to the shopping cart');
-it('Should return the number of items in the cart');
-it('Should remove items from cart');
-
-// Stretch challenges
-it('Should update the count of items in the cart');
-it('Should remove an item when its count is 0');
-it('Should return the total cost of all items in the cart');
-```
-
 #### Hints
 
-The test cases all involve making a shopping cart system. While you won't be making the entire functional shopping cart you will have to create some of the system. Think about how shopping carts work. Ask yourself how the cart will keep track of items and what exactly
-an item is.
+ While you won't be making a functional shopping cart, you will have to create some of the system. Think about how shopping carts work. Ask yourself how the cart will keep track of items and what exactly an item is.
 
 "Items" in the cart will be JavaScript Objects, and the "cart" system will hold them in an array.
 
