@@ -314,3 +314,5 @@ an item is.
 Practice TDD by implementing test cases for your [Custom API Project](../Projects/02-Custom-API-Project.md).
 
 ## Additional Resources
+
+[Chai.js Cheatsheet](https://devhints.io/chai) - Awesome cheat sheet for implementing TDD and BDD!
