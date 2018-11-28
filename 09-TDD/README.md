@@ -315,4 +315,5 @@ Practice TDD by implementing test cases for your [Custom API Project](../Project
 
 ## Additional Resources
 
-[Chai.js Cheatsheet](https://devhints.io/chai) - Awesome cheat sheet for implementing TDD and BDD!
+* [Step by Step Setup](in-class-tdd/README.md) - Quick documentation on how to get started with TDD and BDD in Node.
+* [Chai.js Cheatsheet](https://devhints.io/chai) - Awesome cheat sheet for implementing TDD and BDD!
