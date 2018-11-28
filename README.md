@@ -1,4 +1,4 @@
-# BEW1.2 * Authentication, Associations, & Advanced Queries
+# BEW1.2 - Authentication, Associations, & Advanced Queries
 
 ## Course Description
 
