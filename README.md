@@ -28,6 +28,10 @@ Students by the end of the course will be able to ...
 1. Implement authentication using JWT tokens and sessions.
 1. Invent, create, test, deploy, and deliver a custom, fully secured API!
 
+## Study Guide
+
+To best prepare for the final exam, review [this study guide](study-guide.md).
+
 ## Schedule
 
 * **Course Dates**: Monday, October 22 – Wednesday, December 12, 2018 (7 weeks)
