@@ -5,11 +5,11 @@
 | **Elapsed** | **Time**  | **Activity**              |
 | ----------  | --------- | ------------------------- |
 | 0:00        | 0:05      | Objectives                |
-| 0:05        | 0:10      | Warm Up
+| 0:05        | 0:10      | Warm Up                   |
 | 0:15        | 0:10      | TT/Overview               |
 | 0:25        | 0:10      | BREAK                     |
-| 0:35        | 0:60      | Challenges                |
-| 1:35        | 0:25      | API Project: TDD          |
+| 0:35        | 0:45      | Challenges                |
+| 1:20        | 0:40      | API Project               |
 | TOTAL       | 2:00      |                           |
 
 ## Objectives (5 Minutes)
@@ -19,13 +19,13 @@
 
 ## Warm Up Activity (10 Minutes)
 
-Read [this article](http://www.differencebetween.net/technology/difference-between-authentication-and-authorization/) that dives deep regarding the difference between **authentication** and **authorization**. 
+Read [this article](http://www.differencebetween.net/technology/difference-between-authentication-and-authorization/) that dives deep regarding the difference between **authentication** and **authorization**.
 
-When you're done, **Slack a two sentence summary, in your own words, of the differences between the two** to the `#bew1-2` channel. With any remaining time, verbally discuss your summary with your peers, and compare and contrast your responses.
+When you're done, **Slack a two sentence summary, in your own words, of the differences between the two** to the `#bew1-2` channel. With any remaining time, verbally **discuss your summary with your peers**, and **compare and contrast** your responses.
 
 ## Overview (10 Minutes)
 
-We are using securely signed JSON Web Tokens (JWT) to authenticate our users access to our APIs. We can have webhooks that are only accessible by people who are logged in and can prove it with verifiable, signed JWT's.
+We are using securely signed JSON Web Tokens (JWT) to authenticate our users access to our APIs. We can have webhooks that are only accessible by people who are logged in and can prove it with verifiable, signed JWTs.
 
 However, what about making your site look different if a user is logged in or logged out? Or what if you have different types of users that should see things a little differently?
 
@@ -56,20 +56,18 @@ jQuery lets you easily select elements from the DOM and make changes to them, in
 
 For further details regarding the `window.onload` event, please see the [MDN Documentation: GlobalEventHandlers.onload](https://developer.mozilla.org/en-US/docs/Web/API/GlobalEventHandlers/onload).
 
-## Challenges (60 Minutes)
+## Challenges (45 Minutes)
 
-1. **Hiding Login/Signup Links** - Here is a pseudocode plan in plain English for how to hide your login and signup links when a user is logged in. Try to implement it with jQuery.
-    ```bash
-    If login/signup is successful, hide all HTML elements with the class `.unauthenticated` and show all HTML elements with the class `.authenticated`.
-    ```
-1. **Flashing** - are your elements flashing on the screen and then disappearing? That might be because the DOM loads before the hide and show functions run. What can you change to solve this flash?
-1. **Admin** - Can you add an "admin" attribute your token, and if a logged in user is an admin, show an link to `/admin` in your navbar?
-1. **Security** - Showing and hiding in jQuery only change the `display` css attribute from `visible` to `hidden`. Is this secure? Couldn't a malicious developer just look at the DOM in their browser web tools and see the link? Or someone could just navigate to `/admin`. What can you do to protect this URL more so only people who are admin can navigate to this route.
-1. **A Partial Solution** - For a partial solution to the above challenges, please look at this repository: [express-jwt-jquery](https://github.com/ajbraus/express-jwt-jquery). What are some things this implementation of express does differently than yours? Can you clone it and run it?
+**Hiding Login/Signup Links** - Here is a pseudocode plan in plain English for how to hide your login and signup links when a user is logged in. Try to implement it via jQuery or vanilla JavaScript --- you decide!
+
+1. If login/signup is successful, **hide all HTML elements with the class `.unauthenticated`**, and **show all HTML elements with the class `.authenticated`**.
+1. **Flashing** - Are your elements **flashing on the screen and then disappearing**? That might be because the _DOM loads before the hide and show functions run_. **What can you change to solve this flash**?
+1. **Admin** - Can you **add an "admin" attribute your token**, and **if a logged in user is an admin, show an link to `/admin` in your navbar**?
+1. **Security** - Showing and hiding in jQuery only change the `display` css attribute from `visible` to `hidden`. **Is this secure?** Couldn't a malicious developer just look at the DOM in their browser web tools and see the link? Or someone could just navigate to `/admin`. **What can you do to protect this URL more so only people who are admin can navigate to this route?**
 
 ## BREAK (10 Minutes)
 
-## API Project (25 Minutes)
+## API Project (45 Minutes)
 
 Allow students to work on their [Custom API Project](../Projects/02-Custom-API-Project.md) for the remainder of the period.
 
