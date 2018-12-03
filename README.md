@@ -56,8 +56,8 @@ To best prepare for the final exam, review [this study guide](study-guide.md).
 |  10   | Wednesday, November 28    | [TDD](09-TDD/README.md) |||
 |  11   |  Monday, December 3    | [Authorization](10-Authorization/README.md) |||
 |  12   | Wednesday, December 5   | [Testing Authentication and Authorization](11-Testing-Authentication-and-Authorization/README.md) |||
-|  13   | Monday, December 10   | [Custom Authenticated APIs](12-Custom-Authenticated-APIs/README.md) |||
-|  14   | Wednesday, December 12 | **Final Exams** | **_Final Exam_,<br>_Reddit.js_, <br>& _Custom API_ due today!**| `NO EXTENSIONS` & <br>`NO EXCEPTIONS` |
+|  13   | Monday, December 10   |  **Final Exams**  | _Final Exam_ | Written Exam |
+|  14   | Wednesday, December 12 | **Projects Due** | **_Reddit.js_, <br>& _Custom API_ due today!**| `NO EXTENSIONS` & <br>`NO EXCEPTIONS` |
 
 ## Tutorials & Projects
 
