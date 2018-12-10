@@ -36,7 +36,7 @@ If you are a web developer, where can you store data? At first you probably just
     1. Sessions
     1. A Database
     1. Client-side cache
-    1. Serve-side cache
+    1. Server-side cache
     1. A remote cache (e.g. Redis)
     1. A remote services (e.g. AWS S3, RabbitMQ, PubNub)
 1. (_Optional_) Feel free to take a **10 MINUTE BREAK** after completing this step.
