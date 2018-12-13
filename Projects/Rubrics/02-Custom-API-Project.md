@@ -32,4 +32,4 @@ Must receive higher than `70%` to pass the project.
 | ------- | -------- | ------ | --------- |
 | Functional Requirements | 80 | | |
 | Non-Functional Requirements | 80 | | |
-| TOTAL | 150 | | |
+| TOTAL | 160 | | |
