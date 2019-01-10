@@ -22,7 +22,7 @@ Class Sessions:  14 classes
 
 1. [BEW 1.1](http://make.sc/bew1-1)
 
-## Learning Objectives or Competencies
+## Learning Objectives
 
 Students by the end of the course will be able to ...
 
