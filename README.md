@@ -1,5 +1,9 @@
 # BEW1.2 - Authentication, Associations, & Advanced Queries
 
+| Guide | Slack | Office Hours | Shortlink | Tracker | Request 1-on-1 |
+| :-: | :-: | :-: | :-: | :-: | :-: |
+| [**Dani**](https://github.com/droxey) | _#bew1-2_ | Fri 0:00-0:00 _(Room)_ | [make.sc/bew1.2](https://make.sc/bew1.2) | [make.sc/trackbew1.2](https://make.sc/trackbew1.2) | [make.sc/codewithdani](https://make.sc/codewithdani) |
+
 ## Course Description
 
 In this course we will get into the real meat and potatoes of web development. We will build directly upon the Resourceful and RESTful patterns we learned last class and multiply them by building a clone of Reddit. As we multiply and associate our resources we will learn how to manage and cope with greater and greater complexity in our code while consistently keeping the user's experience in mind. Finally we will look at two ways to authenticate users and learn how to implement both.
