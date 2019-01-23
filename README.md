@@ -38,36 +38,32 @@ To best prepare for the final exam, review [this study guide](study-guide.md).
 
 ## Schedule
 
-* **Course Dates**: Monday, October 22 – Wednesday, December 12, 2018 (7 weeks)
+**Course Dates:** Monday, January 21 – Wednesday, March 6, 2019 (7 weeks)<br>
+**Class Times:** Monday and Wednesday at 3:30–5:20pm (10 class sessions)
 
-* **Class Times**:
-  * **Section A**: Monday and Wednesday at 1:30–3:20pm (13 class sessions)
-  * **Section B**: Monday and Wednesday at 3:30–5:20pm (13 class sessions)
-
-| Class |          Date          |                 Topics                  |       Graded Deliverable     | Due On... |
-|:-----:|:----------------------:|:---------------------------------------:|:----------------------------:|-----------|
-|   1   |  Monday, October 22    | [JavaScript Tips and Tricks](01-JavaScript-Tricks/README.md) | Presentation | `Day 2` |
-|   2   | Wednesday, October 24  | [How the Internet Works: Part 2](02-How-The-Internet-Works/README.md) |||
-|   3   |  Monday, October 29    | [Nested Routes and Resources](03-Nested-Routes-and-Resources/README.md) | Reddit.js | `Day 14` |
-|   4   | Wednesday, October 31  | [Persistence Levels](04-Persistence-Levels/README.md) | Blog Post | `Day 7` |
-|   5   |  Monday, November 5    | **Lab Day** |||
-|   6   | Wednesday, November 7  | [Documentation: Sharing the Love](05-Docsify/README.md) |||
-|   7   |  Monday, November 12 |  [Advanced Mongo Associations and Queries IRL](06-Advanced-MongoDB-IRL/README.md)|||
-|   8   | Wednesday, November 14 | [Advanced Schema Design for Fun and Profit](07-Advanced-Schema-Design/README.md) |||
-|       |  Tuesday, November 20 | **Don Rags** |||
-|       | Wednesday, November 21 | **Fall Break** |||
-|  9    |  Monday, November 26    | [Authentication Sessions vs. JWT](08-Authentication-Sessions-vs-JWT/README.md) | Custom API | `Day 14` |
-|  10   | Wednesday, November 28    | [TDD](09-TDD/README.md) |||
-|  11   |  Monday, December 3    | [Authorization](10-Authorization/README.md) |||
-|  12   | Wednesday, December 5   | [Testing Authentication and Authorization](11-Testing-Authentication-and-Authorization/README.md) |||
-|  13   | Monday, December 10   |  **Final Exams**  | _Final Exam_ | Written Exam |
-|  14   | Wednesday, December 12 | **Projects Due** | **_Reddit.js_, <br>& _Custom API_ due today!**| `NO EXTENSIONS` & <br>`NO EXCEPTIONS` |
+| Class |          Date          |                 Topics                  | Assignment Due |
+|:-----:|:----------------------:|:---------------------------------------:| :------------: |
+|  - | Monday, January 21         | **MLK Jr. Day** ||
+|  1 | Wednesday, January 23      | [JavaScript Tips and Tricks](01-JavaScript-Tricks/README.md) ||
+|  2 | Monday, January 28         | [How the Internet Works: Part 2](02-How-The-Internet-Works/README.md) | Presentation @ 1:30pm |
+|  3 |  Wednesday, January 30     | [Nested Routes and Resources](03-Nested-Routes-and-Resources/README.md) ||
+|  4 | Monday, February 4         | [Persistence Levels](04-Persistence-Levels/README.md) ||
+|  5 |  Wednesday, February 6     | **Lab Day** | Blog Post @ 11:59pm |
+|  6 | Monday, February 11        | [Documentation: Sharing the Love](05-Docsify/README.md) ||
+|  7 |  Wednesday, February 13    | [Advanced Mongo Associations and Queries IRL](06-Advanced-MongoDB-IRL/README.md) | Reddit.js @ 11:59pm |
+|  -  | Monday, February 18       | **President's Day (Observed)** ||
+|  8  | **Tuesday, February 19**  | [Advanced Schema Design for Fun and Profit](07-Advanced-Schema-Design/README.md) ||
+|  9 |  Wednesday, February 20    | [Authentication Sessions vs. JWT](08-Authentication-Sessions-vs-JWT/README.md) ||
+|  10 | Monday, February 25       | [TDD](09-TDD/README.md) ||
+|  11 |  Wednesday, February 27   | [Authorization](10-Authorization/README.md) ||
+|  12 | Monday, March 4           | [Testing Authentication and Authorization](11-Testing-Authentication-and-Authorization/README.md) | Project @ 11:59pm |
+|  13 |  Wednesday, March 6       | Final Exam ||
 
 ## Class Assignments
 
-* [A Custom Authenticated API Project](Projects/02-Custom-API-Project.md)
+* [Custom Authenticated API Project](Projects/02-Custom-API-Project.md)
   * [Rubric](Projects/Rubrics/02-Custom-API-Project.md)
-  
+
 ### Tutorials
 
 Tutorials are to help you get started in a topic.  They are **graded on completion only**.
