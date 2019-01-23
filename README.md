@@ -42,7 +42,7 @@ To best prepare for the final exam, review [this study guide](study-guide.md).
 **Class Times:** Monday and Wednesday at 3:30–5:20pm (10 class sessions)
 
 | Class |          Date          |                 Topics                  | Assignment Due |
-|:-----:|:----------------------:|:---------------------------------------:| :------------: |
+|:-----:|:----------------------:| --------------------------------------- | :------------: |
 |  - | Monday, January 21         | **MLK Jr. Day** ||
 |  1 | Wednesday, January 23      | [JavaScript Tips and Tricks](01-JavaScript-Tricks/README.md) ||
 |  2 | Monday, January 28         | [How the Internet Works: Part 2](02-How-The-Internet-Works/README.md) | Presentation @ 1:30pm |
