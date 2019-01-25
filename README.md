@@ -55,8 +55,8 @@ To best prepare for the final exam, review [this study guide](study-guide.md).
 |  8  | **Tuesday, February 19**  | [Advanced Schema Design for Fun and Profit](07-Advanced-Schema-Design/README.md) ||
 |  9 |  Wednesday, February 20    | [Authentication Sessions vs. JWT](08-Authentication-Sessions-vs-JWT/README.md) ||
 |  10 | Monday, February 25       | [TDD](09-TDD/README.md) ||
-|  11 |  Wednesday, February 27   | [Authorization](10-Authorization/README.md) ||
-|  12 | Monday, March 4           | [Testing Authentication and Authorization](11-Testing-Authentication-and-Authorization/README.md) | Project @ 11:59pm |
+|  11 |  Wednesday, February 27   | [Authorization](10-Authorization/README.md) | Project @ 11:59pm |
+|  12 | Monday, March 4           | [Testing Authentication and Authorization](11-Testing-Authentication-and-Authorization/README.md) ||
 |  13 |  Wednesday, March 6       | Final Exam ||
 
 ## Class Assignments
