@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="node.png" height="110">
+</p>
+
 # BEW1.2 - Authentication, Associations, & Advanced Queries
 
 | Guide | Slack | Office Hours | Shortlink | Tracker | Request 1-on-1 |
@@ -6,7 +10,7 @@
 
 ## Course Description
 
-In this course we will get into the real meat and potatoes of web development. We will build directly upon the Resourceful and RESTful patterns we learned last class and multiply them by building a clone of Reddit. As we multiply and associate our resources we will learn how to manage and cope with greater and greater complexity in our code while consistently keeping the user's experience in mind. Finally we will look at two ways to authenticate users and learn how to implement both.
+In this course, students build on knowledge of Resourceful and RESTful patterns and dive deep into the Node and Express ecosystems. Students learn how to manage greater scope and complexity in their code while consistently keeping the user's experience in mind through implementing a clone of the popular website, Reddit. The course will also cover the procedures required to authenticate and authorize web application users
 
 ## Course Specifics
 
