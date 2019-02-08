@@ -6,7 +6,7 @@
 
 | Guide | Slack | Office Hours | Shortlink | Tracker | Request 1-on-1 |
 | :-: | :-: | :-: | :-: | :-: | :-: |
-| [**Dani**](https://github.com/droxey) | _#bew1-2_ | M/T/Th 1:00 - 1:30pm _(Golden Gate)_<br>T/Th 3:30 - 4:30pm _(Tea Tree)_  | [make.sc/bew1.2](https://make.sc/bew1.2) | [Link](https://make.sc/trackbew1.2) | [Link](https://make.sc/codewithdani) |
+| [**Dani**](https://github.com/droxey) | _#bew1-2_ | M/Th 1-1:30pm _(Golden Gate)_<br>T/Th 3:30-4:30pm _(Tea Tree)_  | [make.sc/bew1.2](https://make.sc/bew1.2) | [make.sc/trackbew1.2](https://make.sc/trackbew1.2) | [Click to<br>Request](https://make.sc/codewithdani) |
 
 ## Course Description
 
