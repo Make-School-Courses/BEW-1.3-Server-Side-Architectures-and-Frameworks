@@ -123,8 +123,6 @@ Failure to meet these requirements will result in a PIP (Participation Improveme
 
 ## Make School Course Policies
 
-## Make School Course Policies
-
 [Academic Honesty](https://make.sc/academic-honesty)<br>
 [Accommodations for Students](https://make.sc/accommodations-for-students)<br>
 [Attendance Policy](https://make.sc/attendance-policy)
