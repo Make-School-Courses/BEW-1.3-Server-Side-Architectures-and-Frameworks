@@ -26,7 +26,7 @@
 
 ### TDD and BDD
 
-_Test-Driven Development_ is popular trend in software development. TDD uses software tests as a basis for development.
+_Test-Driven Development_ is a popular trend in software development. TDD uses software tests as a baseline metric to determine the quality of a codebase. Tests allow developers to check themselves before they wreck themselves, their teams, and the reputation of the product.
 
 > _Test-Driven Development_ (TDD) is a software development process that relies on the repetition of a very short development cycle: Requirements are turned into very specific test cases, then the software is improved to pass the new tests, only. This is opposed to software development that allows software to be added that is not proven to meet requirements.
 
