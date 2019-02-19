@@ -4,8 +4,8 @@
 
 # BEW1.2 - Authentication, Associations, & Advanced Queries
 
-|                 Guide                 |   Slack   |                          Office Hours                          |                Shortlink                 |                      Tracker                       |                   Request 1-on-1                    |
-| :-----------------------------------: | :-------: | :------------------------------------------------------------: | :--------------------------------------: | :------------------------------------------------: | :-------------------------------------------------: |
+|               Guide               |   Slack   |        Office Hours         |                Shortlink                 |                      Tracker                       |                  Request 1-on-1                  |
+| :-------------------------------: | :-------: | :-------------------------: | :--------------------------------------: | :------------------------------------------------: | :----------------------------------------------: |
 | [Dani](https://github.com/droxey) | _#bew1-2_ | T/Th 3:30-4:30pm (Tea Tree) | [make.sc/bew1.2](https://make.sc/bew1.2) | [make.sc/trackbew1.2](https://make.sc/trackbew1.2) | [Click to Request](https://make.sc/codewithdani) |
 
 ## Course Description
@@ -45,23 +45,23 @@ To best prepare for the final exam, review [this study guide](study-guide.md).
 **Course Dates:** Monday, January 21 – Wednesday, March 6, 2019 (7 weeks)<br>
 **Class Times:** Monday and Wednesday at 3:30–5:20pm (10 class sessions)
 
-| Class |     Date      | Topics                                                    | Assignment Due        |
-| :---: | :-----------: | --------------------------------------------------------- | :-------------------: |
-|   -   |   Mon 1/21    | **MLK Jr. Day**                                           ||
-|   1   |   Wed 1/23    | [JavaScript Tips and Tricks](Lessons/Lesson01.md)         ||
-|   2   |   Mon 1/28    | [How the Internet Works: Part 2](Lessons/Lesson02.md)     | Slides @ 1:30pm |
-|   3   |   Wed 1/30    | [Nested Routes and Resources](Lessons/Lesson03.md)        ||
-|   4   |    Mon 2/4    | [Persistence Levels](Lessons/Lesson04.md)                 ||
-|   5   |    Wed 2/6    | **Lab Day**                                               |  Blog Post @ 11:59pm  |
-|   6   |   Mon 2/11    | [Documentation: Sharing the Love](Lessons/Lesson05.md)    ||
-|   7   |   Wed 2/13    | [TDD](Lessons/Lesson09.md)                                |  Reddit.js @ 11:59pm  |
-|   -   |   Mon 2/18    | **President's Day (Observed)**                            ||
-|   8   | **Tues 2/19** | [Authentication Sessions vs. JWT](Lessons/Lesson08.md)    ||
-|   9   |   Wed 2/20    | [Authorization](Lessons/Lesson10.md)                      ||
-|  10   |   Mon 2/25    | **Coming Soon**: Advanced Mongoose Schema Design          ||
-|  11   |   Wed 2/27    | **Coming Soon**: Querying w/ Mongoose & `map`/`filter`    ||
-|  12   |  Mon March 4  | **Lab Day**: Custom API Project                           ||
-|  13   |  Wed March 6  | Final Exam                                                | Custom API @ 11:59pm  |
+| Class |     Date      | Topics                                                 |    Assignment Due    |
+| :---: | :-----------: | ------------------------------------------------------ | :------------------: |
+|   -   |   Mon 1/21    | **MLK Jr. Day**                                        |
+|   1   |   Wed 1/23    | [JavaScript Tips and Tricks](Lessons/Lesson01.md)      |
+|   2   |   Mon 1/28    | [How the Internet Works: Part 2](Lessons/Lesson02.md)  |   Slides @ 1:30pm    |
+|   3   |   Wed 1/30    | [Nested Routes and Resources](Lessons/Lesson03.md)     |
+|   4   |    Mon 2/4    | [Persistence Levels](Lessons/Lesson04.md)              |
+|   5   |    Wed 2/6    | **Lab Day**                                            | Blog Post @ 11:59pm  |
+|   6   |   Mon 2/11    | [Documentation: Sharing the Love](Lessons/Lesson05.md) |
+|   7   |   Wed 2/13    | [TDD](Lessons/Lesson09.md)                             | Reddit.js @ 11:59pm  |
+|   -   |   Mon 2/18    | **President's Day (Observed)**                         |
+|   8   | **Tues 2/19** | [Authentication Sessions vs. JWT](Lessons/Lesson08.md) |
+|   9   |   Wed 2/20    | [Authorization](Lessons/Lesson10.md)                   |
+|  10   |   Mon 2/25    | **Coming Soon**: Advanced Mongoose Schema Design       |
+|  11   |   Wed 2/27    | **Coming Soon**: Querying w/ Mongoose & `map`/`filter` |
+|  12   |  Mon March 4  | **Lab Day**: Custom API Project                        |
+|  13   |  Wed March 6  | Final Exam                                             | Custom API @ 11:59pm |
 
 ## Class Assignments
 
