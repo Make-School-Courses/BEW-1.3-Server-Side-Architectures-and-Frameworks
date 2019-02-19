@@ -12,7 +12,7 @@ It's time to get creative and write the authenticated API of your dreams!
 
 ### Functional Requirements
 
-1. At least one **nested route or resource** as covered on [Day 3](../Lessons/Lesson03.md) of class.
+1. At least one **nested route or resource** as covered on [Day 3](Lessons/Lesson03.md) of class.
 2. The ability to **CREATE**, **READ**, **UPDATE**, and **DELETE** the object(s) in your API.
 3. At least **one of each** endpoint: `GET`, `POST`, `PUT`, and `DELETE`.
 4. A **database persistence layer** (e.g. MongoDB)
@@ -30,8 +30,8 @@ It's time to get creative and write the authenticated API of your dreams!
 1. The API must have a discernible theme or **serve a distinct purpose**. See the [Examples](#Examples) for well-themed and purposed APIs.
 1. The final project must be **deployed and fully accessible** via the internet and **callable via any consumer**.
 1. The final project must be **fully documented**.
-1. Must **develop the API using a TDD approach** as discussed in class on [Day 9](../Lessons/Lesson09.md).
-1. The syntax in the final project deliverable will **adhere to [Airbnb JavaScript Style Guide](https://github.com/airbnb/javascript)**.
+2. Must **develop the API using a TDD approach** as discussed in class on [Day 9](Lessons/Lesson09.md).
+3. The syntax in the final project deliverable will **adhere to [Airbnb JavaScript Style Guide](https://github.com/airbnb/javascript)**.
 
 ### Level Up - API + Skills (_Optional_)
 
