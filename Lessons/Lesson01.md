@@ -19,7 +19,7 @@
 
 ## Initial Overview / TT (15 Minutes)
 
-1. Present [instructor intro](../00-Intro/README.md) and overview to class.
+1. Present [instructor intro](Lesson00.md) and overview to class.
 1. Open class up for questions or concerns after discussing course introduction.
 
 ## In Class Activity I (45 Minutes)

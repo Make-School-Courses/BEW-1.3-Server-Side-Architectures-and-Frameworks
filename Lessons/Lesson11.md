@@ -19,15 +19,15 @@
 
 ### Reading (10 Minutes)
 
-Please read this article on [How to Test NodeJS Apps using Mocha, Chai and SinonJS](https://scotch.io/tutorials/how-to-test-nodejs-apps-using-mocha-chai-and-sinonjs). Primarily focusing on a modern-day approach to testing in JavaScript, this article contains quite a bit of review with regards to what we covered on [Day 9](../09-TDD/README.md). Keen eyes will also note that this article  **introduces more advanced topics** that we'll **dive into during today's lesson**!
+Please read this article on [How to Test NodeJS Apps using Mocha, Chai and SinonJS](https://scotch.io/tutorials/how-to-test-nodejs-apps-using-mocha-chai-and-sinonjs). Primarily focusing on a modern-day approach to testing in JavaScript, this article contains quite a bit of review with regards to what we covered on [Day 9](Lesson09.md). Keen eyes will also note that this article  **introduces more advanced topics** that we'll **dive into during today's lesson**!
 
 ### Reflection (10 Minutes)
 
 Answer the following questions in your notes:
 
 1. What is a **mock**?
-1. What is a **stub**? How is a **mock different from a stub**?
-1. What is a **spy**?
+2. What is a **stub**? How is a **mock different from a stub**?
+3. What is a **spy**?
 
 If you **finish the reflection early**, further **discuss, compare, and contrast** your answers **with your peers**.
 
@@ -37,7 +37,7 @@ If you **finish the reflection early**, further **discuss, compare, and contrast
 
 #### Setup and Syntax
 
-Picking up where we left off on [Day 9](../09-TDD/README.md), Mocha will remain our test runner of choice. Remember, by default, Mocha will run all tests present in the `test` directory of your project. If no `test` directory exists, you should manually create one, placing the `*.js` files containing your tests within that directory.
+Picking up where we left off on [Day 9](Lesson09.md), Mocha will remain our test runner of choice. Remember, by default, Mocha will run all tests present in the `test` directory of your project. If no `test` directory exists, you should manually create one, placing the `*.js` files containing your tests within that directory.
 
 
 
@@ -56,13 +56,13 @@ Picking up where we left off on [Day 9](../09-TDD/README.md), Mocha will remain 
     npm init
     ```
 
-1. **Install Mocha, Chai, and Sinon** dependencies:
+2. **Install Mocha, Chai, and Sinon** dependencies:
 
     ```bash
     npm install --save-dev mocha chai chai-http
     ```
 
-1. Open `package.json` and **add the following line** to the `scripts` configuration to ensure `mocha` is used when executing the `npm test` command:
+3. Open `package.json` and **add the following line** to the `scripts` configuration to ensure `mocha` is used when executing the `npm test` command:
 
     ```json
     "scripts": {
@@ -70,13 +70,13 @@ Picking up where we left off on [Day 9](../09-TDD/README.md), Mocha will remain 
     }
     ```
 
-1. **Create a new `test` folder** inside your Node project, and **create a file** named `sample.test.js` inside:
+4. **Create a new `test` folder** inside your Node project, and **create a file** named `sample.test.js` inside:
 
     ```bash
     mkdir test && touch sample.test.js
     ```
 
-1. **Paste the following code** into the blank `sample.test.js` file:
+5. **Paste the following code** into the blank `sample.test.js` file:
 
     ```js
     // FILE: sample.test.js
@@ -98,9 +98,9 @@ Picking up where we left off on [Day 9](../09-TDD/README.md), Mocha will remain 
     });
     ```
 
-1. **Challenge**: Can you **add the code required** at the top of `sample.test.js` to **import the referenced external libraries**, making the above test case run properly?
+6. **Challenge**: Can you **add the code required** at the top of `sample.test.js` to **import the referenced external libraries**, making the above test case run properly?
 
-1. **Run the tests** to ensure they pass.
+7. **Run the tests** to ensure they pass.
 
     ```bash
     $ npm test
@@ -109,11 +109,11 @@ Picking up where we left off on [Day 9](../09-TDD/README.md), Mocha will remain 
     ✓ should pass
     ```
 
-1. **Challenge**: Using the provided code as a guide, can you **create a more sophisticated function**, then **write the corresponding test(s)**?
+8. **Challenge**: Using the provided code as a guide, can you **create a more sophisticated function**, then **write the corresponding test(s)**?
     1. Create a **new file** in the `test` directory to contain your function and test(s): `challenge.test.js`.
-    1. Write a **custom function** to test.
-    1. Write a **Sinon stub** to **encapsulate your test cases**.
-    1. Write at **least two test cases** that ascertain that your new custom function works!
+    2. Write a **custom function** to test.
+    3. Write a **Sinon stub** to **encapsulate your test cases**.
+    4. Write at **least two test cases** that ascertain that your new custom function works!
 
 ## BREAK (10 Minutes)
 

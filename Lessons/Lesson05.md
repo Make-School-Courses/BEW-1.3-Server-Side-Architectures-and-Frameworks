@@ -21,19 +21,19 @@
 
 ### Documentation Driven Development
 
-#### Philosophy 
+#### Philosophy
 
 1. From a user's perspective: if a **feature is not documented**, then it **doesn't exist**.
 1. If a feature is **documented incorrectly**, then it's **broken**.
 
 #### Strategy
 
-* **Document the feature first**. Figure out how you're going to describe the feature to users. 
-  * **Remember**: if it's not documented, it doesn't exist. 
+* **Document the feature first**. Figure out how you're going to describe the feature to users.
+  * **Remember**: if it's not documented, it doesn't exist.
   * Documentation is the **best way to define a feature**; without it, how will the user know a feature exists?
 * Whenever possible, **review documentation with users _before_ ANY development** begins.
-* Once documentation has been written, commence development. [TDD](../09-TDD/README.md) is preferred.
-* Unit tests should be written that test the features as described by the documentation. 
+* Once documentation has been written, commence development. [TDD](Lesson09.md) is preferred.
+* Unit tests should be written that test the features as described by the documentation.
   * If **functionality no longer aligns with the test, the test should fail**.
 * When a feature is being modified, it should be **modified documentation-first**.
 * When **docs are modified, tests are modified**. No exceptions.
@@ -43,13 +43,13 @@
 #### Order of Operations
 
 1. Write docs
-1. Get feedback
-1. [TDD](../09-TDD/README.md) (tests fully align with documentation)
-1. Push features live
-1. Test live functionality
-1. Publish documentation
-1. Increment versions
-1. Deliver feature to users
+2. Get feedback
+3. [TDD](Lessons/Lesson09.md) (tests fully align with documentation)
+4. Push features live
+5. Test live functionality
+6. Publish documentation
+7. Increment versions
+8. Deliver feature to users
 
 ## In Class Activity I (30 Minutes)
 

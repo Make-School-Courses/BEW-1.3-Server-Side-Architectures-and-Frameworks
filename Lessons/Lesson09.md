@@ -112,7 +112,7 @@ Writing tests for code _before_ you have the code to test is a great mental exer
 
 ## In Class Activity II - TDD Practice (70 Minutes)
 
-Use the [in-class-tdd](in-class-tdd/README.md) project in this repo as a starting point. I recommend [forking this starter repo directly](https://github.com/droxey/tdd-bdd-challenge) to best keep track of your changes.
+Use the [in-class-tdd](Lessons/in-class-tdd/README.md) project in this repo as a starting point. I recommend [forking this starter repo directly](https://github.com/droxey/tdd-bdd-challenge) to best keep track of your changes.
 
 Feel free to work with a partner.
 
@@ -208,5 +208,5 @@ Practice TDD by implementing test cases for your [Custom API Project](../Project
 
 ## Additional Resources
 
-* [Step by Step Setup](in-class-tdd/README.md) - Quick documentation on how to get started with TDD and BDD in Node.
+* [Step by Step Setup](Lessons/in-class-tdd/README.md) - Quick documentation on how to get started with TDD and BDD in Node.
 * [Chai.js Cheatsheet](https://devhints.io/chai) - Awesome cheat sheet for implementing TDD and BDD!
