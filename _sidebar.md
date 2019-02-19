@@ -11,4 +11,4 @@
 - [Day 9: Testing Authentication & Authorization](Lessons/Lesson11.md)
 - **[Study Guide](study-guide.md)**
 - **[Custom API Project](Projects/02-Custom-API-Project.md)**
-  - [Rubric](Rubrics/02-Custom-API-Project.md)
+  - [Rubric](Projects/Rubrics/02-Custom-API-Project.md)
