@@ -20,7 +20,7 @@
 
 ### Background
 
-Typically, legacy web technologies use the Cookie-Session method of authentication; however, there is a better way to do communicate authentication. This new way will work better with advanced **Single Page Application** technology like **React**, **Angular**, and **Vue**, as well as with authentication in **Mobile Apps**. We're going to use an encrypted chunk of JSON called a **JSON Web Token** or JWT
+Typically, legacy web technologies use the Cookie-Session method of authentication; however, there is a better way to do communicate authentication. This new way will work better with advanced **Single Page Application** technology like **React**, **Angular**, and **Vue** --- as well as with authentication in **Mobile Apps**. We're going to use an encrypted chunk of JSON called a **JSON Web Token** or JWT
 (pronounced ''*jot*'') to communicate logged in/logged out status between the client and server.
 
 ![cookie-token-auth](cookie-token-auth.png)
