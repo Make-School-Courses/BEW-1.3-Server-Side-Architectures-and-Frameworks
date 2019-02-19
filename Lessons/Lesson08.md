@@ -1,4 +1,4 @@
-# Day 8: Authentication with JWT (JSON Web Tokens) in Node
+# Day 8: Authentication with JWT in Node
 
 ## Minute-by-Minute
 
@@ -14,14 +14,14 @@
 ## Objectives (5 Minutes)
 
 1. Compare and contrast session based authentication and JSON Web Token (JWT) authentication.
-1. Use `express-jwt` to add JWT authentication to an express server.
+2. Use `express-jwt` to add JWT authentication to an express server.
 
 ## Overview (25 Minutes)
 
 ### Background
 
-Typically legacy web technologies use the Cookie-Session method of authentication; however, there is a better way to do communicate authentication. This new way will work better with advanced **Single Page Application** technology like **React** and **Angular 1/2** as well as with authentication in **Mobile Apps**. We're going to use an encrypted chunk of JSON called a **JSON Web Token** or JWT
-(pronounced ''*jot*'') to communicate authentication between client and server.
+Typically, legacy web technologies use the Cookie-Session method of authentication; however, there is a better way to do communicate authentication. This new way will work better with advanced **Single Page Application** technology like **React**, **Angular**, and **Vue**, as well as with authentication in **Mobile Apps**. We're going to use an encrypted chunk of JSON called a **JSON Web Token** or JWT
+(pronounced ''*jot*'') to communicate logged in/logged out status between the client and server.
 
 ![cookie-token-auth](cookie-token-auth.png)
 > Reference [auth0.com](https://auth0.com/blog/2014/01/07/angularjs-authentication-with-cookies-vs-token/)
@@ -33,16 +33,16 @@ Typically legacy web technologies use the Cookie-Session method of authenticatio
 Aren't you tired of worrying about keeping track of all these things?
 
 1. **Sessions** - JWT **doesn't require sessions.**
-1. **Cookies** - JWT allows you to simply **save the token to the client**.
-1. **CSRF** - Send the **JWT instead of a CSRF token**.
-1. **CORS** - Forget about it! **If the JWT is valid, the data is on its way**.
+2. **Cookies** - JWT allows you to simply **save the token to the client**.
+3. **CSRF** - Send the **JWT instead of a CSRF token**.
+4. **CORS** - Forget about it! **If the JWT is valid, the data is on its way**.
 
 Additional benefits:
 
-1. **Speed** - you don't have to look up the session.
-1. **Storage** - you don't have to store the session.
-1. **Mobile Ready** - Apps don't let you set cookies but they can save auth tokens.
-1. **Testing** - Logging in is no longer a special case in your tests --- just send the token!
+1. **Speed** - Don't have to look up the session.
+2. **Storage** - Don't have to store the session.
+3. **Mobile Ready** - Apps don't let you set cookies --- but, they _can_ save auth tokens.
+4. **Testing** - Logging in is no longer a special case in tests --- just send the token!
 
 ### Authentication Process
 
@@ -134,8 +134,8 @@ The token is hashed/encrypted as a string of characters that can only be decrypt
 
 1. **Make a Controller** Create a new controller file called `auth.js` and require it in your main server file.
 1. **GET route** - In that new file, create a GET route to `/sign-up`.
-1. **Wire up the front end** in your templating language of choice --- for example, Handlebars. 
-    
+1. **Wire up the front end** in your templating language of choice --- for example, Handlebars.
+
     Create the form, and use vanilla JS and `fetch` to execute an AJAX call when the form is submitted. Need more info? Click [here to learn more about `fetch`](https://scotch.io/tutorials/how-to-use-the-javascript-fetch-api-to-get-data).
 
     Example code provided below:
@@ -210,7 +210,7 @@ The token is hashed/encrypted as a string of characters that can only be decrypt
 
     ```js
     const newUser = new User(req.body);
-    
+
     newUser.save(function (err) {
         if (err) console.log(err);
         // saved!
@@ -231,7 +231,7 @@ The token is hashed/encrypted as a string of characters that can only be decrypt
 
     ```js
     Cookies.set('token', data.token);
-    
+
     // IF YOU'D LIKE TO REDIRECT NOW, ADD THIS:
     window.location.href = "/";
     ```
@@ -241,7 +241,7 @@ The token is hashed/encrypted as a string of characters that can only be decrypt
     ```js
     const cookieParser = require('cookie-parser');
     ...
-    
+
     app.use(cookieParser());
     app.use(
       jwt({
@@ -260,7 +260,7 @@ The token is hashed/encrypted as a string of characters that can only be decrypt
     ```
 
 1. **Test a Secure a Route** - Make a new route called `/bananas`, and have it send back the text "I love bananas". Now navigate to it without being logged in. **What happens when you navigate to `/bananas` in your browser?**
-1. **Repeat the above process** for the **`/login` route**. 
+1. **Repeat the above process** for the **`/login` route**.
 1. **Stretch Challenge**: Can you **create a link/button** that, _when clicked_, **logs the user out**?
 
 ## After Class
