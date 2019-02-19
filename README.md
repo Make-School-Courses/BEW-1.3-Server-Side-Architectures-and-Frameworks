@@ -6,7 +6,7 @@
 
 |                 Guide                 |   Slack   |                          Office Hours                          |                Shortlink                 |                      Tracker                       |                   Request 1-on-1                    |
 | :-----------------------------------: | :-------: | :------------------------------------------------------------: | :--------------------------------------: | :------------------------------------------------: | :-------------------------------------------------: |
-| **[Dani](https://github.com/droxey)** | _#bew1-2_ | T/Th 3:30-4:30pm _(Tea Tree)_ | [make.sc/bew1.2](https://make.sc/bew1.2) | [make.sc/trackbew1.2](https://make.sc/trackbew1.2) | [Click to Request](https://make.sc/codewithdani) |
+| [Dani](https://github.com/droxey) | _#bew1-2_ | T/Th 3:30-4:30pm (Tea Tree) | [make.sc/bew1.2](https://make.sc/bew1.2) | [make.sc/trackbew1.2](https://make.sc/trackbew1.2) | [Click to Request](https://make.sc/codewithdani) |
 
 ## Course Description
 
