@@ -20,13 +20,13 @@
 
 ## In Class Activity (60 Minutes)
 
-* **Copy** provided [starter pack](/Lessons/passport) code into a new repository.
-* **Integrate** a `User` model:
+1. **Copy** provided [starter pack](/Lessons/passport) code into a new repository.
+1. **Integrate** a `User` model:
     * **TUTORIAL**: Use [this guide](https://medium.freecodecamp.org/learn-how-to-handle-authentication-with-node-using-passport-js-4a56ed18e81e) to assist you in your quest!
     * **PROTIP**: Try the `passport-local-mongoose` strategy located [here](https://github.com/saintedlama/passport-local-mongoose).
-* **STRETCH**: Try a** different authentication strategy**, like **Facebook** or **GitHub**.
-* Use [Postman](https://getpostman.com) to **test the included `login`, `signup` and `secure` routes** in `controllers/api.js`.
-* If you **finish early**, **integrate** an **authentication** strategy in your **Custom API** project.
+1. **STRETCH**: Try a** different authentication strategy**, like **Facebook** or **GitHub**.
+1. Use [Postman](https://getpostman.com) to **test the included `login`, `signup` and `secure` routes** in `controllers/api.js`.
+1. If you **finish early**, **integrate** an **authentication** strategy in your **Custom API** project.
 
 ## Additional Resources
 
