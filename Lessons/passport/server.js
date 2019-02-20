@@ -19,7 +19,7 @@ app.use(session({
 app.use(passport.initialize());
 app.use(passport.session());
 
-require("./controllers/api.js/index.js")(app);
+require("./controllers/api.js")(app);
 
 const PORT = process.env.PORT || 3000;
 app.listen(PORT, function () {
