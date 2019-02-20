@@ -12,13 +12,9 @@ passport.use(new LocalStrategy({
       email,
       password
     };
-    if (!user) {
+    if (!user && !user.validPassword(password)) {
       return done(null, false, {
-        message: "Incorrect email."
-      });
-    } else if (!user.validPassword(password)) {
-      return done(null, false, {
-        message: "Incorrect password."
+        message: "Incorrect email and/or password"
       });
     }
     // If none of the above, return the user
@@ -26,7 +22,7 @@ passport.use(new LocalStrategy({
   }));
 
 passport.serializeUser(function (user, cb) {
-  cb(null, user);
+  cb(null, user._id);
 });
 
 passport.deserializeUser(function (obj, cb) {
