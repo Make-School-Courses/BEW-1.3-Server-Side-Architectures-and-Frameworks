@@ -22,5 +22,7 @@
 
 * Copy the provided [starter pack](/Lessons/passport) code into a new git repository.
 * Integrate a `mongoose` `User` model.
+    * PROTIP: Try the `passport-local-mongoose` strategy located [here](https://github.com/saintedlama/passport-local-mongoose).
+* **STRETCH**: Try a different authentication strategy, like Facebook or Github.
 * Use [Postman](https://getpostman.com) to test the included routes.
 * If you finish early, integrate an authentication strategy in your Custom API project.
