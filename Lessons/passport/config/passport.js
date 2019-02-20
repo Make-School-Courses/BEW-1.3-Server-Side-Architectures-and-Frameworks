@@ -8,6 +8,8 @@ passport.use(new LocalStrategy({
   },
   function (email, password, done) {
     // This runs when a user tries to sign in.
+
+    // TODO: Replace this object with a mongoose User model.
     let user = {
       email,
       password
@@ -26,6 +28,7 @@ passport.serializeUser(function (user, cb) {
 });
 
 passport.deserializeUser(function (obj, cb) {
+  // TODO: return an instance of a Mongoose User model.
   cb(null, obj);
 });
 
