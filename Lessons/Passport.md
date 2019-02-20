@@ -2,13 +2,13 @@
 
 ## Why You Should Know This
 
-[Passport.js](http://www.passportjs.org/) is an industry-standard library that allows developers to authenticate via several different protocols like, `OAuth`, `Auth0`, and more!
+[Passport.js](http://www.passportjs.org/) is an industry-standard authentication library that facilitates authentication via several different protocols including `OAuth`, `Auth0`, and more!
 
 ## Learning Objectives (5 Minutes)
 
 1. Identify and describe different Passport.js strategies for authentication.
 2. Contrast and compare Passport.js authentication strategies to JWT authentication.
-3. Apply a Passport.js strategy to your Custom API project.
+3. Apply a Passport.js strategy of your choice to your Custom API project.
 
 ## Overview / TT (30 Minutes)
 
@@ -18,11 +18,16 @@
 
 ## BREAK (10 Minutes)
 
-## In Class Activity I (60 Minutes)
+## In Class Activity (60 Minutes)
 
-* Copy the provided [starter pack](/Lessons/passport) code into a new git repository.
-* Integrate a `mongoose` `User` model.
-    * PROTIP: Try the `passport-local-mongoose` strategy located [here](https://github.com/saintedlama/passport-local-mongoose).
-* **STRETCH**: Try a different authentication strategy, like Facebook or Github.
-* Use [Postman](https://getpostman.com) to test the included routes.
-* If you finish early, integrate an authentication strategy in your Custom API project.
+* **Copy** provided [starter pack](/Lessons/passport) code into a new repository.
+* **Integrate** a `User` model:
+    * **TUTORIAL**: Use [this guide](https://medium.freecodecamp.org/learn-how-to-handle-authentication-with-node-using-passport-js-4a56ed18e81e) to assist you in your quest!
+    * **PROTIP**: Try the `passport-local-mongoose` strategy located [here](https://github.com/saintedlama/passport-local-mongoose).
+* **STRETCH**: Try a** different authentication strategy**, like **Facebook** or **GitHub**.
+* Use [Postman](https://getpostman.com) to **test the included `login`, `signup` and `secure` routes** in `controllers/api.js`.
+* If you **finish early**, **integrate** an **authentication** strategy in your **Custom API** project.
+
+## Additional Resources
+
+* **[passport-examples](https://github.com/mjhea0/passport-examples)**: A collection of examples using multiple authentication strategies.
