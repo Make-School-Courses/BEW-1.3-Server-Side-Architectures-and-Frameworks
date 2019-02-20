@@ -24,10 +24,11 @@
 2. **Integrate** a `User` model:
     * **TUTORIAL**: Use [this guide](https://medium.freecodecamp.org/learn-how-to-handle-authentication-with-node-using-passport-js-4a56ed18e81e) to assist you in your quest!
     * **PROTIP**: Try the `passport-local-mongoose` strategy located [here](https://github.com/saintedlama/passport-local-mongoose).
-3. **STRETCH**: Try a** different authentication strategy**, like **Facebook** or **GitHub**.
+3. **STRETCH**: Try a **different authentication strategy**, like **Facebook** or **GitHub**.
 4. Use [Postman](https://getpostman.com) to **test the included `login`, `signup` and `secure` routes** in `controllers/api.js`.
 5. If you **finish early**, **integrate** an **authentication** strategy in your **Custom API** project.
 
 ## Additional Resources
 
 * **[passport-examples](https://github.com/mjhea0/passport-examples)**: A collection of examples using multiple authentication strategies.
+* **[Express and Passport Sessions - Deep Dive](https://www.airpair.com/express/posts/expressjs-and-passportjs-sessions-deep-dive)**: Extra documentation regarding the interaction between the Express and Passport libraries.
