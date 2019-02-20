@@ -57,7 +57,7 @@ To best prepare for the final exam, review [this study guide](study-guide.md).
 |   7   |   Wed 2/13    | [TDD](Lessons/Lesson09.md)                             | Reddit.js @ 11:59pm  |
 |   -   |   Mon 2/18    | **President's Day (Observed)**                         |
 |   8   | **Tues 2/19** | [Authentication Sessions vs. JWT](Lessons/Lesson08.md) |
-|   9   |   Wed 2/20    | [Authorization](Lessons/Lesson10.md)                   |
+|   9   |   Wed 2/20    | [Authentication with Passport](Lessons/Passport.md)                   |
 |  10   |   Mon 2/25    | **Coming Soon**: Advanced Mongoose Schema Design       |
 |  11   |   Wed 2/27    | **Coming Soon**: Querying w/ Mongoose & `map`/`filter` |
 |  12   |  Mon March 4  | **Lab Day**: Custom API Project                        |
