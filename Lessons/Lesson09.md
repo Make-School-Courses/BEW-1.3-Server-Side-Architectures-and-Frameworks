@@ -10,11 +10,11 @@
 | 0:50        | 0:70      | In Class Activity II      |
 | TOTAL       | 2:00      |                           |
 
-## Learning Objectives/Competencies (5 Minutes)
+## Learning Objectives (5 Minutes)
 
 1. Provide an introduction to unit testing with JavaScript.
-1. Experience Test Driven Development and Behavior Driven Development first-hand through the use of Mocha and Chai.
-1. Practice TDD and BDD concepts via in-class pair challenges.
+2. Experience Test Driven Development and Behavior Driven Development first-hand through the use of Mocha and Chai.
+3. Practice TDD and BDD concepts via in-class pair challenges.
 
 ## Overview / TT (35 Minutes)
 

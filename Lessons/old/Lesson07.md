@@ -12,12 +12,12 @@
 | 1:30        | 0:30     | Wrap Up / Tutorial Time    |
 | TOTAL       | 2:00     |                            |
 
-## Learning Objectives/Competencies (5 Minutes)
+## Learning Objectives (5 Minutes)
 
 1. Review MongoDB schema basics at a high-level by reviewing and demonstrating a sample implmentation of the Theatre Reservations API.
-1. Gain the ability to articulate the most common relational database patterns at an introductory level.
-1. Dive deeper into the common design considerations present when evaluating the effacacy of document based database schemas.
-1. Understand the use of MongoDB and Mongoose techniques within RESTful APIs.
+2. Gain the ability to articulate the most common relational database patterns at an introductory level.
+3. Dive deeper into the common design considerations present when evaluating the effacacy of document based database schemas.
+4. Understand the use of MongoDB and Mongoose techniques within RESTful APIs.
 
 ## Initial Exercise (15 Minutes)
 

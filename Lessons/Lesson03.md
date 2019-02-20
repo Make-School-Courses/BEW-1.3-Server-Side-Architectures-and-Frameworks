@@ -16,11 +16,11 @@
 | 1:58        | 0:02     | Wrap Up
 | TOTAL       | 2:00     |                           |
 
-## Learning Objectives/Competencies (3 Minutes)
+## Learning Objectives (3 Minutes)
 
 1. Recall and review common REST paradigms in Express.
-1. Experience common themes in API design, architecture, and implementation including maintainability and separation of concerns.
-1. Identify best practices regarding the nesting of Express routes in order to produce developer-friendly endpoints.
+2. Experience common themes in API design, architecture, and implementation including maintainability and separation of concerns.
+3. Identify best practices regarding the nesting of Express routes in order to produce developer-friendly endpoints.
 
 ## Initial Exercise (10 Minutes)
 

@@ -7,7 +7,7 @@
 - [Day 5: Docsify](Lessons/Lesson05.md)
 - [Day 6: TDD](Lessons/Lesson09.md)
 - [Day 7: Authentication with JWT](Lessons/Lesson08.md)
-- [Day 8: Authorization - Sessions & Cookies](Lessons/Lesson10.md)
+- [Day 8: Authentication with Passport](Lessons/Passport.md)
 - [Day 9: Testing Authentication & Authorization](Lessons/Lesson11.md)
 - **[Study Guide](study-guide.md)**
 - **[Custom API Project](Projects/02-Custom-API-Project.md)**

@@ -13,7 +13,7 @@
 | 0:00        | 0:00      |                           |
 | TOTAL       | 0:80      |                           |
 
-## Learning Objectives/Competencies (5 Minutes)
+## Learning Objectives (5 Minutes)
 
 ## Initial Exercise (20 Minutes)
 

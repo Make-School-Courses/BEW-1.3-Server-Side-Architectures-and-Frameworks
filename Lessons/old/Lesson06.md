@@ -11,11 +11,11 @@
 | 0:60        | 0:50     | Activity: Integrate Mongo |
 | TOTAL       | 1:50     |                           |
 
-## Learning Objectives/Competencies (5 Minutes)
+## Learning Objectives (5 Minutes)
 
 1. Practice RESTful and resourceful routing techniques by creating a Theater Reservations API in Express.js.
-1. Implementing a complex MongoDB schema via a real-world walkthrough of a Theater Reservations system.
-1. Understand and embrace the API development process by combining nested RESTful routes with JavaScript code that interacts with MongoDB.
+2. Implementing a complex MongoDB schema via a real-world walkthrough of a Theater Reservations system.
+3. Understand and embrace the API development process by combining nested RESTful routes with JavaScript code that interacts with MongoDB.
 
 ## Overview / TT (5 Minutes)
 

@@ -9,7 +9,7 @@
 | 1:10        | 0:50      | Project Work              |
 | TOTAL       | 2:00      |                           |
 
-## Learning Objectives/Competencies
+## Learning Objectives
 
 1. Students will use this class period to work on their API projects with their peers.
 
