@@ -58,9 +58,9 @@ To best prepare for the final exam, review [this study guide](study-guide.md).
 |   -   |   Mon 2/18    | **President's Day (Observed)**                         |
 |   8   | **Tues 2/19** | [Authentication Sessions vs. JWT](Lessons/Lesson08.md) |
 |   9   |   Wed 2/20    | [Authentication with Passport](Lessons/Passport.md)                   |
-|  10   |   Mon 2/25    | **Coming Soon**: Advanced Mongoose Schema Design       |
+|  10   |   Mon 2/25    | **Lab Day**: Custom API Project                        |
 |  11   |   Wed 2/27    | **Coming Soon**: Querying w/ Mongoose & `map`/`filter` |
-|  12   |  Mon March 4  | **Lab Day**: Custom API Project                        |
+|  12   |  Mon March 4  |  **Coming Soon**: Advanced Mongoose Schema Design                      |
 |  13   |  Wed March 6  | Final Exam                                             | Custom API @ 11:59pm |
 
 ## Class Assignments
