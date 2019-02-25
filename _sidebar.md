@@ -8,7 +8,7 @@
 - [Day 6: TDD](Lessons/Lesson09.md)
 - [Day 7: Authentication with JWT](Lessons/Lesson08.md)
 - [Day 8: Authentication with Passport](Lessons/Passport.md)
-- [Day 9: Testing Authentication & Authorization](Lessons/Lesson11.md)
+- **Day 9: Custom API Kickoff**
+  - [Custom API Project](Projects/02-Custom-API-Project.md)
+      - [Rubric](Projects/Rubrics/02-Custom-API-Project.md)
 - **[Study Guide](study-guide.md)**
-- **[Custom API Project](Projects/02-Custom-API-Project.md)**
-  - [Rubric](Projects/Rubrics/02-Custom-API-Project.md)
