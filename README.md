@@ -32,6 +32,8 @@ To best prepare for the final exam, review [this study guide](study-guide.md).
 
 ## Schedule
 
+**NOTE:** Due to the shorter summer sessions, for some class sessions you will see multiple topics covered. This is to ensure that we cover the same material that we normally would in non-summer terms.
+
 **Course Dates:** Monday, January 21 – Wednesday, March 6, 2019 (7 weeks)<br>
 **Class Times:** Monday and Wednesday at 3:30–5:20pm (10 class sessions)
 
