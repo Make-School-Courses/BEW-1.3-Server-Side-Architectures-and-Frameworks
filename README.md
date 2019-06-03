@@ -36,7 +36,7 @@ To best prepare for the final exam, review [this study guide](study-guide.md).
 
 **Course Dates:** Tuesday, May 28 – Tuesday, July 2, 2019 (6 weeks)
 
-**Class Times:** Tuesday and Thursday at 10:300–11:50am (11 class sessions)
+**Class Times:** Tuesday and Thursday at 10:30–11:50am (11 class sessions)
 
 | Class |     Date      | Topics                                                 |    Assignment Due    |
 | :---: | :-----------: | ------------------------------------------------------ | :------------------: |
