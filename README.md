@@ -34,26 +34,23 @@ To best prepare for the final exam, review [this study guide](study-guide.md).
 
 **NOTE:** Due to the shorter summer sessions, for some class sessions you will see multiple topics covered. This is to ensure that we cover the same material that we normally would in non-summer terms.
 
-**Course Dates:** Monday, January 21 – Wednesday, March 6, 2019 (7 weeks)<br>
-**Class Times:** Monday and Wednesday at 3:30–5:20pm (10 class sessions)
+**Course Dates:** Tuesday, May 28 – Tuesday, July 2, 2019 (6 weeks)
+
+**Class Times:** Tuesday and Thursday at 10:300–11:50am (11 class sessions)
 
 | Class |     Date      | Topics                                                 |    Assignment Due    |
 | :---: | :-----------: | ------------------------------------------------------ | :------------------: |
-|   -   |   Mon 1/21    | **MLK Jr. Day**                                        |
-|   1   |   Wed 1/23    | [JavaScript Tips and Tricks](Lessons/Lesson01.md)      |
-|   2   |   Mon 1/28    | [How the Internet Works: Part 2](Lessons/Lesson02.md)  |   Slides @ 1:30pm    |
-|   3   |   Wed 1/30    | [Nested Routes and Resources](Lessons/Lesson03.md)     |
-|   4   |    Mon 2/4    | [Persistence Levels](Lessons/Lesson04.md)              |
-|   5   |    Wed 2/6    | **Lab Day**                                            | Blog Post @ 11:59pm  |
-|   6   |   Mon 2/11    | [Documentation: Sharing the Love](Lessons/Lesson05.md) |
-|   7   |   Wed 2/13    | [TDD](Lessons/Lesson09.md)                             | Reddit.js @ 11:59pm  |
-|   -   |   Mon 2/18    | **President's Day (Observed)**                         |
-|   8   | **Tues 2/19** | [Authentication Sessions vs. JWT](Lessons/Lesson08.md) |
-|   9   |   Wed 2/20    | [Authentication with Passport](Lessons/Passport.md)                   |
-|  10   |   Mon 2/25    | **Lab Day**: Custom API Project                        |
-|  11   |   Wed 2/27    | **Coming Soon**: Querying w/ Mongoose & `map`/`filter` |
-|  12   |   Mon 3/4     |  **Coming Soon**: Advanced Mongoose Schema Design                      |
-|  13   |   Wed 3/6     | Final Exam                                             | Custom API @ 11:59pm |
+|   1   |  Tu, May 28         | [JavaScript Tips and Tricks](Lessons/Lesson01.md)      |
+|   2   |  Th, May 30         | [How the Internet Works: Part 2](Lessons/Lesson02.md)  |   Slides @ 1:30pm  |
+|   3   |  Tu, June 4         | [Nested Routes and Resources](Lessons/Lesson03.md)     |
+|   4   |  Th, June 6         | [Persistence Levels](Lessons/Lesson04.md)              |
+|   5   |  Tu, June 11        | [Documentation: Sharing the Love](Lessons/Lesson05.md) | Blog Post @ 11:59pm |
+|   6   |  Th, June 13        | [TDD](Lessons/Lesson09.md)                             | Reddit.js @ 11:59pm |
+|   7   |  Tu, June 18        | [Authentication Sessions vs. JWT](Lessons/Lesson08.md) |
+|   8   |  Th, June 20        | [Authentication with Passport](Lessons/Passport.md)                   |
+|  9   |  Tu, June 25        | **Coming Soon**: Querying w/ Mongoose & `map`/`filter` |
+|  10   |  Th, June 27        |  **Coming Soon**: Advanced Mongoose Schema Design                      |
+|  11   |  Tu, July 2         | Final Exam                                             | Custom API @ 11:59pm |
 
 ## Class Assignments
 
