@@ -10,6 +10,7 @@
 - [Day 8: Authentication with Passport](Lessons/Passport.md)
 - **Day 9: Custom API Kickoff**
   - [Custom API Project](Projects/02-Custom-API-Project.md)
+      - [Proposal](Projects/Rubrics/proposal.md)
       - [Rubric](Projects/Rubrics/02-Custom-API-Project.md)
 - [Day 10: Authorization](Lesson/Lesson10.md)
 - **[Study Guide](study-guide.md)**
