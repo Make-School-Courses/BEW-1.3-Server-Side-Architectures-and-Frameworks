@@ -57,10 +57,9 @@
 
 ## Wrap Up (20 Minutes)
 
-* [Read How the Internet Works (Part 2)](http://make.sc/internet).
+* [Read How the Internet Works (Part 1)](https://github.com/Make-School-Courses/How-The-Internet-Works/blob/master/docs/Class1.md)
+* [Read How the Internet Works (Part 2)](https://github.com/Make-School-Courses/How-The-Internet-Works/blob/master/docs/Class2.md).
 
 ## After Class
 
 Continue work on the Reddit Tutorial.
-
-## Additional Resources
