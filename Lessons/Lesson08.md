@@ -169,10 +169,8 @@ The token is hashed/encrypted as a string of characters that can only be decrypt
     const UserSchema = new Schema({
       createdAt: { type: Date },
       updatedAt: { type: Date },
-      email: { type: String, unique: true, required: true },
-      password: { type: String, required: true },
-      first: { type: String, required: true },
-      last: { type: String, required: true }
+      username: { type: String, unique: true, required: true },
+      password: { type: String, required: true }
     });
 
     UserSchema.pre("save", function(next) {
