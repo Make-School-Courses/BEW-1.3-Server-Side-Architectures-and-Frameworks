@@ -2,7 +2,7 @@
   <img src="node.png" height="110">
 </p>
 
-# BEW1.2 - Authentication, Associations, & Advanced Queries
+# BEW1.3 - Server-Side Architectures & Frameworks
 
 |               Guide               |   Slack   |        Office Hours         |                Shortlink                 |                      Tracker                       |                  Request 1-on-1                  |
 | :-------------------------------: | :-------: | :-------------------------: | :--------------------------------------: | :------------------------------------------------: | :----------------------------------------------: |
