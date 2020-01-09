@@ -4,8 +4,8 @@
 
 # BEW1.3 - Server-Side Architectures & Frameworks
 
-|               Guide               |   Slack   |                Shortlink                 |                      Tracker                       
-| :-------------------------------: | :-------: | :-------------------------: | :--------------------------------------: | :------------------------------------------------: | :----------------------------------------------: |
+| Instructor | Slack Channel | Course Website | Course Tracker |
+| :--------------------------------------: | :-----------: | :--------------------------------------: | :------------------------------------------------: |
 | [Meredith](https://github.com/meredithcat) | _#bew1-3_ | [make.sc/bew1.3](https://make.sc/bew1.3) | [make.sc/trackbew1.3](https://make.sc/trackbew1.3) |
 
 ## Course Description
