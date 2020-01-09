@@ -4,9 +4,9 @@
 
 # BEW1.3 - Server-Side Architectures & Frameworks
 
-|               Guide               |   Slack   |        Office Hours         |                Shortlink                 |                      Tracker                       |                  Request 1-on-1                  |
+|               Guide               |   Slack   |                Shortlink                 |                      Tracker                       
 | :-------------------------------: | :-------: | :-------------------------: | :--------------------------------------: | :------------------------------------------------: | :----------------------------------------------: |
-| [Dani](https://github.com/droxey) | _#bew1-2_ | T/Th 3:30-4:30pm (Tea Tree) | [make.sc/bew1.2](https://make.sc/bew1.2) | [make.sc/trackbew1.2](https://make.sc/trackbew1.2) | [Click to Request](https://make.sc/codewithdani) |
+| [Meredith](https://github.com/meredithcat) | _#bew1-3_ | [make.sc/bew1.3](https://make.sc/bew1.3) | [make.sc/trackbew1.3](https://make.sc/trackbew1.3) |
 
 ## Course Description
 
@@ -14,7 +14,7 @@ In this course, students build on knowledge of Resourceful and RESTful patterns 
 
 ## Prerequisites
 
-1. [BEW 1.1](http://make.sc/bew1-1)
+1. [BEW 1.2](http://make.sc/bew1-2)
 
 ## Learning Outcomes
 
@@ -32,25 +32,35 @@ To best prepare for the final exam, review [this study guide](study-guide.md).
 
 ## Schedule
 
-**NOTE:** Due to the shorter summer sessions, for some class sessions you will see multiple topics covered. This is to ensure that we cover the same material that we normally would in non-summer terms.
+**Course Dates:**
 
-**Course Dates:** Tuesday, May 28 – Tuesday, July 2, 2019 (6 weeks)
+Monday, January 20 – Wednesday, March 4, 2020 (7 weeks)
 
-**Class Times:** Tuesday and Thursday at 10:30–11:50am (11 class sessions)
+Tuesday, January 21 – Thursday, March 5, 2020 (7 weeks)
+
+**Class Times:** 
+
+Monday and Wednesday at 2:30 PM-5:15 PM (13 class sessions)
+
+Tuesday and Thursday at 2:30 PM-5:15 PM (14 class sessions)
 
 | Class |     Date      | Topics                                                 |    Assignment Due    |
 | :---: | :-----------: | ------------------------------------------------------ | :------------------: |
-|   1   |  Tu, May 28         | [JavaScript Tips and Tricks](Lessons/Lesson01.md)      |
-|   2   |  Th, May 30         | [How the Internet Works: Part 2](Lessons/Lesson02.md)  |   Slides @ 1:30pm  |
-|   3   |  Tu, June 4         | [Nested Routes and Resources](Lessons/Lesson03.md)     |
-|   4   |  Th, June 6         | [Persistence Levels](Lessons/Lesson04.md)              |
-|   5   |  Tu, June 11        | [Documentation: Sharing the Love](Lessons/Lesson05.md) | Blog Post @ 11:59pm |
-|   6   |  Th, June 13        | [TDD](Lessons/Lesson09.md)                             | Reddit.js @ 11:59pm |
-|   7   |  Tu, June 18        | [Authentication Sessions vs. JWT](Lessons/Lesson08.md) |
-|   8   |  Th, June 20        | [Authentication with Passport](Lessons/Passport.md)                   |
-|  9   |  Tu, June 25        | **Coming Soon**: Querying w/ Mongoose & `map`/`filter` |
-|  10   |  Th, June 27        |  **Coming Soon**: Advanced Mongoose Schema Design                      |
-|  11   |  Tu, July 2         | Final Exam                                             | Custom API @ 11:59pm |
+|   -   |     Mon, January 20      | **NO CLASS** - MLK Day              |                         |
+|   -   |     Tue, January 21      |  BEW 1.2 Review Day for both sections |                         |
+|   1   |  Wed/Thur, January 22/23          | [JavaScript Tips and Tricks](Lessons/Lesson01.md)      |
+|   2   |  Mon/Tue, January 27/28         | [How the Internet Works: Part 2](Lessons/Lesson02.md)  |   Slides @ 2:30pm  |
+|   3   |  Wed/Thur, January 29/30         | [Nested Routes and Resources](Lessons/Lesson03.md)     | |
+|   4   |  Mon/Tue, February 3/4         | [Persistence Levels](Lessons/Lesson04.md)              |
+|   5   |  Wed/Thur, February 5/6        | [Documentation: Sharing the Love](Lessons/Lesson05.md) | Blog Post @ 11:59pm |
+|   6   |  Mon/Tue, February 10/11        | [TDD](Lessons/Lesson09.md)                             |  |
+|   7   |  Wed/Thur, February 12/13        | [Authentication Sessions vs. JWT](Lessons/Lesson08.md) |
+|   8   |  Mon/Tue, February 17/18        | [Authentication with Passport](Lessons/Passport.md)     |              |
+|  9   |  Wed/Thur, February 19/20        | **Coming Soon**: Querying w/ Mongoose & `map`/`filter` | Reddit.js @ 11:59pm |
+|  10   |  Mon/Tue, February 24/25        |  **Coming Soon**: Advanced Mongoose Schema Design                      |
+|  11   |  Wed/Thur, February 26/27         | ???                                             |  |
+|  12   |  Mon/Tue, March 2/3         | Lab Day                                             |  |
+|  13   |  Wed/Thur, March 4/5          | Final Exam                                             | Custom API @ 11:59pm |
 
 ## Class Assignments
 
@@ -83,11 +93,11 @@ Tutorials are to help you get started in a topic.  They are **graded on completi
 
 ## Make School Course Policies
 
-- [Program Learning Outcomes](https://make.sc/program-learning-outcomes)
-- [Grading System](https://make.sc/grading-system)
-- [Diversity and Inclusion Statement](https://make.sc/diversity-and-inclusion-statement)
-- [Academic Honesty](https://make.sc/academic-honesty-policy)
-- [Attendance Policy](https://make.sc/attendance-policy)
-- [Course Credit Policy](https://make.sc/course-credit-policy)
-- [Disability Services (Academic Accommodations)](https://make.sc/disability-services)
-- [Student Handbook](https://make.sc/student-handbook)
+- [Program Learning Outcomes](https://make.sc/program-learning-outcomes) - What you will achieve after finishing Make School, all courses are designed around these outcomes.
+- [Grading System](https://make.sc/grading-system) - How grading is done at Make School
+- [Diversity and Inclusion Statement](https://make.sc/diversity-and-inclusion-statement) - Learn about Diversity and Inclusion at Make School
+- [Academic Honesty](https://make.sc/academic-honesty-policy) - Our policies around plagerism, cheating, and other forms of academic misconduct 
+- [Attendance Policy](https://make.sc/attendance-policy) - What we expect from you in terms of attendance for all classes at Make School
+- [Course Credit Policy](https://make.sc/course-credit-policy) - Our policy for how you obtain credit for your courses
+- [Disability Services (Academic Accommodations)](https://make.sc/disability-services) - Services and accommodations we provide for students
+- [Student Handbook](https://make.sc/student-handbook) - Guidelines, policies, and resources for all Make School students
