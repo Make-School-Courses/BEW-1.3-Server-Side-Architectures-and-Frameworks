@@ -30,7 +30,7 @@ Students by the end of the course will be able to ...
 
 To best prepare for the final exam, review [this study guide](study-guide.md).
 
-## Schedule
+## Class Schedule
 
 **Course Dates:**
 
@@ -44,23 +44,38 @@ Monday and Wednesday at 2:30 PM-5:15 PM (13 class sessions)
 
 Tuesday and Thursday at 2:30 PM-5:15 PM (14 class sessions)
 
-| Class |     Date      | Topics                                                 |    Assignment Due    |
-| :---: | :-----------: | ------------------------------------------------------ | :------------------: |
-|   -   |     Mon, January 20      | **NO CLASS** - MLK Day              |                         |
-|   -   |     Tue, January 21      |  BEW 1.2 Review Day for both sections |                         |
-|   1   |  Wed/Thur, January 22/23          | [JavaScript Tips and Tricks](Lessons/Lesson01.md)      |
-|   2   |  Mon/Tue, January 27/28         | [How the Internet Works: Part 2](Lessons/Lesson02.md)  |   Slides @ 2:30pm  |
-|   3   |  Wed/Thur, January 29/30         | [Nested Routes and Resources](Lessons/Lesson03.md)     | |
-|   4   |  Mon/Tue, February 3/4         | [Persistence Levels](Lessons/Lesson04.md)              |
-|   5   |  Wed/Thur, February 5/6        | [Documentation: Sharing the Love](Lessons/Lesson05.md) | Blog Post @ 11:59pm |
-|   6   |  Mon/Tue, February 10/11        | [TDD](Lessons/Lesson09.md)                             |  |
-|   7   |  Wed/Thur, February 12/13        | [Authentication Sessions vs. JWT](Lessons/Lesson08.md) |
-|   8   |  Mon/Tue, February 17/18        | [Authentication with Passport](Lessons/Passport.md)     |              |
-|  9   |  Wed/Thur, February 19/20        | **Coming Soon**: Querying w/ Mongoose & `map`/`filter` | Reddit.js @ 11:59pm |
-|  10   |  Mon/Tue, February 24/25        |  **Coming Soon**: Advanced Mongoose Schema Design                      |
-|  11   |  Wed/Thur, February 26/27         | ???                                             |  |
-|  12   |  Mon/Tue, March 2/3         | Lab Day                                             |  |
-|  13   |  Wed/Thur, March 4/5          | Final Exam                                             | Custom API @ 11:59pm |
+| Class |     Date      | Topics                                                 | 
+| :---: | :-----------: | ------------------------------------------------------ | 
+|   -   |     Mon, January 20      | **NO CLASS** - MLK Day              |                         
+|   -   |     Tue, January 21      |  ??? Review Day for both sections ??? |                         
+|   1   |  Wed/Thur, January 22/23          | Intro to JS      |
+|   2   |  Mon/Tue, January 27/28         | Intro to Node  |  
+|   3   |  Wed/Thur, January 29/30         | HTTP Methods     | 
+|   4   |  Mon/Tue, February 3/4         | Endpoint Design              |
+|   5   |  Wed/Thur, February 5/6        | Databases | 
+|   6   |  Mon/Tue, February 10/11        | Data Modeling (Mongoose)      |
+|   7   |  Wed/Thur, February 12/13        | Advanced Mongoose Schema Design |
+|   8   |  Mon/Tue, February 17/18        | JWT Part 1     |
+|  9   |  Wed/Thur, February 19/20        | JWT Part 2 | 
+|  10   |  Mon/Tue, February 24/25        | Passport Part 1       |
+|  11   |  Wed/Thur, February 26/27         | Passport Part 2     |  
+|  12   |  Mon/Tue, March 2/3         | Review Day                 |  
+|  13   |  Wed/Thur, March 4/5          | Final Class             | 
+
+## Assignment Schedule 
+
+
+| Date Assigned |   Due Date   |                        Assignment                        |            Submission Form           |
+|:-------------:|:------------:|:---------------------------------------------------------:|:------------------------------------:|
+|  day, Date    |  day, Date | [Reddit Tutorial Part 1](makeschool.com)                    | [Submit Assignment](makeschool.com)  |
+|               |            | [API Project Part 1](makeschool.com)                      | [Submit Assignment](makeschool.com)  |
+|  day, Date    |  day, Date | [Reddit Tutorial Part 2](makeschool.com)                    | [Submit Assignment](makeschool.com)  |
+|               |            | [API Project Part 2](makeschool.com)                      | [Submit Assignment](makeschool.com)  |
+|  day, Date    |  day, Date | [Reddit Tutorial Part 3](makeschool.com)                    | [Submit Assignment](makeschool.com)  |
+|               |            | [API Project Part 3](makeschool.com)                      | [Submit Assignment](makeschool.com)  |
+|  day, Date    |  day, Date | [Reddit Tutorial Part 4](makeschool.com)                    | [Submit Assignment](makeschool.com)  |
+|               |            | [API Project Part 4](makeschool.com)                      | [Submit Assignment](makeschool.com)  |
+|  day, Date    |  day, Date | [Reddit Tutorial Part 5](makeschool.com)                    | [Submit Assignment](makeschool.com) 
 
 ## Class Assignments
 
