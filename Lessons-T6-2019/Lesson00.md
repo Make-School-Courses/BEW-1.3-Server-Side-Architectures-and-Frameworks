@@ -5,7 +5,7 @@ you'll to learn how the web works from client to sever, and develop a stronger u
 
 ## Welcome
 
-**_Welcome to BEW 1.2!_**
+**_Welcome to BEW 1.3!_**
 
 Class is like a job; think of this as a work environment rather than a traditional class. On the job, you work in a team. Team members assist one another, keeping in mind the end goal: to produce the **best work possible as a team**.
 

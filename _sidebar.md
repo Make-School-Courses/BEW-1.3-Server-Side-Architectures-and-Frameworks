@@ -1,4 +1,4 @@
-- **[BEW 1.2 @ Make School](README.md)**
+- **[Syllabus](README.md)**
 - [Day 1: Intro](Lessons/Lesson00.md)
 - [Day 1: Javascript Tricks](Lessons/Lesson01.md)
 - [Day 2: How The Internet Works, Pt 2](Lessons/Lesson02.md)
