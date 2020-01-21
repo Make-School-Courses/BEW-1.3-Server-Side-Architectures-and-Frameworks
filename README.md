@@ -44,23 +44,22 @@ Monday and Wednesday at 2:30 PM-5:15 PM (13 class sessions)
 
 Tuesday and Thursday at 2:30 PM-5:15 PM (14 class sessions)
 
-| Class |     Date      | Topics                                                 | 
-| :---: | :-----------: | ------------------------------------------------------ | 
-|   -   |     Mon, January 20      | **NO CLASS** - MLK Day              |                         
-|   -   |     Tue, January 21      |  ??? Review Day for both sections ??? |                         
-|   1   |  Wed/Thur, January 22/23          | Intro to JS      |
-|   2   |  Mon/Tue, January 27/28         | Intro to Node  |  
-|   3   |  Wed/Thur, January 29/30         | HTTP Methods     | 
-|   4   |  Mon/Tue, February 3/4         | Endpoint Design              |
-|   5   |  Wed/Thur, February 5/6        | Databases | 
-|   6   |  Mon/Tue, February 10/11        | Data Modeling (Mongoose)      |
-|   7   |  Wed/Thur, February 12/13        | Advanced Mongoose Schema Design |
-|   8   |  Mon/Tue, February 17/18        | JWT Part 1     |
-|  9   |  Wed/Thur, February 19/20        | JWT Part 2 | 
-|  10   |  Mon/Tue, February 24/25        | Passport Part 1       |
-|  11   |  Wed/Thur, February 26/27         | Passport Part 2     |  
-|  12   |  Mon/Tue, March 2/3         | Review Day                 |  
-|  13   |  Wed/Thur, March 4/5          | Final Class             | 
+| Class |     Date      | Topics                              | 
+| :---: | :-----------: | ----------------------------------- | 
+|   -   |  Mon, Jan 20  | **NO CLASS** - MLK Day |
+|   1   |  Wed, Jan 22  | [Intro to JS](Lessons/01-Intro-to-JS/) |
+|   2   |  Mon, Jan 27  | [Intro to Node]() |
+|   3   |  Wed, Jan 29  | [HTTP Methods & Endpoint Design]() |
+|   4   |  Mon, Feb 3   | [Databases]() |
+|   5   |  Wed, Feb 5   | [Data Modeling with Mongoose]() |
+|   6   |  Mon, Feb 10  | [Advanced Mongoose Schema Design]() |
+|   7   |  Wed, Feb 12  | [JWT Part 1]() |
+|   8   |  Mon, Feb 17  | [JWT Part 2]() |
+|   9   |  Wed, Feb 19  | [Automated Testing]() |
+|  10   |  Mon, Feb 24  | [Passport Part 1]() |
+|  11   |  Wed, Feb 26  | [Passport Part 2]() |
+|  12   |  Mon, Mar 2   | Review Day |
+|  13   |  Wed, Mar 4   | Final Class / Bonus Topic |
 
 ## Assignment Schedule 
 
