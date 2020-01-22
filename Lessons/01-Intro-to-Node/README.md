@@ -116,3 +116,25 @@ app.get('/greetings/:name', (req, res) => {
 
 
 ### Writing a Template
+
+Take a look at the template syntax for Handlebars for showing a list of songs. How is it different than Jinja (or Django) syntax? How is it similar?
+
+```js
+<ul>
+  {{ #each songs }}
+    <li>
+      <a href="/song/{{ this._id }}">
+        {{ this.name }}
+      </a>
+    </li>
+  {{ /each }}
+</ul>
+```
+
+## Wrap-Up
+
+Finish the GIF Search tutorial before the start of next class. You may finish individually - just make sure to clone the repository from your pair before you leave class!
+
+## 📚 Resources
+
+[Express/Node Introduction](https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/Introduction)
