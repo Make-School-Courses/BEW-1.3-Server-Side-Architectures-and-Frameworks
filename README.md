@@ -4,13 +4,13 @@
 
 # BEW1.3 - Server-Side Architectures & Frameworks
 
-| Instructor | Slack Channel | Course Website | Course Tracker |
-| :--------------------------------------: | :-----------: | :--------------------------------------: | :------------------------------------------------: |
-| [Meredith](https://github.com/meredithcat) | _#bew1-3_ | [make.sc/bew1.3](https://make.sc/bew1.3) | [make.sc/trackbew1.3](https://make.sc/trackbew1.3) |
+| Instructor | Slack Channel | Course Website |
+| :--------------------------------------: | :-----------: | :--------------------------------------: |
+| [Meredith](https://github.com/meredithcat) | _#bew1-3_ | [make.sc/bew1.3](https://make.sc/bew1.3) |
 
 ## Course Description
 
-In this course, students build on knowledge of Resourceful and RESTful patterns and dive deep into the Node and Express ecosystems. Students learn how to manage greater scope and complexity in their code while consistently keeping the user's experience in mind through implementing a clone of the popular website, Reddit. The course will also cover the procedures required to authenticate and authorize web application users
+In this course, students build on knowledge of Resourceful and RESTful patterns and dive deep into the Node and Express ecosystems. Students learn how to manage greater scope and complexity in their code while consistently keeping the user's experience in mind through implementing a clone of the popular website, Reddit. The course will also cover the procedures required to authenticate and authorize web application users.
 
 ## Prerequisites
 
@@ -36,45 +36,30 @@ To best prepare for the final exam, review [this study guide](study-guide.md).
 
 Monday, January 20 – Wednesday, March 4, 2020 (7 weeks)
 
-Tuesday, January 21 – Thursday, March 5, 2020 (7 weeks)
-
 **Class Times:** 
 
 Monday and Wednesday at 2:30 PM-5:15 PM (13 class sessions)
 
-Tuesday and Thursday at 2:30 PM-5:15 PM (14 class sessions)
+| Class |     Date      | Topics | Assignment | Done Before |
+| :---: | :-----------: | :--------: | :--------: | :--------:|
+|   -   |  Mon, Jan 20  | **NO CLASS** - MLK Day | - | - |
+|   1   |  Wed, Jan 22  | [Intro to Node](Lessons/01-Intro-to-Node/) | [GIF Search Tutorial] | Class 2 |
+|   2   |  Mon, Jan 27  | [JavaScript Tricks](Lessons/02-Intro-to-JS/) | [Codecademy JS] Part 1-5 | Class 3 |
+|   3   |  Wed, Jan 29  | [HTTP Methods & Endpoint Design]() | [Reddit.js] Part 1-3 | Class 4 |
+|   4   |  Mon, Feb 3   | [Databases]() | [Reddit.js] Part 4-5 | Class 6 |
+|   5   |  Wed, Feb 5   | [Data Modeling with Mongoose]() | | |
+|   6   |  Mon, Feb 10  | [Advanced Mongoose Schema Design]() | [Reddit.js] Part 6-7 | Class 8 |
+|   7   |  Wed, Feb 12  | [JWT Part 1]() | | |
+|   8   |  Mon, Feb 17  | [JWT Part 2]() | [Reddit.js] Part 8-9 | Class 10 |
+|   9   |  Wed, Feb 19  | [Automated Testing]() | | |
+|  10   |  Mon, Feb 24  | [Passport Part 1]() | [Reddit.js] Part 10-11 | Class 12 |
+|  11   |  Wed, Feb 26  | [Passport Part 2]() | | |
+|  12   |  Mon, Mar 2   | Review Day | | |
+|  13   |  Wed, Mar 4   | Final Class / Bonus Topic | | |
 
-| Class |     Date      | Topics                              | 
-| :---: | :-----------: | ----------------------------------- | 
-|   -   |  Mon, Jan 20  | **NO CLASS** - MLK Day |
-|   1   |  Wed, Jan 22  | [Intro to JS](Lessons/01-Intro-to-JS/) |
-|   2   |  Mon, Jan 27  | [Intro to Node]() |
-|   3   |  Wed, Jan 29  | [HTTP Methods & Endpoint Design]() |
-|   4   |  Mon, Feb 3   | [Databases]() |
-|   5   |  Wed, Feb 5   | [Data Modeling with Mongoose]() |
-|   6   |  Mon, Feb 10  | [Advanced Mongoose Schema Design]() |
-|   7   |  Wed, Feb 12  | [JWT Part 1]() |
-|   8   |  Mon, Feb 17  | [JWT Part 2]() |
-|   9   |  Wed, Feb 19  | [Automated Testing]() |
-|  10   |  Mon, Feb 24  | [Passport Part 1]() |
-|  11   |  Wed, Feb 26  | [Passport Part 2]() |
-|  12   |  Mon, Mar 2   | Review Day |
-|  13   |  Wed, Mar 4   | Final Class / Bonus Topic |
-
-## Assignment Schedule 
-
-
-| Date Assigned |   Due Date   |                        Assignment                        |            Submission Form           |
-|:-------------:|:------------:|:---------------------------------------------------------:|:------------------------------------:|
-|  day, Date    |  day, Date | [Reddit Tutorial Part 1](makeschool.com)                    | [Submit Assignment](makeschool.com)  |
-|               |            | [API Project Part 1](makeschool.com)                      | [Submit Assignment](makeschool.com)  |
-|  day, Date    |  day, Date | [Reddit Tutorial Part 2](makeschool.com)                    | [Submit Assignment](makeschool.com)  |
-|               |            | [API Project Part 2](makeschool.com)                      | [Submit Assignment](makeschool.com)  |
-|  day, Date    |  day, Date | [Reddit Tutorial Part 3](makeschool.com)                    | [Submit Assignment](makeschool.com)  |
-|               |            | [API Project Part 3](makeschool.com)                      | [Submit Assignment](makeschool.com)  |
-|  day, Date    |  day, Date | [Reddit Tutorial Part 4](makeschool.com)                    | [Submit Assignment](makeschool.com)  |
-|               |            | [API Project Part 4](makeschool.com)                      | [Submit Assignment](makeschool.com)  |
-|  day, Date    |  day, Date | [Reddit Tutorial Part 5](makeschool.com)                    | [Submit Assignment](makeschool.com) 
+[GIF Search Tutorial]: https://www.makeschool.com/academy/track/gif-search-app-ynu
+[Codecademy JS]: https://www.codecademy.com/learn/introduction-to-javascript
+[Reddit.js]: https://www.makeschool.com/academy/track/reddit-clone-in-node-js
 
 ## Class Assignments
 

@@ -1,16 +1,24 @@
 - **[Syllabus](README.md)**
-- [Day 1: Intro](Lessons/Lesson00.md)
-- [Day 1: Javascript Tricks](Lessons/Lesson01.md)
-- [Day 2: How The Internet Works, Pt 2](Lessons/Lesson02.md)
-- [Day 3: Nested Routes & Resources](Lessons/Lesson03.md)
-- [Day 4: Persistence](Lessons/Lesson04.md)
-- [Day 5: Docsify](Lessons/Lesson05.md)
-- [Day 6: TDD](Lessons/Lesson09.md)
-- [Day 7: Authentication with JWT](Lessons/Lesson08.md)
-- [Day 8: Authentication with Passport](Lessons/Passport.md)
-- **Day 9: Custom API Kickoff**
-  - [Custom API Project](Projects/02-Custom-API-Project.md)
-      - [Proposal](Projects/Rubrics/proposal.md)
-      - [Rubric](Projects/Rubrics/02-Custom-API-Project.md)
-- [Day 10: Authorization](Lesson/Lesson10.md)
-- **[Study Guide](study-guide.md)**
+
+- **Lessons**
+- [Intro to Node](Lessons/01-Intro-to-Node/)
+- [JavaScript Tricks](Lessons/02-Intro-to-JS/)
+- [HTTP Methods & Endpoint Design]()
+- [Databases]()
+- [Data Modeling with Mongoose]()
+- [Advanced Mongoose Schema Design]()
+- [JWT Part 1]()
+- [JWT Part 2]()
+- [Automated Testing]()
+- [Passport Part 1]()
+- [Passport Part 2]()
+
+- **Projects**
+- [GIF Search](https://www.makeschool.com/academy/track/gif-search-app-ynu)
+- [Reddit.js](https://www.makeschool.com/academy/track/reddit-clone-in-node-js)
+- [Custom API Project]()
+
+- **Assessments**
+- [Quiz 1]()
+- [Quiz 2]()
+- [Quiz 3]()
