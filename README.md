@@ -6,7 +6,7 @@
 
 | Instructor | Slack Channel | Course Website |
 | :--------------------------------------: | :-----------: | :--------------------------------------: |
-| [Meredith](https://github.com/meredithcat) | _#bew1-3_ | [make.sc/bew1.3](https://make.sc/bew1.3) |
+| [Meredith](https://github.com/meredithcat) | _#bew1-3-node_ | [make.sc/bew1.3](https://make.sc/bew1.3) |
 
 ## Course Description
 
