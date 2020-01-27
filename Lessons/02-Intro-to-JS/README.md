@@ -27,6 +27,8 @@ Get into teams of 3-4 at your table.
 
 Watch as the instructor demos snippets of JavaScript. Before the answer is revealed, write on your team's whiteboard what you predict the answer will be.
 
+If you'd like to read more funky JavaScript, check out [this video](https://www.youtube.com/watch?v=qjk2pWY4RP0) or go to [wtfjs.com](https://wtfjs.com).
+
 ## TT: JavaScript fundamentals [30 minutes]
 
 ### Variables: const, let, var
@@ -66,7 +68,7 @@ if (4 === 4) {
 console.log(result);
 ```
 
-Spoiler: <spoiler> `ReferenceError: result is not defined` </spoiler>
+Result: <spoiler> `ReferenceError: result is not defined` </spoiler>
 
 ### Conditionals
 
