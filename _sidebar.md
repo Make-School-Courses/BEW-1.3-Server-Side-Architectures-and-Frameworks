@@ -16,9 +16,9 @@
 - **Projects**
 - [GIF Search](https://www.makeschool.com/academy/track/gif-search-app-ynu)
 - [Reddit.js](https://www.makeschool.com/academy/track/reddit-clone-in-node-js)
-- [Custom API Project]()
+- [Custom API Project]
 
 - **Assessments**
-- [Quiz 1]()
-- [Quiz 2]()
-- [Quiz 3]()
+- [Quiz 1](Assessments/quiz-1.md)
+- [Quiz 2](Assessments/quiz-2.md)
+- [Quiz 3](Assessments/quiz-3.md)
