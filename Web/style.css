@@ -40,7 +40,7 @@
 }
 
 .markdown-section {
-  max-width: 840px;
+  max-width: 100%;
 }
 
 .markdown-section a:hover {
@@ -148,4 +148,16 @@ table>tbody>tr>td::before {
 .btn-edit-on-github:hover a {
   text-decoration: none;
   color: white;
+}
+
+spoiler,
+.markdown-section spoiler code {
+  background-color: #fffbcc;
+  color: #fffbcc;
+}
+
+spoiler:hover,
+spoiler code:hover {
+  background-color: #fff;
+  color: #333;
 }
