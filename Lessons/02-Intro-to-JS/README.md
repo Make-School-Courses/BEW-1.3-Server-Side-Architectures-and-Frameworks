@@ -3,7 +3,11 @@
 ## Schedule
 
 1. Learning Objectives
-1. 
+1. Activity: JS Jeopardy
+1. JavaScript fundamentals
+1. BREAK
+1. Work Time: Codecademy JS
+1. Wrap-Up
 
 ## Learning Objectives
 
@@ -17,7 +21,7 @@ By the end of this lesson, students will be able to...
 
 Watch the 4-minute [Wat video](https://www.destroyallsoftware.com/talks/wat) and briefly discuss.
 
-### Activity: JSJeopardy [20 minutes]
+### Activity: JS Jeopardy [20 minutes]
 
 Get into teams of 3-4 at your table.
 
@@ -140,3 +144,13 @@ const userInfo = {
     ]
 }
 ```
+
+## Break [10 minutes]
+
+## Work Time: Codecademy
+
+Work on [Codecademy JS](https://www.codecademy.com/learn/introduction-to-javascript) parts 1-5. Feel free to ask 
+
+## Wrap-Up
+
+Complete [Codecademy JS](https://www.codecademy.com/learn/introduction-to-javascript) parts 1-5. Your instructor will check your progress in the next class session.
