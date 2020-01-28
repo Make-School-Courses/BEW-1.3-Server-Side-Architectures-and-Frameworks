@@ -49,17 +49,18 @@ Monday and Wednesday at 2:30 PM-5:15 PM (13 class sessions)
 |   4   |  Mon, Feb 3   | [Databases]() | [Reddit.js] Part 4-5 | Class 6 ||
 |   5   |  Wed, Feb 5   | [Data Modeling with Mongoose]() | | ||
 |   6   |  Mon, Feb 10  | [Advanced Mongoose Schema Design]() | [Reddit.js] Part 6-7 | Class 8 | [Midterm Assessment] |
-|   7   |  Wed, Feb 12  | [JWT Part 1]() | | ||
-|   8   |  Mon, Feb 17  | [JWT Part 2]() | [Reddit.js] Part 8-9 | Class 10 ||
-|   9   |  Wed, Feb 19  | [Automated Testing]() | | ||
-|  10   |  Mon, Feb 24  | [Passport Part 1]() | [Reddit.js] Part 10-11 | Class 12 | |
-|  11   |  Wed, Feb 26  | [Passport Part 2]() | | ||
+|   7   |  Wed, Feb 12  | [JWT Part 1]() | [Reddit.js] Part 8-9 | Class 8 ||
+|   8   |  Mon, Feb 17  | [JWT Part 2]() | [Custom API] Proposal | Class 10 ||
+|   9   |  Wed, Feb 19  | [Automated Testing]() | [Reddit.js] Part 10-11 | Class 11 ||
+|  10   |  Mon, Feb 24  | [Passport Part 1]() | [Custom API] | Class 12 | |
+|  11   |  Wed, Feb 26  | [Passport Part 2]() |  | ||
 |  12   |  Mon, Mar 2   | Review Day | | ||
 |  13   |  Wed, Mar 4   | Final Class / Bonus Topic | | | [Final Assessment] |
 
 [GIF Search Tutorial]: https://www.makeschool.com/academy/track/gif-search-app-ynu
 [Codecademy JS]: https://www.codecademy.com/learn/introduction-to-javascript
 [Reddit.js]: https://www.makeschool.com/academy/track/reddit-clone-in-node-js
+[Custom API]: Projects/02-Custom-API-Project.md
 
 [Midterm Assessment]: Assessments/quiz-1.md
 [Final Assessment]: Assessments/quiz-2.md

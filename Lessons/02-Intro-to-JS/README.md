@@ -17,6 +17,10 @@ By the end of this lesson, students will be able to...
 1. (Optional) Recall ES6 JavaScript constructs such as arrow functions, etc.
 1. Compare and contrast JavaScript code with Python.
 
+## Submit Homework
+
+Go to your [Gradescope](https://gradescope.com) account and submit your GIF Search project. It will be graded on completion only.
+
 ## JavaScript: Wat
 
 Watch the 4-minute [Wat video](https://www.destroyallsoftware.com/talks/wat) and briefly discuss.
@@ -151,7 +155,7 @@ const userInfo = {
 
 ## Work Time: Codecademy
 
-Work on [Codecademy JS](https://www.codecademy.com/learn/introduction-to-javascript) parts 1-5. Feel free to ask 
+Work on [Codecademy JS](https://www.codecademy.com/learn/introduction-to-javascript) parts 1-5. Feel free to ask someone sitting next to you if you get stuck or have questions!
 
 ## Wrap-Up
 
