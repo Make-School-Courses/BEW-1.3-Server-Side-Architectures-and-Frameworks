@@ -45,10 +45,10 @@ Monday and Wednesday at 2:30 PM-5:15 PM (13 class sessions)
 |   -   |  Mon, Jan 20  | **NO CLASS** - MLK Day | - | - ||
 |   1   |  Wed, Jan 22  | [Intro to Node](Lessons/01-Intro-to-Node/) | [GIF Search Tutorial] | Class 2 ||
 |   2   |  Mon, Jan 27  | [JavaScript Tricks](Lessons/02-Intro-to-JS/) | [Codecademy JS] Part 1-5 | Class 3 ||
-|   3   |  Wed, Jan 29  | [HTTP Methods & Endpoint Design]() | [Reddit.js] Part 1-3 | Class 4 ||
+|   3   |  Wed, Jan 29  | [HTTP Methods & Endpoint Design](Lessons/03-Http-Methods/) | [Reddit.js] Part 1-3 | Class 4 ||
 |   4   |  Mon, Feb 3   | [Databases]() | [Reddit.js] Part 4-5 | Class 6 ||
-|   5   |  Wed, Feb 5   | [Data Modeling with Mongoose]() | | ||
-|   6   |  Mon, Feb 10  | [Advanced Mongoose Schema Design]() | [Reddit.js] Part 6-7 | Class 8 | [Midterm Assessment] |
+|   5   |  Wed, Feb 5   | [Data Modeling with Mongoose]() | | | [Midterm Assessment] |
+|   6   |  Mon, Feb 10  | [Advanced Mongoose Schema Design]() | [Reddit.js] Part 6-7 | Class 8 ||
 |   7   |  Wed, Feb 12  | [JWT Part 1]() | [Reddit.js] Part 8-9 | Class 8 ||
 |   8   |  Mon, Feb 17  | [JWT Part 2]() | [Custom API] Proposal | Class 10 ||
 |   9   |  Wed, Feb 19  | [Automated Testing]() | [Reddit.js] Part 10-11 | Class 11 ||

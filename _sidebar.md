@@ -3,7 +3,7 @@
 - **Lessons**
 - [Intro to Node](Lessons/01-Intro-to-Node/)
 - [JavaScript Tricks](Lessons/02-Intro-to-JS/)
-- [HTTP Methods & Endpoint Design](Lessons/03-Endpoint-Design/)
+- [HTTP Methods & Endpoint Design](Lessons/03-Http-Methods/)
 - [Databases](Lessons/04-Databases/)
 - [Data Modeling with Mongoose](Lessons/05-Data-Modeling/)
 - [Advanced Mongoose Schema Design](Lessons/06-More-Data-Modeling/)
