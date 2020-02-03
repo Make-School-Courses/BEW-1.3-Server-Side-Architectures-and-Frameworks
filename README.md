@@ -48,10 +48,10 @@ Monday and Wednesday at 2:30 PM-5:15 PM (13 class sessions)
 |   3   |  Wed, Jan 29  | [HTTP Methods & Endpoint Design](Lessons/03-Http-Methods/) | [Reddit.js] Part 1-3 | Class 5 ||
 |   4   |  Mon, Feb 3   | [Databases](Lessons/04-Databases/) | [Reddit.js] Part 4-5 | Class 6 ||
 |   5   |  Wed, Feb 5   | [Data Modeling with Mongoose]() | | | |
-|   6   |  Mon, Feb 10  | [Advanced Mongoose Schema Design]() | [Reddit.js] Part 6-7 | Class 8 | [Midterm Assessment] |
+|   6   |  Mon, Feb 10  | [Automated Testing Part 1]() | [Reddit.js] Part 6-7 | Class 8 | [Midterm Assessment] |
 |   7   |  Wed, Feb 12  | [JWT Part 1]() | [Reddit.js] Part 8-9 | Class 8 ||
 |   8   |  Mon, Feb 17  | [JWT Part 2]() | [Custom API] Proposal | Class 10 ||
-|   9   |  Wed, Feb 19  | [Automated Testing]() | [Reddit.js] Part 10-11 | Class 11 ||
+|   9   |  Wed, Feb 19  | [Automated Testing Part 2]() | [Reddit.js] Part 10-11 | Class 11 ||
 |  10   |  Mon, Feb 24  | [Passport Part 1]() | [Custom API] | Class 12 | |
 |  11   |  Wed, Feb 26  | [Passport Part 2]() |  | ||
 |  12   |  Mon, Mar 2   | Review Day | | ||
