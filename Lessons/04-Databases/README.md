@@ -15,7 +15,8 @@
 By the end of this class, students will be able to...
 
 1. Use Mongoose models to represent data using a variety of types.
-1. Use the `find`, `findOne`, 
+1. Use the `find`, `findOne`, etc. functions to query Mongoose objects.
+1. Practice writing routes to return database objects.
 
 ## Activity: Tutorial Time (50 Minutes)
 
