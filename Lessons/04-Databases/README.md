@@ -2,6 +2,14 @@
 
 ## Agenda
 
+1. Learning Objectives
+1. Activity: Tutorial Time (50 Minutes)
+1. BREAK (10 Minutes)
+1. Review: Databases using Mongoose (20 Minutes)
+1. Activity: Create an Events app (30 Minutes)
+1. Lab Time (45 Minutes)
+1. Resources & Credits
+
 ## Learning Objectives
 
 By the end of this class, students will be able to...
@@ -15,7 +23,7 @@ Use this time to get caught up on the Reddit.js tutorial (or keep going, if you 
 
 In the last 20 minutes, go over the tutorial Parts 1-3 as a class and discuss.
 
-## Databases
+## Databases using Mongoose (20 Minutes)
 
 In this class, we will be using [Mongoose](https://mongoosejs.com/docs/models.html) models to represent our data.
 
@@ -51,7 +59,7 @@ Event.findOne({ eventName: 'Make School Demo Night' })
     });
 ```
 
-## Activity: Make an Events app
+## Activity: Create an Events app (30 Minutes)
 
 Create a new project in a folder called `events-js`. Run `npm init` to get a `package.json` file, and create a file `server.js`. For now, all of our code will go in the server file.
 
