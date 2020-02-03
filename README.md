@@ -36,7 +36,7 @@ To best prepare for the final exam, review [this study guide](study-guide.md).
 
 Monday, January 20 – Wednesday, March 4, 2020 (7 weeks)
 
-**Class Times:** 
+**Class Times:**
 
 Monday and Wednesday at 2:30 PM-5:15 PM (13 class sessions)
 
@@ -46,7 +46,7 @@ Monday and Wednesday at 2:30 PM-5:15 PM (13 class sessions)
 |   1   |  Wed, Jan 22  | [Intro to Node](Lessons/01-Intro-to-Node/) | [GIF Search Tutorial] | Class 2 ||
 |   2   |  Mon, Jan 27  | [JavaScript Tricks](Lessons/02-Intro-to-JS/) | [Codecademy JS] Part 1-5 | Class 3 ||
 |   3   |  Wed, Jan 29  | [HTTP Methods & Endpoint Design](Lessons/03-Http-Methods/) | [Reddit.js] Part 1-3 | Class 5 ||
-|   4   |  Mon, Feb 3   | [Databases]() | [Reddit.js] Part 4-5 | Class 6 ||
+|   4   |  Mon, Feb 3   | [Databases](Lessons/04-Databases/) | [Reddit.js] Part 4-5 | Class 6 ||
 |   5   |  Wed, Feb 5   | [Data Modeling with Mongoose]() | | | |
 |   6   |  Mon, Feb 10  | [Advanced Mongoose Schema Design]() | [Reddit.js] Part 6-7 | Class 8 | [Midterm Assessment] |
 |   7   |  Wed, Feb 12  | [JWT Part 1]() | [Reddit.js] Part 8-9 | Class 8 ||
