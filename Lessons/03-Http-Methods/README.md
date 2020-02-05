@@ -85,7 +85,7 @@ Let's say we are building out the GET endpoint for a route like:
 const albumsRouter = express.Router();
 const songsRouter = express.Router();
 
-app.use('/albums', albums);
+app.use('/albums', albumsRouter);
 
 // ... routes for /albums
 
@@ -101,7 +101,7 @@ songsRouter.get('/:songId', function(req, res, next) {
   let songId = req.params.songId;
   
   // Get data here and send a response
-  return res.send(`Album ${albumId} and track ${trackId}`);
+  return res.send(`Album ${albumId} and track ${songId}`);
 });
 ```
 
