@@ -13,6 +13,17 @@
 
 ## Learning Objectives
 
+By the end of this lesson, students should be able to...
+
+1. Read and understand code using Promises, callbacks, and arrow functions.
+1. Write code to use and resolve Promises.
+1. Identify reasons for using test-driven development.
+1. Write API unit tests using Mocha, Chai, and Chai HTTP.
+
+## Submit Homework (5 minutes)
+
+Go to [Gradescope](https://gradescope.com) and submit the Reddit.js tutorial parts 4-5.
+
 ## Review: Promises (20 minutes)
 
 Working with promises is an important part of writing vanilla JavaScript code. Let's review how they work and how to effectively use them!
