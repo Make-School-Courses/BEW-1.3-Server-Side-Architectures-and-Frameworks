@@ -6,7 +6,7 @@
 - [HTTP Methods & Endpoint Design](Lessons/03-Http-Methods/)
 - [Databases](Lessons/04-Databases/)
 - [Data Modeling with Mongoose](Lessons/05-Data-Modeling/)
-- [Advanced Mongoose Schema Design](Lessons/06-More-Data-Modeling/)
+- [Test-Driven Development](Lessons/06-Test-Driven-Development/)
 - [JWT Part 1](Lessons/07-JWT/)
 - [JWT Part 2](Lessons/07-JWT/)
 - [Automated Testing](Lessons/08-Testing/)
