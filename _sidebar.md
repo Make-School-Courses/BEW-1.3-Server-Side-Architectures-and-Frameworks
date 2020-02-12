@@ -7,7 +7,7 @@
 - [Databases](Lessons/04-Databases/)
 - [Data Modeling with Mongoose](Lessons/05-Data-Modeling/)
 - [Test-Driven Development](Lessons/06-Test-Driven-Development/)
-- [JWT Part 1](Lessons/07-JWT/)
+- [JWT Part 1](Lessons/07-Authentication/)
 - [JWT Part 2](Lessons/07-JWT/)
 - [Automated Testing](Lessons/08-Testing/)
 - [Passport Part 1](Lessons/09-Passport/)

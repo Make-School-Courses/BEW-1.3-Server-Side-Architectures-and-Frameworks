@@ -49,7 +49,7 @@ Monday and Wednesday at 2:30 PM-5:15 PM (13 class sessions)
 |   4   |  Mon, Feb 3   | [Databases](Lessons/04-Databases/) | [Reddit.js] Part 4-5 | Class 6 ||
 |   5   |  Wed, Feb 5   | [Data Modeling with Mongoose](Lessons/05-Modeling-with-Mongoose/) | [API Project] Phase 1 | Class 7 | |
 |   6   |  Mon, Feb 10  | [Automated Testing Part 1](Lessons/06-Test-Driven-Development/) | [Reddit.js] Part 6-7 | Class 8 |  |
-|   7   |  Wed, Feb 12  | [JWT Part 1]() | [Reddit.js] Part 8-9 | Class 9 |[Midterm Assessment](Assessments/midterm-assessment.md) |
+|   7   |  Wed, Feb 12  | [JWT Part 1](Lessons/07-Authentication/) | [Reddit.js] Part 8-9 | Class 9 |[Midterm Assessment](Assessments/midterm-assessment.md) |
 |   8   |  Mon, Feb 17  | [JWT Part 2]() | [API Project] Phase 2 | Class 10 ||
 |   9   |  Wed, Feb 19  | [Automated Testing Part 2]() | [Reddit.js] Part 10-11 | Class 11 ||
 |  10   |  Mon, Feb 24  | [Passport Part 1]() | [API Project] Phase 3 | Class 13 | |
