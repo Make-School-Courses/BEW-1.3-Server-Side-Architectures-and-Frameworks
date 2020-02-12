@@ -37,7 +37,7 @@ A JWT token has the format of `xxxxxx.yyyyyy.zzzzzz`, where:
 
 - `xxxxxx` is the "header" - typically includes information like the type of token
 - `yyyyyy` is the "body", such as the user's login information (username or email).
-- `zzzzzz` is the "signature". If the header or body of the token are tampered with, then the signatures will not match.
+- `zzzzzz` is the "signature". The signature is formed using the header, the body, and the secret key stored on the server. If the header or body of the token are tampered with, then the signatures will not match.
 
 Explore the [JWT Format](https://jwt.io/) tool as a class to understand how the three parts work together to form the token.
 
