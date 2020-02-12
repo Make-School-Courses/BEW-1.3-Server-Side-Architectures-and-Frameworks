@@ -19,5 +19,5 @@
 - [Custom API Project](Projects/02-Custom-API-Project.md)
 
 - **Assessments**
-- [Midterm Assessment](Assessments/quiz-1.md)
-- [Final Assessment](Assessments/quiz-2.md)
+- [Midterm Assessment](Assessments/midterm-assessment.md)
+- [Final Assessment](Assessments/final-assessment.md)
