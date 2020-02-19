@@ -55,6 +55,10 @@ In particular, you will want to add the following:
 1. An endpoint for the user to log in
 1. A middleware function to determine if the user is logged in, and if so add their user info to the request object
 
+## Wrap-Up
+
+API project Phase 1 is due on Tuesday - must have at least 4 unit tests. Recommended to try using TDD, but alternately you can write the routes first followed by the tests. (Tests do not have to be passing for this submission.)
+
 ## Resources & Credits
 
 1. [Mongoose Unit Tests using Chai](https://medium.com/nongaap/beginners-guide-to-writing-mongodb-mongoose-unit-tests-using-mocha-chai-ab5bdf3d3b1d)
