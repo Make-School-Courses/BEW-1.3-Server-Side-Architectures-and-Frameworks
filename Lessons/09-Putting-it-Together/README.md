@@ -9,13 +9,13 @@
 1. Adding Authentication
 1. Resources & Credits
 
-## Learning Objectives
+## Learning Objectives (5 minutes)
 
 1. Use the Postman desktop program to send requests to an API, either on the web or on Localhost.
 1. Complete a single route using a Document-Driven and Test-Driven approach.
 1. Integrate JWT authentication into an existing API.
 
-## Warm-Up
+## Warm-Up (5 minutes)
 
 Form a group of 3-4. Check-in with each person on their Reddit.js tutorial progress. Then, answer the following questions:
 
@@ -23,11 +23,13 @@ Form a group of 3-4. Check-in with each person on their Reddit.js tutorial progr
 1. What has been eye-opening to learn about how a website works?
 1. What parts of the Reddit tutorial can you use to inform how to build your API project?
 
-## A Primer on Postman
+Make sure to submit your tutorial thru Part 9 on [Gradescope](https://gradescope.com).
+
+## A Primer on Postman (15 minutes)
 
 If you haven't yet, install [Postman](https://www.postman.com/downloads/) and watch as your instructor demonstrates its use with a locally served API.
 
-## Sample Project Demo
+## Sample Project Demo (20 minutes)
 
 Watch as your instructor demonstrates how to complete a mini-project according to the following steps. 
 
@@ -45,7 +47,7 @@ Watch as your instructor demonstrates how to complete a mini-project according t
 
 ## BREAK
 
-## Adding Authentication
+## Adding Authentication (20 minutes)
 
 Watch as your instructor adds authentication to an existing app.
 
@@ -54,6 +56,10 @@ In particular, you will want to add the following:
 1. An endpoint for the user to sign up for an account, which should add a new User object to the database
 1. An endpoint for the user to log in
 1. A middleware function to determine if the user is logged in, and if so add their user info to the request object
+
+## Activity: Work Time (30 minutes)
+
+Continue working on your API project.
 
 ## Wrap-Up
 
