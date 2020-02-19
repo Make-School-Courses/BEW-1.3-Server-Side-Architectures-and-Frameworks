@@ -15,6 +15,14 @@
 1. Complete a single route using a Document-Driven and Test-Driven approach.
 1. Integrate JWT authentication into an existing API.
 
+## Warm-Up
+
+Form a group of 3-4. Check-in with each person on their Reddit.js tutorial progress. Then, answer the following questions:
+
+1. What has been challenging about the tutorial so far?
+1. What has been eye-opening to learn about how a website works?
+1. What parts of the Reddit tutorial can you use to inform how to build your API project?
+
 ## A Primer on Postman
 
 If you haven't yet, install [Postman](https://www.postman.com/downloads/) and watch as your instructor demonstrates its use with a locally served API.
