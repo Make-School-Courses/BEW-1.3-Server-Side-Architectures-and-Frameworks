@@ -63,7 +63,7 @@ Continue working on your API project.
 
 ## Wrap-Up
 
-API project Phase 1 is due on Tuesday - must have at least 4 unit tests. Recommended to try using TDD, but alternately you can write the routes first followed by the tests. (Tests do not have to be passing for this submission.)
+API project Phase 1 is due on Tuesday - recommended to have at least 8 unit tests. Recommended to try using TDD, but alternately you can write the routes first followed by the tests. (Tests do not have to be passing for this submission.)
 
 ## Resources & Credits
 
