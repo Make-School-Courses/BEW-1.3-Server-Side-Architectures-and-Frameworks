@@ -9,9 +9,9 @@
 - [Test-Driven Development](Lessons/06-Test-Driven-Development/)
 - [Authentication with JWT](Lessons/07-Authentication/)
 - [Documentation with Docsify](Lessons/08-Documentation/)
-- [Automated Testing](Lessons/09-Testing/)
-- [Passport Part 1](Lessons/10-Passport/)
-- [Passport Part 2](Lessons/10-Passport/)
+- [Putting it Together](Lessons/09-Putting-it-Together/)
+- [Advanced Testing](Lessons/10-Advanced-Testing/)
+- [Testing Authentication](Lessons/11-Testing-Authentication/)
 
 - **Projects**
 - [GIF Search](https://www.makeschool.com/academy/track/gif-search-app-ynu)

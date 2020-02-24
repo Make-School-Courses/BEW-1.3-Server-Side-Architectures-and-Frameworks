@@ -12,7 +12,8 @@
 
 ## Learning Objectives
 
-1. 
+1. Use BDD techniques to write human-readable unit tests for existing functions, as well as yet-to-be-written functions.
+1. Define testing terminology 
 
 ## Overview: Behavior Driven Development (BDD) (15 minutes)
 
@@ -30,7 +31,7 @@ user.should.have.properties("first", "last", "age");
 
 You can see this is code but it also is clearly read in english describing important product features. BDD will manifest for us first in libraries like `Expect.js` and `Should.js`. These make assertions in code around BDD syntax like: `should.have.properties()` and `expect().to.be()` or similar.
 
-On your own, read over the [Chai BDD Documentation](https://www.chaijs.com/api/bdd/). For each of the following chains, write down: 1) how it is used, and 2) _why_ it is helpful to use in a test:
+On your own, read over the [Chai BDD Documentation](https://www.chaijs.com/api/bdd/). For each of the following chains, write down: 1) what it does, and 2) _why_ it is helpful to use in a test:
 
 - `.not`
 - `.deep`
@@ -41,7 +42,7 @@ On your own, read over the [Chai BDD Documentation](https://www.chaijs.com/api/b
 - `.a`
 - `.include`
 
-Then, reflect on your answers with with a partner.
+Then, reflect on your answers with with a partner. We'll go over your answers as a class.
 
 
 ## Activity: BDD Practice (30 minutes)
@@ -52,13 +53,13 @@ Clone the [TDD/BDD Challenge](https://github.com/droxey/tdd-bdd-challenge) repos
 
 ## Advanced Testing Concepts: Mocks, Stubs, & Spies (20 minutes)
 
-### Reading (10 Minutes)
+### Reading (15 Minutes)
 
 Please read this article on [How to Test NodeJS Apps using Mocha, Chai and SinonJS](https://scotch.io/tutorials/how-to-test-nodejs-apps-using-mocha-chai-and-sinonjs). Primarily focusing on a modern-day approach to testing in JavaScript, this article contains quite a bit of review with regards to what we covered on [Day 9](Lesson09.md). Keen eyes will also note that this article  **introduces more advanced topics** that we'll **dive into during today's lesson**!
 
 As you read, follow the steps in the article to create BDD-style tests for a route using spies, stubs, and mocks.
 
-### Reflection (10 Minutes)
+### Reflection (5 Minutes)
 
 Answer the following questions in your notes:
 
@@ -144,3 +145,5 @@ Complete today's challenges and finish any remaining tests for your APIs project
 
 ## Resources & Credits
 
+1. [Chai BDD](https://www.chaijs.com/api/bdd/)
+1. [Chai Assert](https://www.chaijs.com/api/assert/)
