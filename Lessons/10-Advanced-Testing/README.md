@@ -13,7 +13,7 @@
 ## Learning Objectives
 
 1. Use BDD techniques to write human-readable unit tests for existing functions, as well as yet-to-be-written functions.
-1. Define testing terminology 
+1. Define testing terminology, including stubs, spies, & mocks, and use it to write tests
 
 ## Overview: Behavior Driven Development (BDD) (15 minutes)
 
@@ -45,21 +45,21 @@ On your own, read over the [Chai BDD Documentation](https://www.chaijs.com/api/b
 Then, reflect on your answers with with a partner. We'll go over your answers as a class.
 
 
-## Activity: BDD Practice (30 minutes)
+## Activity: BDD Practice (50 minutes)
 
 Clone the [TDD/BDD Challenge](https://github.com/droxey/tdd-bdd-challenge) repository and complete the challenges contained in `tests/utils.test.js`. Feel free to work with a partner.
 
 ## BREAK (10 minutes)
 
-## Advanced Testing Concepts: Mocks, Stubs, & Spies (20 minutes)
+## Advanced Testing Concepts: Mocks, Stubs, & Spies (35 minutes)
 
-### Reading (15 Minutes)
+### Activity (20 Minutes)
 
 Please read this article on [How to Test NodeJS Apps using Mocha, Chai and SinonJS](https://scotch.io/tutorials/how-to-test-nodejs-apps-using-mocha-chai-and-sinonjs). Primarily focusing on a modern-day approach to testing in JavaScript, this article contains quite a bit of review with regards to what we covered on [Day 9](Lesson09.md). Keen eyes will also note that this article  **introduces more advanced topics** that we'll **dive into during today's lesson**!
 
 As you read, follow the steps in the article to create BDD-style tests for a route using spies, stubs, and mocks.
 
-### Reflection (5 Minutes)
+### Reflection (15 Minutes)
 
 Answer the following questions in your notes:
 
@@ -132,12 +132,6 @@ If you **finish the reflection early**, further **discuss, compare, and contrast
     Example Sinon Stub
     ✓ should pass
     ```
-
-8. **Challenge**: Using the provided code as a guide, can you **create a more sophisticated function**, then **write the corresponding test(s)**?
-    1. Create a **new file** in the `test` directory to contain your function and test(s): `challenge.test.js`.
-    2. Write a **custom function** to test.
-    3. Write a **Sinon stub** to **encapsulate your test cases**.
-    4. Write at **least two test cases** that ascertain that your new custom function works!
 
 ## Wrap-Up (5 minutes)
 
