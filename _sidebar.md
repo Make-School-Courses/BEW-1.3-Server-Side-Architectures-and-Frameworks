@@ -11,7 +11,7 @@
 - [Documentation with Docsify](Lessons/08-Documentation/)
 - [Putting it Together](Lessons/09-Putting-it-Together/)
 - [Advanced Testing](Lessons/10-Advanced-Testing/)
-- [Testing Authentication](Lessons/11-Testing-Authentication/)
+- [More Authentication](Lessons/11-More-Authentication/)
 
 - **Projects**
 - [GIF Search](https://www.makeschool.com/academy/track/gif-search-app-ynu)
