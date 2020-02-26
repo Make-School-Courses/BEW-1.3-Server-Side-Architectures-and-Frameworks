@@ -53,7 +53,7 @@ Monday and Wednesday at 2:30 PM-5:15 PM (13 class sessions)
 |   8   |  Mon, Feb 17  | [Documentation with Docsify](Lessons/08-Documentation/) | [API Project] Phase 2 | Class 10 ||
 |   9   |  Wed, Feb 19  | [Putting it Together](Lessons/09-Putting-it-Together/) | [Reddit.js] Part 10-11 | Class 11 ||
 |  10   |  Mon, Feb 24  | [Advanced Testing Patterns](Lessons/10-Advanced-Testing/) | [API Project] Phase 3 | Class 13 | |
-|  11   |  Wed, Feb 26  | [Testing Authentication](Lessons/11-More-Authentication/) |  | ||
+|  11   |  Wed, Feb 26  | [More Authentication](Lessons/11-More-Authentication/) |  | ||
 |  12   |  Mon, Mar 2   | Review Day | | ||
 |  13   |  Wed, Mar 4   | Final Class / Bonus Topic | | | [Final Assessment] |
 
