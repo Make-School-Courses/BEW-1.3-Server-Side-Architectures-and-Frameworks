@@ -37,6 +37,8 @@ As you read, take notes and answer the following questions:
 
 Then, pair with another group and discuss both concepts. How do they fit together?
 
+As a class, discuss how these were used in the Reddit.js project.
+
 ## BREAK
 
 ## Activity: JWT Authentication Tutorial
@@ -45,4 +47,4 @@ With a partner, complete this [Scotch.io tutorial](https://scotch.io/tutorials/a
 
 ## Final Project Work Time
 
-Continue to work on your final project.
+Continue to work on your final project. Submit your Project Phase 2 via [Gradescope](https://gradescope.com).
