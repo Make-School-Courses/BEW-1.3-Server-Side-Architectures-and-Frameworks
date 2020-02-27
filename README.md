@@ -55,7 +55,7 @@ Monday and Wednesday at 2:30 PM-5:15 PM (13 class sessions)
 |  10   |  Mon, Feb 24  | [Advanced Testing Patterns](Lessons/10-Advanced-Testing/) | [API Project] Phase 3 | Class 13 | |
 |  11   |  Wed, Feb 26  | [More Authentication](Lessons/11-More-Authentication/) |  | ||
 |  12   |  Mon, Mar 2   | Review Day | | ||
-|  13   |  Wed, Mar 4   | Final Class / Bonus Topic | | | [Final Assessment] |
+|  13   |  Wed, Mar 4   | Final Class / Bonus Topic | | | [Final Assessment](Assessments/final-asssessment.md) |
 
 [GIF Search Tutorial]: https://www.makeschool.com/academy/track/gif-search-app-ynu
 [Codecademy JS]: https://www.codecademy.com/learn/introduction-to-javascript
