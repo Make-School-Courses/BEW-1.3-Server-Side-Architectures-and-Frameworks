@@ -32,6 +32,28 @@ You may also need to add to your "scripts" in `package.json`:
 }
 ```
 
+#### Push to Heroku
+
+Create a Heroku app:
+
+```
+$ heroku create MY_APP_NAME_HERE
+```
+
+Add, commit, and push your files to GitHub as you normally would. Then, push to Heroku:
+
+```
+$ git push heroku master
+$ heroku open
+```
+
+Take a look at the logs with:
+
+```
+$ heroku logs --tail
+```
+
+
 #### Add a Production Database
 
 Run the following to add the `mLabs` addon to your project:
@@ -57,30 +79,14 @@ const port = process.env.PORT
 app.listen(port)
 ```
 
-#### Push to Heroku
-
-Create a Heroku app:
+Add, commit, and push your files to Heroku, then run:
 
 ```
-$ heroku create MY_APP_NAME_HERE
-```
-
-Add, commit, and push your files to GitHub as you normally would. Then, push to Heroku:
-
-```
-$ git push heroku master
 $ heroku open
 ```
 
-Woo-hoo! You're done!
+If you still have errors, take a look at the logs and see if you can debug!
 
-If you still have errors (quite likely), take a look at the logs with:
-
-```
-$ heroku logs --tail
-```
-
-Your instructor will help with any remaining errors.
 
 ## BREAK (10 minutes)
 
