@@ -39,7 +39,7 @@ Let's go over some definitions to get us started...
 
 - [**Handlebars**](https://handlebarsjs.com/) is a lightweight templating language that works with Node and Express.
 
-<!-->
+<!--
 ## 📖 [15m] Review of Pair Programming
 
 Pair programming is useful because...

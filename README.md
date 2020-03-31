@@ -130,7 +130,7 @@ Homeworks, tutorials, & projects assigned weeks 1-6 are listed below.
 **To pass this course, you must earn at least a 70% weighted average, according to the following breakdown**:
 
 - Reddit.js Tutorial: 20%
-- Assignments & Class Participation: 50%
+- Assignments, Projects, & Class Participation: 50%
 - Quizzes/Assessments: 30%
 
 In order to pass this course, you must also:
