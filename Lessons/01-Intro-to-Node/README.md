@@ -22,6 +22,10 @@ By the end of this class, you should be able to...
 1. Use the Handlebars templating language to pass data to a template.
 1. Compare and Contrast Express routes with Flask.
 
+## [5m] Warm-Up
+
+
+
 
 ## 📖 [15m] Node and Express
 
@@ -35,6 +39,7 @@ Let's go over some definitions to get us started...
 
 - [**Handlebars**](https://handlebarsjs.com/) is a lightweight templating language that works with Node and Express.
 
+<!-->
 ## 📖 [15m] Review of Pair Programming
 
 Pair programming is useful because...
@@ -64,8 +69,8 @@ The **navigator** is responsible for...
 - Intervene if your pair is quiet
 - Communicate!!!
 - Swap roles frequently
+-->
 
-## 🌴 [10m] BREAK
 
 ## 💻 [50m] Lab Activity: GIF Search
 
@@ -74,6 +79,10 @@ Choose pairs randomly. You will work with your pair for the rest of class.
 Open the [GIF Search tutorial](https://www.makeschool.com/academy/track/gif-search-app-ynu) and finish parts 1-4 (part 5 optional). As you work, discuss each step with your pair and make sure both partners understand before moving on.
 
 You will submit the tutorial in Class 2. You may finish on your own (just make sure to `git push` before the end of class).
+
+
+## 🌴 [10m] BREAK
+
 
 ## 📖 [30m] Recap: Node & Express
 

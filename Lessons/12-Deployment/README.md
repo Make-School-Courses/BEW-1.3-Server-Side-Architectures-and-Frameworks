@@ -87,6 +87,8 @@ $ heroku open
 
 If you still have errors, take a look at the logs and see if you can debug!
 
+Woohoo! You're done!
+
 
 ## BREAK (10 minutes)
 

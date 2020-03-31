@@ -21,19 +21,15 @@ By the end of this lesson, students will be able to...
 
 Go to your [Gradescope](https://gradescope.com) account and submit your GIF Search project. It will be graded on completion only.
 
-## JavaScript: Wat
+## Warm-Up Breakout: Observations
 
-Watch the 4-minute [Wat video](https://www.destroyallsoftware.com/talks/wat) and briefly discuss.
-
-### Activity: JS Jeopardy [20 minutes]
-
-Get into teams of 3-4 at your table.
-
-Watch as the instructor demos snippets of JavaScript. Before the answer is revealed, write on your team's whiteboard what you predict the answer will be.
-
-If you'd like to read more funky JavaScript, check out [this video](https://www.youtube.com/watch?v=qjk2pWY4RP0) or go to [wtfjs.com](https://wtfjs.com).
+List 3 things that are different in JavaScript than what you are used to in Python. Submit your list in the Zoom chat.
 
 ## TT: JavaScript fundamentals [30 minutes]
+
+### Semicolons
+
+JavaScript has **optional semicolons** which can be used after statement of code. You will see them used in tutorials and assignments (they used to be required in old versions of JS), but you do not need to use them yourself.
 
 ### Variables: const, let, var
 
@@ -95,7 +91,7 @@ A typical for loop will use a **counter** variable to run a specific number of t
 ```js
 const myList = [ ... ]
 for (let i = 0; i < myList.length; i += 1) {
-    console.log(myList[i]);
+    console.log(myList[i])
 }
 ```
 
@@ -103,17 +99,6 @@ Follow-up questions: How do you...
 
 - Traverse the list backwards?
 - Traverse every other element?
-
-### For...Of Loops
-
-Use this type of loop if you only want to do something to each array element, and don't care about the index.
-
-```js
-const myList = [ ... ]
-for (const item of myList) {
-    console.log(item);
-}
-```
 
 ### Functions
 
@@ -137,26 +122,104 @@ const userInfo = {
         street: '851 California St',
         city: 'San Francisco',
         state: 'CA'
-    },
-    pets: [
-        {
-            name: 'Bowser',
-            type: 'dog'
-        },
-        {
-            name: 'Snuffles',
-            type: 'cat'
-        }
-    ]
+    }
 }
+```
+
+We can access the contents like this:
+
+```js
+const name = userInfo.name
 ```
 
 ## Break [10 minutes]
 
+## TT: Arrow Functions & Intro to Promises
+
+JavaScript, unlike Python, is an **asynchronous** language.
+
+### Arrow Functions
+
+**Arrow functions** were added to the core JavaScript syntax as part of **ES6**. They work (almost) exactly like regular functions, but are shorter to write.
+
+```js
+// SHORTEST VERSION
+> const doubleNum = num => num * 2;
+
+// MORE VERBOSE VERSION
+> const tripleNum = (num) => {
+    return num * 3;
+}
+
+> doubleNum(6)
+12
+> tripleNum(6)
+18
+```
+
+The above two examples are exactly the same as if I had written:
+
+```js
+const doubleNum = function(num) {
+    return num * 2;
+}
+```
+
+Arrow functions are just **"syntactic sugar"** for concepts that we already know!
+
+### Working with a Promise return value
+
+Calling a regular function is like receiving a present with no wrapping paper.
+
+```js
+const sayHello = function() {
+    return 'Hello!';
+}
+
+sayHello(); // 'Hello!'
+```
+
+Calling a function that returns a Promise is like receiving a present in wrapping paper, with a note that says "Don't open until Christmas." Calling the Promise's `.then()` method with a callback is like saying, "When I open this present, I will...".
+
+```js
+let helloPromise = new Promise((resolve, reject) => {
+    setTimeout( function() {
+        resolve("Hello!")
+    }, 1000);
+});
+
+helloPromise.then(message => {
+    console.log("Promise is done! " + message);
+})
+```
+
+When the Promise resolves, we execute the _callback function_ that was passed to `.then()`.
+
+### Chaining Promises
+
+If there are multiple steps in the process which return Promises (e.g. multiple calls to the database which each depend on one another), we can chain them together like so:
+
+```js
+let helloPromise = new Promise((resolve, reject) => {
+  setTimeout(() => resolve("Hello!"), 1000);
+});
+
+helloPromise.then(message => {
+  console.log("Promise is done! " + message);
+  return new Promise((resolve) => {
+    setTimeout(() => resolve("Hello 2!"), 1000);
+  });
+}).then(message => {
+  console.log("Second promise is done! " + message);
+})
+```
+
+Try out these examples on your own and see if you can experiment with using promises!
+
 ## Work Time: Codecademy
 
-Work on [Codecademy JS](https://www.codecademy.com/learn/introduction-to-javascript) parts 1-5. Feel free to ask someone sitting next to you if you get stuck or have questions!
+Work on [Codecademy JS](https://www.codecademy.com/learn/introduction-to-javascript) parts 12 and 13. Feel free to ask someone sitting next to you if you get stuck or have questions!
 
 ## Wrap-Up
 
-Complete [Codecademy JS](https://www.codecademy.com/learn/introduction-to-javascript) parts 1-5. Your instructor will check your progress in the next class session.
+Complete [Codecademy JS](https://www.codecademy.com/learn/introduction-to-javascript) parts 12 and 13 and submit your work through [Gradescope](https://gradescope.com).

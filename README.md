@@ -32,34 +32,39 @@ To best prepare for the final exam, review [this study guide](study-guide.md).
 
 ## Class Schedule
 
-**Course Dates:**
+**Course Dates:** Tuesday, March 31 – Thursday, May 14, 2020 (7 weeks)
 
-Monday, January 20 – Wednesday, March 4, 2020 (7 weeks)
+**Class Times:** Tuesday and Thursday at 9:30 PM-12:15 PM (14 class sessions)
 
-**Class Times:**
-
-Monday and Wednesday at 2:30 PM-5:15 PM (13 class sessions)
-
-| Class |     Date      | Topics | Assignment | Done Before | Assessment |
-| :---: | :-----------: | :--------: | :--------: | :--------: | :--------: |
-|   -   |  Mon, Jan 20  | **NO CLASS** - MLK Day | - | - ||
-|   1   |  Wed, Jan 22  | [Intro to Node](Lessons/01-Intro-to-Node/) | [GIF Search Tutorial] | Class 2 ||
-|   2   |  Mon, Jan 27  | [JavaScript Tricks](Lessons/02-Intro-to-JS/) | [Codecademy JS] Part 1-5 | Class 3 ||
-|   3   |  Wed, Jan 29  | [HTTP Methods & Endpoint Design](Lessons/03-Http-Methods/) | [Reddit.js] Part 1-3 | Class 5 ||
-|   4   |  Mon, Feb 3   | [Databases](Lessons/04-Databases/) | [Reddit.js] Part 4-5 | Class 6 ||
-|   5   |  Wed, Feb 5   | [Data Modeling with Mongoose](Lessons/05-Modeling-with-Mongoose/) | [API Project] Phase 1 | Class 7 | |
-|   6   |  Mon, Feb 10  | [Automated Testing Part 1](Lessons/06-Test-Driven-Development/) | [Reddit.js] Part 6-7 | Class 8 |  |
-|   7   |  Wed, Feb 12  | [Authentication with JWT](Lessons/07-Authentication/) | [Reddit.js] Part 8-9 | Class 9 |[Midterm Assessment](Assessments/midterm-assessment.md) |
-|   8   |  Mon, Feb 17  | [Documentation with Docsify](Lessons/08-Documentation/) | [API Project] Phase 2 | Class 10 ||
-|   9   |  Wed, Feb 19  | [Putting it Together](Lessons/09-Putting-it-Together/) | [Reddit.js] Part 10-11 | Class 11 ||
-|  10   |  Mon, Feb 24  | [Advanced Testing Patterns](Lessons/10-Advanced-Testing/) | [API Project] Phase 3 | Class 13 | |
-|  11   |  Wed, Feb 26  | [More Authentication](Lessons/11-More-Authentication/) |  | ||
-|  12   |  Mon, Mar 2   | [Deployment](Lessons/12-Deployment/) | | ||
-|  13   |  Wed, Mar 4   | Final Class / Bonus Topic | | | [Final Assessment](Assessments/final-assessment.md) |
+| Class |     Date      | Topics | Assignment Due | Assessment |
+| :---: | :-----------: | :--------: | :--------: | :--------: |
+|   1   |  Tue, Mar 31  | [Intro to Node](Lessons/01-Intro-to-Node/) | - | |
+|   2   |  Thu, Apr 2  | [JS Intro & Asynchronous Programming](Lessons/02-Intro-to-JS/) | [GIF Search Tutorial] | |
+|   3   |  Tue, Apr 7  | [HTTP Methods & Endpoint Design](Lessons/03-Http-Methods/) | [Codecademy JS]: Promises & Async/Await<br>[Promises Challenges] | |
+|   4   |  Thu, Apr 9  | [Databases](Lessons/04-Databases/) | [Reddit.js] Part 1-3 | |
+|   5   |  Tue, Apr 14   | [Data Modeling with Mongoose](Lessons/05-Modeling-with-Mongoose/) | [Reddit.js] Part 4-6<br>[API Challenges Pt. 1] | |
+|   6   |  Thu, Apr 16   | [Automated Testing Part 1](Lessons/06-Test-Driven-Development/) |  | |
+|   7   |  Tue, Apr 21  | [Authentication with JWT](Lessons/07-Authentication/) | [Reddit.js] Part 7-9<br>[Testing Challenges] | [Midterm Assessment](Assessments/midterm-assessment.md) |
+|   8   |  Thu, Apr 23  | [Documentation with Docsify](Lessons/08-Documentation/) | [JWT/Authentication Challenges] |  |
+|   9   |  Tue, Apr 28  | [API Design](Lessons/09-API-Design/) | [Reddit.js] Part 10-11 | |
+|  10   |  Thu, Apr 30  | [Advanced Testing Patterns](Lessons/10-Advanced-Testing/) | [API Challenges Pt. 2] | |
+|  11   |  Tue, May 5  | [More Authentication](Lessons/11-More-Authentication/) | [Advanced Testing Challenges]<br>[Final Project Proposal] | |
+|  12   |  Thu, May 7  | Lab Day | [Advanced Authentication Challenges] | |
+|  13   |  Tue, May 12   | [Deployment](Lessons/12-Deployment/) | | |
+|  14   |  Thu, May 14   | Final Class | [Final Project] | [Final Assessment](Assessments/final-assessment.md) |
 
 [GIF Search Tutorial]: https://www.makeschool.com/academy/track/gif-search-app-ynu
 [Codecademy JS]: https://www.codecademy.com/learn/introduction-to-javascript
+[Promises Challenges]: https://github.com/Make-School-Labs/promises-challenges
 [Reddit.js]: https://www.makeschool.com/academy/track/reddit-clone-in-node-js
+[Testing Challenges]: #
+[JWT/Authentication Challenges]: #
+[API Challenges Pt. 1]: #
+[API Challenges Pt. 2]: #
+[Advanced Testing Challenges]: #
+[Advanced Authentication Challenges]: #
+[Final Project Proposal]: #
+[Final Project]: #
 [API Project]: Projects/02-Custom-API-Project.md
 
 [Midterm Assessment]: Assessments/quiz-1.md
@@ -67,26 +72,81 @@ Monday and Wednesday at 2:30 PM-5:15 PM (13 class sessions)
 
 ## Class Assignments
 
-### Tutorials
+Homeworks, tutorials, & projects assigned weeks 1-6 are listed below.
 
-Tutorials are to help you get started in a topic.  They are **graded on completion only**.
+**Week 1**
 
-* [Reddit.js](https://www.makeschool.com/academy/track/reddit-clone-in-node-js)
+| Assignment | Due |
+| :--------: | :-: |
+| [GIF Search Tutorial] | Thu, Apr 2 @ 9:30 AM |
+| [Codecademy JS]: Promises & Async/Await | Tue, Apr 7 @ 9:30 AM |
+| [Promises Challenges] | Tue, Apr 7 @ 9:30 AM |
 
-### Projects
+**Week 2**
 
-* [Custom Authenticated API Project](Projects/02-Custom-API-Project.md)
-  * [Rubric](Projects/Rubrics/02-Custom-API-Project.md)
+| Assignment | Due |
+| :--------: | :-: |
+| [Reddit.js] Parts 1-3 | Thu, Apr 9 @ 9:30 AM |
+| [API Challenges Pt. 1] | Tue, Apr 14 @ 9:30 AM |
+| [Reddit.js] Parts 4-6 | Tue, Apr 14 @ 9:30 AM |
+
+**Week 3**
+
+| Assignment | Due |
+| :--------: | :-: |
+| [Testing Challenges] | Tue, Apr 21 @ 9:30 AM |
+| [Reddit.js] Parts 7-9 | Tue, Apr 21 @ 9:30 AM |
+
+**Week 4**
+
+| Assignment | Due |
+| :--------: | :-: |
+| [JWT/Authentication Challenges] | Thu, Apr 23 @ 9:30 AM |
+| [Reddit.js] Part 10-11 | Tue, Apr 28 @ 9:30 AM |
+
+**Week 5**
+
+| Assignment | Due |
+| :--------: | :-: |
+| [API Challenges Pt. 2] | Thu, Apr 30 @ 9:30 AM |
+| [Advanced Testing Challenges] | Tue, May 5 @ 9:30 AM |
+| [Final Project Proposal] | Tue, May 5 @ 9:30 AM |
+
+**Week 6**
+
+| Assignment | Due |
+| :--------: | :-: |
+| [Advanced Authentication Challenges] | Thu, May 7 @ 9:30 AM |
+
+**Week 7**
+
+| Assignment | Due |
+| :--------: | :-: |
+| [Final Project] | Thu, May 14 @ 9:30 AM |
+
 
 ## Evaluation
 
-**To pass this course you must meet the following requirements**:
+**To pass this course, you must earn at least a 70% weighted average, according to the following breakdown**:
 
-- Complete all required tutorials
-- Pass all projects according to the associated project rubric
-- Pass the final summative assessment >=70%
+- Reddit.js Tutorial: 20%
+- Assignments & Class Participation: 50%
+- Quizzes/Assessments: 30%
+
+In order to pass this course, you must also:
+
 - Actively participate in class and abide by the attendance policy
 - Make up all classwork from all absences
+
+## Late Assignment Policy
+
+- Late assignments that are submitted **no later that 2 days (48 hours)** after the deadline will be given a **10% late penalty**.
+- Another **10% late penalty** will be applied for **every 2 days (48 hours)** that pass after the deadline. For example, an assignment that is submitted 5 days late will receive a 30% late penalty.
+- Assignments submitted **more than 7 days (1 week) late** will **not** be accepted.
+- The **absolute last day** to submit any assignment will be **Friday, May 15 at 11:59 PM**.
+
+If you require accommodations or have extenuating circumstances such as prolonged illness, please contact your instructor to request an extension.
+
 
 ## Additional Resources
 
