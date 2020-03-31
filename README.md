@@ -32,6 +32,7 @@ To best prepare for the final exam, review [this study guide](study-guide.md).
 
 ## Class Schedule
 
+<<<<<<< HEAD
 **Course Dates:** Tuesday, March 31 – Thursday, May 14, 2020 (7 weeks)
 
 **Class Times:** Tuesday and Thursday at 9:30 PM-12:15 PM (14 class sessions)
@@ -52,6 +53,32 @@ To best prepare for the final exam, review [this study guide](study-guide.md).
 |  12   |  Thu, May 7  | Lab Day | [Advanced Authentication Challenges] | |
 |  13   |  Tue, May 12   | [Deployment](Lessons/12-Deployment/) | | |
 |  14   |  Thu, May 14   | Final Class | [Final Project] | [Final Assessment](Assessments/final-assessment.md) |
+=======
+**Course Dates:**
+
+Monday, January 20 – Wednesday, March 4, 2020 (7 weeks)
+
+**Class Times:**
+
+Monday and Wednesday at 2:30 PM-5:15 PM (13 class sessions)
+
+| Class |     Date      | Topics | Assignment | Done Before | Assessment |
+| :---: | :-----------: | :--------: | :--------: | :--------: | :--------: |
+|   -   |  Mon, Jan 20  | **NO CLASS** - MLK Day | - | - ||
+|   1   |  Wed, Jan 22  | [Intro to Node](Lessons/01-Intro-to-Node/) | [GIF Search Tutorial] | Class 2 ||
+|   2   |  Mon, Jan 27  | [JavaScript Tricks](Lessons/02-Intro-to-JS/) | [Codecademy JS] Part 1-5 | Class 3 ||
+|   3   |  Wed, Jan 29  | [HTTP Methods & Endpoint Design](Lessons/03-Http-Methods/) | [Reddit.js] Part 1-3 | Class 5 ||
+|   4   |  Mon, Feb 3   | [Databases](Lessons/04-Databases/) | [Reddit.js] Part 4-5 | Class 6 ||
+|   5   |  Wed, Feb 5   | [Data Modeling with Mongoose](Lessons/05-Modeling-with-Mongoose/) | [API Project] Phase 1 | Class 7 | |
+|   6   |  Mon, Feb 10  | [Automated Testing Part 1](Lessons/06-Test-Driven-Development/) | [Reddit.js] Part 6-7 | Class 8 |  |
+|   7   |  Wed, Feb 12  | [Authentication with JWT](Lessons/07-Authentication/) | [Reddit.js] Part 8-9 | Class 9 |[Midterm Assessment](Assessments/midterm-assessment.md) |
+|   8   |  Mon, Feb 17  | [Documentation with Docsify](Lessons/08-Documentation/) | [API Project] Phase 2 | Class 10 ||
+|   9   |  Wed, Feb 19  | [Putting it Together](Lessons/09-Putting-it-Together/) | [Reddit.js] Part 10-11 | Class 11 ||
+|  10   |  Mon, Feb 24  | [Advanced Testing Patterns](Lessons/10-Advanced-Testing/) | [API Project] Phase 3 | Class 13 | |
+|  11   |  Wed, Feb 26  | [More Authentication](Lessons/11-More-Authentication/) |  | ||
+|  12   |  Mon, Mar 2   | [Deployment](Lessons/12-Deployment/) | | ||
+|  13   |  Wed, Mar 4   | Final Class / Lab | | | [Final Assessment](Assessments/final-assessment.md) |
+>>>>>>> 8ecf29306fa055fccc32e81005758e5d3c6c9eda
 
 [GIF Search Tutorial]: https://www.makeschool.com/academy/track/gif-search-app-ynu
 [Codecademy JS]: https://www.codecademy.com/learn/introduction-to-javascript
