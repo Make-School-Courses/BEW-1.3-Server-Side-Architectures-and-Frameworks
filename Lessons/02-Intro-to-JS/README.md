@@ -34,23 +34,23 @@ JavaScript has **optional semicolons** which can be used after statement of code
 Use `const` if you are declaring a variable which will not be reassigned:
 
 ```js
-> const myVar = 'hello';
-> myVar = 4;
+const myVar = 'hello';
+myVar = 4;
 TypeError: Assignment to constant variable.
 ```
 
 We can, however, still _modify_ the value of an object or list contained in a const variable; we just can't assign it to a _new_ object or list.
 
 ```js
-> const myList = [1, 2, 3, 4];
-> myList.push(5); // contains [1, 2, 3, 4, 5]
+const myList = [1, 2, 3, 4];
+myList.push(5); // contains [1, 2, 3, 4, 5]
 ```
 
 Use `let` if you are declaring a variable which will be reassigned:
 
 ```js
-> let myVar = 'hello';
-> myVar = 5;
+let myVar = 'hello';
+myVar = 5;
 ```
 
 In general, do not use `var` to assign variables. _Read [here](https://hackernoon.com/why-you-shouldnt-use-var-anymore-f109a58b9b70) for an example of a bug caused by using var (and easily avoided with let)._
@@ -136,17 +136,15 @@ const name = userInfo.name
 
 ```js
 // SHORTEST VERSION
-> const doubleNum = num => num * 2;
+const doubleNum = num => num * 2;
 
 // MORE VERBOSE VERSION
-> const tripleNum = (num) => {
+const tripleNum = (num) => {
     return num * 3;
 }
 
-> doubleNum(6)
-12
-> tripleNum(6)
-18
+doubleNum(6) // 12
+tripleNum(6) // 18
 ```
 
 The above two examples are exactly the same as if I had written:
