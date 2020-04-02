@@ -40,7 +40,7 @@ To best prepare for the final exam, review [this study guide](study-guide.md).
 | :---: | :-----------: | :--------: | :--------: | :--------: |
 |   1   |  Tue, Mar 31  | [Intro to Node](Lessons/01-Intro-to-Node/) | - | |
 |   2   |  Thu, Apr 2  | [JS Intro & Asynchronous Programming](Lessons/02-Intro-to-JS/) | [GIF Search Tutorial] | |
-|   3   |  Tue, Apr 7  | [HTTP Methods & Endpoint Design](Lessons/03-Http-Methods/) | [Codecademy JS]: Promises & Async/Await<br>[Promises Challenges] | |
+|   3   |  Tue, Apr 7  | [HTTP Methods & Endpoint Design](Lessons/03-Http-Methods/) | [Codecademy JS]: Promises & Async/Await<br>[Promise Challenges] | |
 |   4   |  Thu, Apr 9  | [Databases](Lessons/04-Databases/) | [Reddit.js] Part 1-3 | |
 |   5   |  Tue, Apr 14   | [Data Modeling with Mongoose](Lessons/05-Modeling-with-Mongoose/) | [Reddit.js] Part 4-6<br>[API Challenges Pt. 1] | |
 |   6   |  Thu, Apr 16   | [Automated Testing Part 1](Lessons/06-Test-Driven-Development/) |  | |
@@ -55,7 +55,7 @@ To best prepare for the final exam, review [this study guide](study-guide.md).
 
 [GIF Search Tutorial]: https://www.makeschool.com/academy/track/gif-search-app-ynu
 [Codecademy JS]: https://www.codecademy.com/learn/introduction-to-javascript
-[Promises Challenges]: https://github.com/Make-School-Labs/promises-challenges
+[Promise Challenges]: https://github.com/Make-School-Labs/promises-challenges
 [Reddit.js]: https://www.makeschool.com/academy/track/reddit-clone-in-node-js
 [Testing Challenges]: #
 [JWT/Authentication Challenges]: #
@@ -80,7 +80,7 @@ Homeworks, tutorials, & projects assigned weeks 1-6 are listed below.
 | :--------: | :-: |
 | [GIF Search Tutorial] | Thu, Apr 2 @ 9:30 AM |
 | [Codecademy JS]: Promises & Async/Await | Tue, Apr 7 @ 9:30 AM |
-| [Promises Challenges] | Tue, Apr 7 @ 9:30 AM |
+| [Promise Challenges] | Tue, Apr 7 @ 9:30 AM |
 
 **Week 2**
 

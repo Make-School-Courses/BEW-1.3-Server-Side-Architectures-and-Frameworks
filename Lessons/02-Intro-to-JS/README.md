@@ -2,26 +2,24 @@
 
 ## Schedule
 
-1. Learning Objectives
-1. Activity: JS Jeopardy
-1. JavaScript fundamentals
-1. BREAK
-1. Work Time: Codecademy JS
+1. Learning Objectives (5 minutes)
+1. Warm-Up: Observations (5 minutes)
+1. JavaScript Fundamentals & Arrow Functions (20 minutes)
+1. Activity: Pair Programming (15 minutes)
+1. BREAK (10 minutes)
+1. Intro to Promises (20 minutes)
+1. Work Time: Codecademy JS (30 minutes)
 1. Wrap-Up
 
 ## Learning Objectives
 
 By the end of this lesson, students will be able to...
 
-1. Recall basic JavaScript constructs such as functions, conditionals, loops, and objects.
-1. (Optional) Recall ES6 JavaScript constructs such as arrow functions, etc.
+1. Use basic JavaScript constructs such as functions, conditionals, loops, and objects.
+1. Read, understand, and use arrow functions to write shorter, more concise code.
 1. Compare and contrast JavaScript code with Python.
 
-## Submit Homework
-
-Go to your [Gradescope](https://gradescope.com) account and submit your GIF Search project. It will be graded on completion only.
-
-## Warm-Up Breakout: Observations
+## Warm-Up: Observations
 
 List 3 things that are different in JavaScript than what you are used to in Python. Submit your list in the Zoom chat.
 
@@ -132,12 +130,6 @@ We can access the contents like this:
 const name = userInfo.name
 ```
 
-## Break [10 minutes]
-
-## TT: Arrow Functions & Intro to Promises
-
-JavaScript, unlike Python, is an **asynchronous** language.
-
 ### Arrow Functions
 
 **Arrow functions** were added to the core JavaScript syntax as part of **ES6**. They work (almost) exactly like regular functions, but are shorter to write.
@@ -163,63 +155,82 @@ The above two examples are exactly the same as if I had written:
 const doubleNum = function(num) {
     return num * 2;
 }
+// OR
+function doubleNum(num) {
+    return num * 2;
+}
 ```
 
 Arrow functions are just **"syntactic sugar"** for concepts that we already know!
 
+
+## Activity: Pair Programming (15 minutes)
+
+Choose pairs randomly. With your partner, go to the [BEW 1.3 Repl.It classroom](https://repl.it/classroom/invite/o2BpxyI) and follow the instructions to complete the assignment.
+
+## Break (10 minutes)
+
+## Intro to Promises
+
+### Why do we care about asynchronous code?
+
+JavaScript is a _single-threaded_ language, meaning it can only do one thing at any given time. Think of it like when you are working in the kitchen and can only do one thing at a time: chopping vegetables, washing dishes, or putting away groceries.
+
+But, sometimes we need to call _other_ libraries' functions, and those take some time to return. Think of those like a dishwasher or a rice cooker. You don't want to sit around waiting for them to finish before going on to another task - you want to take advantage of that wait time to do something else.
+
+But how do we know when that external task is finished? Some languages use _event listeners_, which "listen" for a particular alert to go off (kind of like how you wait for your washing machine to play a song to tell you that it's done). JavaScript, however, uses **Promises** and **callbacks**, which let us _specify what we **will** do when the external task finishes._
+
 ### Working with a Promise return value
 
-Calling a regular function is like receiving a present with no wrapping paper.
+Calling a regular function is like washing the dishes by hand: the program can't work on anything else until it's done.
 
 ```js
-const sayHello = function() {
-    return 'Hello!';
+function wash_dishes_by_hand() {
+    console.log('Washing plates...')
+    console.log('Washing bowls...')
+    console.log('Washing spoons...')
+    return 'Done!'
 }
 
-sayHello(); // 'Hello!'
+wash_dishes_by_hand(); // prints 'Done!'
 ```
 
-Calling a function that returns a Promise is like receiving a present in wrapping paper, with a note that says "Don't open until Christmas." Calling the Promise's `.then()` method with a callback is like saying, "When I open this present, I will...".
+Using a Promise is like running the dishwasher: the program _can_ work on other things while it runs. _As soon as we make the promise_, our **executor** function starts running.
 
 ```js
-let helloPromise = new Promise((resolve, reject) => {
-    setTimeout( function() {
-        resolve("Hello!")
-    }, 1000);
-});
-
-helloPromise.then(message => {
-    console.log("Promise is done! " + message);
-})
+const washDishesExecutor = (resolve, reject) => {
+    // ... washing dishes (this step takes some time) ...
+    if (dishes_are_clean) {
+        resolve('Success! Dishes are done!')
+    } else {
+        reject('Error! No soap!')
+    }
+}
+const washDishesPromise = new Promise(washDishesExecutor);
 ```
 
-When the Promise resolves, we execute the _callback function_ that was passed to `.then()`.
-
-### Chaining Promises
-
-If there are multiple steps in the process which return Promises (e.g. multiple calls to the database which each depend on one another), we can chain them together like so:
+But how do we know when it's done? We can _resolve_ a promise to specify what to do when it finishes!
 
 ```js
-let helloPromise = new Promise((resolve, reject) => {
-  setTimeout(() => resolve("Hello!"), 1000);
+washDishesPromise.then((result) => {
+    console.log(result) // prints 'Success! Dishes are done!'
+}).catch((err) => {
+    console.log(err) // prints 'Error! No soap!'
 });
-
-helloPromise.then(message => {
-  console.log("Promise is done! " + message);
-  return new Promise((resolve) => {
-    setTimeout(() => resolve("Hello 2!"), 1000);
-  });
-}).then(message => {
-  console.log("Second promise is done! " + message);
-})
 ```
 
 Try out these examples on your own and see if you can experiment with using promises!
 
 ## Work Time: Codecademy
 
-Work on [Codecademy JS](https://www.codecademy.com/learn/introduction-to-javascript) parts 12 and 13. Feel free to ask someone sitting next to you if you get stuck or have questions!
+Work on [Codecademy JS](https://www.codecademy.com/learn/introduction-to-javascript) parts 12 and 13. 
 
 ## Wrap-Up
 
-Complete [Codecademy JS](https://www.codecademy.com/learn/introduction-to-javascript) parts 12 and 13 and submit your work through [Gradescope](https://gradescope.com).
+Fill out our [Vibe Check form](https://make.sc/bew1.3-vibe-check) with any feedback you have for the class.
+
+Your _two_ homework assignments (due by next class) are:
+1. [Codecademy JS](https://www.codecademy.com/learn/introduction-to-javascript) parts 12 and 13
+1. [Promise Challenges](https://github.com/Make-School-Labs/promises-challenges)
+
+Make sure to submit your work through [Gradescope](https://gradescope.com).
