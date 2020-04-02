@@ -17,7 +17,7 @@ By the end of this lesson, students will be able to...
 
 1. Use basic JavaScript constructs such as functions, conditionals, loops, and objects.
 1. Read, understand, and use arrow functions to write shorter, more concise code.
-1. Compare and contrast JavaScript code with Python.
+1. Create and resolve Promises in order to execute code asynchronously.
 
 ## Warm-Up: Observations
 
