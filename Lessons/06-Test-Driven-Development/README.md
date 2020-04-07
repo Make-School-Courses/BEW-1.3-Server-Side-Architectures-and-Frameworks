@@ -187,6 +187,8 @@ If you finish the tutorial early, discuss how the concepts you learned can be ap
 
 Continue working on the [Reddit.js](https://www.makeschool.com/academy/track/reddit-clone-in-node-js) tutorial. Parts 4-5 will be due next class.
 
+Fill out our [Vibe Check form](https://make.sc/bew1.3-vibe-check) with any feedback you have for the class.
+
 ## Resources
 
 1. [Promises Chaining](https://javascript.info/promise-chaining)

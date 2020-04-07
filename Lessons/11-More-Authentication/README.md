@@ -45,6 +45,10 @@ As a class, discuss how these were used in the Reddit.js project.
 
 With a partner, complete this [Scotch.io tutorial](https://scotch.io/tutorials/authenticate-a-node-es6-api-with-json-web-tokens) on using JWT authentication in Node.js.
 
+## Wrap-Up
+
+Fill out our [Vibe Check form](https://make.sc/bew1.3-vibe-check) with any feedback you have for the class.
+
 ## Final Project Work Time
 
 Continue to work on your final project. Submit your Project Phase 2 via [Gradescope](https://gradescope.com).

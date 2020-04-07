@@ -18,7 +18,11 @@ By the end of this lesson, students will be able to...
 1. Identify best practices on designing routes, such as middleware and modular routing.
 1. Practice pair programming techniques.
 
-## Activity: Write an API (45 minutes)
+## Review Homework (20 minutes)
+
+Review the Promises homework and go over any misconceptions.
+
+## Activity: Write an API (25 minutes)
 
 Choose a partner who you haven't worked with yet. You'll be working together on today's assignment.
 
@@ -107,20 +111,11 @@ songsRouter.get('/:songId', function(req, res, next) {
 
 For more information, see [this blog post](https://medium.com/@zachcaceres/child-routers-in-express-56f904597b1b).
 
-## Activity: Design an API (25 minutes)
-
-With your partner, choose an app from the following list (or create your own):
-
-- Eventbrite
-- Instagram
-- Twitter
-- Makeschool.com
-
-Design an API for your chosen app and decide which routes you will need. Include at least one nested route. Write down your endpoints on paper or in a text file. Your instructor will check it off before the end of class.
-
 ## Wrap-Up
 
 Begin work on the [Reddit.js](https://www.makeschool.com/academy/track/reddit-clone-in-node-js) tutorial. Finish Parts 1-3 before class on Monday.
+
+Fill out our [Vibe Check form](https://make.sc/bew1.3-vibe-check) with any feedback you have for the class.
 
 ## Resources
 

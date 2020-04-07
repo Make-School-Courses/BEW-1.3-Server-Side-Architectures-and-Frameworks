@@ -1,5 +1,7 @@
 # Intro to JavaScript
 
+[Watch the Recording!](https://zoom.us/rec/share/usBtMaOg8z9OZpXgq0_kXIQZLqTHX6a8hHcarqYNz0nydIk8FaJZoEZMNTBUOcsK?startTime=1585844978000)
+
 ## Schedule
 
 1. Learning Objectives (5 minutes)

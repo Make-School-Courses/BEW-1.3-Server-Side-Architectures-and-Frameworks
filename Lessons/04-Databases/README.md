@@ -169,13 +169,9 @@ Now your routes should be (semi-)complete! Complete the challenges below to get 
 1. Create an "update" route that shows a form to update a specific event. E.g. `/update/5e388ae` should show a form to update that specific event.
 1. Create a "delete" route that deletes a specific event.
 
-## Lab Time (45 Minutes)
+## Wrap-Up
 
-Use the time provided to work on the Reddit.js tutorial Parts 4-5. This is your time, so please use it effectively!
-
-Reminder that Reddit.js Part 1-3 will be due at the beginning of next class.
-
-If you wish to leave early, please show your instructor that you have finished the tutorial thru Part 5.
+Fill out our [Vibe Check form](https://make.sc/bew1.3-vibe-check) with any feedback you have for the class.
 
 ## Resources & Credits
 

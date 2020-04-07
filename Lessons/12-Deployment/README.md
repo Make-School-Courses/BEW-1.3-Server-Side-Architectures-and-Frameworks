@@ -95,3 +95,7 @@ Woohoo! You're done!
 ## Project Work Time (50 minutes)
 
 Continue to work on your final project. Submit by Friday, 5pm PST using [this submission link](https://forms.gle/9zF9LaawdEMyutgs7).
+
+## Wrap-Up
+
+Fill out our [Vibe Check form](https://make.sc/bew1.3-vibe-check) with any feedback you have for the class.

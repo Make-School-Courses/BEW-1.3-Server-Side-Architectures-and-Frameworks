@@ -95,6 +95,10 @@ const checkAuth = (req, res, next) => {
 app.use(checkAuth)
 ```
 
+## Wrap-Up
+
+Fill out our [Vibe Check form](https://make.sc/bew1.3-vibe-check) with any feedback you have for the class.
+
 ## Resources & Credits
 
 1. [JWT Authentication video](https://www.youtube.com/watch?v=soGRyl9ztjI)

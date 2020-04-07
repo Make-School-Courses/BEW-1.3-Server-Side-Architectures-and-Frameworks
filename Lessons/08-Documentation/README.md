@@ -72,11 +72,13 @@ If you haven't yet started your project, clone the [starter code](https://github
 
 Add documentation to your [Custom API Project](../Projects/02-Custom-API-Project.md) based on what we just achieved together in class today.
 
-## After Class
+## Wrap-Up
 
 Continue adding documentation to your [Custom API Project](../Projects/02-Custom-API-Project.md) based on what we learned in class today.
 
 Submit your project proposal via Gradescope by 11:59pm.
+
+Fill out our [Vibe Check form](https://make.sc/bew1.3-vibe-check) with any feedback you have for the class.
 
 ## Additional Resources
 

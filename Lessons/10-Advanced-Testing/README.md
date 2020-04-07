@@ -137,6 +137,8 @@ If you **finish the reflection early**, further **discuss, compare, and contrast
 
 Complete today's challenges and finish any remaining tests for your APIs project. Submit Phase 2 of your API project on [Gradescope](https://gradescope.com).
 
+Fill out our [Vibe Check form](https://make.sc/bew1.3-vibe-check) with any feedback you have for the class.
+
 ## Resources & Credits
 
 1. [Chai BDD](https://www.chaijs.com/api/bdd/)
