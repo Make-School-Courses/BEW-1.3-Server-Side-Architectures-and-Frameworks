@@ -24,15 +24,19 @@ Review the Promises homework and go over any misconceptions.
 
 ## Activity: Write an API (25 minutes)
 
-Choose a partner who you haven't worked with yet. You'll be working together on today's assignment.
+Choose a partner who you haven't worked with yet. You'll be working together on today's assignment (but pair programming is not required).
 
-Go to [this tutorial by Robin Wieruch](https://www.robinwieruch.de/node-express-server-rest-api) and follow the steps to create your first API using Node and Express. As you work, make note of any difficulties you have or points of confusion.
+Go to [this tutorial by Robin Wieruch](https://www.robinwieruch.de/node-express-server-rest-api) and follow the steps to create your first API using Node and Express. Make sure to complete [Part 1](https://www.robinwieruch.de/minimal-node-js-babel-setup/) and [Part 2](https://www.robinwieruch.de/node-js-express-tutorial/) before completing [Part 3](https://www.robinwieruch.de/node-express-server-rest-api). 
 
-**PROTIP:** If you want to use CommonJS syntax, you'll need to make a few changes to the instructions (replace 'foo' and/or 'bar' with the actual imports):
+As you work, answer the following questions:
 
-`import foo from 'bar'` -> `const foo = require('bar')`
-
-`export default foo` -> `module.exports = foo`
+- What's npm init doing when you setup your Node.js project?
+- What benefit is Nodemon giving us?
+- Why do we use Babel?
+- Why do we need Environment Variables?
+- How do frontend and backend application communicate with each other?
+- What is the purpose of separating code into different files for models and routes?
+- What do we mean by *modular routing*? 
 
 ## BREAK (10 minutes)
 
@@ -110,6 +114,10 @@ songsRouter.get('/:songId', function(req, res, next) {
 ```
 
 For more information, see [this blog post](https://medium.com/@zachcaceres/child-routers-in-express-56f904597b1b).
+
+## Overview: How to Use Postman (20 minutes)
+
+If you haven't yet, install [Postman](https://www.postman.com/downloads/) and watch as your instructor demonstrates its use with a locally served API.
 
 ## Wrap-Up
 

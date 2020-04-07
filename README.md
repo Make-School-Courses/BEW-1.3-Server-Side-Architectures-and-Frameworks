@@ -42,16 +42,16 @@ To best prepare for the final exam, review [this study guide](study-guide.md).
 |   2   |  Thu, Apr 2  | [JS Intro & Asynchronous Programming](Lessons/02-Intro-to-JS/) | [GIF Search Tutorial] | |
 |   3   |  Tue, Apr 7  | [HTTP Methods & Endpoint Design](Lessons/03-Http-Methods/) | [Codecademy JS]: Promises & Async/Await<br>[Promise Challenges] | |
 |   4   |  Thu, Apr 9  | [Databases](Lessons/04-Databases/) | [Reddit.js] Part 1-3 | |
-|   5   |  Tue, Apr 14   | [Data Modeling with Mongoose](Lessons/05-Modeling-with-Mongoose/) | [Reddit.js] Part 4-6<br>[API Challenges Pt. 1] | |
-|   6   |  Thu, Apr 16   | [Automated Testing Part 1](Lessons/06-Test-Driven-Development/) |  | |
+|   5   |  Tue, Apr 14   | [Testing with Mocha & Chai](Lessons/05-Testing-Mocha-Chai/) | [Reddit.js] Part 4-6<br>[API Challenges Pt. 1] | |
+|   6   |  Thu, Apr 16   | [Testing Express Routes](Lessons/06-Testing-Express-Routes/) | [API Project Proposal] | |
 |   7   |  Tue, Apr 21  | [Authentication with JWT](Lessons/07-Authentication/) | [Reddit.js] Part 7-9<br>[Testing Challenges] | [Midterm Assessment](Assessments/midterm-assessment.md) |
 |   8   |  Thu, Apr 23  | [Documentation with Docsify](Lessons/08-Documentation/) | [JWT/Authentication Challenges] |  |
-|   9   |  Tue, Apr 28  | [API Design](Lessons/09-API-Design/) | [Reddit.js] Part 10-11 | |
+|   9   |  Tue, Apr 28  | [API Design](Lessons/09-API-Design/) | [Reddit.js] Part 10-11<br>[API Project Documentation] | |
 |  10   |  Thu, Apr 30  | [Advanced Testing Patterns](Lessons/10-Advanced-Testing/) | [API Challenges Pt. 2] | |
-|  11   |  Tue, May 5  | [More Authentication](Lessons/11-More-Authentication/) | [Advanced Testing Challenges]<br>[Final Project Proposal] | |
+|  11   |  Tue, May 5  | [More Authentication](Lessons/11-More-Authentication/) | [Advanced Testing Challenges]<br> | |
 |  12   |  Thu, May 7  | Lab Day | [Advanced Authentication Challenges] | |
 |  13   |  Tue, May 12   | [Deployment](Lessons/12-Deployment/) | | |
-|  14   |  Thu, May 14   | Final Class | [Final Project] | [Final Assessment](Assessments/final-assessment.md) |
+|  14   |  Thu, May 14   | Final Class | [API Project] | [Final Assessment](Assessments/final-assessment.md) |
 
 [GIF Search Tutorial]: https://www.makeschool.com/academy/track/gif-search-app-ynu
 [Codecademy JS]: https://www.codecademy.com/learn/introduction-to-javascript
@@ -63,8 +63,8 @@ To best prepare for the final exam, review [this study guide](study-guide.md).
 [API Challenges Pt. 2]: #
 [Advanced Testing Challenges]: #
 [Advanced Authentication Challenges]: #
-[Final Project Proposal]: #
-[Final Project]: #
+[API Project Proposal]: #
+[API Project Documentation]: #
 [API Project]: Projects/02-Custom-API-Project.md
 
 [Midterm Assessment]: Assessments/quiz-1.md
