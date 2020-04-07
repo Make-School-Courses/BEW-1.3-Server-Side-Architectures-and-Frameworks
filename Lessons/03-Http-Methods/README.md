@@ -22,7 +22,7 @@ By the end of this lesson, students will be able to...
 
 Review the Promises homework and go over any misconceptions.
 
-## Activity: Write an API (25 minutes)
+## Activity: Write an API (30 minutes)
 
 Choose a partner who you haven't worked with yet. You'll be working together on today's assignment (but pair programming is not required).
 
@@ -121,7 +121,9 @@ If you haven't yet, install [Postman](https://www.postman.com/downloads/) and wa
 
 ## Wrap-Up
 
-Begin work on the [Reddit.js](https://www.makeschool.com/academy/track/reddit-clone-in-node-js) tutorial. Finish Parts 1-3 before class on Monday.
+If you did not finish the Babel/Node/Express tutorial, finish all parts as homework.
+
+Begin work on the [Reddit.js](https://www.makeschool.com/academy/track/reddit-clone-in-node-js) tutorial. Finish Parts 1-3 before class on Thursday. 
 
 Fill out our [Vibe Check form](https://make.sc/bew1.3-vibe-check) with any feedback you have for the class.
 
