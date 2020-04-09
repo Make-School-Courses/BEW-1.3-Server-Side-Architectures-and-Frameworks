@@ -3,11 +3,10 @@
 ## Agenda
 
 1. Learning Objectives
-1. Activity: Tutorial Time (50 Minutes)
-1. BREAK (10 Minutes)
-1. Review: Databases using Mongoose (20 Minutes)
+1. Databases using Mongoose (20 Minutes)
 1. Activity: Create an Events app (30 Minutes)
-1. Lab Time (45 Minutes)
+1. BREAK (10 Minutes)
+1. Activity: Tutorial Time (50 Minutes)
 1. Resources & Credits
 
 ## Learning Objectives
@@ -18,12 +17,6 @@ By the end of this class, students will be able to...
 1. Use the `find`, `findOne`, etc. functions to query Mongoose objects.
 1. Practice writing routes to return database objects.
 
-## Activity: Tutorial Time (50 Minutes)
-
-Use this time to get caught up on the Reddit.js tutorial (or keep going, if you have already finished Part 3). Your instructor will come around to assist!
-
-In the last 20 minutes, go over the tutorial Parts 1-3 as a class and discuss.
-
 ## Databases using Mongoose (20 Minutes)
 
 In this class, we will be using [Mongoose](https://mongoosejs.com/docs/models.html) models to represent our data.
@@ -31,143 +24,203 @@ In this class, we will be using [Mongoose](https://mongoosejs.com/docs/models.ht
 Let's take a look at the syntax for creating models.
 
 ```js
-const mongoose = require('mongoose');
+const mongoose = require('mongoose')
 
 var eventSchema = new mongoose.Schema({
     eventName: {type: 'string', required: true},
     dateTime: {type: 'Date', required: true},
-});
-var Event = mongoose.model('Event', eventSchema);
+})
+var Event = mongoose.model('Event', eventSchema)
 ```
 
 We can create a new Event object as follows:
 
 ```js
 const myEvent = new Event({
-  eventName: 'Make School Demo Night',
-  dateTime: new Date(2020, 2, 6, 18, 30, 0) // Fri March 6, 2020 at 6:30PM
-});
+    eventName: 'Make School Demo Night',
+    dateTime: new Date(2020, 2, 6, 18, 30, 0) // March 6, 2020 at 6:30PM
+})
 
-myEvent.save(); // Save to our Mongoose database
+myEvent.save() // Save to our Mongoose database
 ```
 
-Filtering our models results in a `Promise`-like object which we will need to resolve:
+Filtering our models results in a `Promise` object which we will need to resolve:
 
 ```js
 Event.findOne({ eventName: 'Make School Demo Night' })
-    .then(demoNightEvent => {
-        console.log(demoNightEvent);
-    });
+.then(demoNightEvent => {
+    console.log(demoNightEvent)
+})
 ```
 
-## Activity: Create an Events app (30 Minutes)
-
-Create a new project in a folder called `events-js`. Run `npm init` to get a `package.json` file, and create a file `server.js`. For now, all of our code will go in the server file.
-
-Install Express with `npm install express --save`, and add the following starter code:
+We can also update an existing model object:
 
 ```js
-const express = require('express');
-const app = express();
-
-// Setup
-
-// Models
-
-// Routes
-
-const port = 3000;
-app.listen(port, () => console.log(`Example app listening on port ${port}!`))
+Event.findOneAndUpdate(
+    { eventName: 'Make School Demo Night' }, // How to find the event
+    {dateTime: new Date(2020, 6, 6, 18, 30, 0)} // What to change
+)
+.then(demoNightEvent => {
+    console.log(demoNightEvent)
+}
 ```
 
-Now we should be able to run the server - but we don't have any routes yet!
-
-Add some starter code for connecting with Mongoose. You'll have to run `npm install mongoose --save`.
+Or delete it:
 
 ```js
-// Setup
-
-/* Mongoose Connection */
-const mongoose = require("mongoose");
-
-mongoose.Promise = global.Promise;
-mongoose.connect(
-  "mongodb://localhost/reddit-db",
-  { useNewUrlParser: true }
-);
-mongoose.connection.on("error", console.error.bind(console, "MongoDB connection Error:"));
-mongoose.set("debug", true);
+Event.findOneAndDelete({ eventName: 'Make School Demo Night' })
+.then(result => {
+    console.log('Successfully deleted.')
+})
 ```
 
-In a separate terminal, run `mongod` and leave it running in the background.
+## Create a Messages API (30 Minutes)
 
-Now let's add a model for our events:
+Clone the [starter code](https://github.com/meredithcat/messages-api-starter) to get started with this activity. Open the directory in your terminal and run `npm install`. The starter code already includes code to set up the Mongoose connection; all we need to do is add the models and modify the routes.
+
+To start off, visit your endpoints in Postman to see how you can interact with them. There are CRUD endpoints for the `User` resource and the `Message` resource - however, those resources haven't actually been written yet!
+
+### User Model
+
+Add the following code to `src/models/user.js`. For now, we'll be storing our passwords in plaintext, which is not very secure! We'll fix that in a future lesson.
 
 ```js
-// Models
-
-const EventSchema = new mongoose.Schema({
-  eventName: {type: 'string', required: true},
-  date: {type: 'Date', required: true}
+const UserSchema = new Schema({
+  username: { type: String, required: true },
+  password: { type: String, select: false }
 })
 
-const Event = mongoose.model('Event', EventSchema);
+const User = mongoose.model('User', UserSchema)
+
+module.exports = User
 ```
 
-Next, add some routes so that we can view and create events:
+Then modify the routes in `src/routes/user.js` as follows:
 
 ```js
-app.get('/', (req, res) => {
-  Event.find()
-    .then(events => {
-      res.send(events);
+const User = require('../models/user')
+
+router.get('/', (req, res) => {
+    User.find().then((users) => {
+        return res.json({users})
+    })
+    .catch((err) => {
+        throw err.message
+    });
+})
+
+router.get('/:userId', (req, res) => {
+    console.log(`User id: ${req.params.userId}`)
+    User.findById(req.params.userId).then((user) => {
+        return res.json({user})
+    })
+    .catch((err) => {
+        throw err.message
+    });
+})
+
+router.post('/', (req, res) => {
+    let user = new User(req.body)
+    user.save().then(userResult => {
+        return res.json({user: userResult})
+    }).catch((err) => {
+        throw err.message
+    })
+})
+
+router.put('/:userId', (req, res) => {
+    User.findByIdAndUpdate(req.params.userId, req.body).then((user) => {
+        return res.json({user})
+    }).catch((err) => {
+        throw err.message
+    })
+})
+
+router.delete('/:userId', (req, res) => {
+    User.findByIdAndDelete(req.params.userId).then(() => {
+        return res.json({
+            'message': 'Successfully deleted.',
+            '_id': req.params.userId
+        })
+    })
+    .catch((err) => {
+        throw err.message
+    })
+})
+```
+
+### Activity: Message Model
+
+Using the existing code as a reference, write the `Message` model and modify the routes to execute the CRUD operations on `Message` objects. A `Message` should have the required fields of `title`, `body`, and `author`.
+
+### Connecting our Models
+
+We want to specify that there is a one-to-many relationship between `Message` and `User` (that is, a user can have many messages, but a message can have only one author).
+
+In `models/message.js`, add the following to the model definition:
+
+```js
+const MessageSchema = new Schema({
+  // ...
+  author : { type: Schema.Types.ObjectId, ref: "User", required: true },
+})
+```
+
+Then in `models/user.js`, add the following:
+
+```js
+const UserSchema = new Schema({
+  messages : [{ type: Schema.Types.ObjectId, ref: "Message" }]
+})
+```
+
+Then, in `routes/message.js`, let's make sure that the `User` model is updated whenever we add a new message:
+
+```js
+/** Route to add a new message. */
+router.post('/', (req, res) => {
+    let message = new Message(req.body)
+    message.save()
+    .then(message => {
+        return User.findById(message.author)
+    })
+    .then(user => {
+        console.log(user)
+        user.messages.unshift(message)
+        return user.save()
+    })
+    .then(_ => {
+        return res.send(message)
     }).catch(err => {
-      console.log(err.message);
-    });
-  // render the greetings view, passing along the name
-})
-
-app.get('/create_form', (req, res) => {
-  res.send(`
-    <form action='create' method='post'>
-      Event Name: <input type='text' name='eventName'>
-      <br>Event Date: <input type='date' name='date'>
-      <br><input type='submit' value='Submit!'>
-    </form>
-  `)
-})
-
-app.post('/create', (req, res) => {
-  const event = new Event(req.body);
-  event.save();
-  res.send('event created');
+        throw err.message
+    })
 })
 ```
 
-If you run your code and try to add an event, you should see an error message: `ValidationError: Event validation failed: date: Path 'date' is required`. We will need to install the `body-parser` module so that we can use our form data.
+Let's try it out in Postman!
 
-Add the following code to your server, above the route code:
+Finally, let's make sure that whenever we make a query for users, we see that user's messages as well. Add the following to `models/user.js`:
 
 ```js
-// Setup
+UserSchema.pre('findOne', function (next) {
+    this.populate('messages')
+    next()
+})
 
-const bodyParser = require('body-parser');
-
-app.use(bodyParser.json());
-app.use(bodyParser.urlencoded({ extended: false }));
+UserSchema.pre('find', function (next) {
+    this.populate('messages')
+    next()
+})
 ```
 
-Now your routes should be (semi-)complete! Complete the challenges below to get more practice with using models.
+## BREAK (10 minutes)
 
-### Challenges
 
-1. Make a "show" route that shows a single event. E.g., if I visit `/event/5e388ae`, I should see the corresponding info for the event with the `_id` field of `5e388ae`.
-1. Show events on the main page in separate bullet points. You will need to use either a for loop, to construct the resulting HTML string, or templating.
+## Activity: Tutorial Time (50 Minutes)
 
-### Stretch Challenges
+Use this time to get caught up on the Reddit.js tutorial (or keep going, if you have already finished Part 3). Your instructor will come around to assist!
 
-1. Create an "update" route that shows a form to update a specific event. E.g. `/update/5e388ae` should show a form to update that specific event.
-1. Create a "delete" route that deletes a specific event.
+In the last 20 minutes, go over the tutorial Parts 1-3 as a class and discuss.
 
 ## Wrap-Up
 
