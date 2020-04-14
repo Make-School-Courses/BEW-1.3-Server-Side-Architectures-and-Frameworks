@@ -102,7 +102,7 @@ Writing tests for code _before_ you have the code to test is a great mental exer
 
 ## In Class Activity II - TDD Practice (70 Minutes)
 
-Clone the [starter repo](https://github.com/droxey/tdd-bdd-challenge) for this activity and open the code in your preferred code editor.
+Clone the [starter repo](https://github.com/make-school-labs/tdd-bdd-challenge) for this activity and open the code in your preferred code editor.
 
 Your instructor will walk you through writing the first test.
 
