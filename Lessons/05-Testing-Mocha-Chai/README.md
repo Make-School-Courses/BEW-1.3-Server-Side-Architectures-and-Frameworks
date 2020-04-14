@@ -102,13 +102,13 @@ Writing tests for code _before_ you have the code to test is a great mental exer
 
 ## In Class Activity II - TDD Practice (70 Minutes)
 
-Use the [in-class-tdd](Lessons/in-class-tdd/README.md) project in this repo as a starting point. I recommend [forking this starter repo directly](https://github.com/droxey/tdd-bdd-challenge) to best keep track of your changes.
+Clone the [starter repo](https://github.com/droxey/tdd-bdd-challenge) for this activity and open the code in your preferred code editor.
 
-Feel free to work with a partner.
+Your instructor will walk you through writing the first test.
 
-The goal is to make each test pass!
+Then, work with a partner to finish the rest. The goal is to make each test pass!
 
-### Level 1 Challenges
+### Level 1 Challenges (25 Minutes)
 
 #### Overview
 
@@ -120,7 +120,7 @@ Imagine you just got a job with a MeasureIt.com. They want to create an app that
 
 You'll start by writing pending tests for these methods. Then write functions that make the tests pass.
 
-### Level 2 Challenges
+### Level 2 Challenges (30 Minutes)
 
 #### Overview
 
@@ -194,7 +194,9 @@ What if you add another apple?
 
 ## After Class
 
-Practice TDD by implementing test cases for your [Custom API Project](../Projects/02-Custom-API-Project.md).
+Submit your TDD/BDD Challenge repo to [Gradescope](https://gradescope.com) by EOD Thursday.
+
+Start studying for the [midterm assessment](Assessments/midterm-assessment.md).
 
 ## Additional Resources
 
