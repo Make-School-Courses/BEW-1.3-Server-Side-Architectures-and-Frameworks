@@ -14,7 +14,8 @@ const HOSTNAME_WHITELIST = [
   'unpkg.com',
   'github.com',
   'github.io',
-  'makeschool.com'
+  'makeschool.com',
+  'make-school-courses.github.io'
 ]
 
 // The Util Function to hack URLs of intercepted requests
@@ -56,13 +57,16 @@ self.addEventListener('activate', event => {
  *  void respondWith(Promise<Response> r)
  */
 self.addEventListener('fetch', event => {
+  console.log('outside if')
   // Skip some of cross-origin requests, like those for Google Analytics.
   if (HOSTNAME_WHITELIST.indexOf(new URL(event.request.url).hostname) > -1) {
+    console.log('inside if')
     // Stale-while-revalidate
     // similar to HTTP's stale-while-revalidate: https://www.mnot.net/blog/2007/12/12/stale
     // Upgrade from Jake's to Surma's: https://gist.github.com/surma/eb441223daaedf880801ad80006389f1
     const cached = caches.match(event.request)
     const fixedUrl = getFixedUrl(event.request)
+    console.log(`fixedUrl: ${fixedUrl}`)
     const fetched = fetch(fixedUrl, {
       cache: 'no-store'
     })
@@ -83,8 +87,12 @@ self.addEventListener('fetch', event => {
     // Update the cache with the version we fetched (only for ok status)
     event.waitUntil(
       Promise.all([fetchedCopy, caches.open(RUNTIME)])
-      .then(([response, cache]) => response.ok && cache.put(event.request, response))
-      .catch(_ => {
+      .then(([response, cache]) => {
+          console.log(`response: ${response}`)
+          return response.ok && cache.put(event.request, response)
+      })
+      .catch(err => {
+        console.log(err)
         /* eat any errors */
       })
     )
