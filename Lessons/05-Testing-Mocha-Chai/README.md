@@ -1,197 +1,202 @@
-# Test-Driven Development
+# Day 5: Testing using Mocha & Chai
 
-## Agenda
+## Learning Objectives (5 Minutes)
 
-1. Learning Objectives (5 minutes)
-1. Review: Promises (20 minutes)
-1. Test-Driven Development (20 minutes)
-1. BREAK (10 minutes)
-1. The Mocha & Chai Test Libraries (20 minutes)
-1. Activity: Write Tests for an API (30 minutes)
-1. Wrap-Up (5 minutes)
-1. Resources
+1. Provide an introduction to unit testing with JavaScript.
+2. Experience Test Driven Development and Behavior Driven Development first-hand through the use of Mocha and Chai.
+3. Practice TDD and BDD concepts via in-class pair challenges.
 
-## Learning Objectives
+## Overview / TT (35 Minutes)
 
-By the end of this lesson, students should be able to...
+### Definitions
 
-1. Read and understand code using Promises, callbacks, and arrow functions.
-1. Write code to use and resolve Promises.
-1. Identify reasons for using test-driven development.
-1. Write API unit tests using Mocha, Chai, and Chai HTTP.
+> **Test**
+> 1. **noun** - a procedure intended to establish the quality, performance, or reliability of something, especially before it is taken into widespread use.
+> 2. **verb** - take measures to check the quality, performance, or reliability of (something), especially before putting it into widespread use or practice.
 
-## Submit Homework (5 minutes)
+### TDD and BDD
 
-Go to [Gradescope](https://gradescope.com) and submit the Reddit.js tutorial parts 4-5.
+_Test-Driven Development_ is a popular trend in software development. TDD uses software tests as a baseline metric to determine the quality of a codebase. Tests allow developers to check themselves before they wreck themselves, their teams, and the reputation of the product.
 
-## Review: Promises (20 minutes)
+> _Test-Driven Development_ (TDD) is a software development process that relies on the repetition of a very short development cycle: Requirements are turned into very specific test cases, then the software is improved to pass the new tests, only. This is opposed to software development that allows software to be added that is not proven to meet requirements.
 
-Working with promises is an important part of writing vanilla JavaScript code. Let's review how they work and how to effectively use them!
+In short, TDD follows this cycle:
 
-### A Note on Arrow Functions
+1. **Add a Test**: New features are added by first writing a test that fails.
+1. **Run All Tests**: Thus validating that the test is working as it should not pass.
+1. **Write Code**: Write code that will cause the test to pass.
+1. **Run Tests**: If all tests pass, congratulations! You can be confident your code meets the requirements of the test cases. If the tests fail, now's the time to fix them.
+1. **Refactor Code**: As the code base grows, it must be cleaned and improved. Tests will help to find problems, errors, or bugs introduced during refactoring.
+1. **Repeat**: With each cycle, the functionality of the product, and the reliability/usefulness of the tests, should increase.
 
-**Arrow functions** were added to the core JavaScript syntax as part of **ES6**. They work (almost) exactly like regular functions, but are shorter to write.
+TDD offers some advantages. It can increase productivity and help avoid the writing of unnecessary code. It also avoids errors and defects, and lengthy debugging sessions.
 
-```js
-// SHORTEST VERSION
-> const doubleNum = num => num * 2;
+* [Wikipedia: Test-Driven Development](https://en.wikipedia.org/wiki/Test-driven_development)
 
-// MORE VERBOSE VERSION
-> const tripleNum = (num) => {
-    return num * 3;
-}
+TDD does NOT solve all of the your problems for you. Some things are difficult to test, UI interactions for example. **Some tests are difficult to write and evaluate**. Using TDD you might feel you are spending large amounts of time writing tests, code which doesn't go  directly into your finished product.
 
-> doubleNum(6)
-12
-> tripleNum(6)
-18
+**For best results, everyone on the team must support TDD, and tests must be carefully planned.**
+
+**It has been suggested that testing first produces better results than writing tests after implementation.**
+
+**BDD** (_Behavior Driven Development_) is an extension of TDD that focuses on communication and collaboration. Imagine putting your tests into words. BDD suggests that names assigned to unit test be whole sentences starting with a conditional verb "should" for example. Taken further, these sentences should describe adding value to the product. For example:
+
+> It displays a notification when a new post is created.
+
+Some software libraries incorporate BDD into their interfaces. For example:
+
+```javascript
+user.should.have.properties("first", "last", "age");
 ```
 
-The above two examples are exactly the same as if I had written:
+You can see this is code but it also is clearly read in english describing important product features. BDD will manifest for us first in libraries like `Expect.js` and `Should.js`. These make assertions in code around BDD syntax like: `should.have.properties()` and `expect().to.be()` or similar.
+
+### Testing with Mocha
+
+The goal of testing is to define software features that the app will have to meet, and test those features to confirm the code works as expected. `Mocha.js` is a testing framework that works with `Node.js`. Mocha **runs tests and displays the results**. Mocha **doesn't** handle assertions. Instead, it **allows you** to **define your own assertions** or **use your favorite library**.
+
+### Defining an Assertion
+
+> **Assertion**
+> 1. a confident and forceful statement of fact or belief.
+> 1. the action of stating something or exercising authority confidently and forcefully.
+
+In software testing, an `assertion` states what the programmer _expects_, failing when the results do not match the programmed expectation.
+
+### Types of Assertions
+
+#### Should vs Expect
 
 ```js
-const doubleNum = function(num) {
-    return num * 2;
-}
+var chai = require('chai')
+  , expect = chai.expect
+  , should = chai.should();
 ```
 
-Arrow functions are just **"syntactic sugar"** for concepts that we already know!
+Notice that the `expect` require is just a reference to the `expect` function, whereas with the `should` require, the function is being executed.
 
-### Working with a Promise return value
+* The `expect` interface provides a function as a starting point for chaining your language assertions.
+* The `should` interface extends Object.prototype to provide a single getter as the starting point for your language assertions.
 
-Calling a regular function is like receiving a present with no wrapping paper.
+### What Should Be Tested
 
-```js
-const sayHello = function() {
-    return 'Hello!';
-}
+**_Everything!_** (that _can_ be tested)
 
-sayHello(); // 'Hello!'
+Okay --- there are things that are difficult to test, which doesn't necessarily mean that you shouldn't test them! Use common sense when defining tests.
+
+If you think of a feature, begin thinking of a test for that feature. **Any function that takes input and provides output can and should be tested!**
+
+### Good vs. Bad Tests
+
+A test should focus on **one** thing. 1 test = 1 feature / code path.
+
+Tests should validate a **unique** feature and not be repeated.
+
+Tests should be short. If you find you are writing a long test case, step back and ask if this case should really be broken down into several smaller tests.
+
+### Final Thoughts Before the Challenges
+
+Writing tests for code _before_ you have the code to test is a great mental exercise. You may find that you will have to write code differently using this perspective. You may find that you write better quality code.
+
+## BREAK (10 Minutes)
+
+## In Class Activity II - TDD Practice (70 Minutes)
+
+Use the [in-class-tdd](Lessons/in-class-tdd/README.md) project in this repo as a starting point. I recommend [forking this starter repo directly](https://github.com/droxey/tdd-bdd-challenge) to best keep track of your changes.
+
+Feel free to work with a partner.
+
+The goal is to make each test pass!
+
+### Level 1 Challenges
+
+#### Overview
+
+Imagine you just got a job with a MeasureIt.com. They want to create an app that measures everything. You'll need some methods that can return measurements.
+
+* Area should return the area of a rectangle.
+* Perimeter should return the perimeter of a rectangle.
+* Should return the area of a circle with radius.
+
+You'll start by writing pending tests for these methods. Then write functions that make the tests pass.
+
+### Level 2 Challenges
+
+#### Overview
+
+The product is a shopping cart. The cart will track products added to a cart. The cart needs to add new products, remove products, and provide the total count, and price of all products in the cart.
+
+Start with these test cases and write code to answer test case. Note: there is no code yet that does any of the things the tests ask for.
+
+From a TDD perspective, you start with failing tests and build the  application to meet the requirements of the tests.
+
+In terms of **BDD**, the test descriptions are written to describe what the product should be capable of doing.
+
+```javascript
+it('Should create a new item with name and price');
+it('Should return an array containing all items in cart');
+it('Should add a new item to the shopping cart');
+it('Should return the number of items in the cart');
+it('Should remove items from cart');
+
+// Stretch challenges
+it('Should update the count of items in the cart');
+it('Should remove an item when its count is 0');
+it('Should return the total cost of all items in the cart');
 ```
 
-Calling a function that returns a Promise is like receiving a present in wrapping paper, with a note that says "Don't open until Christmas." Calling the Promise's `.then()` method with a callback is like saying, "When I open this present, I will...".
+Your goal is to write code that meets the above test cases.
 
-```js
-let helloPromise = new Promise((resolve, reject) => {
-    setTimeout( function() {
-        resolve("Hello!")
-    }, 1000);
-});
+To help visualize the how the cart behaves, you can picture the cart
+as a table. Imagine the tables below were drawn up by the design
+team to describe how the cart would work.
 
-helloPromise.then(message => {
-    console.log("Promise is done! " + message);
-})
-```
+Imagine your shopping cart is empty:
 
-When the Promise resolves, we execute the _callback function_ that was passed to `.then()`.
+| name | price | qty | cost |
+|------|-------|-----|------|
+|      |       |     |      |
 
-### Chaining Promises
+Imagine you add an apple to the cart
 
-If there are multiple steps in the process which return Promises (e.g. multiple calls to the database which each depend on one another), we can chain them together like so:
+| name | price | qty | cost |
+|------|-------|-----|------|
+| apple| 0.99  |  1  | 0.99 |
+| total|       |  1  | 0.99 |
 
-```js
-let helloPromise = new Promise((resolve, reject) => {
-  setTimeout(() => resolve("Hello!"), 1000);
-});
+What if you add a banana?
 
-helloPromise.then(message => {
-  console.log("Promise is done! " + message);
-  return new Promise((resolve) => {
-    setTimeout(() => resolve("Hello 2!"), 1000);
-  });
-}).then(message => {
-  console.log("Second promise is done! " + message);
-})
-```
+| name  | price | qty | cost |
+|-------|-------|-----|------|
+| apple | 0.99  |  1  | 0.99 |
+| banana| 1.29  |  1  | 1.29 |
+| total |       |  2  | 2.28 |
 
-Try out these examples on your own and see if you can experiment with using promises!
+What if you add another apple?
 
+| name  | price | qty | cost |
+|-------|-------|-----|------|
+| apple | 0.99  |  2  | 1.98 |
+| banana| 1.29  |  1  | 1.29 |
+| total |       |  3  | 3.27 |
 
-## Test-Driven Development (20 minutes)
+#### Hints
 
-### What is Test-Driven Development?
+ While you won't be making a functional shopping cart, you will have to create some of the system. Think about how shopping carts work. Ask yourself how the cart will keep track of items and what exactly an item is.
 
-The test-driven development cycle consists of the following parts.
+"Items" in the cart will be JavaScript Objects, and the "cart" system will hold them in an array.
 
-1. Add a test, either for a new feature or for a bug fix
-1. Run all tests and see if the new test fails
-1. Write code to make the test pass
-1. Run the tests
-1. Refactor the code
-1. Repeat!
+* Set up your tests run your code. All tests should be pending.
+* Solve each test case one at a time by following the TDD pattern.
+  * Write functions that handle the test case. The functions should return a value the test case can evaluate.
+  * Run your tests. If the first case passes move on to the next, if not revise your code and test again.
+* Solving one test case may break a previously working case. In this case refactor and test again.
 
-### Why use Test-Driven Development?
+## After Class
 
-With a partner, discuss the possible benefits of TDD. Why is it recommended and used in some projects, and not others?
+Practice TDD by implementing test cases for your [Custom API Project](../Projects/02-Custom-API-Project.md).
 
-Then, read this [list of TDD benefits](https://dzone.com/articles/20-benefits-of-test-driven-development) and see if any stick out to you.
+## Additional Resources
 
-### TDD Best Practices
-
-1. **Write the tests first.** This lets you focus on the requirements of the feature before you build out the feature itself. 
-1. **Keep the tests small.** Each test should focus on a single scenario and feature. E.g. "Does this route return a response?", "When given an input, does the route return the expected output?".
-
-## BREAK (10 minutes)
-
-## The Mocha & Chai Test Libraries (20 minutes)
-
-### Mocha
-
-[**Mocha**](https://mochajs.org/) is a Node.js test framework for testing both synchronous and asynchronous code.
-
-It helps break our test code into blocks that accept callbacks, in order to more easily understand what is being tested.
-
-```js
-describe('Books', () => {
-    describe('/GET book', () {
-        it('should GET all the books');
-    });
-    describe('/POST book', () => {
-        it('should not POST a book with no title');
-        it('should POST a book with all fields');
-        it('should POST multiple books');
-    });
-})
-```
-
-### Chai & Chai-Http
-
-[**Chai**](https://www.chaijs.com/) is an assertion library for Node.js that allows us to easily check whether our routes return data that looks like what we expect.
-
-[**Chai HTTP**](https://www.chaijs.com/plugins/chai-http/) is an add-on plugin for Chai that makes it easier to test HTTP endpoints.
-
-Using Chai, we can write code like this:
-
-```js
-chai.request(app)
-  .put('/user/me')
-  .send({ password: '123', confirmPassword: '123' })
-  .end(function (err, res) {
-     expect(err).to.be.null;
-     expect(res).to.have.status(200);
-  });
-```
-
-As a class, read through the [assertion styles](https://www.chaijs.com/guide/styles/) available using Chai.
-
-
-## Activity: Write some API Tests (30 minutes)
-
-Choose a partner who you haven't worked with yet. You will be pair programming (Driver & Navigator) for this activity.
-
-Go to the [Node RESTful API Testing Tutorial](https://scotch.io/tutorials/test-a-node-restful-api-with-mocha-and-chai) and follow the steps. Read along with your partner and discuss any code or concepts that you do not understand.
-
-If you finish the tutorial early, discuss how the concepts you learned can be applied to your own API projects.
-
-## Wrap-Up (5 minutes)
-
-Continue working on the [Reddit.js](https://www.makeschool.com/academy/track/reddit-clone-in-node-js) tutorial. Parts 4-5 will be due next class.
-
-Fill out our [Vibe Check form](https://make.sc/bew1.3-vibe-check) with any feedback you have for the class.
-
-## Resources
-
-1. [Promises Chaining](https://javascript.info/promise-chaining)
-1. [Wikipedia: Test-Driven Development](https://en.wikipedia.org/wiki/Test-driven_development)
-1. [Testing Node.js with Mocha and Chai](https://mherman.org/blog/testing-node-js-with-mocha-and-chai/)
-1. [Using the Chai Assertion Library](https://www.chaijs.com/plugins/chai-http/)
+* [Step by Step Setup](Lessons/in-class-tdd/README.md) - Quick documentation on how to get started with TDD and BDD in Node.
+* [Chai.js Cheatsheet](https://devhints.io/chai) - Awesome cheat sheet for implementing TDD and BDD!

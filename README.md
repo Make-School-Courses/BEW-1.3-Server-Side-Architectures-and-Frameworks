@@ -36,14 +36,16 @@ To best prepare for the final exam, review [this study guide](study-guide.md).
 
 **Class Times:** Tuesday and Thursday at 9:30 PM-12:15 PM (14 class sessions)
 
-Assignments are due at 9:30 AM on the date listed, unless otherwise specified.
+~~Assignments are due at 9:30 AM on the date listed, unless otherwise specified.~~
+
+As of 4/14/2020, all assignments are due at 11:59 PM on the date listed.
 
 | Class |     Date      | Topics | Assignment Due | Assessment |
 | :---: | :-----------: | :--------: | :--------: | :--------: |
 |   1   |  Tue, Mar 31  | [Intro to Node](Lessons/01-Intro-to-Node/) | - | |
 |   2   |  Thu, Apr 2  | [JS Intro & Asynchronous Programming](Lessons/02-Intro-to-JS/) | [GIF Search Tutorial] | |
 |   3   |  Tue, Apr 7  | [HTTP Methods & Endpoint Design](Lessons/03-Http-Methods/) | [Codecademy JS]: Promises & Async/Await<br>[Promise Challenges] | |
-|   4   |  Thu, Apr 9  | [Databases](Lessons/04-Databases/) | [Reddit.js] Part 1-3 (due @ 11:59PM) | |
+|   4   |  Thu, Apr 9  | [Databases](Lessons/04-Databases/) | [Reddit.js] Part 1-3 | |
 |   5   |  Tue, Apr 14   | [Testing with Mocha & Chai](Lessons/05-Testing-Mocha-Chai/) | [Reddit.js] Part 4-6 | |
 |   6   |  Thu, Apr 16   | [Testing Express Routes](Lessons/06-Testing-Express-Routes/) | [API Project Proposal] | |
 |   7   |  Tue, Apr 21  | [Authentication with JWT](Lessons/07-Authentication/) | [Reddit.js] Part 7-9<br>[Testing Challenges] | [Midterm Assessment](Assessments/midterm-assessment.md) |
