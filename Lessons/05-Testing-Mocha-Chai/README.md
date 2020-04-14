@@ -1,4 +1,4 @@
-# Day 5: Testing using Mocha & Chai
+# Day 5: Testing with Mocha & Chai
 
 ## Learning Objectives (5 Minutes)
 
@@ -68,7 +68,7 @@ In software testing, an `assertion` states what the programmer _expects_, failin
 #### Should vs Expect
 
 ```js
-var chai = require('chai')
+const chai = require('chai')
   , expect = chai.expect
   , should = chai.should();
 ```
@@ -128,7 +128,7 @@ The product is a shopping cart. The cart will track products added to a cart. Th
 
 Start with these test cases and write code to answer test case. Note: there is no code yet that does any of the things the tests ask for.
 
-From a TDD perspective, you start with failing tests and build the  application to meet the requirements of the tests.
+From a TDD perspective, you start with failing tests and build the application to meet the requirements of the tests.
 
 In terms of **BDD**, the test descriptions are written to describe what the product should be capable of doing.
 
