@@ -3,10 +3,10 @@
 ## Agenda
 
 1. Learning Objectives
-1. Warm-Up: JWT (5 minutes)
-1. Go over Tutorial (15 minutes)
-1. Documentation Driven Development (20 minutes)
+1. Activity: Custom API (25 minutes)
+1. Documentation Driven Development (15 minutes)
 1. BREAK (10 minutes)
+1. In Class Activity: Docsify (30 Minutes)
 
 ## Learning Objectives
 
@@ -18,11 +18,15 @@
 
 Go over the [TDD/BDD homework](https://github.com/make-school-labs/tdd-bdd-challenge) and answer any questions.
 
-## Activity: Custom API Worksheet (25 minutes)
+## Activity: Custom API (25 minutes)
+
+### Brainstorm APIs (8 Minutes)
 
 Go to the [Fun API List](https://apilist.fun/) and browse the available APIs. Choose your top 3 favorites, and explore their documentation pages.
 
 Share your top 3 favorites with a partner.
+
+### Fill out Worksheet
 
 Fill out the [Custom API Worksheet](https://docs.google.com/document/d/1WP4qD618oiUj_i64ihsw99XNueN4ZOqMw12HoE89QsU/edit) to get started on your project idea!
 
@@ -60,7 +64,7 @@ Fill out the [Custom API Worksheet](https://docs.google.com/document/d/1WP4qD618
 
 ## BREAK (10 minutes)
 
-## In Class Activity I (30 Minutes)
+## In Class Activity: Docsify (30 Minutes)
 
 ### Everyone Do: Code With Me
 
