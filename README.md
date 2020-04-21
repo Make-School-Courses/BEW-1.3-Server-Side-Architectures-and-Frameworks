@@ -66,7 +66,7 @@ As of 4/14/2020, all assignments are due at 11:59 PM on the date listed.
 [JWT/Authentication Challenges]: #
 [Advanced Testing Challenges]: #
 [Advanced Authentication Challenges]: #
-[API Project Proposal/Documentation]: #
+[API Project Proposal/Documentation]: https://make-school-courses.github.io/BEW-1.3-Server-Side-Architectures-and-Frameworks/#/Lessons/08-Documentation/?id=wrap-up
 [API Project]: Projects/02-Custom-API-Project.md
 
 [Midterm Assessment]: Assessments/quiz-1.md
