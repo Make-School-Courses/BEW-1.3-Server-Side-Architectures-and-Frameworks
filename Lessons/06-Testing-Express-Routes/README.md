@@ -2,82 +2,145 @@
 
 ## Agenda
 
-1. Learning Objectives [5 minutes]
-1. Go over Tutorial [15 minutes]
-1. Review: Nested Routes & Resources [30 minutes]
-1. BREAK [10 minutes]
-1. Model Relationships [30 minutes]
-1. Activity: Design an API
+1. Learning Objectives (5 minutes)
+1. Overview: Testing Controllers (20 minutes)
+1. BREAK (10 minutes)
+1. Activity: Write Route Tests for Messages API (50 minutes)
+1. Wrap-Up
 
 ## Learning Objectives
 
-1. Use nested routes to create endpoints that are broken down into smaller parts and make sense to the user.
-1. Use the `ObjectId` field type in Mongoose models to model relationships.
-1. Design models to represent relationships between resources for a popular website.
+By the end of this lesson, you should be able to...
 
-## Go over tutorial & turn in [10 minutes]
+1. Write unit tests for routes using the `chaiHttp` library.
+1. Use `describe()` blocks to logically arrange unit tests.
+1. Use the `beforeEach()` and `afterEach()` functions to specify test set-up and tear-down routines.
 
-Go to [Gradescope](https://gradescope.com) and turn in your work for Reddit.js part 1-3.
+## Warm-Up: Write a Mocha Test (5 minutes)
 
-As a class, go over any questions about the tutorial so far.
-
-## Review: Nested Routes & Resources [30 minutes]
-
-Read [this article](https://medium.com/@zachcaceres/child-routers-in-express-56f904597b1b) and answer the following questions:
-
-1. How can we use nested routes to break down categorical information into smaller parts?
-1. How can we use the `.use()` function to re-route a request from one router to another?
-1. If I visit the `/albums/1/track/2` URL, which middleware and route functions are called?
-
-Go over an example of nested routes as a class.
-
-## BREAK [10 minutes]
-
-## Model Relationships [25 minutes]
-
-### Think-Pair-Share: Relationships
-
-Choose a popular website, list at least 3 resources, and describe their relationships. E.g. Facebook: `User` has-many `Posts`, `User` has-many friends (also `User`s), `Post` has-many `Like`s (represented by `User`s).
-
-Share your example with a partner, and see if you agree. (Hint: There's not always one right answer!)
-
-Then share a few examples with the class.
-
-### TT: Model Relationships
-
-We can model a one-to-many or many-to-many relationship using the `ObjectId` field type.
+How would we write a test for the following function?
 
 ```js
-const mongoose = require("mongoose");
-
-const albumSchema = new mongoose.Schema({
-    title: { type: String },
-    releaseDate: { type: Date },
-    songs: [ { type: mongoose.Schema.Types.ObjectId, ref: "Song" } ]
-});
-Album = mongoose.model("Album", albumSchema);
-
-const songSchema = new mongoose.Schema({
-    title: { type: String },
-    duration: { type: Number },
-    album: { type: mongoose.Schema.Types.ObjectId, ref: "Album" }
-});
-Song = mongoose.model("Song", songSchema);
+const celsiusToFahrenheit = (celsius) => {
+    return celsius * 9 / 5 + 32
+}
 ```
 
-How does this schema design look different than ones we've seen in Django or Flask?
+Use your `tdd-bdd-challenge` solutions as a guide.
 
+## Overview: Testing Controllers (20 minutes)
 
-## Activity: Design an API
+### Using `chaiHttp` to test our routes
 
-Go over the [API Project](Projects/02-Custom-API-Project.md) requirements and start writing your proposal. In particular, be clear about your data model and the relationships between objects.
+We can test our controllers using the `chaiHttp` library.
 
-Check out an example API project [here](https://github.com/jayceazua/custom-API-BEW1_2).
+Here is some example code for a "Hello, World" route:
+
+```js
+/* src/index.js */
+
+const express = require('express');
+const app = express();
+const PORT = env.process.PORT || 8080;
+
+app.get('/', (req, res) => {
+    res.send({
+        message: 'Hello, world!'
+    });
+});
+
+app.listen(port, () => {
+    console.log(`Listening on localhost:${port}`);
+})
+
+module.exports = app;
+```
+
+And here is some example test code:
+
+```js
+/* src/test/index.js */
+
+const chai = require('chai');
+const expect = chai.expect;
+const chaiHttp = require('chai-http');
+const app = require('../app.js');
+
+chai.use(chaiHttp);
+
+// Describe is like a container for our tests.
+describe('Hello World Route Test', () => {
+
+    // Test Case 1
+    it('Returns a 200 Response', (done) => {
+        chai.request(app)
+            .get('/')
+            .end((error, response) => {
+                if (error) done(error);
+                expect(response).to.have.status(200);
+                done();
+            });
+    });
+
+    // Test Case 2
+    it('Returns a "Hello World" message', (done) => {
+        chai.request(app)
+            .get('/')
+            .end((error, response) => {
+                if (error) done(error);
+                expect(response.body).to.be.deep.equal({
+                    message: 'Hello, world!'
+                });
+                done();
+            });
+    });
+});
+```
+
+### Introducing: `beforeEach` and `afterEach`
+
+Sometimes, there are things you _always_ want to do either **before** each test runs (think of these like setup), or **after** each test runs (think of these like cleanup). For these, we can use the `beforeEach()` and `afterEach()` functions.
+
+Here is an example:
+
+```js
+// Create a sample user for use in tests.
+beforeEach((done) => {
+    const sampleUser = new User({
+        username: 'myuser',
+        password: 'mypassword',
+        _id: SAMPLE_OBJECT_ID
+    })
+    sampleUser.save()
+    .then(() => {
+        done()
+    })
+})
+
+// Delete sample user.
+afterEach((done) => {
+    User.deleteMany({ username: ['myuser', 'anotheruser'] })
+    .then(() => {
+        done()
+    })
+})
+```
+
+## BREAK (10 minutes)
+
+## Activity: Write Route Tests for Messages API (30 minutes)
+
+Go to the [starter code](https://github.com/Make-School-Labs/chai-testing-challenges) for the Messages API. The routes and unit tests should already be completed for the `/user` endpoints.
+
+You will be adding unit tests for the `/messages` endpoints. Try writing these using the TDD methodology:
+
+1. Write a test
+1. Run the test (it should fail)
+1. Write code for the route being tested
+1. Run the test again. If it passes, great! If not, revise your route or test code until it passes.
+1. Repeat for the next test!
 
 ## Wrap-Up
 
-Reminder: Midterm assessment on Monday. A [study guide](Assessments/midterm-assessment.md) is linked in the syllabus.
+Complete the [Chai Testing Challenges](https://github.com/Make-School-Labs/chai-testing-challenges) as homework before our next class.
 
-## Lab Time [45 minutes]
-
-Use your lab time to continue working on the Reddit.js tutorial, start on your project proposal, or review material for the upcoming assessment.
