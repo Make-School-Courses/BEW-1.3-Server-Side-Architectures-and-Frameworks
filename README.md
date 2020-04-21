@@ -66,8 +66,7 @@ As of 4/14/2020, all assignments are due at 11:59 PM on the date listed.
 [JWT/Authentication Challenges]: #
 [Advanced Testing Challenges]: #
 [Advanced Authentication Challenges]: #
-[API Project Proposal]: #
-[API Project Documentation]: #
+[API Project Proposal/Documentation]: #
 [API Project]: Projects/02-Custom-API-Project.md
 
 [Midterm Assessment]: Assessments/quiz-1.md
