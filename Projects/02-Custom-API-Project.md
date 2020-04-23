@@ -12,13 +12,12 @@ It's time to get creative and write the authenticated API of your dreams!
 
 ### Functional Requirements
 
-1. At least one **nested route or resource** as covered on [Day 3](Lessons/Lesson03.md) of class.
-2. The ability to **CREATE**, **READ**, **UPDATE**, and **DELETE** the object(s) in your API.
-3. At least **one of each** endpoint: `GET`, `POST`, `PUT`, and `DELETE`.
-4. A **database persistence layer** (e.g. MongoDB)
-5. The ability to **securely provision an API user** using the authorization and authentication techniques learned in class. **Unauthenticated users should not be able to use the API!**
-6. Project **contains documentation** explaining how to use your API.
-7. Project contains a **simple, static single page brochure site** that explains what the API does and a link to the API's documentation.
+1. Project contains a **simple, static single page brochure site** that explains what the API does and a link to the API's documentation.
+1. Project **contains documentation** explaining how to use your API.
+1. The ability to **CREATE**, **READ**, **UPDATE**, and **DELETE** the object(s) in your API.
+1. At least **one of each** endpoint: `GET`, `POST`, `PUT`, and `DELETE`.
+1. A **database persistence layer** (e.g. MongoDB)
+1. The ability to **securely provision an API user** using the authorization and authentication techniques learned in class. **Unauthenticated users should not be able to use the API!**
 
 
 ### Non-Functional Requirements
@@ -27,11 +26,11 @@ It's time to get creative and write the authenticated API of your dreams!
 1. The API implementation must **follow the MVC pattern**.
 1. The API must be hosted in a **public GitHub repository**.
 1. The project repository **should not expose any secrets**!
-1. The API must have a discernible theme or **serve a distinct purpose**. See the [Examples](#Examples) for well-themed and purposed APIs.
+1. The API must have a discernible theme or **serve a distinct purpose**. See the [Examples](#Example-APIs) for well-themed and purposed APIs.
 1. The final project must be **deployed and fully accessible** via the internet and **callable via any consumer**.
 1. The final project must be **fully documented**.
-2. Must **develop the API using a TDD approach** as discussed in class on [Day 9](Lessons/Lesson09.md).
-3. The syntax in the final project deliverable will **adhere to [Airbnb JavaScript Style Guide](https://github.com/airbnb/javascript)**.
+1. Must **develop the API using a TDD approach** as discussed in class on [Day 9](Lessons/Lesson09.md).
+1. The syntax in the final project deliverable will **adhere to [Airbnb JavaScript Style Guide](https://github.com/airbnb/javascript)**.
 
 ### Level Up - API + Skills (_Optional_)
 
@@ -43,10 +42,8 @@ It's time to get creative and write the authenticated API of your dreams!
 
 ## Example APIs
 
-* [List of Public APIs](https://github.com/toddmotto/public-apis) - Giant list of public APIs to inspire you!
-* [The Rick and Morty API](https://rickandmortyapi.com) - Excellent single page brochure site with easy to find About and Documentation links. Very clear documentation.
-* [Adorable Avatars](http://avatars.adorable.io) - Beautiful brochure site, easy to use and direct API. Great docs and FAQ!
-* [JSONPlaceholder](http://jsonplaceholder.typicode.com) - Clean and minimalist one page site and documentation for a very simple API. Love the 'Try It!' buttons!
+* [List of Public APIs](https://github.com/toddmotto/public-apis) - Giant list of public APIs!
+* [API List](https://apilist.fun/) - List of "fun" APIs to inspire you!
 
 ## Implementation Notes
 
@@ -58,33 +55,24 @@ It's time to get creative and write the authenticated API of your dreams!
 
 * Make sure the `Access-Control-Allow-Origin` header is set to `*` so that requests to your API can be made from any domain!
 
-## Schedule
-
-A **sample daily outline** is provided to assist you in planning your sprint:
-
-* **Day 07**: Brainstorm ideas for your API.
-* **Day 08**: Write API proposal.
-* **Day 09**: Write API tests.
-* **Day 10**: Continue writing API tests.
-* **Day 11**: Write Authentication and Authorization tests.
-* **Day 12**: Implement API.
-* **Day 13**: Implement API.
-* **Day 14**: Documentation and deployment.
-
 ### Phases and Deadlines
 
-1. **Phase 1**: Proposal - **Due Day 7 @ 11:59pm**.
+1. **Phase 1**: Proposal
     * **Deliverables**:
         * Public GitHub Repository Link
         * `README.md` in the repo with proposal.
-    * **Approval**: Instructor will approve projects by **start of class on Day 9**.
 1. **Phase 2**: Test First Approach - **Due Day 10 @ 11:59pm**.
     * **Deliverables**:
         * `/tests/` folder in repo containing TDD code and strategy.
-    * **Code Review 1**: Instructor will review TDD strategy and make notes in each student repo. This will be complete by the **start of class on Day 12**.
-1. **Phase 3**: Final Deliverable - **Due Day 13 @ 11:59pm**.
+        * `/models/` folder in repo containing models code.
+        * `/controllers/` folder in repo containing route code as described by the documentation site.
+        * **NOTE**: Phase 2 does not need to include authentication.
+    * **Code Review 1**: Students will peer review each other's code during class.
+1. **Phase 3**: Final Deliverable - **Due Day 14 @ 11:59pm**.
     * **Deliverables**:
         * Link to deployed API brochure site.
+        * Link to code repository.
+        * Link to deployed API Heroku site.
     * **Code Review 2**: Students receive after class.
 
 ## Getting Started

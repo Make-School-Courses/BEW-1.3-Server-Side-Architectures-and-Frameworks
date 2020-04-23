@@ -49,13 +49,13 @@ As of 4/14/2020, all assignments are due at 11:59 PM on the date listed.
 |   5   |  Tue, Apr 14   | [Testing with Mocha & Chai](Lessons/05-Testing-Mocha-Chai/) | [Reddit.js] Part 4-6 | |
 |   6   |  Thu, Apr 16   | [Documentation with Docsify](Lessons/08-Documentation/) | [TDD/BDD Challenges] | |
 |   7   |  Tue, Apr 21  | [Testing Express Routes](Lessons/06-Testing-Express-Routes/) | [API Project Proposal/Documentation] | [Midterm Assessment](Assessments/midterm-assessment.md) |
-|   8   |  Thu, Apr 23  | [Authentication with JWT](Lessons/07-Authentication/) | [Chai Testing Challenges] |  |
-|   9   |  Tue, Apr 28  | [API Design](Lessons/09-API-Design/) | [Reddit.js] Part 7-9<br>[JWT/Authentication Challenges] | |
-|  10   |  Thu, Apr 30  | [Advanced Testing Patterns](Lessons/10-Advanced-Testing/) |  | |
-|  11   |  Tue, May 5  | [More Authentication](Lessons/11-More-Authentication/) | [Reddit.js] Part 10-11<br>[Advanced Testing Challenges] | |
-|  12   |  Thu, May 7  | Lab Day | [Advanced Authentication Challenges] | |
+|   8   |  Thu, Apr 23  | [Review/Lab Day](Lessons/09-Review/) | [Chai Testing Challenges] |  |
+|   9   |  Tue, Apr 28  | [Authentication with JWT](Lessons/07-Authentication/) | [Reddit.js] Part 7-9 | |
+|  10   |  Thu, Apr 30  | [More Authentication](Lessons/11-More-Authentication/) | [API Project] Phase 2 | |
+|  11   |  Tue, May 5  | [Advanced Testing Patterns](Lessons/10-Advanced-Testing/) | [Reddit.js] Part 10-11 | |
+|  12   |  Thu, May 7  | Lab Day |  | |
 |  13   |  Tue, May 12   | [Deployment](Lessons/12-Deployment/) | | |
-|  14   |  Thu, May 14   | Final Class | [API Project] | [Final Assessment](Assessments/final-assessment.md) |
+|  14   |  Thu, May 14   | Final Class | [API Project] Phase 2 | [Final Assessment](Assessments/final-assessment.md) |
 
 [GIF Search Tutorial]: https://www.makeschool.com/academy/track/gif-search-app-ynu
 [Codecademy JS]: https://www.codecademy.com/learn/introduction-to-javascript
