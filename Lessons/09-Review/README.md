@@ -19,9 +19,9 @@ By the end of this class, you should be able to...
 
 ## Activity Part 1: Write Tests based on Documentation (40 minutes)
 
-Pair up with another student; you will be _pair programming_ for the duration of this activity. Decide who will be Partner A and who will be Partner B.
+Pair up with another student; you will be _pair programming_ for the duration of this activity. Decide who will be **Partner A** and who will be **Partner B**.
 
-If you are Partner A, you will write _route tests_ for the endpoints of Partner B's API. Use Partner B's API documentation site to guide you, and try to write at least 4 tests. Partner B will act as the _navigator_ and guide you through writing the tests.
+If you are **Partner A**, you will write _route tests_ for the **endpoints of Partner B's API**. Use Partner B's **API documentation site** to guide you, and try to write at least 4 tests. Partner B will act as the _navigator_ and guide you through writing the tests.
 
 After 20 minutes, switch partners. Make sure to send your partner the test code you wrote.
 
