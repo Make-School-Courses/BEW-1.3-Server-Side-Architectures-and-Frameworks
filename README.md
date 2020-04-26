@@ -55,7 +55,7 @@ As of 4/14/2020, all assignments are due at 11:59 PM on the date listed.
 |  11   |  Tue, May 5  | [Advanced Testing Patterns](Lessons/10-Advanced-Testing/) | [Reddit.js] Part 10-11 | |
 |  12   |  Thu, May 7  | Lab Day |  | |
 |  13   |  Tue, May 12   | [Deployment](Lessons/12-Deployment/) | | |
-|  14   |  Thu, May 14   | Final Class | [API Project] Phase 2 | [Final Assessment](Assessments/final-assessment.md) |
+|  14   |  Thu, May 14   | Final Class | [API Project] Phase 3 | [Final Assessment](Assessments/final-assessment.md) |
 
 [GIF Search Tutorial]: https://www.makeschool.com/academy/track/gif-search-app-ynu
 [Codecademy JS]: https://www.codecademy.com/learn/introduction-to-javascript
