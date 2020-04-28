@@ -1,15 +1,5 @@
 # Authentication with JWT (JSON Web Token)
 
-## Agenda
-
-1. Learning Objectives
-1. Definition of Terms (5 minutes)
-1. JWT Concepts Video (25 minutes)
-1. BREAK (10 minutes)
-1. JWT Format (10 mintues)
-1. Activity: Skit (30 minutes)
-1. Using JWT with Node.js
-
 ## Learning Objectives
 
 By the end of this lesson, students should be able to...
@@ -25,13 +15,29 @@ Before we watch the video, let's go over some preliminary terminology that will 
 - A **cookie** is any piece of data, usually of type string, that is stored by your browser.
 - A **token** is a piece of data passed between client and server, e.g. to validate a user's login state. Usually stored as a browser cookie.
 
+As a class, explore a site such as [Amazon.com](https://amazon.com), as well as a local copy of the Reddit.js tutorial, to understand how cookies work.
+
 ## JWT Concepts Video (25 minutes)
 
-Watch [this video](https://www.youtube.com/watch?v=soGRyl9ztjI) on JWT tokens. As you watch, fill out the [worksheet](https://docs.google.com/document/d/1d6F8r-KmHu_vNT6QPWSJwj8aqZWfH5QiEYIlFGPFJtw/edit) (Part A only). Then, discuss the answers as a class.
+Watch [this video](https://www.youtube.com/watch?v=soGRyl9ztjI) on JWT tokens. As you watch, write down definitions of the following terms:
 
-## BREAK (10 minutes)
+1. Stateless Protocol
+1. Session Token
+1. JSON Web Token (JWT)
+
+## Activity: Analogies (5 minutes)
+
+Form groups of 3. With your group, come up with 2-3 _analogies_ for authentication. Decide if they are closer to **session tokens** or **JSON Web Tokens**. As a group, choose your favorite analogy.
+
+**EXAMPLE**: Customer service works more like **session tokens**, because the customer is given a _ticket number_, which corresponds to data stored by the company that describes that user's history.
 
 ## JWT Format (15 minutes)
+
+Here is an example of a JWT:
+
+<img src="Lessons/Assets/jwt.png">
+
+It doesn't look much like JSON, does it? That's because it's _encoded_ JSON. We can _decode_ it at any time to get the JSON data back out!
 
 A JWT token has the format of `xxxxxx.yyyyyy.zzzzzz`, where:
 
@@ -41,15 +47,9 @@ A JWT token has the format of `xxxxxx.yyyyyy.zzzzzz`, where:
 
 Explore the [JWT Format](https://jwt.io/) tool as a class to understand how the three parts work together to form the token.
 
-## Activity: Skit (30 minutes)
+## BREAK (10 minutes)
 
-Form teams of 3 students (no more than 4). Each team should fill out Part B of the worksheet to write a short skit demonstrating the concepts in the video. You will randomly be assigned to use either **session-based authentication** or **JWT token-based authentication**.
-
-### Perform Skit
-
-Have each group perform their skit!
-
-## Using JWT with Node.js
+## Using JWT with Node.js (20 minutes)
 
 To use JSON web tokens, we can use the `jsonwebtoken` NPM package:
 
@@ -80,20 +80,24 @@ const checkAuth = (req, res, next) => {
     // ... code to check that 'nToken' cookie exists
 
     // Verify token, then call next() function when it's done
-    const token = req.cookies.nToken;
+    const token = req.cookies.nToken
     jwt.verify(token, process.env.SECRET, (err, decodedToken) => {
         if (err) {
             console.log('Error during authentication: Invalid signature')
-            req.user = null;
+            req.user = null
         } else {
-            req.user = decodedToken;
+            req.user = decodedToken
         }
-        next();
+        next()
     })
 }
 
 app.use(checkAuth)
 ```
+
+## Work Time (30 minutes)
+
+Work on your [Reddit.js](https://www.makeschool.com/academy/track/reddit-clone-in-node-js) tutorial or your [API Project - Phase 2](Projects/02-Custom-API-Project).
 
 ## Wrap-Up
 
@@ -102,5 +106,6 @@ Fill out our [Vibe Check form](https://make.sc/bew1.3-vibe-check) with any feedb
 ## Resources & Credits
 
 1. [JWT Authentication video](https://www.youtube.com/watch?v=soGRyl9ztjI)
+1. [Structure of JWT video](https://www.youtube.com/watch?v=_XbXkVdoG_0)
 1. [jsonwebtoken NPM Package](https://www.npmjs.com/package/jsonwebtoken)
 1. [Using Cookies Documentation](https://sailsjs.com/documentation/reference/response-res/res-cookie)
