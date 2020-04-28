@@ -35,7 +35,7 @@ Form groups of 3. With your group, come up with 2-3 _analogies_ for authenticati
 
 Here is an example of a JWT:
 
-<img src="Lessons/Assets/jwt.png">
+<img src="Lessons/Assets/jwt.png" width="300px">
 
 It doesn't look much like JSON, does it? That's because it's _encoded_ JSON. We can _decode_ it at any time to get the JSON data back out!
 
