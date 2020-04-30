@@ -22,7 +22,9 @@ On your own, answer the following questions (feel free to reference the [documen
 
 Then, share with a partner.
 
-## Password Salting & Hashing (25 minutes)
+## Password Salting & Hashing Jigsaw (40 minutes)
+
+### Expert Groups (20 minutes)
 
 Form groups of 2. With your partner, read **_one of_** the following articles:
 
@@ -35,7 +37,9 @@ As you read, take notes and answer the following questions:
 1. Why is it important for website security?
 1. How do we do it in our Node/Express project?
 
-Then, pair with another group and discuss both concepts. How do they fit together?
+### Jigsaw Groups (20 minutes)
+
+Pair with another group and discuss both concepts. How do they fit together?
 
 As a class, discuss how these were used in the Reddit.js project.
 
@@ -43,12 +47,16 @@ As a class, discuss how these were used in the Reddit.js project.
 
 ## Activity: JWT Authentication Tutorial
 
-With a partner, complete this [Scotch.io tutorial](https://scotch.io/tutorials/authenticate-a-node-es6-api-with-json-web-tokens) on using JWT authentication in Node.js.
+Complete this [Scotch.io tutorial](https://scotch.io/tutorials/authenticate-a-node-es6-api-with-json-web-tokens) on using JWT authentication in Node.js.
+
 
 ## Wrap-Up
 
+Due today:
+1. Complete your [API Project, Phase 2]() by 11:59 PM. Let your instructor know of any questions you have.
+
+Due on Tuesday: 
+1. Complete the [JWT Authentication tutorial](https://scotch.io/tutorials/authenticate-a-node-es6-api-with-json-web-tokens).
+1. Complete the [Reddit.js tutorial](https://www.makeschool.com/academy/track/reddit-clone-in-node-js), parts 10-11.
+
 Fill out our [Vibe Check form](https://make.sc/bew1.3-vibe-check) with any feedback you have for the class.
-
-## Final Project Work Time
-
-Continue to work on your final project. Submit your Project Phase 2 via [Gradescope](https://gradescope.com).

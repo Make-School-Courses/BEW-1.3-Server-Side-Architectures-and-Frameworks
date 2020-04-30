@@ -52,7 +52,7 @@ As of 4/14/2020, all assignments are due at 11:59 PM on the date listed.
 |   8   |  Thu, Apr 23  | [Review/Lab Day](Lessons/09-Review/) | [Chai Testing Challenges] |  |
 |   9   |  Tue, Apr 28  | [Authentication with JWT](Lessons/07-Authentication/) | [Reddit.js] Part 7-9 | |
 |  10   |  Thu, Apr 30  | [More Authentication](Lessons/11-More-Authentication/) | [API Project] Phase 2 | |
-|  11   |  Tue, May 5  | [Advanced Testing Patterns](Lessons/10-Advanced-Testing/) | [Reddit.js] Part 10-11 | |
+|  11   |  Tue, May 5  | [Advanced Testing Patterns](Lessons/10-Advanced-Testing/) | [Reddit.js] Part 10-11<br>[Auth API Tutorial](https://scotch.io/tutorials/authenticate-a-node-es6-api-with-json-web-tokens) | |
 |  12   |  Thu, May 7  | Lab Day |  | |
 |  13   |  Tue, May 12   | [Deployment](Lessons/12-Deployment/) | | |
 |  14   |  Thu, May 14   | Final Class | [API Project] Phase 3 | [Final Assessment](Assessments/final-assessment.md) |
