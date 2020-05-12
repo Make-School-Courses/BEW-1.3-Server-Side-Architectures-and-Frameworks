@@ -16,6 +16,29 @@ By the end of this class, you should be able to:
 
 ## Activity: Deploy to Heroku! (45 minutes)
 
+#### Set Up GitHub Repository
+
+If you haven't yet, set up your GitHub repository:
+
+```bash
+git init
+git add .
+git commit -m'Initial commit'
+```
+
+Make sure you create a file `.gitignore` and give it the following contents:
+
+```
+node_modules/
+.env
+```
+
+If your `node_modules` folder was already added to your GitHub repository, make sure you remove it by running the following:
+
+```bash
+git rm -r node_modules
+```
+
 #### Create Procfile
 
 In the root directory of your project, create a file called `Procfile` with the following contents:
@@ -79,6 +102,12 @@ const port = process.env.PORT
 app.listen(port)
 ```
 
+If you are using any other environment variables that will need to be defined on Heroku, such as the JWT secret key, you can set them as follows:
+
+```
+heroku config:set SECRET=myverysecretpassword
+```
+
 Add, commit, and push your files to Heroku, then run:
 
 ```
@@ -91,6 +120,10 @@ Woohoo! You're done!
 
 
 ## BREAK (10 minutes)
+
+## Surveys (15 minutes)
+
+Take some time to fill out the [class feedback survey](make.sc/bew_1.3_survey). We truly value your feedback so make sure to tell us of any suggestions, things you liked, didn't like, etc!
 
 ## Project Work Time (50 minutes)
 
