@@ -77,9 +77,9 @@ As of 4/14/2020, all assignments are due at 11:59 PM on the date listed.
 
 **To pass this course, you must earn at least a 70% weighted average, according to the following breakdown**:
 
-- Reddit.js Tutorial: 20%
-- Assignments, Projects, & Class Participation: 50%
-- Quizzes/Assessments: 30%
+- Capstone Project: 30%
+- Tutorials, Assignments, Projects, & Class Participation: 50%
+- Quizzes/Assessments: 20%
 
 In order to pass this course, you must also:
 
