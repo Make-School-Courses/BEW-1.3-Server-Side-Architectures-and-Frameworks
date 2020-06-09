@@ -6,7 +6,7 @@
 
 | Instructor | Slack Channel | Course Website |
 | :--------------------------------------: | :-----------: | :--------------------------------------: |
-| [Meredith](https://github.com/meredithcat) | _#bew1-3-node_ | [make.sc/bew1.3](https://make.sc/bew1.3) |
+| [Braus](https://github.com/ajbraus) | _#bew1-3-node_ | [make.sc/bew1.3-t5](make.sc/bew1.3-t5) |
 
 ## Course Description
 
@@ -21,7 +21,7 @@ In this course, students build on knowledge of Resourceful and RESTful patterns 
 Students by the end of the course will be able to ...
 
 1. Diagram and implement resource associations using a document-based database.
-1. Write advanced MongoDB queries with a focus on optimum performance and efficiency.
+1. Write advanced db queries with a focus on optimum performance and efficiency.
 1. Discern between differing levels of persistence and the use cases that best fit each.
 1. Implement authentication using JWT tokens and sessions.
 1. Invent, create, test, deploy, and deliver a custom, fully secured API.
@@ -61,7 +61,8 @@ As of 4/14/2020, all assignments are due at 11:59 PM on the date listed.
 |  12   |  Thu, May 7  | [Authentication with Passport](Lessons/10-Passport/) |  | |
 |  13   |  Tue, May 12   | [Deployment](Lessons/12-Deployment/) | | |
 |  14   |  Thu, May 14   | Final Class | [API Project] Phase 3 | [Final Assessment](Assessments/final-assessment.md) |
--->
+
+
 [GIF Search Tutorial]: https://www.makeschool.com/academy/track/gif-search-app-ynu
 [Codecademy JS]: https://www.codecademy.com/learn/introduction-to-javascript
 [Promise Challenges]: https://github.com/Make-School-Labs/promises-challenges
@@ -76,6 +77,16 @@ As of 4/14/2020, all assignments are due at 11:59 PM on the date listed.
 
 [Midterm Assessment]: Assessments/quiz-1.md
 [Final Assessment]: Assessments/quiz-2.md
+
+-->
+
+
+1. [Make Parties (Tutorial)](https://www.makeschool.com/academy/track/make-tweets)
+2. [Eloquent JavaScript (Textbook)](https://eloquentjavascript.net/)
+3. [Reddit.js (Tutorial)](https://www.makeschool.com/academy/track/reddit-clone-in-node-js)
+4. [Passport Authentication Challenge](https://docs.google.com/spreadsheets/d/1cItyOCe6tNv4EURFjmlOb6DdUvhV2WI7zCdoBhUyDHA/edit#gid=876739297)
+5. [TDD/BDD Challenges](https://github.com/make-school-labs/tdd-bdd-challenge)
+6. [Capstone Project](https://docs.google.com/a/makeschool.com/document/d/1HVG0vkrENPRUTzHSuaI41A0sp_MUIlwYG07Q77KImCA/edit?usp=sharing)
 
 
 ## Evaluation
