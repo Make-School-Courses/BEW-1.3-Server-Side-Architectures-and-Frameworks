@@ -40,6 +40,8 @@ To best prepare for the final exam, review [this study guide](study-guide.md).
 
 As of 4/14/2020, all assignments are due at 11:59 PM on the date listed.
 
+![2020-summer](2020-summer.png)
+<!-- 
 | Class |     Date      | Topics | Assignment Due | Assessment |
 | :---: | :-----------: | :--------: | :--------: | :--------: |
 |   1   |  Tue, Mar 31  | [Intro to Node](Lessons/01-Intro-to-Node/) | - | |
@@ -56,7 +58,7 @@ As of 4/14/2020, all assignments are due at 11:59 PM on the date listed.
 |  12   |  Thu, May 7  | [Authentication with Passport](Lessons/10-Passport/) |  | |
 |  13   |  Tue, May 12   | [Deployment](Lessons/12-Deployment/) | | |
 |  14   |  Thu, May 14   | Final Class | [API Project] Phase 3 | [Final Assessment](Assessments/final-assessment.md) |
-
+-->
 [GIF Search Tutorial]: https://www.makeschool.com/academy/track/gif-search-app-ynu
 [Codecademy JS]: https://www.codecademy.com/learn/introduction-to-javascript
 [Promise Challenges]: https://github.com/Make-School-Labs/promises-challenges
