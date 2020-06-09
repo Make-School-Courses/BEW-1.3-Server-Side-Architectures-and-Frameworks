@@ -41,7 +41,7 @@ To best prepare for the final exam, review [this study guide](study-guide.md).
 As of 4/14/2020, all assignments are due at 11:59 PM on the date listed.
 
 <p align="center">
-  <img src="2020-summer.png">
+  <img src="2020-Summer.png">
 </p>
 
 <!-- 
