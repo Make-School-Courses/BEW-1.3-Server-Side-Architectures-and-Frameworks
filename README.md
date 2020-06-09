@@ -40,7 +40,10 @@ To best prepare for the final exam, review [this study guide](study-guide.md).
 
 As of 4/14/2020, all assignments are due at 11:59 PM on the date listed.
 
-![2020-summer](2020-summer.png)
+<p align="center">
+  <img src="2020-summer.png">
+</p>
+
 <!-- 
 | Class |     Date      | Topics | Assignment Due | Assessment |
 | :---: | :-----------: | :--------: | :--------: | :--------: |
