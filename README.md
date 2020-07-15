@@ -28,7 +28,7 @@ Students by the end of the course will be able to ...
 
 ## Study Guide
 
-To best prepare for the final exam, review [this study guide](study-guide.md).
+<!-- To best prepare for the final exam, review [this study guide](study-guide.md). -->
 
 ## Class Schedule
 
