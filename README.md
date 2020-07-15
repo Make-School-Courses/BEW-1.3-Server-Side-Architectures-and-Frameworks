@@ -41,7 +41,7 @@ Students by the end of the course will be able to ...
 As of 4/14/2020, all assignments are due at 11:59 PM on the date listed.
 
 <p align="center">
-  <img src="2020-Summer.png">
+  <img src="Summer-2020.png">
 </p>
 
 <!-- 
