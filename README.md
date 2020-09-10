@@ -16,6 +16,12 @@ In this course, students build on knowledge of Resourceful and RESTful patterns 
 
 1. [BEW 1.2](http://make.sc/bew1-2)
 
+## Course Specifics
+
+**Course Delivery**: online | 7 weeks | 14 sessions
+
+**Course Credits**: 3 units | 37.5 Seat Hours | 75 Total Hours
+
 ## Learning Outcomes
 
 Students by the end of the course will be able to ...
@@ -117,6 +123,12 @@ If you require accommodations or have extenuating circumstances such as prolonge
 * [jwt.io](https://jwt.io)
   * JSON Web Tokens are an open, industry standard RFC 7519 method for representing claims securely between two parties. JWT.IO allows you to **decode, verify and generate JWT**.
 * See the **Additional Resources** section at the bottom of each day's lesson plan for the most up-to-date, helpful resources for that class period!
+
+##  Information Resources
+
+Any additional resources you may need (online books, etc.) can be found here. You can also find additional resources through the library linked below:
+
+- [make.sc/library](http://make.sc/library)
 
 ## Make School Course Policies
 
