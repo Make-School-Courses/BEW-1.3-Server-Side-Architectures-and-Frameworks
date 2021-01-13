@@ -6,7 +6,7 @@
 
 | Instructor | Slack Channel | Course Website |
 | :--------------------------------------: | :-----------: | :--------------------------------------: |
-| [Braus](https://github.com/ajbraus) | _#bew1-3-node_ | [make.sc/bew1.3-t5](make.sc/bew1.3-t5) |
+| [Braus](https://giMonb.com/ajbraus) | _#bew1-3-node_ | [make.sc/bew1.3-t5](make.sc/bew1.3-t5) |
 
 ## Course Description
 
@@ -38,60 +38,48 @@ Students by the end of the course will be able to ...
 
 ## Class Schedule
 
-**Course Dates:** Tuesday, March 31 – Thursday, May 14, 2020 (7 weeks)
+**Course Dates:** Wednesday, January 20 – Wednesday, January 3, 2021 (7 weeks)
+**Class Times:** Monday, Wednesday at 9:30am–12:15pm (13 class sessions)
 
-**Class Times:** Tuesday and Thursday at 9:30 PM-12:15 PM (14 class sessions)
-
-~~Assignments are due at 9:30 AM on the date listed, unless otherwise specified.~~
-
-As of 4/14/2020, all assignments are due at 11:59 PM on the date listed.
-
-<p align="center">
-  <img src="Summer-2020.png">
-</p>
-
-<!-- 
 | Class |     Date      | Topics | Assignment Due | Assessment |
 | :---: | :-----------: | :--------: | :--------: | :--------: |
-|   1   |  Tue, Mar 31  | [Intro to Node](Lessons/01-Intro-to-Node/) | - | |
-|   2   |  Thu, Apr 2  | [JS Intro & Asynchronous Programming](Lessons/02-Intro-to-JS/) | [GIF Search Tutorial] | |
-|   3   |  Tue, Apr 7  | [HTTP Methods & Endpoint Design](Lessons/03-Http-Methods/) | [Codecademy JS]: Promises & Async/Await<br>[Promise Challenges] | |
-|   4   |  Thu, Apr 9  | [Databases](Lessons/04-Databases/) | [Reddit.js] Part 1-3 | |
-|   5   |  Tue, Apr 14   | [Testing with Mocha & Chai](Lessons/05-Testing-Mocha-Chai/) | [Reddit.js] Part 4-6 | |
-|   6   |  Thu, Apr 16   | [Documentation with Docsify](Lessons/08-Documentation/) | [TDD/BDD Challenges] | |
-|   7   |  Tue, Apr 21  | [Testing Express Routes](Lessons/06-Testing-Express-Routes/) | [API Project Proposal/Documentation] | [Midterm Assessment](Assessments/midterm-assessment.md) |
-|   8   |  Thu, Apr 23  | [Review/Lab Day](Lessons/09-Review/) | [Chai Testing Challenges] |  |
-|   9   |  Tue, Apr 28  | [Authentication with JWT](Lessons/07-Authentication/) | [Reddit.js] Part 7-9 | |
-|  10   |  Thu, Apr 30  | [More Authentication](Lessons/11-More-Authentication/) | [API Project] Phase 2 | |
-|  11   |  Tue, May 5  | Lab Day | [Reddit.js] Part 10-11<br>[Auth API Tutorial](https://scotch.io/tutorials/authenticate-a-node-es6-api-with-json-web-tokens) | |
-|  12   |  Thu, May 7  | [Authentication with Passport](Lessons/10-Passport/) |  | |
-|  13   |  Tue, May 12   | [Deployment](Lessons/12-Deployment/) | | |
-|  14   |  Thu, May 14   | Final Class | [API Project] Phase 3 | [Final Assessment](Assessments/final-assessment.md) |
+|   -   |  Mon, Jan 18  | **No Class - MLK Day** |  |  |
+|   1   |  Wed, Jan 20  | [Intro to Node](Lessons/01-Intro-to-Node/) | - | |
+|   2   |  Mon, Jan 25  | [JS Intro & Asynchronous Programming](Lessons/02-Intro-to-JS/) | [GIF Search Tutorial] | |
+|   3   |  Wed, Jan 27  | [HTTP Methods & Endpoint Design](Lessons/03-Http-Methods/) | [Codecademy JS]: Promises & Async/Await<br>[Promise Challenges] | |
+|   4   |  Mon, Feb 1  | [Databases](Lessons/04-Databases/) | [Reddit.js] Part 1-3 | |
+|   5   |  Wed, Feb 3   | [Testing with Mocha & Chai](Lessons/05-Testing-Mocha-Chai/) | [Reddit.js] Part 4-6 | |
+|   6   |  Mon, Feb 8   | [Documentation with Docsify](Lessons/08-Documentation/) | [TDD/BDD Challenges] | |
+|   7   |  Wed, Feb 10  | [Testing Express Routes](Lessons/06-Testing-Express-Routes/) | [API Project Proposal/Documentation] | [Midterm Assessment](Assessments/midterm-assessment.md) |
+|   8   |  Mon, Feb 15  | [Review/Lab Day](Lessons/09-Review/) | [Chai Testing Challenges] |  |
+|   9   |  Wed, Feb 17  | [Authentication with JWT](Lessons/07-Authentication/) | [Reddit.js] Part 7-9 | |
+|  10   |  Mon, Feb 22  | [More Authentication](Lessons/11-More-Authentication/) | [API Project] Phase 2 | |
+|  11   |  Wed, Feb 24  | Lab Day | [Reddit.js] Part 10-11<br>[Auth API Tutorial](https://scotch.io/tutorials/authenticate-a-node-es6-api-with-json-web-tokens) | |
+|  12   |  Mon, Mar 1  | [Authentication with Passport](Lessons/10-Passport/) |  | |
+|  13   |  Mon, Mar 3   | Final Class | [API Project] Phase 3 | [Final Assessment](Assessments/final-assessment.md) |
 
 
 [GIF Search Tutorial]: https://www.makeschool.com/academy/track/gif-search-app-ynu
 [Codecademy JS]: https://www.codecademy.com/learn/introduction-to-javascript
-[Promise Challenges]: https://github.com/Make-School-Labs/promises-challenges
+[Promise Challenges]: https://giMonb.com/Make-School-Labs/promises-challenges
 [Reddit.js]: https://www.makeschool.com/academy/track/reddit-clone-in-node-js
-[TDD/BDD Challenges]: https://github.com/make-school-labs/tdd-bdd-challenge
-[Chai Testing Challenges]: https://github.com/make-school-labs/chai-testing-challenges
+[TDD/BDD Challenges]: https://giMonb.com/make-school-labs/tdd-bdd-challenge
+[Chai Testing Challenges]: https://giMonb.com/make-school-labs/chai-testing-challenges
 [JWT/Authentication Challenges]: #
 [Advanced Testing Challenges]: #
 [Advanced Authentication Challenges]: #
-[API Project Proposal/Documentation]: https://make-school-courses.github.io/BEW-1.3-Server-Side-Architectures-and-Frameworks/#/Lessons/08-Documentation/?id=wrap-up
+[API Project Proposal/Documentation]: https://make-school-courses.giMonb.io/BEW-1.3-Server-Side-Architectures-and-Frameworks/#/Lessons/08-Documentation/?id=wrap-up
 [API Project]: Projects/02-Custom-API-Project.md
 
 [Midterm Assessment]: Assessments/quiz-1.md
 [Final Assessment]: Assessments/quiz-2.md
-
--->
 
 
 1. [Make Parties (Tutorial)](https://www.makeschool.com/academy/track/make-tweets)
 2. [Eloquent JavaScript (Textbook)](https://eloquentjavascript.net/)
 3. [Reddit.js (Tutorial)](https://www.makeschool.com/academy/track/reddit-clone-in-node-js)
 4. [Passport Authentication Challenge](https://docs.google.com/spreadsheets/d/1cItyOCe6tNv4EURFjmlOb6DdUvhV2WI7zCdoBhUyDHA/edit#gid=876739297)
-5. [TDD/BDD Challenges](https://github.com/make-school-labs/tdd-bdd-challenge)
+5. [TDD/BDD Challenges](https://giMonb.com/make-school-labs/tdd-bdd-challenge)
 6. [Capstone Project](https://docs.google.com/a/makeschool.com/document/d/1HVG0vkrENPRUTzHSuaI41A0sp_MUIlwYG07Q77KImCA/edit?usp=sharing)
 
 
@@ -99,9 +87,9 @@ As of 4/14/2020, all assignments are due at 11:59 PM on the date listed.
 
 **To pass this course, you must earn at least a 70% weighted average, according to the following breakdown**:
 
-- Capstone Project: 30%
-- Tutorials, Assignments, Projects, & Class Participation: 50%
-- Quizzes/Assessments: 20%
+- **Capstone Project**: 30%
+- **Tutorials, Assignments, Projects, & Class Participation**: 50%
+- **Quizzes/Assessments**: 20%
 
 In order to pass this course, you must also:
 
@@ -110,21 +98,37 @@ In order to pass this course, you must also:
 
 ## Late Assignment Policy
 
-- Late assignments that are submitted **no later that 2 days (48 hours)** after the deadline will be given a **10% late penalty**.
-- Late assignments that are submitted **between 2 and 4 days (48-96 hours)** after the deadline will be given a **20% late penalty**.
-- Late assignments that are submitted **more than 4 days (96 hours)** after the deadline will be given a **30% late penalty**.
-- The **absolute last day** to submit any assignment will be **Friday, May 15 at 11:59 PM**.
+- Late assignments that are submitted **more than 5 days (120 hours)** after the deadline will be given a **25% late penalty**.
+- The **absolute last day** to submit any assignment will be **Monday, March 3 at 11:59 PM**.
 
 If you require accommodations or have extenuating circumstances such as prolonged illness, please contact your instructor to request an extension.
 
-
 ## Additional Resources
 
-* [jwt.io](https://jwt.io)
-  * JSON Web Tokens are an open, industry standard RFC 7519 method for representing claims securely between two parties. JWT.IO allows you to **decode, verify and generate JWT**.
-* See the **Additional Resources** section at the bottom of each day's lesson plan for the most up-to-date, helpful resources for that class period!
+- **[jwt.io](https://jwt.io)**: JSON Web Tokens are an open, industry standard RFC 7519 method for representing claims securely between two parties. JWT.IO allows you to **decode, verify and generate JWT**.
+- Check out the **Additional Resources** section at the bottom of each day's lesson plan for the most up-to-date, helpful resources for that class period!
 
-##  Information Resources
+## Academic Honesty Policy
+
+At Make School, we highly encourage collaboration between students on assignments. Working with other people is the best way to learn!
+
+However, there's a big difference between **collaboration** (writing code together with another person) and **plagiarism** (copying code from a classmate or outside source without providing proper attribution).
+
+Here are some guidelines to follow in order to avoid plagiarism:
+
+1. If you are looking at an outside source for help, **close the window** containing the code before writing your own solution.
+1. Do not write down a line of code unless you **completely understand** how it works. (This is true even if the source you're referencing is the lesson slides/examples/etc!)
+1. If your code is still similar to an outside source or another student's, **provide attribution** by adding a comment to your code explaining where it was taken from.
+
+We take academic honesty very seriously at Make School. The consequences for violating the policy are as follows:
+
+- You will be required to write a [Self-Reflection Letter](https://docs.google.com/document/d/140_PHfDh7gu33OZI_caxEtvNzAlAepjnGcbQcXZ-MRo/edit?usp=sharing) to reflect on how your actions affected others.
+- If this is your first offense, you may be permitted to redo the assignment for a reduced grade (at the instructor's discretion).
+- The incident will be added to your permanent record at Make School and you may be placed on a Participation Improvement Plan (PIP).
+
+For subsequent offenses, more serious consequences may be considered. For more information, please see [Make School's academic honesty policy](https://make.sc/academic-honesty-policy).
+
+## Information Resources
 
 Any additional resources you may need (online books, etc.) can be found here. You can also find additional resources through the library linked below:
 
@@ -135,9 +139,8 @@ Any additional resources you may need (online books, etc.) can be found here. Yo
 - [Program Learning Outcomes](https://make.sc/program-learning-outcomes) - What you will achieve after finishing Make School, all courses are designed around these outcomes.
 - [Grading System](https://make.sc/grading-system) - How grading is done at Make School
 - [Diversity and Inclusion Statement](https://make.sc/diversity-and-inclusion-statement) - Learn about Diversity and Inclusion at Make School
-- [Academic Honesty](https://make.sc/academic-honesty-policy) - Our policies around plagerism, cheating, and other forms of academic misconduct 
+- [Academic Honesty](https://make.sc/academic-honesty-policy) - Our policies around plagiarism, cheating, and other forms of academic misconduct
 - [Attendance Policy](https://make.sc/attendance-policy) - What we expect from you in terms of attendance for all classes at Make School
 - [Course Credit Policy](https://make.sc/course-credit-policy) - Our policy for how you obtain credit for your courses
 - [Disability Services (Academic Accommodations)](https://make.sc/disability-services) - Services and accommodations we provide for students
-- [Online Learning Tutorial](https://make.sc/online-learning-tutorial) - How to succeed in online learning at Make School
 - [Student Handbook](https://make.sc/student-handbook) - Guidelines, policies, and resources for all Make School students
