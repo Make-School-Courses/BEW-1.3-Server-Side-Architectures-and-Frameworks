@@ -98,6 +98,7 @@ Your Gradescope login is your Make School email, and your password can be change
 
 - **API Project**: 30%
 - **Tutorials, Assignments, Projects, & Class Participation**: 50%
+  - All tutorials graded on completion
 - **Midterm and Final Assessment**: 20%
 
 In order to pass this course, you must also:
