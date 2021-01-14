@@ -16,7 +16,6 @@
 1. [Evaluation](#evaluation)
 1. [Late Assignment Policy](#late-assignment-policy)
 1. [Additional Resources](#additional-resources)
-1. [Academic Honesty Policy](#academic-honesty-policy)
 1. [Information Resources](#information-resources)
 1. [Make School Course Policies](#make-school-course-policies)
 
@@ -55,8 +54,8 @@ Students by the end of the course will be able to&hellip;
 |   3   |  Wed, Jan 27  | [HTTP Methods & Endpoint Design](Lessons/03-Http-Methods/) | [Codecademy JS]: Promises & Async/Await<br>[Promise Challenges] | |
 |   4   |  Mon, Feb 1  | [Databases](Lessons/04-Databases/) | [Reddit.js] Part 1-3 | |
 |   5   |  Wed, Feb 3   | [Testing with Mocha & Chai](Lessons/05-Testing-Mocha-Chai/) | [Reddit.js] Part 4-6 | |
-|   6   |  Mon, Feb 8   | [Documentation with Docsify](Lessons/08-Documentation/) | [TDD/BDD Challenges] | |
-|   7   |  Wed, Feb 10  | [Testing Express Routes](Lessons/06-Testing-Express-Routes/) | [API Project Proposal/Documentation] | [Midterm Assessment](Assessments/midterm-assessment.md) |
+|   6   |  Mon, Feb 8   | [Documentation with Docsify](Lessons/08-Documentation/) | [TDD/BDD Challenges] |  [Midterm Assessment](Assessments/midterm-assessment.md)|
+|   7   |  Wed, Feb 10  | [Testing Express Routes](Lessons/06-Testing-Express-Routes/) | [API Project Proposal/Documentation] | |
 |   8   |  Mon, Feb 15  | [Review/Lab Day](Lessons/09-Review/) | [Chai Testing Challenges] |  |
 |   9   |  Wed, Feb 17  | [Authentication with JWT](Lessons/07-Authentication/) | [Reddit.js] Part 7-9 | |
 |  10   |  Mon, Feb 22  | [More Authentication](Lessons/11-More-Authentication/) | [API Project] Phase 2 | |
@@ -87,20 +86,19 @@ We will be using Gradescope this term, which allows us to provide fast and accur
 Your Gradescope login is your Make School email, and your password can be changed at https://gradescope.com/reset_password. The same link can be used if you need to set your password for the first time.
 
 1. [Make Parties (Tutorial)](https://www.makeschool.com/academy/track/make-tweets)
-2. [Eloquent JavaScript (Textbook)](https://eloquentjavascript.net/)
-3. [Reddit.js (Tutorial)](https://www.makeschool.com/academy/track/reddit-clone-in-node-js)
-4. [Passport Authentication Challenge](https://docs.google.com/spreadsheets/d/1cItyOCe6tNv4EURFjmlOb6DdUvhV2WI7zCdoBhUyDHA/edit#gid=876739297)
-5. [TDD/BDD Challenges](https://giMonb.com/make-school-labs/tdd-bdd-challenge)
-6. [Capstone Project](https://docs.google.com/a/makeschool.com/document/d/1HVG0vkrENPRUTzHSuaI41A0sp_MUIlwYG07Q77KImCA/edit?usp=sharing)
+1. [Reddit.js (Tutorial)](https://www.makeschool.com/academy/track/reddit-clone-in-node-js)
+1. [Passport Authentication Challenge](https://docs.google.com/spreadsheets/d/1cItyOCe6tNv4EURFjmlOb6DdUvhV2WI7zCdoBhUyDHA/edit#gid=876739297)
+1. [TDD/BDD Challenges](https://giMonb.com/make-school-labs/tdd-bdd-challenge)
+1. [API Project](https://docs.google.com/a/makeschool.com/document/d/1HVG0vkrENPRUTzHSuaI41A0sp_MUIlwYG07Q77KImCA/edit?usp=sharing)
 
 
 ## Evaluation
 
 **To pass this course, you must earn at least a 70% weighted average, according to the following breakdown**:
 
-- **Capstone Project**: 30%
+- **API Project**: 30%
 - **Tutorials, Assignments, Projects, & Class Participation**: 50%
-- **Quizzes/Assessments**: 20%
+- **Midterm and Final Assessment**: 20%
 
 In order to pass this course, you must also:
 
@@ -119,30 +117,11 @@ If you require accommodations or have extenuating circumstances such as prolonge
 - **[jwt.io](https://jwt.io)**: JSON Web Tokens are an open, industry standard RFC 7519 method for representing claims securely between two parties. JWT.IO allows you to **decode, verify and generate JWT**.
 - Check out the **Additional Resources** section at the bottom of each day's lesson plan for the most up-to-date, helpful resources for that class period!
 
-## Academic Honesty Policy
-
-At Make School, we highly encourage collaboration between students on assignments. Working with other people is the best way to learn!
-
-However, there's a big difference between **collaboration** (writing code together with another person) and **plagiarism** (copying code from a classmate or outside source without providing proper attribution).
-
-Here are some guidelines to follow in order to avoid plagiarism:
-
-1. If you are looking at an outside source for help, **close the window** containing the code before writing your own solution.
-1. Do not write down a line of code unless you **completely understand** how it works. (This is true even if the source you're referencing is the lesson slides/examples/etc!)
-1. If your code is still similar to an outside source or another student's, **provide attribution** by adding a comment to your code explaining where it was taken from.
-
-We take academic honesty very seriously at Make School. The consequences for violating the policy are as follows:
-
-- You will be required to write a [Self-Reflection Letter](https://docs.google.com/document/d/140_PHfDh7gu33OZI_caxEtvNzAlAepjnGcbQcXZ-MRo/edit?usp=sharing) to reflect on how your actions affected others.
-- If this is your first offense, you may be permitted to redo the assignment for a reduced grade (at the instructor's discretion).
-- The incident will be added to your permanent record at Make School and you may be placed on a Participation Improvement Plan (PIP).
-
-For subsequent offenses, more serious consequences may be considered. For more information, please see [Make School's academic honesty policy](https://make.sc/academic-honesty-policy).
-
 ## Information Resources
 
 Any additional resources you may need (online books, etc.) can be found here. You can also find additional resources through the library linked below:
 
+- [Eloquent JavaScript (Textbook)](https://eloquentjavascript.net/)
 - [make.sc/library](http://make.sc/library)
 
 ## Make School Course Policies
