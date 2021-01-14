@@ -16,12 +16,6 @@ In this course, students build on knowledge of Resourceful and RESTful patterns 
 
 1. [BEW 1.2](http://make.sc/bew1-2)
 
-## Course Specifics
-
-**Course Delivery**: online | 7 weeks | 14 sessions
-
-**Course Credits**: 3 units | 37.5 Seat Hours | 75 Total Hours
-
 ## Learning Outcomes
 
 Students by the end of the course will be able to ...
@@ -70,10 +64,15 @@ Students by the end of the course will be able to ...
 [Advanced Authentication Challenges]: #
 [API Project Proposal/Documentation]: https://make-school-courses.giMonb.io/BEW-1.3-Server-Side-Architectures-and-Frameworks/#/Lessons/08-Documentation/?id=wrap-up
 [API Project]: Projects/02-Custom-API-Project.md
-
 [Midterm Assessment]: Assessments/quiz-1.md
 [Final Assessment]: Assessments/quiz-2.md
 
+
+## Class Assignments
+
+We will be using Gradescope this term, which allows us to provide fast and accurate feedback on your work. All assigned work will be submitted through Gradescope, and assignment and exam grades will be returned through Gradescope. As soon as grades are posted, you will be notified immediately so that you can log in and see your feedback. You may also submit regrade requests if you feel we have made a mistake.
+
+Your Gradescope login is your Make School email, and your password can be changed at https://gradescope.com/reset_password. The same link can be used if you need to set your password for the first time.
 
 1. [Make Parties (Tutorial)](https://www.makeschool.com/academy/track/make-tweets)
 2. [Eloquent JavaScript (Textbook)](https://eloquentjavascript.net/)
