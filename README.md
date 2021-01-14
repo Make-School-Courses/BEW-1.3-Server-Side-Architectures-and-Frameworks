@@ -2,11 +2,23 @@
   <img src="node.png" height="110">
 </p>
 
-# BEW1.3 - Server-Side Architectures & Frameworks
+# BEW 1.3 - Server-Side Architectures & Frameworks
 
-| Instructor | Slack Channel | Course Website |
-| :--------------------------------------: | :-----------: | :--------------------------------------: |
-| [Braus](https://giMonb.com/ajbraus) | _#bew1-3-node_ | [make.sc/bew1.3-t5](make.sc/bew1.3-t5) |
+<!-- omit in toc -->
+## Table of Contents
+
+1. [Course Description](#course-description)
+1. [Prerequisites](#prerequisites)
+1. [Learning Outcomes](#learning-outcomes)
+1. [Study Guide](#study-guide)
+1. [Class Schedule](#class-schedule)
+1. [Class Assignments](#class-assignments)
+1. [Evaluation](#evaluation)
+1. [Late Assignment Policy](#late-assignment-policy)
+1. [Additional Resources](#additional-resources)
+1. [Academic Honesty Policy](#academic-honesty-policy)
+1. [Information Resources](#information-resources)
+1. [Make School Course Policies](#make-school-course-policies)
 
 ## Course Description
 
