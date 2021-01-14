@@ -22,7 +22,7 @@
 
 ## Course Description
 
-In this course, students build on knowledge of Resourceful and RESTful patterns and dive deep into the Node and Express ecosystems. Students learn how to manage greater scope and complexity in their code while consistently keeping the user's experience in mind through implementing a clone of the popular website, Reddit. The course will also cover the procedures required to authenticate and authorize web application users.
+In this course, students build on knowledge of RESTful web patterns and dive deep into the Node and Express ecosystems. Students learn how to manage greater scope and complexity in their code while consistently keeping the user's experience in mind through implementing a clone of the popular website, Reddit. The course will also cover the procedures required to authenticate and authorize web application users.
 
 ## Prerequisites
 
@@ -30,7 +30,7 @@ In this course, students build on knowledge of Resourceful and RESTful patterns 
 
 ## Learning Outcomes
 
-Students by the end of the course will be able to ...
+Students by the end of the course will be able to&hellip;
 
 1. Diagram and implement resource associations using a document-based database.
 1. Write advanced db queries with a focus on optimum performance and efficiency.
