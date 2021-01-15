@@ -1,34 +1,34 @@
 :root {
   --base-font-weight: 400;
   --base-color: white;
-  --base-font-size: 14px;
-
-  --sidebar-width: 22rem;
+  /* --sidebar-width: 22rem; */
   --sidebar-nav-link-before-content: "";
   --sidebar-nav-link-before-content-l3: "";
   --sidebar-name-font-weight: 500;
-
   --search-result-heading-font-size: 1em;
   --search-result-item-font-size: 0.9em;
   --search-result-heading-font-weight: 400;
   --search-result-heading-margin: 0 0 0.1em;
-
   --heading-font-weight: 500;
   --heading-h1-font-weight: 700;
   --heading-h1-font-size: 2.5em;
-
   --notice-font-style: italic;
   --notice-font-weight: 500;
-
   --blockquote-em-font-style: normal;
   --blockquote-em-font-weight: 700;
-
   --blockquote-font-style: italic;
   --blockquote-font-weight: 500;
-
-  --code-font-size: 1em;
+  --code-font-size: 1.1em;
   --code-font-weight: 500;
   --code-tab-size: 2;
+}
+
+body {
+  font-family: Source Sans Pro, Helvetica Neue, Arial, sans-serif;
+}
+
+article h1:first, section h1:first {
+  display: none;
 }
 
 .sidebar>h1 {
@@ -40,16 +40,10 @@
 }
 
 .markdown-section {
-  max-width: 100%;
+  max-width: 85%;
 }
 
-.markdown-section a:hover {
-  border-bottom: 1px dashed rgba(255, 255, 255, 0.5);
-  padding-bottom: 3px;
-}
-
-.sidebar-nav>ul:nth-child(1)>li>a.section-link,
-.sidebar-nav>ul:nth-child(1)>li>ul.children>li>a.section-link {
+.sidebar-nav>ul:nth-child(1)>li>a.section-link, .sidebar-nav>ul:nth-child(1)>li>ul.children>li>a.section-link {
   display: block;
 }
 
@@ -62,13 +56,16 @@
 }
 
 .sidebar ul li a {
-  color: #333;
-  font-size: 14px;
   font-weight: 400;
   overflow: hidden;
   text-decoration: none;
   text-overflow: ellipsis;
   white-space: nowrap;
+}
+
+.sidebar ul li strong {
+  display: inline-block;
+  vertical-align: top;
 }
 
 .sidebar ul li strong a {
@@ -88,7 +85,6 @@ body .docsify-copy-code-button {
   line-height: 1.5rem;
   position: absolute;
   word-wrap: normal;
-  color: #ccc;
   font-size: .7rem;
   font-weight: 700;
   left: 0;
@@ -101,8 +97,6 @@ body .docsify-copy-code-button.success {
   color: #11A31B;
 }
 
-body .docsify-copy-code-button::after {}
-
 .app-name-link img {
   height: 150px;
   width: 150px;
@@ -112,52 +106,18 @@ table>tbody>tr>td::before {
   display: none;
 }
 
-.btn-edit-on-github {
-  transition: background-color 0.5s ease;
-  border: none;
-  border-radius: 3px;
-  background-color: var(--theme-color);
-  position: absolute;
-  top: var(--sidebar-toggle-offset-top);
-  right: 0;
-  margin-right: 45px;
-  padding: 6px 10px 6px 5px;
-  height: var(--sidebar-toggle-height);
+a.github-corner {
+  display: none;
 }
 
-.btn-edit-on-github a,
-.btn-edit-on-github svg {
-  transition: color 0.5s ease;
-  color: white;
+.markdown-section pre>code {
+  font-size: 0.9rem;
 }
 
-.btn-edit-on-github a {
-  text-decoration: none;
-  position: relative;
-  font-weight: 700;
-  top: -1px;
-  padding-left: 5px;
+a:hover, #main>ul>li>a {
+  text-decoration-style: dashed;
 }
 
-.btn-edit-on-github:hover {
-  cursor: pointer;
-  background-color: var(--mono-tint2);
-}
-
-.btn-edit-on-github:hover svg,
-.btn-edit-on-github:hover a {
-  text-decoration: none;
-  color: white;
-}
-
-spoiler,
-.markdown-section spoiler code {
-  background-color: #fffbcc;
-  color: #fffbcc;
-}
-
-spoiler:hover,
-spoiler code:hover {
-  background-color: #fff;
-  color: #333;
+#main>h1:nth-child(1)[id] {
+  display: none;
 }
