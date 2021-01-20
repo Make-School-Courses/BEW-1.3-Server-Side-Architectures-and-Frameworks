@@ -6,8 +6,6 @@
 ## ⏱ Agenda
 
 1. [🏆 [05m] Learning Objectives](#%F0%9F%8F%86-05m-learning-objectives)
-1. [☀️ [10m] Warm Up: Install Node](#%E2%98%80%EF%B8%8F-10m-warm-up-install-node)
-1. [💻 [50m] Activity: Getting to Know Javascript](#%F0%9F%92%BB-50m-activity-getting-to-know-javascript)
 1. [📖 [15m] Node and Express](#%F0%9F%93%96-15m-node-and-express)
 1. [💻 [50m] Activity: GIF Search](#%F0%9F%92%BB-50m-activity-gif-search)
 1. [🌴 [10m] BREAK](#%F0%9F%8C%B4-10m-break)
@@ -25,18 +23,18 @@
 By the end of this class, you should be able to...
 
 1. Set up a fully functioning Node environment.
-1. Get to know basic aspects of the Javascript language.
+<!-- 1. Get to know basic aspects of the Javascript language. -->
 1. Write a route using Node and Express.js.
 1. Use the Handlebars templating language to pass data to a template.
 1. Compare and Contrast Express routes with Flask.
 
-## ☀️ [10m] Warm Up: Install Node
+<!-- ## ☀️ [10m] Warm Up: Install Node
 
 Install [Node 14.15.4 LTS](https://nodejs.org/en/) from the Node website.
 
 ## 💻 [50m] Activity: Getting to Know Javascript
 
-Basic tutorial: https://github.com/workshopper/javascripting
+Basic tutorial: https://github.com/workshopper/javascripting -->
 
 ## 📖 [15m] Node and Express
 
@@ -83,6 +81,11 @@ The **navigator** is responsible for...
 -->
 
 
+
+
+
+## 🌴 [10m] BREAK
+
 ## 💻 [50m] Activity: GIF Search
 
 Choose pairs randomly. You will work with your pair for the rest of class.
@@ -90,9 +93,6 @@ Choose pairs randomly. You will work with your pair for the rest of class.
 Open the [GIF Search tutorial](https://www.makeschool.com/academy/track/gif-search-app-ynu) and finish parts 1-4 (part 5 optional). As you work, discuss each step with your pair and make sure both partners understand before moving on.
 
 You will submit the tutorial in Class 2. You may finish on your own (just make sure to `git push` before the end of class).
-
-
-## 🌴 [10m] BREAK
 
 
 ## 📖 [30m] Recap: Node & Express
