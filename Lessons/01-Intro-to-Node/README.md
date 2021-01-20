@@ -2,30 +2,41 @@
 
 > _Fast, unopinionated, minimalist web framework._
 
-### ⏱ Agenda
+<!-- omit in toc-->
+## ⏱ Agenda
 
-1. 🏆 Learning Objectives
-1. 📖 [15m] Course Overview
-1. 📖 [15m] A Brief Introduction
-1. 📖 [15m] Review: How to Pair Program
-1. 🌴 [10m] BREAK
-1. 💻 [50m] Lab Activity: GIF Search
-1. 📖 [30m] Review Node & Express
-1. 📚 Resources & Credits
+1. [🏆 [05m] Learning Objectives](#%F0%9F%8F%86-05m-learning-objectives)
+1. [☀️ [10m] Warm Up: Install Node](#%E2%98%80%EF%B8%8F-10m-warm-up-install-node)
+1. [💻 [50m] Activity: Getting to Know Javascript](#%F0%9F%92%BB-50m-activity-getting-to-know-javascript)
+1. [📖 [15m] Node and Express](#%F0%9F%93%96-15m-node-and-express)
+1. [💻 [50m] Activity: GIF Search](#%F0%9F%92%BB-50m-activity-gif-search)
+1. [🌴 [10m] BREAK](#%F0%9F%8C%B4-10m-break)
+1. [📖 [30m] Recap: Node & Express](#%F0%9F%93%96-30m-recap-node--express)
+   1. [A Basic Server](#a-basic-server)
+   1. [Writing a Route](#writing-a-route)
+   1. [The `req` & `res` Variables](#the-req--res-variables)
+   1. [Writing a Template](#writing-a-template)
+1. [🌙 [05m] Wrap Up](#%F0%9F%8C%99-05m-wrap-up)
+1. [📚 Resources](#%F0%9F%93%9A-resources)
 
 
-## 🏆 Learning Objectives
+## 🏆 [05m] Learning Objectives
 
 By the end of this class, you should be able to...
 
+1. Set up a fully functioning Node environment.
+1. Get to know basic aspects of the Javascript language.
 1. Write a route using Node and Express.js.
 1. Use the Handlebars templating language to pass data to a template.
 1. Compare and Contrast Express routes with Flask.
 
-## [5m] Warm-Up
+## ☀️ [10m] Warm Up: Install Node
 
+Install [Node 14.15.4 LTS](https://nodejs.org/en/) from the Node website.
 
+## 💻 [50m] Activity: Getting to Know Javascript
 
+Basic tutorial: https://github.com/workshopper/javascripting
 
 ## 📖 [15m] Node and Express
 
@@ -72,7 +83,7 @@ The **navigator** is responsible for...
 -->
 
 
-## 💻 [50m] Lab Activity: GIF Search
+## 💻 [50m] Activity: GIF Search
 
 Choose pairs randomly. You will work with your pair for the rest of class.
 
@@ -86,7 +97,7 @@ You will submit the tutorial in Class 2. You may finish on your own (just make s
 
 ## 📖 [30m] Recap: Node & Express
 
-### Setup
+### A Basic Server
 
 This code will likely be the same for most projects you create. *You do not need to memorize this, but instead should reference past projects or tutorials.*
 
@@ -113,8 +124,7 @@ app.get('/greetings/:name', (req, res) => {
 })
 ```
 
-
-### What are 'req' and 'res'?
+### The `req` & `res` Variables
 
 `req` = "Request".
 
@@ -140,7 +150,7 @@ Take a look at the template syntax for Handlebars for showing a list of songs. H
 </ul>
 ```
 
-## Wrap-Up
+## 🌙 [05m] Wrap Up
 
 Finish the GIF Search tutorial before the start of next class. You may finish individually - just make sure to clone the repository from your pair before you leave class!
 
