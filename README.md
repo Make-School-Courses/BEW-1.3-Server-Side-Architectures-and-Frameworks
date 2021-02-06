@@ -66,14 +66,14 @@ Students by the end of the course will be able to&hellip;
 
 [GIF Search Tutorial]: https://www.makeschool.com/academy/track/gif-search-app-ynu
 [Codecademy JS]: https://www.codecademy.com/learn/introduction-to-javascript
-[Promise Challenges]: https://giMonb.com/Make-School-Labs/promises-challenges
+[Promise Challenges]: https://github.com/Make-School-Labs/promises-challenges
 [Reddit.js]: https://www.makeschool.com/academy/track/reddit-clone-in-node-js
-[TDD/BDD Challenges]: https://giMonb.com/make-school-labs/tdd-bdd-challenge
-[Chai Testing Challenges]: https://giMonb.com/make-school-labs/chai-testing-challenges
+[TDD/BDD Challenges]: https://github.com/make-school-labs/tdd-bdd-challenge
+[Chai Testing Challenges]: https://github.com/make-school-labs/chai-testing-challenges
 [JWT/Authentication Challenges]: #
 [Advanced Testing Challenges]: #
 [Advanced Authentication Challenges]: #
-[API Project Proposal/Documentation]: https://make-school-courses.giMonb.io/BEW-1.3-Server-Side-Architectures-and-Frameworks/#/Lessons/08-Documentation/?id=wrap-up
+[API Project Proposal/Documentation]: https://make-school-courses.github.io/BEW-1.3-Server-Side-Architectures-and-Frameworks/#/Lessons/08-Documentation/?id=wrap-up
 [API Project]: Projects/02-Custom-API-Project.md
 [Midterm Assessment]: Assessments/quiz-1.md
 [Final Assessment]: Assessments/quiz-2.md
@@ -88,7 +88,7 @@ Your Gradescope login is your Make School email, and your password can be change
 1. [Make Parties (Tutorial)](https://www.makeschool.com/academy/track/make-tweets)
 1. [Reddit.js (Tutorial)](https://www.makeschool.com/academy/track/reddit-clone-in-node-js)
 1. [Passport Authentication Challenge](https://docs.google.com/spreadsheets/d/1cItyOCe6tNv4EURFjmlOb6DdUvhV2WI7zCdoBhUyDHA/edit#gid=876739297)
-1. [TDD/BDD Challenges](https://giMonb.com/make-school-labs/tdd-bdd-challenge)
+1. [TDD/BDD Challenges](https://github.com/make-school-labs/tdd-bdd-challenge)
 1. [API Project](https://docs.google.com/a/makeschool.com/document/d/1HVG0vkrENPRUTzHSuaI41A0sp_MUIlwYG07Q77KImCA/edit?usp=sharing)
 
 
