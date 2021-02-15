@@ -30,7 +30,7 @@ It's time to get creative and write the authenticated API of your dreams!
 1. The final project must be **deployed and fully accessible** via the internet and **callable via any consumer**.
 1. The final project must be **fully documented**.
 1. Must **develop the API using a TDD approach** as discussed in class on [Day 9](Lessons/Lesson09.md).
-1. The syntax in the final project deliverable will **adhere to [Airbnb JavaScript Style Guide](https://github.com/airbnb/javascript)**.
+1. The syntax in the final project deliverable will **adhere to [Airbnb JavaScript Style Guide](https://github.com/airbnb/javascript)**. You can use the [eslint-config-airbnb-base](https://www.npmjs.com/package/eslint-config-airbnb-base) package to lint your syntax.
 
 ### Level Up - API + Skills (_Optional_)
 
@@ -77,7 +77,7 @@ It's time to get creative and write the authenticated API of your dreams!
 
 ## Getting Started
 
-Fork the provided [**auth-api-starterpack**](https://github.com/droxey/auth-api-starterpack) repository and examine the contents to reveal the next steps!
+Fork the provided [**auth-api-starterpack**](https://github.com/droxey/auth-api-starterpack) repository and examine the contents to reveal the next steps! We will update the dependencies together in class.
 
 ## Additional Resources
 
