@@ -43,8 +43,14 @@ Students by the end of the course will be able to&hellip;
 
 ## Class Schedule
 
-**Course Dates:** Wednesday, January 20 – Wednesday, January 3, 2021 (7 weeks)
-**Class Times:** Monday, Wednesday at 9:30am–12:15pm (13 class sessions)
+**M/W**
+**Course Dates:** Monday, March 29 – Wednesday, May 12, 2021 (7 weeks)
+**Class Times:** Monday, Wednesday at 2:30–5:15pm (13 class sessions)
+
+**T/Th**
+**Course Dates:** Tuesday, March 30 – Thursday, May 13, 2021 (7 weeks)
+**Class Times:** Tuesday and Thursday at 2:30–5:15pm (13 class sessions)
+
 
 | Class |     Date      | Topics | Assignment Due | Assessment |
 | :---: | :-----------: | :--------: | :--------: | :--------: |
