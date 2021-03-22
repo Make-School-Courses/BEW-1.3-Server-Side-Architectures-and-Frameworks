@@ -48,21 +48,20 @@ Students by the end of the course will be able to&hellip;
 
 | Class |     Date      | Topics | Assignment Due | Assessment |
 | :---: | :-----------: | :--------: | :--------: | :--------: |
-|   -   |  Mon, Jan 18  | **No Class - MLK Day** |  |  |
-|   1   |  Wed, Jan 20  | [Intro to Node](Lessons/01-Intro-to-Node/) | - | |
-|   2   |  Mon, Jan 25  | [JS Intro & Asynchronous Programming](Lessons/02-Intro-to-JS/) | [GIF Search Tutorial] | |
-|   3   |  Wed, Jan 27  | [HTTP Methods & Endpoint Design](Lessons/03-Http-Methods/) | [Codecademy JS]: Promises & Async/Await<br>[Promise Challenges] | |
-|   4   |  Mon, Feb 1  | [Databases](Lessons/04-Databases/) | [Reddit.js] Part 1-3 | |
-|   5   |  Wed, Feb 3   | [Testing with Mocha & Chai](Lessons/05-Testing-Mocha-Chai/) | [Reddit.js] Part 4-6 | |
-|   6   |  Mon, Feb 8   | [Documentation with Docsify](Lessons/08-Documentation/) | [TDD/BDD Challenges] |  [Midterm Assessment](Assessments/midterm-assessment.md)|
-|   7   |  Wed, Feb 10  | [Testing Express Routes](Lessons/06-Testing-Express-Routes/) | [API Project Proposal/Documentation] | |
-|   8   |  Mon, Feb 15  | [Review/Lab Day](Lessons/09-Review/) | [Chai Testing Challenges] |  |
-|   9   |  Wed, Feb 17  | [Authentication with JWT](Lessons/07-Authentication/) | [Reddit.js] Part 7-9 | |
-|  10   |  Mon, Feb 22  | [More Authentication](Lessons/11-More-Authentication/) | [API Project] Phase 2 | |
-|  11   |  Wed, Feb 24  | Lab Day | [Reddit.js] Part 10-11<br>[Auth API Tutorial](https://scotch.io/tutorials/authenticate-a-node-es6-api-with-json-web-tokens) | |
-|  12   |  Mon, Mar 1  | [Authentication with Passport](Lessons/10-Passport/) |  | |
-|  13   |  Mon, Mar 3   | Final Class | [API Project] Phase 3 | [Final Assessment](Assessments/final-assessment.md) |
-
+|  1 |  Mon, Mar 29 / Tue, Mar 30 | [Intro to Node](Lessons/01-Intro-to-Node/) | - | |
+|  - |  Wed, Mar 31 / Thu, Apr 1  | **No Class - Cesar Chavez** |
+|  2 |  Mon, Apr 5  / Tue, Apr 6  | [JS Intro & Asynchronous Programming](Lessons/02-Intro-to-JS/) | [GIF Search Tutorial] | |
+|  3 |  Wed, Apr 7  / Thu, Apr 8  | [HTTP Methods & Endpoint Design](Lessons/03-Http-Methods/) | [Codecademy JS]: Promises & Async/Await<br>[Promise Challenges] | |
+|  4 |  Mon, Apr 12 / Tue, Apr 13 | [Databases](Lessons/04-Databases/) | [Reddit.js] Part 1-3 | |
+|  5 |  Wed, Apr 14 / Thu, Apr 15 | [Testing with Mocha & Chai](Lessons/05-Testing-Mocha-Chai/) | [Reddit.js] Part 4-6 | |
+|  6 |  Mon, Apr 19 / Tue, Apr 20 | [Documentation with Docsify](Lessons/08-Documentation/) | [TDD/BDD Challenges] |  [Midterm Assessment](Assessments/midterm-assessment.md)|
+|  7 |  Wed, Apr 21 / Thu, Apr 22 | [Testing Express Routes](Lessons/06-Testing-Express-Routes/) | [API Project Proposal/Documentation] | |
+|  8 |  Mon, Apr 26 / Tue, Apr 27 | [Review/Lab Day](Lessons/09-Review/) | [Chai Testing Challenges] |  |
+|  9 |  Wed, Apr 28 / Thu, Apr 29 | [Authentication with JWT](Lessons/07-Authentication/) | [Reddit.js] Part 7-9 | |
+| 10 |  Mon, May 3  / Tue, May 4  | [More Authentication](Lessons/11-More-Authentication/) | [API Project] Phase 2 | |
+| 11 |  Wed, May 5  / Thu, May 6  | Lab Day | [Reddit.js] Part 10-11<br>[Auth API Tutorial](https://scotch.io/tutorials/authenticate-a-node-es6-api-with-json-web-tokens) | |
+| 12 |  Mon, May 10 / Tue, May 11 | [Authentication with Passport](Lessons/10-Passport/) |  | |
+| 13 |  Wed, May 12 / Thu, May 13 | Final Class | [API Project] Phase 3 | [Final Assessment](Assessments/final-assessment.md) |
 
 [GIF Search Tutorial]: https://www.makeschool.com/academy/track/gif-search-app-ynu
 [Codecademy JS]: https://www.codecademy.com/learn/introduction-to-javascript
@@ -125,12 +124,30 @@ Any additional resources you may need (online books, etc.) can be found here. Yo
 - [Eloquent JavaScript (Textbook)](https://eloquentjavascript.net/)
 - [make.sc/library](http://make.sc/library)
 
+## Interview Topics
+
+Write what topis your course covers that students may encounter in a technical interview. Choose from the following sub-topics (pick all that apply):
+
+### Algorithmic/Computer Science
+
+Topics:
+- authenticaion
+- unit testing
+- async practices
+
+
+### Technical Discussion
+
+Topics:
+- systems design
+- full stack solutions
+
 ## Make School Course Policies
 
 - [Program Learning Outcomes](https://make.sc/program-learning-outcomes) - What you will achieve after finishing Make School, all courses are designed around these outcomes.
 - [Grading System](https://make.sc/grading-system) - How grading is done at Make School
-- [Diversity and Inclusion Statement](https://make.sc/diversity-and-inclusion-statement) - Learn about Diversity and Inclusion at Make School
-- [Academic Honesty](https://make.sc/academic-honesty-policy) - Our policies around plagiarism, cheating, and other forms of academic misconduct
+- [Code of Conduct, Equity, and Inclusion](https://make.sc/code-of-conduct) - Learn about Diversity and Inclusion at Make School
+- [Academic Honesty](https://make.sc/academic-honesty-policy) - Our policies around plagerism, cheating, and other forms of academic misconduct
 - [Attendance Policy](https://make.sc/attendance-policy) - What we expect from you in terms of attendance for all classes at Make School
 - [Course Credit Policy](https://make.sc/course-credit-policy) - Our policy for how you obtain credit for your courses
 - [Disability Services (Academic Accommodations)](https://make.sc/disability-services) - Services and accommodations we provide for students
