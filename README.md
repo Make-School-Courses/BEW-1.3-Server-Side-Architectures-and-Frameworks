@@ -17,6 +17,9 @@
 1. [Late Assignment Policy](#late-assignment-policy)
 1. [Additional Resources](#additional-resources)
 1. [Information Resources](#information-resources)
+1. [Interview Topics](#interview-topics)
+   1. [Algorithmic/Computer Science](#algorithmiccomputer-science)
+   1. [Technical Discussion](#technical-discussion)
 1. [Make School Course Policies](#make-school-course-policies)
 
 ## Course Description
@@ -25,7 +28,7 @@ In this course, students build on knowledge of RESTful web patterns and dive dee
 
 ## Prerequisites
 
-1. [BEW 1.2](http://make.sc/bew1-2)
+1. [WEB 1.1](http://make.sc/web1.1)
 
 ## Learning Outcomes
 
