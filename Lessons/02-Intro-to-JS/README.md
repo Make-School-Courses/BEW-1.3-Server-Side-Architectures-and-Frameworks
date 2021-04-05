@@ -166,7 +166,7 @@ Arrow functions are just **"syntactic sugar"** for concepts that we already know
 
 ## Activity: Pair Programming (15 minutes)
 
-Choose pairs randomly. With your partner, go to the [BEW 1.3 Repl.It classroom](https://repl.it/classroom/invite/o2BpxyI) and follow the instructions to complete the assignment.
+Choose pairs randomly. With your partner, go to the [BEW 1.3 Repl.It classroom](https://replit.com/team/BEW1p3/Arrow-Functions-Practice) and follow the instructions to complete the assignment.
 
 ## Break (10 minutes)
 
