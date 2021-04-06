@@ -86,6 +86,9 @@ Students by the end of the course will be able to&hellip;
 [Midterm Assessment]: Assessments/quiz-1.md
 [Final Assessment]: Assessments/quiz-2.md
 
+## Class Recordings
+
+All class recordings for Jay's class will be available [here](https://drive.google.com/drive/folders/1JD1rOTxgctBheqxFRRhNM-fbV-2YOgD_?usp=sharing) no later than 24 hours after the class session. For privacy reasons, please do not share the recordings outside of the Make School student body.
 
 ## Class Assignments
 
