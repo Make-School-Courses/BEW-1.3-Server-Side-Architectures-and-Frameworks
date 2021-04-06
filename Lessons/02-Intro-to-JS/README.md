@@ -82,7 +82,7 @@ if (condition) {
 
 where the _condition_ evaluates to a boolean (true or false).
 
-Note: When comparing for equality, always use the `===` operator, not `==`. This is because `===` uses **strict** equality, which is always what we want. 
+Note: When comparing for equality, always use the `===` operator, not `==`. This is because `===` uses **strict** equality, which is always what we want.
 
 ### For Loops
 
@@ -223,14 +223,15 @@ Try out these examples on your own and see if you can experiment with using prom
 
 ## Work Time: Codecademy
 
-Work on [Codecademy JS](https://www.codecademy.com/learn/introduction-to-javascript) parts 12 and 13. 
+Work on [Codecademy JS](https://www.codecademy.com/learn/introduction-to-javascript) parts 12 and 13.
 
 ## Wrap-Up
 
 Fill out our [Vibe Check form](https://make.sc/bew1.3-vibe-check) with any feedback you have for the class.
 
 Your _two_ homework assignments (due by next class) are:
+
 1. [Codecademy JS](https://www.codecademy.com/learn/introduction-to-javascript) parts 12 and 13
-1. [Promise Challenges](https://github.com/Make-School-Labs/promises-challenges)
+1. [Promise Challenges](https://github.com/Make-School-Labs/promises-challenges) challenges 1 through 3
 
 Make sure to submit your work through [Gradescope](https://gradescope.com).
