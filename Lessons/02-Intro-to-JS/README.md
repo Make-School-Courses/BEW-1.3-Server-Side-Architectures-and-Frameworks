@@ -231,7 +231,7 @@ Fill out our [Vibe Check form](https://make.sc/bew1.3-vibe-check) with any feedb
 
 Your _two_ homework assignments (due by next class) are:
 
-1. [Codecademy JS](https://www.codecademy.com/learn/introduction-to-javascript) parts 12 and 13
-1. [Promise Challenges](https://github.com/Make-School-Labs/promises-challenges) challenges 1 through 3
+1. [Codecademy JS](https://www.codecademy.com/learn/introduction-to-javascript) parts 12 and 13 _(complete on website)_
+1. [Promise Challenges](https://github.com/Make-School-Labs/promises-challenges) challenges 1 through 3 _(turn in on [Gradescope](https://gradescope.com))_
 
 Make sure to submit your work through [Gradescope](https://gradescope.com).
