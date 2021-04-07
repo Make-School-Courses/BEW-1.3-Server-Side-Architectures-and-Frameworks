@@ -12,14 +12,13 @@
 1. [Learning Outcomes](#learning-outcomes)
 1. [Study Guide](#study-guide)
 1. [Class Schedule](#class-schedule)
+1. [Class Recordings](#class-recordings)
 1. [Class Assignments](#class-assignments)
 1. [Evaluation](#evaluation)
 1. [Late Assignment Policy](#late-assignment-policy)
 1. [Additional Resources](#additional-resources)
-1. [Information Resources](#information-resources)
-1. [Interview Topics](#interview-topics)
-   1. [Algorithmic/Computer Science](#algorithmiccomputer-science)
-   1. [Technical Discussion](#technical-discussion)
+   1. [Information Resources](#information-resources)
+   1. [Interview Topics](#interview-topics)
 1. [Make School Course Policies](#make-school-course-policies)
 
 ## Course Description
@@ -126,40 +125,38 @@ If you require accommodations or have extenuating circumstances such as prolonge
 
 ## Additional Resources
 
-- **[jwt.io](https://jwt.io)**: JSON Web Tokens are an open, industry standard RFC 7519 method for representing claims securely between two parties. JWT.IO allows you to **decode, verify and generate JWT**.
-- Check out the **Additional Resources** section at the bottom of each day's lesson plan for the most up-to-date, helpful resources for that class period!
-
-## Information Resources
+### Information Resources
 
 Any additional resources you may need (online books, etc.) can be found here. You can also find additional resources through the library linked below:
 
 - [Eloquent JavaScript (Textbook)](https://eloquentjavascript.net/)
+- [jwt.io](https://jwt.io): JSON Web Tokens are an open, industry standard RFC 7519 method for representing claims securely between two parties. JWT.IO allows you to **decode, verify and generate JWT**.
 - [make.sc/library](http://make.sc/library)
 
-## Interview Topics
+### Interview Topics
 
-Write what topis your course covers that students may encounter in a technical interview. Choose from the following sub-topics (pick all that apply):
+#### Algorithmic/Computer Science
 
-### Algorithmic/Computer Science
+**Topics**:
 
-Topics:
-- authenticaion
+- authentication
 - unit testing
 - async practices
 
 
-### Technical Discussion
+#### Technical Discussion
 
-Topics:
-- systems design
-- full stack solutions
+**Topics**:
+
+- **Selecting a Stack**: How do I choose the right stack? When should I use Node?
+- **Configuration vs. Convention**: Determining your personal preferences regarding frameworks.
 
 ## Make School Course Policies
 
 - [Program Learning Outcomes](https://make.sc/program-learning-outcomes) - What you will achieve after finishing Make School, all courses are designed around these outcomes.
 - [Grading System](https://make.sc/grading-system) - How grading is done at Make School
 - [Code of Conduct, Equity, and Inclusion](https://make.sc/code-of-conduct) - Learn about Diversity and Inclusion at Make School
-- [Academic Honesty](https://make.sc/academic-honesty-policy) - Our policies around plagerism, cheating, and other forms of academic misconduct
+- [Academic Honesty](https://make.sc/academic-honesty-policy) - Our policies around plagiarism, cheating, and other forms of academic misconduct
 - [Attendance Policy](https://make.sc/attendance-policy) - What we expect from you in terms of attendance for all classes at Make School
 - [Course Credit Policy](https://make.sc/course-credit-policy) - Our policy for how you obtain credit for your courses
 - [Disability Services (Academic Accommodations)](https://make.sc/disability-services) - Services and accommodations we provide for students
