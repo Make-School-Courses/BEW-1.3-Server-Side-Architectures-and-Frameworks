@@ -17,8 +17,6 @@ It's time to get creative and write the authenticated API of your dreams!
 1. The ability to **CREATE**, **READ**, **UPDATE**, and **DELETE** the object(s) in your API.
 1. At least **one of each** endpoint: `GET`, `POST`, `PUT`, and `DELETE`.
 1. A **database persistence layer** (e.g. MongoDB)
-1. The ability to **securely provision an API user** using the authorization and authentication techniques learned in class. **Unauthenticated users should not be able to use the API!**
-
 
 ### Non-Functional Requirements
 
@@ -36,6 +34,7 @@ It's time to get creative and write the authenticated API of your dreams!
 
 **NOTE**: `++` indicates the ability to level up the preceding skill through the following stretch challenges:
 
+1. **`Security++`**: Add the ability to **securely provision an API user** using the authorization and authentication techniques learned in class. **Unauthenticated users should not be able to use the API!**
 1. **`Code++`**: Love integrations? Find a clever way to **utilize a third-party API _within_ your API**!
 1. **`DevOps++`**: Deploy API and brochure site over **HTTPS**.
 1. **`Networking++`**: Write and **post a short blog** on Medium, Hacker News, or dev.to debuting and promoting your life-changing new API! Sign up now!
