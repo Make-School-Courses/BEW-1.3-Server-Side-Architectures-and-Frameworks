@@ -68,7 +68,7 @@ Students by the end of the course will be able to&hellip;
 |  9 |  Wed, Apr 28 / Thu, Apr 29 | [Authentication with JWT](Lessons/07-Authentication/) | [Reddit.js] Part 7-9 | |
 | 10 |  Mon, May 3  / Tue, May 4  | [More Authentication](Lessons/11-More-Authentication/) | [API Project] Phase 2 | |
 | 11 |  Wed, May 5  / Thu, May 6  | Lab Day | [Reddit.js] Part 10-11<br>[Auth API Tutorial](https://scotch.io/tutorials/authenticate-a-node-es6-api-with-json-web-tokens) | |
-| 12 |  Mon, May 10 / Tue, May 11 | [Authentication with Passport](Lessons/10-Passport/) |  | |
+| 12 |  Mon, May 10 / Tue, May 11 | [Authentication with Passport](Lessons/10-Passport/) / [Deployment](Lessons/12-Deployment/README.md) |  | |
 | 13 |  Wed, May 12 / Thu, May 13 | Final Class | [API Project] Phase 3 | [Final Assessment](Assessments/final-assessment.md) |
 
 [GIF Search Tutorial]: https://www.makeschool.com/academy/track/gif-search-app-ynu
