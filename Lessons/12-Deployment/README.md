@@ -11,7 +11,7 @@
    1. [Create Procfile](#create-procfile)
    1. [Update `app.js`](#update-%60app.js%60)
    1. [Push to Heroku](#push-to-heroku)
-1. [BREAK (10 minutes)](#break-%2810-minutes%29)
+1. [BREAK (15 minutes)](#break-%2815-minutes%29)
 1. [Surveys (15 minutes)](#surveys-%2815-minutes%29)
 1. [Project Work Time (50 minutes)](#project-work-time-%2850-minutes%29)
 
@@ -41,14 +41,14 @@ brew tap heroku/brew && brew install heroku
 
 ### Set Up Repository
 
-1. Make sure you create a file `.gitignore` and give it the following contents:
+Make sure you create a file `.gitignore` and give it the following contents:
 
 ```bash
 node_modules/
 .env
 ```
 
-1. If your `node_modules` folder was already added to your GitHub repository, make sure you remove it by running the following:
+If your `node_modules` folder was already added to your GitHub repository, make sure you remove it by running the following:
 
 ```bash
 git rm -r node_modules
@@ -83,19 +83,19 @@ app.listen(PORT, () => {
 
 ### Push to Heroku
 
-1. Login to Heroku on the CLI:
+Login to Heroku on the CLI:
 
 ```bash
 heroku login
 ```
 
-1. Create a Heroku app:
+Create a Heroku app:
 
 ```bash
 heroku create MY_APP_NAME_HERE
 ```
 
-1. Add, commit, and push your files to GitHub as you normally would. Then, push to Heroku:
+Add, commit, and push your files to GitHub as you normally would. Then, push to Heroku:
 
 ```bash
 git add .
@@ -104,13 +104,13 @@ git push heroku master
 heroku open
 ```
 
-1. Take a look at the logs with:
+Take a look at the logs with:
 
 ```bash
 heroku logs --tail
 ```
 
-## BREAK (10 minutes)
+## BREAK (15 minutes)
 
 ## Surveys (15 minutes)
 
