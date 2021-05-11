@@ -6,6 +6,10 @@
 1. [Learning Objectives (5 minutes)](#learning-objectives-%285-minutes%29)
 1. [Warmup: Create a Study Guide (35 minutes)](#warmup%3A-create-a-study-guide-%2835-minutes%29)
 1. [Activity: Deploy to Heroku! (45 minutes)](#activity%3A-deploy-to-heroku%21-%2845-minutes%29)
+   1. [Install Heroku CLI](#install-heroku-cli)
+   1. [Set Up Repository](#set-up-repository)
+   1. [Create Procfile](#create-procfile)
+   1. [Push to Heroku](#push-to-heroku)
 1. [BREAK (10 minutes)](#break-%2810-minutes%29)
 1. [Surveys (15 minutes)](#surveys-%2815-minutes%29)
 1. [Project Work Time (50 minutes)](#project-work-time-%2850-minutes%29)
@@ -14,8 +18,8 @@
 
 By the end of this class, you should be able to:
 
-1. Push your project to production using Heroku
-1. Progress on your final project
+1. Push a project to production using Heroku.
+1. Progress on your final project.
 
 
 ## Warmup: Create a Study Guide (35 minutes)
@@ -26,46 +30,46 @@ In breakouts, create a study guide based on the questions found [here](https://m
 
 ## Activity: Deploy to Heroku! (45 minutes)
 
-#### Set Up GitHub Repository
+Let's deploy the [GIF Search](https://www.makeschool.com/mediabook/oa/tutorials/gif-search-app-ynu/your-node-environment/) project we worked on at the beginning of class!
 
-If you haven't yet, set up your GitHub repository for your API project:
+### Install Heroku CLI
 
 ```bash
-git init
-git add .
-git commit -m 'Initial commit'
+brew tap heroku/brew && brew install heroku
 ```
 
-Make sure you create a file `.gitignore` and give it the following contents:
+### Set Up Repository
+
+1. Make sure you create a file `.gitignore` and give it the following contents:
 
 ```bash
 node_modules/
 .env
 ```
 
-If your `node_modules` folder was already added to your GitHub repository, make sure you remove it by running the following:
+1. If your `node_modules` folder was already added to your GitHub repository, make sure you remove it by running the following:
 
 ```bash
 git rm -r node_modules
 ```
 
-#### Create Procfile
+### Create Procfile
 
 In the root directory of your project, create a file called `Procfile` with the following contents:
 
 ```txt
-web: node src/app.js
+web: node app.js
 ```
 
 You may also need to add to your "scripts" in `package.json`:
 
 ```js
 "scripts": {
-  "start": "node src/app.js"
+  "start": "node app.js"
 }
 ```
 
-#### Push to Heroku
+### Push to Heroku
 
 Create a Heroku app:
 
@@ -76,6 +80,8 @@ heroku create MY_APP_NAME_HERE
 Add, commit, and push your files to GitHub as you normally would. Then, push to Heroku:
 
 ```bash
+git add .
+git commit -m "[add] deployment configuration"
 git push heroku master
 heroku open
 ```
@@ -85,49 +91,6 @@ Take a look at the logs with:
 ```bash
 heroku logs --tail
 ```
-
-
-#### Add a Production Database
-
-Run the following to add the `mLabs` add-on to your project:
-
-```bash
-heroku addons:create mongolab:sandbox
-```
-
-Then, add the following to your `server.js` file:
-
-```js
-const mongoose = require('mongoose')
-const mongo_uri = process.env.MONGODB_URI
-mongoose.connect(mongo_uri)
-```
-
-Make sure you have a key-value pair in your `.env` file for the `MONGODB_URI` environment variable (you may need to rename it if using starter code).
-
-Also, make sure you are using the `PORT` environment variable in your server:
-
-```js
-const port = process.env.PORT
-app.listen(port)
-```
-
-If you are using any other environment variables that will need to be defined on Heroku, such as the JWT secret key, you can set them as follows:
-
-```txt
-heroku config:set SECRET=myverysecretpassword
-```
-
-Add, commit, and push your files to Heroku, then run:
-
-```txt
-heroku open
-```
-
-If you still have errors, take a look at the logs and see if you can debug!
-
-Woohoo! You're done!
-
 
 ## BREAK (10 minutes)
 
