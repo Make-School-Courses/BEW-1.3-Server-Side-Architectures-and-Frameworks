@@ -9,6 +9,7 @@
    1. [Install Heroku CLI](#install-heroku-cli)
    1. [Set Up Repository](#set-up-repository)
    1. [Create Procfile](#create-procfile)
+   1. [Update `app.js`](#update-%60app.js%60)
    1. [Push to Heroku](#push-to-heroku)
 1. [BREAK (10 minutes)](#break-%2810-minutes%29)
 1. [Surveys (15 minutes)](#surveys-%2815-minutes%29)
@@ -67,6 +68,17 @@ You may also need to add to your "scripts" in `package.json`:
 "scripts": {
   "start": "node app.js"
 }
+```
+
+### Update `app.js`
+
+Update the bottom of `app.js` to contain `PORT`:
+
+```js
+const PORT = process.env.PORT || 3000;
+app.listen(PORT, () => {
+    console.log('Gif Search listening on port localhost:3000!');
+})
 ```
 
 ### Push to Heroku
