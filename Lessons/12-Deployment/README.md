@@ -71,13 +71,19 @@ You may also need to add to your "scripts" in `package.json`:
 
 ### Push to Heroku
 
-Create a Heroku app:
+1. Login to Heroku on the CLI:
+
+```bash
+heroku login
+```
+
+1. Create a Heroku app:
 
 ```bash
 heroku create MY_APP_NAME_HERE
 ```
 
-Add, commit, and push your files to GitHub as you normally would. Then, push to Heroku:
+1. Add, commit, and push your files to GitHub as you normally would. Then, push to Heroku:
 
 ```bash
 git add .
@@ -86,7 +92,7 @@ git push heroku master
 heroku open
 ```
 
-Take a look at the logs with:
+1. Take a look at the logs with:
 
 ```bash
 heroku logs --tail
