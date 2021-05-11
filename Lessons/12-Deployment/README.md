@@ -100,7 +100,7 @@ Add, commit, and push your files to GitHub as you normally would. Then, push to 
 ```bash
 git add .
 git commit -m "[add] deployment configuration"
-git push heroku master
+git push heroku HEAD:master
 heroku open
 ```
 
