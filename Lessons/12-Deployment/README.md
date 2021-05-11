@@ -26,7 +26,7 @@ By the end of this class, you should be able to:
 
 In breakouts, create a study guide based on the questions found [here](https://make-school-courses.github.io/BEW-1.3-Server-Side-Architectures-and-Frameworks/#/Assessments/final-assessment).
 
-**You can use your study guide on the assessment on Wednesday!**
+**You can use your study guide while you're taking the final assessment!**
 
 ## Activity: Deploy to Heroku! (45 minutes)
 
